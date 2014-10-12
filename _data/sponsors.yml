@@ -1,0 +1,34 @@
+platinum:
+ - name: EFIDEV
+   url: http://lol.cat
+   logo: http://placekitten.com.s3.amazonaws.com/homepage-samples/96/139.jpg
+
+gold:
+ - name: Cap Gemini
+   url: http://lol.cat
+   logo: http://placekitten.com.s3.amazonaws.com/homepage-samples/96/139.jpg
+ - name: AXA
+   logo: http://placekitten.com.s3.amazonaws.com/homepage-samples/96/139.jpg
+   url: http://lol.cat
+ - name: PROXIAD
+   url: http://lol.cat
+   logo: http://placekitten.com.s3.amazonaws.com/homepage-samples/96/139.jpg
+ - name: Adeo
+   url: http://lol.cat
+   logo: http://placekitten.com.s3.amazonaws.com/homepage-samples/96/139.jpg
+ - name: Zenika
+   url: http://lol.cat
+   logo: http://placekitten.com.s3.amazonaws.com/homepage-samples/96/139.jpg
+ - name: Octo
+   url: http://lol.cat
+   logo: http://placekitten.com.s3.amazonaws.com/homepage-samples/96/139.jpg
+
+media:
+ - name: ITPMS
+   url: http://lol.cat
+   logo: http://placekitten.com.s3.amazonaws.com/homepage-samples/96/139.jpg
+
+hosting:
+ - name: Euratechnologies
+   url: http://lol.cat
+   logo: http://placekitten.com.s3.amazonaws.com/homepage-samples/96/139.jpg
