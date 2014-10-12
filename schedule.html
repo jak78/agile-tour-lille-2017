@@ -1,0 +1,49 @@
+---
+layout: page
+title: Programme
+permalink: /programme/
+---
+<!--
+{% for slot in site.data.schedule %}
+<h2>{{ slot.hour }}</h2>
+<ul class="slot">
+    {% for talk in slot.content %}
+    <li>
+        <img src="http://placekitten.com/g/80/80"/>
+        {{ talk.subject }}
+        {{ talk.speaker }}
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %}
+-->
+{% for part in site.data.schedule %}
+<table class="schedule table table-condensed">
+    <tbody>
+    {% for slot in part %}
+        {% if forloop.index0 == 1%}
+        <tr class="rooms">
+            <th></th>
+            <th width="20%">Auditorium</th>
+            <th width="20%">Salle 1</th>
+            <th width="20%">Salle 2</th>
+            <th width="20%">Atelier A</th>
+            <th width="20%">Atelier B</th>
+        </tr>
+        {% endif %}
+        <tr class="{% cycle '', 'alt' %}">
+            <th class="hour">{{ slot.hour }}h</th>
+            {% for talk in slot.content %}
+            <td{% if talk.duration %} rowspan="2"{% endif %}{% if talk.fill %} colspan="{{ talk.fill }}"{% endif %} {% if talk.highlight %} class="highlight{% endif %}">
+                {% if talk.room %}
+                <span class="room">{{ talk.room }}</span>
+                {% endif %}
+                <span class="subject">{{ talk.subject }}</span>
+                <span class="speaker"><a href="/conferenciers/#{{talk.speaker}}">{{ talk.speaker }}</a></span>
+            </td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endfor %}
