@@ -1,0 +1,52 @@
+.schedule {
+
+  .subject {
+    font-weight: bold;
+    display: block;
+  }
+  .room {
+    float:left;
+    padding-bottom: 20px;
+    border-right: 1px solid #eee;
+    padding-right: 8px;
+    margin-right: 8px;
+    display: block;
+  }
+
+  .speaker {
+    font-size: $small-font-size;
+  }
+
+  th.hour {
+    border-top: none !important;
+  }
+
+  tr.rooms th {
+    border-top: none !important;
+    padding-top: 20px;
+  }
+
+  td {
+    background: #eee;
+    border: 5px solid #fff;
+  }
+
+  tr.alt {
+    td {
+      background: #f5f5f5;
+    }
+  }
+
+  td.highlight {
+    background: #ccc !important;
+    color: #000;
+    border-bottom: solid 1px #ddd;
+    font-size: $base-font-size + 2;
+    .speaker {
+      font-size: $small-font-size + 2;
+    }
+    a { color: #226;}
+  }
+
+
+}
