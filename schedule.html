@@ -3,20 +3,7 @@ layout: page
 title: Programme
 permalink: /programme/
 ---
-<!--
-{% for slot in site.data.schedule %}
-<h2>{{ slot.hour }}</h2>
-<ul class="slot">
-    {% for talk in slot.content %}
-    <li>
-        <img src="http://placekitten.com/g/80/80"/>
-        {{ talk.subject }}
-        {{ talk.speaker }}
-    </li>
-    {% endfor %}
-</ul>
-{% endfor %}
--->
+
 {% for part in site.data.schedule %}
 <table class="schedule table table-condensed">
     <tbody>
@@ -24,11 +11,9 @@ permalink: /programme/
         {% if forloop.index0 == 1%}
         <tr class="rooms">
             <th></th>
-            <th width="20%">Auditorium</th>
-            <th width="20%">Salle 1</th>
-            <th width="20%">Salle 2</th>
-            <th width="20%">Atelier A</th>
-            <th width="20%">Atelier B</th>
+            {% for room in site.data.rooms %}
+            <th width="20%">{{ room }}</th>
+            {% endfor %}
         </tr>
         {% endif %}
         <tr class="{% cycle '', 'alt' %}">

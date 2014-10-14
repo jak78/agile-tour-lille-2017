@@ -4,8 +4,25 @@ layout: default
 
 <div class="home">
 
+    <h2>L'événement annuel de l'agilité dans le Nord.</h2>
 
-    L'événement annuel de l'agilité dans le Nord.
+    {% for part in site.data.schedule %}
+    {% for slot in part %}
+    <div id="slot-{{ slot.hour }}" style="xdisplay: none">
+        <h2>{{ slot.hour }}</h2>
+        <ul class="slot">
+            {% for talk in slot.content %}{% if talk.hide-on-home != 1 %}
+            <li>
+                <img src="http://placekitten.com/g/80/80"/>
+                <span class="subject">{{ talk.subject }}</span>
+                {% if talk.speaker %}<span class="speaker">{{ talk.speaker }}</span>{% endif %}
+                {% if talk.room %}<span class="room">{{ talk.room }}</span>{%else%}{{ site.data.rooms[forloop.index0] }}{% endif %}
+            </li>
+            {% endif %}{% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+    {% endfor %}
 
     <ul class="post-list">
     {% for post in site.posts %}

@@ -43,10 +43,12 @@
   - hour: 13
     content:
       - subject: Déjeuner
+        room: ""
       - subject: Les dix buzzwords du Hipster Agile - 20minutes
         speaker: Christopher Parola
       - subject: Déjeuner
         fill: 3
+        hide-on-home: 1
 -
   - hour: 14
     content:
