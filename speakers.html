@@ -14,9 +14,7 @@ permalink: /conferenciers/
         {% for part in site.data.schedule %}
             {% for slot in part %}
                 {% for talk in slot.content %}
-                    {% if talk.speaker == speaker.name %}
-                        <span class="subject"><a href="/programme/#{{talk.subject}}">{{ talk.subject}}</a></span>
-                    {% endif %}
+                    {% if talk.speaker == speaker.name %}<span class="subject"><a href="{{ "/programme/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a></span>{% endif %}
                 {% endfor %}
             {% endfor %}
         {% endfor %}

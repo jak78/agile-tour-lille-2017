@@ -25,7 +25,9 @@ permalink: /programme/
                 {% endif %}
                 <a name="{{ talk.subject }}"></a>
                 <span class="subject">{{ talk.subject }}</span>
-                <span class="speaker"><a href="/conferenciers/#{{talk.speaker}}">{{ talk.speaker }}</a></span>
+                {% if talk.speaker %}
+                <span class="speaker"><a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{talk.speaker | uri_escape }}">{{ talk.speaker }}</a></span>
+                {% endif %}
             </td>
             {% endfor %}
         </tr>
