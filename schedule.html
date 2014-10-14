@@ -38,6 +38,7 @@ permalink: /programme/
                 {% if talk.room %}
                 <span class="room">{{ talk.room }}</span>
                 {% endif %}
+                <a name="{{ talk.subject }}"></a>
                 <span class="subject">{{ talk.subject }}</span>
                 <span class="speaker"><a href="/conferenciers/#{{talk.speaker}}">{{ talk.speaker }}</a></span>
             </td>
