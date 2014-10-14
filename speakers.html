@@ -11,6 +11,15 @@ permalink: /conferenciers/
         <a name="{{ speaker.name }}"></a>
         <h2>{{ speaker.name }}</h2>
         <p>{{ speaker.bio}}</p>
+        {% for part in site.data.schedule %}
+            {% for slot in part %}
+                {% for talk in slot.content %}
+                    {% if talk.speaker == speaker.name %}
+                        <span class="subject"><a href="/programme/#{{talk.subject}}">{{ talk.subject}}</a></span>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
     </div>
     </li>
     {% endfor %}
