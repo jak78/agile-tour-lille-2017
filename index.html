@@ -43,7 +43,7 @@ layout: default
                     </div>
                 </div>
                 {% endif %}{% endfor %}
-            <div class="col-md-6 more"><a href="/programme/" class="btn btn-default">&raquo; Voir tout le programme</a></div>
+            <div class="col-md-6 more"><a href="{{ "/programme/" | prepend: site.baseurl }}" class="btn btn-default">&raquo; Voir tout le programme</a></div>
         </div>
     </div>
     {% endfor %}
