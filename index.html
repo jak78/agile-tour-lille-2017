@@ -2,26 +2,72 @@
 layout: default
 ---
 
-<div class="home">
+<div class="header">
+    <div class="bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>32 conférenciers d'envergure internationale.</h1>
+                    <h2>Une occasion unique de rencontrer des experts et des utilisateurs des méthodes agiles dans la région.</h2>
+                    <div class="call-to-action">
+                        <a href="https://www.eventbrite.fr/e/billets-agile-tour-de-lille-13521879305">Inscrivez-vous, c'est gratuit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-    <h2>L'événement annuel de l'agilité dans le Nord.</h2>
-
+<div class="container slots">
     {% for part in site.data.schedule %}
     {% for slot in part %}
-    <div id="slot-{{ slot.hour }}" style="xdisplay: none">
-        <h2>{{ slot.hour }}</h2>
-        <ul class="slot">
-            {% for talk in slot.content %}{% if talk.hide-on-home != 1 %}
-            <li>
-                <img src="http://placekitten.com/g/80/80"/>
-                <span class="subject">{{ talk.subject }}</span>
-                {% if talk.speaker %}<span class="speaker">{{ talk.speaker }}</span>{% endif %}
-                {% if talk.room %}<span class="room">{{ talk.room }}</span>{%else%}{{ site.data.rooms[forloop.index0] }}{% endif %}
-            </li>
-            {% endif %}{% endfor %}
-        </ul>
+    <div id="slot-{{slot.hour }}" class="conference-slot hidden">
+        <div class="row">
+            <div class="col-xs-6"><h2>Prochaines conférences à {{ slot.hour }} h</h2></div>
+
+        </div>
+
+        <div class="slot row">
+                {% for talk in slot.content %}{% if talk.hide-on-home != 1 %}
+                <div class="col-md-6 talk">
+                    {% if talk.image %}
+                    <img src="{{talk.image}}" alt="{{talk.subject}}" width="80" height="80"/>
+                    {% else %}
+                    {% for speaker in site.data.speakers %}{% if speaker.name == talk.speaker %}
+                    <img src="{{speaker.photo}}" alt="{{speaker.name}}" width="80" height="80"/>
+                    {% endif %}{% endfor %}
+                    {% endif %}
+                    <div>
+                        <span class="subject"><a href="{{ "/programme/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a></span>
+                        {% if talk.speaker %}<span class="speaker">par <a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{talk.speaker | uri_escape }}">{{ talk.speaker }}</a></span>{% endif %}<span class="room">{% if talk.room %}{{ talk.room }}{%else%}{{ site.data.rooms[forloop.index0] }}{% endif %}</span>
+                    </div>
+                </div>
+                {% endif %}{% endfor %}
+            <div class="col-md-6 more"><a href="/programme/" class="btn btn-default">&raquo; Voir tout le programme</a></div>
+        </div>
     </div>
     {% endfor %}
     {% endfor %}
-
 </div>
+
+<script type="application/javascript">
+    function hideAllSlots() {
+        $('.conference-slot').addClass('hidden');
+    }
+
+    function displaySlot(hour) {
+        $('#slot-' + parseInt(hour)).removeClass('hidden');
+        $('#slot-' + parseInt(hour)).show();
+    }
+
+    $(function() {
+        var hours = (new Date()).getHours() + 1;
+        if (hours < 9) {
+            hours = 9;
+        }
+        if (hours > 18) {
+            hours = 18;
+        }
+        displaySlot(hours);
+    });;
+</script>

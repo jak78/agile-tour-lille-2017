@@ -1,0 +1,47 @@
+---
+layout: default
+title: Sponsors et partenaires
+permalink: /sponsors/
+---
+<div class="container">
+
+    <h2>Sponsors Platine</h2>
+    <div class="row">
+        {% for sponsor in site.data.sponsors.platinum %}
+        <div class="col-md-4 col-xs-6 sponsor">
+            <a href="https://github.com/{{ sponsor.url }}">
+                <img src="{{sponsor.logo}}" alt="{{sponsor.name}}"/>
+                <div class="name">{{ sponsor.name }}</div>
+            </a>
+        </div>
+        </li>
+        {% endfor %}
+    </div>
+
+    <h2>Sponsors Or</h2>
+    <div class="row">
+        {% for sponsor in site.data.sponsors.gold %}
+        <div class="col-md-4 col-xs-6 sponsor">
+            <a href="https://github.com/{{ sponsor.url }}">
+                <img src="{{sponsor.logo}}" alt="{{sponsor.name}}"/>
+                <div class="name">{{ sponsor.name }}</div>
+            </a>
+        </div>
+        </li>
+        {% endfor %}
+    </div>
+
+    <h2>Sponsors Media</h2>
+    <div class="row">
+        {% for sponsor in site.data.sponsors.media %}
+        <div class="col-md-4 col-xs-6 sponsor">
+            <a href="https://github.com/{{ sponsor.url }}">
+                <img src="{{sponsor.logo}}" alt="{{sponsor.name}}"/>
+                <div class="name">{{ sponsor.name }}</div>
+            </a>
+        </div>
+        </li>
+        {% endfor %}
+    </div>
+
+</div>

@@ -1,0 +1,98 @@
+#index {
+  a.navbar-brand {
+    color: #fff !important;
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+
+  .navbar-default {
+    background: transparent;
+    border: none;
+    margin: 1px 0;
+    color: #fff;
+    a {
+      color: #ddd;
+      &:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.header {
+  margin-top: -70px;
+  color: #fff;
+  .bg {
+    h1 {
+      font-size: 24px;
+      text-shadow: 2px 2px #000;
+    }
+    h2 {
+      font-size: 19px;
+      color: #ddd;
+      text-shadow: 2px 2px #000;
+    }
+    padding-top: 130px;
+
+    height: 400px;
+    background-image: url(../img/bg.jpg);
+    background-position: center bottom !important
+  }
+  div.call-to-action {
+    margin-top: 50px;
+    a {
+      background-color: rgba(16, 16, 16, 0.8);
+      border: 1px solid #ccc;
+      padding: 12px;
+      font-size: 20px;
+      color: #fff;
+      text-shadow: 2px 2px #000;
+      border-radius: 5px;
+      font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      &:hover {
+        border: 1px solid #fff;
+      }
+    }
+  }
+}
+
+.slots {
+  padding-top: 20px;
+
+  .conference-slot {
+    clear: both;
+    .subject {
+      display: block;
+    }
+
+  }
+
+  .slot {
+    div.talk {
+
+      .subject {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+      .room {
+        display: block;
+      }
+
+      img {
+        margin-right: 10px;
+        margin-bottom: 25px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        float: left;
+      }
+    }
+
+    div.more {
+      margin-top: 15px;
+    }
+  }
+}
