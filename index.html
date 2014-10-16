@@ -26,7 +26,7 @@ layout: default
 
         <div class="slot row">
                 {% for talk in slot.content %}{% if talk.hide-on-home != 1 %}
-                <div class="col-md-6 talk">
+                <div class="col-md-6 col-xs-12 talk">
                     {% if talk.image %}
                     <img src="{{talk.image}}" alt="{{talk.subject}}" width="80" height="80"/>
                     {% else %}
