@@ -10,6 +10,12 @@
 - name: Cédric Pourbaix
   bio: Lorem Ipsum
   photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
+- name: Romain Couturier
+  bio: Romain Couturier est facilitateur graphique et coach agile. Il a fondé Terre d’Agile en 2012 pour répondre aux demandes d’accompagnement des équipes et des organisations dans l’évolution de leurs modes collaboratifs, de leurs procédés de création et d’innovation de produit. Membre de la FGCP (Facilitation Graphique Communauté de Praticiens, www.fgcp.net) et du Forum International des Praticiens Visuels (ifvpcommunity.ning.com), il exerce la facilitation graphique comme un moyen simple et puissant de développer l’intelligence collective par la visualisation des idées et la connexion des informations. 
+  photo: Romain-Couturier.jpeg
+- name: Nelson Dufossé
+  bio: Ancien coach sportif et maintenance coach agile après des missions de scrum master et product owner, j'aide les équipes à devenir agiles. Aujourd'hui dans des missions de product manager, je m'efforce de remettre le client au centre des projets et domaines où il pourrait être oublié et préfère les démarches pragmatiques à celles malheureusement historiques... Pour moi les serious games favorisent la prise de conscience et facilitent l'introduction à l'agilité. Cette année nous allons jouer! Membre de l'association Nord-Agile, j'organise régulièrement des événements sur l'agilité, j'espère que l'agile tour sera à la hauteur de vos espérances. 
+  photo: Nelson-Dufosse.png
 - name: Arnaud Bailly
   bio: Lorem Ipsum
   photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
@@ -23,8 +29,8 @@
   bio: Enzyme (au sens catalyseur) agile. Je suis passé par toutes les étapes de l’agilité – développeur agile puis scrum master et depuis quelques années coach/facilitateur. En charge du déploiement de l’agilité chez ses partenaires, mais également en interne, je profite de toutes les occasions pour mettre en œuvre les valeurs agiles. Mes  domaines de prédilection sont la facilitation, les interactions humaines, l’agilité et les serious games. Je suis également président de l’association Agile Rennes qui promeut l’agilité sur une partie de la Bretagne. Ma dernière passion est exercée tous les week-ends lorsque j’aide les plus courageux à sauter à l’élastique du haut d’un pont (une certaine forme de gestion du changement).​ Twitter @AurelienMorvant
   photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
 - name: Sébastien Sacard
-  bio: Sébastien est entrepreneur, product manager et auteur de la méthode « Lean Product Management ». Il a passé 7 ans chez Kelkoo en tant que responsable technique et chez Yahoo UK en tant que Product Manager, et 7 ans en tant que consultant en Product Management pour différents groupes (Fnac.com, Lemonde.fr, Myfab). Il  a participé à la traduction de Running Lean de Ash Maurya, et a créé une méthode permettant aux grands groupes de proposer le bon produit à leurs clients : le Lean Product Management
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
+  bio: Sébastien est entrepreneur, product manager et auteur de la méthode « Lean Product Management ». Il a passé 7 ans chez Kelkoo en tant que responsable technique et chez Yahoo UK en tant que Product Manager, et 7 ans en tant que consultant en Product Management pour différents groupes (Fnac.com, Lemonde.fr, Myfab). Il  a participé à la traduction de Running Lean de Ash Maurya, et a créé une méthode permettant aux grands groupes de proposer le bon produit à leurs clients, le Lean Product Management.
+  photo: Sebastien-Sacard.jpg
 - name: Cédric Tumminello
   bio: Lorem Ipsum
   photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
@@ -32,8 +38,7 @@
   bio: Lorem Ipsum
   photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
 - name: Pierre-Emmanuel Dautreppe, Norman Deschauwer
-  bio: Depuis 2002, Pierre-Emmanuel est spécialiste des technologies Microsoft, et de l'écosystème Microsoft.NET en particulier.
-Il s’est dirigé vers les méthodologies agiles en 2005 en découvrant Scrum et eXtreme Programming. En commençant à travailler avec une équipe qui n’était pas sensibilisée à l’agilité, il a pu voir bon nombre d’anti-patterns appliqués par des équipes venues du milieu “traditionnel”. Depuis ce jour, il partage son expérience et ses recettes en essayant d’enseigner les valeurs et la culture agile.
+  bio: Depuis 2002, Pierre-Emmanuel est spécialiste des technologies Microsoft, et de l'écosystème Microsoft.NET en particulier. Il s’est dirigé vers les méthodologies agiles en 2005 en découvrant Scrum et eXtreme Programming. En commençant à travailler avec une équipe qui n’était pas sensibilisée à l’agilité, il a pu voir bon nombre d’anti-patterns appliqués par des équipes venues du milieu “traditionnel”. Depuis ce jour, il partage son expérience et ses recettes en essayant d’enseigner les valeurs et la culture agile.
  
 Multi-casquette, Pierre-Emmanuel travaille aujourd'hui à la fois dans l'environnement technique comme  développeur, expert technique ou encore architecte, mais aussi dans l'environnement agile comme coach ou scrum master. Il travaille également comme formateur.
   photo: Pierre-Emmanuel-Dautreppe.jpg
