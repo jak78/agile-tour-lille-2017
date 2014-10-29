@@ -10,13 +10,7 @@
 - name: Cédric Pourbaix
   bio: Lorem Ipsum
   photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
-- name: Romain Couturier
-  bio: Romain Couturier est facilitateur graphique et coach agile. Il a fondé Terre d’Agile en 2012 pour répondre aux demandes d’accompagnement des équipes et des organisations dans l’évolution de leurs modes collaboratifs, de leurs procédés de création et d’innovation de produit. Membre de la FGCP (Facilitation Graphique Communauté de Praticiens, www.fgcp.net) et du Forum International des Praticiens Visuels (ifvpcommunity.ning.com), il exerce la facilitation graphique comme un moyen simple et puissant de développer l’intelligence collective par la visualisation des idées et la connexion des informations. 
-  photo: Romain-Couturier.jpeg
-- name: Nelson Dufossé
-  bio: Ancien coach sportif et maintenance coach agile après des missions de scrum master et product owner, j'aide les équipes à devenir agiles. Aujourd'hui dans des missions de product manager, je m'efforce de remettre le client au centre des projets et domaines où il pourrait être oublié et préfère les démarches pragmatiques à celles malheureusement historiques... Pour moi les serious games favorisent la prise de conscience et facilitent l'introduction à l'agilité. Cette année nous allons jouer! Membre de l'association Nord-Agile, j'organise régulièrement des événements sur l'agilité, j'espère que l'agile tour sera à la hauteur de vos espérances. 
-  photo: Nelson-Dufosse.png
-  - name: Arnaud Bailly
+- name: Arnaud Bailly
   bio: Lorem Ipsum
   photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
 - name: Vincent Dugarin
