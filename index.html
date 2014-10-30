@@ -30,9 +30,12 @@ layout: default
                     {% if talk.image %}
                     <img src="{{talk.image| prepend: "/img/" | prepend: site.baseurl}}" alt="{{talk.subject}}" width="80" height="80"/>
                     {% else %}
-                    {% for speaker in site.data.speakers %}{% if speaker.name == talk.speaker %}
+                    {% if talk.speaker %}
+                    {% assign first_speaker = talk.speaker | split: ", " | first %}
+                    {% for speaker in site.data.speakers %}{% if speaker.name == first_speaker %}
                     <img src="{{speaker.photo| prepend: "/img/speakers/" | prepend: site.baseurl}}" alt="{{speaker.name}}" width="80" height="80"/>
                     {% endif %}{% endfor %}
+                    {% endif %}
                     {% endif %}
                     <div>
                         <span class="subject"><a href="{{ "/programme/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a></span>
