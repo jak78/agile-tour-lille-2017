@@ -6,7 +6,8 @@ permalink: /conferenciers/
 
 <div class="container">
 <div class="row speakers">
-    {% for speaker in site.data.speakers %}
+    {% assign speakers = site.data.speakers | sort:"name" %}
+    {% for speaker in speakers %}
     <div class="col-md-6 speaker">
         <img src="{{speaker.photo | prepend: "/img/speakers/" | prepend: site.baseurl }}" alt="{{speaker.name}}"/>
         <a name="{{ speaker.name }}"></a>

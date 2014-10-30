@@ -7,7 +7,8 @@ permalink: /sponsors/
 
     <h2>Sponsors Platine</h2>
     <div class="row">
-        {% for sponsor in site.data.sponsors.platinum %}
+        {% assign sponsors = site.data.sponsors.platinum | sort:"name" %}
+        {% for sponsor in sponsors %}
         <div class="col-md-4 col-xs-6 sponsor">
             <a href="{{ sponsor.url }}">
                 <img class="platinum" src="{{ sponsor.logo | prepend: "/img/sponsors/" | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
@@ -19,7 +20,8 @@ permalink: /sponsors/
 
     <h2>Sponsors Or</h2>
     <div class="row">
-        {% for sponsor in site.data.sponsors.gold %}
+        {% assign sponsors = site.data.sponsors.gold | sort:"name" %}
+        {% for sponsor in sponsors %}
         <div class="col-md-4 col-xs-6 sponsor">
             <a href="{{ sponsor.url }}">
                 <img src="{{ sponsor.logo | prepend: "/img/sponsors/" | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
@@ -31,7 +33,8 @@ permalink: /sponsors/
 
     <h2>Sponsors Media</h2>
     <div class="row">
-        {% for sponsor in site.data.sponsors.media %}
+        {% assign sponsors = site.data.sponsors.media | sort:"name" %}
+        {% for sponsor in sponsors %}
         <div class="col-md-4 col-xs-6 sponsor">
             <a href="{{ sponsor.url }}">
                 <img src="{{ sponsor.logo | prepend: "/img/sponsors/" | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
