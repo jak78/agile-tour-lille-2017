@@ -28,7 +28,7 @@ layout: default
                 {% for talk in slot.content %}{% if talk.hide-on-home != 1 %}
                 <div class="col-md-6 col-xs-12 talk">
                     {% if talk.image %}
-                    <img src="{{talk.image}}" alt="{{talk.subject}}" width="80" height="80"/>
+                    <img src="{{talk.image| prepend: "/img/" | prepend: site.baseurl}}" alt="{{talk.subject}}" width="80" height="80"/>
                     {% else %}
                     {% for speaker in site.data.speakers %}{% if speaker.name == talk.speaker %}
                     <img src="{{speaker.photo}}" alt="{{speaker.name}}" width="80" height="80"/>
@@ -65,6 +65,7 @@ layout: default
         if (hours > 18) {
             hours = 18;
         }
+        hours = 10;
         displaySlot(hours);
     });;
 </script>
