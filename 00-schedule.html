@@ -27,7 +27,10 @@ permalink: /programme/
                 <a name="{{ talk.subject }}"></a>
                 <span class="subject">{{ talk.subject }}</span>
                 {% if talk.speaker %}
-                <span class="speaker"><a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{talk.speaker | uri_escape }}">{{ talk.speaker }}</a></span>
+                {% assign speakers = talk.speaker | split: ", " %}
+                {% for speaker in speakers %}
+                <a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>{% if forloop.last == false %}, {% endif %}
+                {% endfor %}
                 {% endif %}
             </td>
             {% endfor %}
