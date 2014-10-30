@@ -44,7 +44,7 @@
     content:
       - subject: Déjeuner
         room: ""
-        image: https://farm8.staticflickr.com/7145/6494564331_ef123e70d5_q_d.jpg
+        image: 6494564331_ef123e70d5_q_d.jpg
       - subject: Les dix buzzwords du Hipster Agile - 20minutes
         speaker: Christopher Parola
       - subject: Déjeuner
@@ -94,7 +94,7 @@
   - hour: 18
     content:
       - subject: Pot
-        image: https://farm4.staticflickr.com/3079/2818268935_5d06ed7b4a_m_d.jpg
+        image: 2818268935_5d06ed7b4a_m_d.jpg
         room: Atrium
         highlight: 1
         fill: 5
