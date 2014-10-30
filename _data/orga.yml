@@ -1,9 +1,25 @@
 - name: Olivier Garcia
   photo: olivier_garcia.jpg
-  bio: Olivier Garcia est responsable du centre de compétence Web Opensource chez Infrabel où il encadre une équipe de 15 développeurs. Utilisateur d'Open Source depuis plus de 15 ans, il vient de cofonder [catchy.io](http://catchy.io), une solution SaaS de monitoring temps réel des erreurs et des performances.
+  bio:
+    Olivier Garcia est responsable du centre de compétence Web Opensource chez Infrabel
+    où il encadre une équipe de 15 développeurs. Utilisateur d'Open Source depuis plus de 15 ans,
+    il vient de cofonder [catchy.io](http://catchy.io), une solution SaaS de monitoring temps
+    réel des erreurs et des performances.
 - name: Julien Jakubowski
   photo: julien_jakubowski.jpg
-  bio: Julien est artisan logiciel chez OCTO Technology. Depuis une dizaine d'années, il aide des équipes à livrer du logiciel de qualité élevée, avec efficacité et fun. Julien est un des fondateurs du Ch'ti JUG à Lille et il participe également à l'organisation de l'Agile Tour Lille depuis 2009.
+  bio:
+    Julien est artisan logiciel chez OCTO Technology. Depuis une dizaine d'années,
+    il aide des équipes à livrer du logiciel de qualité élevée,
+    avec efficacité et fun. Julien est un des fondateurs du Ch'ti JUG à Lille
+    et il participe également à l'organisation de l'Agile Tour Lille depuis 2009.
 - name: Nelson Dufossé
   photo: Nelson-Dufosse.png
-  bio: Ancien coach sportif et maintenance coach agile après des missions de scrum master et product owner, j'aide les équipes à devenir agiles. Aujourd'hui dans des missions de product manager, je m'efforce de remettre le client au centre des projets et domaines où il pourrait être oublié et préfère les démarches pragmatiques à celles malheureusement historiques... Pour moi les serious games favorisent la prise de conscience et facilitent l'introduction à l'agilité. Cette année nous allons jouer! Membre de l'association Nord-Agile, j'organise régulièrement des événements sur l'agilité, j'espère que l'agile tour sera à la hauteur de vos espérances. 
+  bio: Ancien coach sportif et maintenance coach agile après des missions
+    de scrum master et product owner, j'aide les équipes à devenir agiles.
+    Aujourd'hui dans des missions de product manager, je m'efforce de remettre
+    le client au centre des projets et domaines où il pourrait être oublié et
+    préfère les démarches pragmatiques à celles malheureusement historiques... Pour
+    moi les serious games favorisent la prise de conscience et facilitent l'introduction
+    à l'agilité. Cette année nous allons jouer! Membre de l'association Nord-Agile,
+    j'organise régulièrement des événements sur l'agilité, j'espère que l'agile
+    tour sera à la hauteur de vos espérances.
