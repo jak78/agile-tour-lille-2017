@@ -31,7 +31,7 @@ layout: default
                     <img src="{{talk.image| prepend: "/img/" | prepend: site.baseurl}}" alt="{{talk.subject}}" width="80" height="80"/>
                     {% else %}
                     {% for speaker in site.data.speakers %}{% if speaker.name == talk.speaker %}
-                    <img src="{{speaker.photo}}" alt="{{speaker.name}}" width="80" height="80"/>
+                    <img src="{{speaker.photo| prepend: "/img/speakers/" | prepend: site.baseurl}}" alt="{{speaker.name}}" width="80" height="80"/>
                     {% endif %}{% endfor %}
                     {% endif %}
                     <div>
