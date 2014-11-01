@@ -4,7 +4,7 @@ email: agiletour@nord-agile.org
 description: > # this means to ignore newlines until "baseurl:"
   L'édition de l'Agile Tour 2014 à Lille réunit 32 conférenciers dans un cadre unique.
   Inscrivez-vous, c'est gratuit !
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
