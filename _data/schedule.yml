@@ -2,7 +2,7 @@
   - hour: 9
     content:
       - subject: Keynote
-        speaker: Vasco Duarte
+        speaker: Hakan Forss
         fill: 5
         room: Auditorium
         highlight: 1
@@ -17,13 +17,13 @@
       - subject: Libérez vos idées et partez à la découverte de la facilitation graphique
         speaker: Romain Couturier
         duration: 2
-      - subject: Jouons sérieusement
-        speaker: Nelson Dufossé, Aurélien Morvant
+      - subject: Management 3.0 what's next
+        speaker: Laurent Sarrazin
         duration: 2
   - hour: 11
     content:
-      - subject: TDD pas mort!
-        speaker: Arnaud Bailly
+      - subject: La régression continue – Une méthode pour bien faire rater l'adoption agile en entreprise
+        speaker: Bastien Gallay
       - subject: Intégration des équipes de tests dans un projet Kanban
         speaker: Vincent Dugarin
       - subject: Expérimentation Mob Programming en entreprise
@@ -34,10 +34,10 @@
         speaker: Aurelien Morvant
       - subject: Délivrer le bon produit avec le Lean Product Management
         speaker: Sébastien Sacard
-      - subject: Conversion agile d'un groupe média
-        speaker: Cédric Tumminello
       - subject: Initiation au prétotyping
         speaker: Elalami Lafkih
+      - subject: Programmation concurrente
+        speaker: Pascal TDD
       - subject: The Marshmallow Challenge
         speaker: Pierre-Emmanuel Dautreppe, Norman Deschauwer
   - hour: 13
@@ -60,29 +60,27 @@
         highlight: 1
   - hour: 15
     content:
-      - subject: Etes-vous prêts pour le modèle Spotify?
-        speaker: Renaud Chevalier
-      - subject: La régression continue – Une méthode pour bien faire rater l'adoption agile en entreprise
-        speaker: Bastien Gallay
+      - subject: 20 X sur le métier.
+        speaker: Christophe Thibaut
+      - subject: TBD
+        speaker: Sarah
       - subject: Et un carpaccio ! Un !
         speaker: Derbier Gery
         duration: 2
       - subject: Coding Dojo
         speaker: Jean-Laurent de Morlhon
         duration: 2
-      - subject: Management 3.0 what's next
-        speaker: Laurent Sarazin
+      - subject: Jouons sérieusement
+        speaker: Nelson Duffosé, Aurélien Morvant
         duration: 2
   - hour: 16
     content:
       - subject: Inception agile
         speaker: Jérémie Hattat
-      - subject: WTF-WITH-WIP-LIMIT ?
-        speaker: Alban Dalle
   - hour: 17
     content:
-      - subject: 20 X sur le métier.
-        speaker: Christophe Thibaut
+      - subject: Etes-vous prêts pour le modèle Spotify?
+        speaker: Renaud Chevalier
       - subject: "Projets Agiles : Arrêtez les dérives !"
         speaker: Alexandre Siguier, Cyrille Deruel
       - subject: Sujet

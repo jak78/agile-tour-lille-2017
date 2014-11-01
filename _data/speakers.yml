@@ -1,6 +1,6 @@
-- name: Vasco Duarte
-  bio: Lorem Ipsum
-  photo: male200.png
+- name: Hakan Forss
+  bio: My name is Håkan Forss and I’m an Lean/Agile Coach, public speaker and author working at King in Stockholm, Sweden. I coach, mentor and teach Lean and Agile thinking, methods and tools. I work with organizations, leaders, teams and individuals. I develop people’s ability to continuous learn and improve.
+  photo: hakan_forss.jpg
 - name: Kevin Maccioni
   bio: Lorem Ipsum
   photo: male200.png
@@ -13,9 +13,9 @@
 - name: Romain Couturier
   bio: Romain Couturier est facilitateur graphique et coach agile. Il a fondé Terre d’Agile en 2012 pour répondre aux demandes d’accompagnement des équipes et des organisations dans l’évolution de leurs modes collaboratifs, de leurs procédés de création et d’innovation de produit. Membre de la FGCP (Facilitation Graphique Communauté de Praticiens, www.fgcp.net) et du Forum International des Praticiens Visuels (ifvpcommunity.ning.com), il exerce la facilitation graphique comme un moyen simple et puissant de développer l’intelligence collective par la visualisation des idées et la connexion des informations. 
   photo: Romain-Couturier.jpeg
-- name: Nelson Dufossé
-  bio: Ancien coach sportif et maintenance coach agile après des missions de scrum master et product owner, j'aide les équipes à devenir agiles. Aujourd'hui dans des missions de product manager, je m'efforce de remettre le client au centre des projets et domaines où il pourrait être oublié et préfère les démarches pragmatiques à celles malheureusement historiques... Pour moi les serious games favorisent la prise de conscience et facilitent l'introduction à l'agilité. Cette année nous allons jouer! Membre de l'association Nord-Agile, j'organise régulièrement des événements sur l'agilité, j'espère que l'agile tour sera à la hauteur de vos espérances. 
-  photo: Nelson-Dufosse.png
+- name: Laurent Sarrazin
+  bio: " "
+  photo: laurent_sarrazin.jpg
 - name: Arnaud Bailly
   bio: Lorem Ipsum
   photo: male200.png
@@ -27,9 +27,6 @@
   photo: male200.png
 - name : Bernard Notarianni
   bio: Lorem Ipsum
-  photo: male200.png
-- name: Aurelien Morvant
-  bio: Enzyme (au sens catalyseur) agile. Je suis passé par toutes les étapes de l’agilité – développeur agile puis scrum master et depuis quelques années coach/facilitateur. En charge du déploiement de l’agilité chez ses partenaires, mais également en interne, je profite de toutes les occasions pour mettre en œuvre les valeurs agiles. Mes  domaines de prédilection sont la facilitation, les interactions humaines, l’agilité et les serious games. Je suis également président de l’association Agile Rennes qui promeut l’agilité sur une partie de la Bretagne. Ma dernière passion est exercée tous les week-ends lorsque j’aide les plus courageux à sauter à l’élastique du haut d’un pont (une certaine forme de gestion du changement).​ Twitter @AurelienMorvant
   photo: male200.png
 - name: Sébastien Sacard
   bio: Sébastien est entrepreneur, product manager et auteur de la méthode « Lean Product Management ». Il a passé 7 ans chez Kelkoo en tant que responsable technique et chez Yahoo UK en tant que Product Manager, et 7 ans en tant que consultant en Product Management pour différents groupes (Fnac.com, Lemonde.fr, Myfab). Il  a participé à la traduction de Running Lean de Ash Maurya, et a créé une méthode permettant aux grands groupes de proposer le bon produit à leurs clients, le Lean Product Management.
@@ -46,9 +43,6 @@
 - name: Christopher Parola
   bio: Lorem Ipsum
   photo: Christopher-Parola.jpg
-- name: Hakan Forss
-  bio: Lorem Ipsum
-  photo: male200.png
 - name: Renaud Chevalier
   bio: Lorem Ipsum
   photo: male200.png
@@ -88,4 +82,9 @@
 - name: Yves Hanouilles
   bio: The last 10 years, Yves is focussing on agile coaching. Yves grows community builders. His personal goal is to make his customer independent from him as soon as possible. Yves is the inventor of the Who is agile series of books and the co-inventor of the leadership game, last year played at agile tour Lille. Although he co-invented PairCoaching & CoachRetreat, Yves is not interested in being a rockstar coach inventing new methodologies, he rather wants to mix existing ideas like a thoughtjockey DJ adjusting to the needs of the audience.
   photo: Yves-Hanoulle.jpeg
-
+- name: Nelson Dufossé
+  bio: Ancien coach sportif et maintenance coach agile après des missions de scrum master et product owner, j'aide les équipes à devenir agiles. Aujourd'hui dans des missions de product manager, je m'efforce de remettre le client au centre des projets et domaines où il pourrait être oublié et préfère les démarches pragmatiques à celles malheureusement historiques... Pour moi les serious games favorisent la prise de conscience et facilitent l'introduction à l'agilité. Cette année nous allons jouer! Membre de l'association Nord-Agile, j'organise régulièrement des événements sur l'agilité, j'espère que l'agile tour sera à la hauteur de vos espérances.
+  photo: Nelson-Dufosse.png
+- name: Aurélien Morvant
+  bio: Enzyme (au sens catalyseur) agile. Je suis passé par toutes les étapes de l’agilité – développeur agile puis scrum master et depuis quelques années coach/facilitateur. En charge du déploiement de l’agilité chez ses partenaires, mais également en interne, je profite de toutes les occasions pour mettre en œuvre les valeurs agiles. Mes  domaines de prédilection sont la facilitation, les interactions humaines, l’agilité et les serious games. Je suis également président de l’association Agile Rennes qui promeut l’agilité sur une partie de la Bretagne. Ma dernière passion est exercée tous les week-ends lorsque j’aide les plus courageux à sauter à l’élastique du haut d’un pont (une certaine forme de gestion du changement).​ Twitter @AurelienMorvant
+  photo: male200.png
