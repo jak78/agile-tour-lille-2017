@@ -6,10 +6,10 @@
   photo: Henri-Karhatsu.jpg
 - name: Kevin Maccioni
   bio: " "
-  photo: male200.png
+  photo: Kevin_Maccioni.jpg
 - name: Ly-Jia Goldstein
   bio: " "
-  photo: male200.png
+  photo: Ly-Jia_Goldstein.jpg
 - name: Cédric Pourbaix
   bio: " "
   photo: cedric_pourbaix.jpg
@@ -31,12 +31,11 @@
 - name: Sébastien Sacard
   bio: Sébastien est entrepreneur, product manager et auteur de la méthode « Lean Product Management ». Il a passé 7 ans chez Kelkoo en tant que responsable technique et chez Yahoo UK en tant que Product Manager, et 7 ans en tant que consultant en Product Management pour différents groupes (Fnac.com, Lemonde.fr, Myfab). Il  a participé à la traduction de Running Lean de Ash Maurya, et a créé une méthode permettant aux grands groupes de proposer le bon produit à leurs clients, le Lean Product Management.
   photo: Sebastien-Sacard.jpg
-- name: Cédric Tumminello
-  bio: " "
-  photo: male200.png
 - name: Elalami Lafkih
-  bio: " "
-  photo: male200.png
+  bio: Significant experience delivering large scale digital projects (global websites, platform builds, mobile applications, DAM, PIM, CMS, ect), within an Agile approach and process.
+       A strong level of general digital knowledge and good understanding of key digital marketing disciplines including Web Design, User Experience, e-Merchandising, Marketing.
+       Leadership Experience in a full range of Scrum, "Scrum of Scrums", Agile and Lean practices.
+  photo: elalami_lafkih.jpg
 - name: Pierre-Emmanuel Dautreppe
   bio: Depuis 2002, Pierre-Emmanuel est spécialiste des technologies Microsoft, et de l'écosystème Microsoft.NET en particulier. Il s’est dirigé vers les méthodologies agiles en 2005 en découvrant Scrum et eXtreme Programming. En commençant à travailler avec une équipe qui n’était pas sensibilisée à l’agilité, il a pu voir bon nombre d’anti-patterns appliqués par des équipes venues du milieu “traditionnel”. Depuis ce jour, il partage son expérience et ses recettes en essayant d’enseigner les valeurs et la culture agile. Multi-casquette, Pierre-Emmanuel travaille aujourd'hui à la fois dans l'environnement technique comme  développeur, expert technique ou encore architecte, mais aussi dans l'environnement agile comme coach ou scrum master. Il travaille également comme formateur.
   photo: Pierre-Emmanuel-Dautreppe.jpg
@@ -48,7 +47,7 @@
   photo: Christopher-Parola.jpg
 - name: Renaud Chevalier
   bio: " "
-  photo: male200.png
+  photo: renaud_chevalier.jpg
 - name: Bastien Gallay
   bio: " "
   photo: bastien_gallay.jpg
@@ -56,14 +55,13 @@
   bio: " "
   photo: male200.png
 - name: Jean-Laurent de Morlhon
-  bio: " "
-  photo: male200.png
-- name: Laurent Sarazin
-  bio: " "
-  photo: male200.png
+  bio: I love the act of writing software transforming a vague idea from the mind of someone, into an efficient software which really helps.
+        Writing software is often associated with bloat, bugs, late, unmaintainable code and crappy interface. I like challenging this idea, and thrive to convince people that there is another way of writing software. For that matter I explore the software craftsmanship movement and built from the ground up the Xebia Studio where we write elegant software for client who care for quickness and quality.
+        I’m a tdd guy, and I host many coderetreats, to meet clever developpers, learn new techniques, and just train.
+  photo: jean-laurent_de-morlhon.jpg
 - name: Jérémie Hattat
   bio: " "
-  photo: male200.png
+  photo: jeremie_hattat.png
 - name: Christophe Thibaut
   bio: " "
   photo: Christophe-Thibaut.jpg
@@ -72,10 +70,10 @@
   photo: Alexandre-Siguier.jpg
 - name: Cyrille Deruel
   bio: " "
-  photo: male200.png
+  photo: cyrille_deruel.jpg
 - name: Erik Talboom
   bio: " "
-  photo: male200.png
+  photo: eric_talboom.jpg
 - name: Jérôme Guenver
   bio: " "
   photo: male200.png
