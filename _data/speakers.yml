@@ -1,84 +1,91 @@
+- name: Hakan Forss
+  bio: My name is Håkan Forss and I’m an Lean/Agile Coach, public speaker and author working at King in Stockholm, Sweden. I coach, mentor and teach Lean and Agile thinking, methods and tools. I work with organizations, leaders, teams and individuals. I develop people’s ability to continuous learn and improve.
+  photo: hakan_forss.jpg
 - name: Henri Karhatsu
-  bio: Henri Karhatsu has been in software development business almost 15 years, of which the last 5+ years as an independent consultant. In recent years he has worked as Scrum Master and Java or Ruby on Rails developer for many Finnish companies. Henri’s biggest interest lies in understanding better how to make great software. Henri has been an active member in the #NoEstimates discussion. He has written several blog posts related to the topic and also been presenting his thoughts and sharing his experiences in different agile events in Netherlands, France, Poland, and Finland.
+  bio: " "
   photo: Henri-Karhatsu.jpg
 - name: Kevin Maccioni
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
+  bio: " "
+  photo: Kevin_Maccioni.jpg
 - name: Ly-Jia Goldstein
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
+  bio: " "
+  photo: Ly-Jia_Goldstein.jpg
 - name: Cédric Pourbaix
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
+  bio: " "
+  photo: cedric_pourbaix.jpg
 - name: Romain Couturier
   bio: Romain Couturier est facilitateur graphique et coach agile. Il a fondé Terre d’Agile en 2012 pour répondre aux demandes d’accompagnement des équipes et des organisations dans l’évolution de leurs modes collaboratifs, de leurs procédés de création et d’innovation de produit. Membre de la FGCP (Facilitation Graphique Communauté de Praticiens, www.fgcp.net) et du Forum International des Praticiens Visuels (ifvpcommunity.ning.com), il exerce la facilitation graphique comme un moyen simple et puissant de développer l’intelligence collective par la visualisation des idées et la connexion des informations. 
   photo: Romain-Couturier.jpeg
-- name: Nelson Dufossé
-  bio: Ancien coach sportif et maintenance coach agile après des missions de scrum master et product owner, j'aide les équipes à devenir agiles. Aujourd'hui dans des missions de product manager, je m'efforce de remettre le client au centre des projets et domaines où il pourrait être oublié et préfère les démarches pragmatiques à celles malheureusement historiques... Pour moi les serious games favorisent la prise de conscience et facilitent l'introduction à l'agilité. Cette année nous allons jouer! Membre de l'association Nord-Agile, j'organise régulièrement des événements sur l'agilité, j'espère que l'agile tour sera à la hauteur de vos espérances. 
-  photo: Nelson-Dufosse.png
-- name: Arnaud Bailly
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
+- name: Laurent Sarrazin
+  bio: " "
+  photo: laurent_sarrazin.jpg
 - name: Vincent Dugarin
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
-- name: Guillaume Nurdin, Bernard Notarianni
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
-- name: Aurelien Morvant
-  bio: Enzyme (au sens catalyseur) agile. Je suis passé par toutes les étapes de l’agilité – développeur agile puis scrum master et depuis quelques années coach/facilitateur. En charge du déploiement de l’agilité chez ses partenaires, mais également en interne, je profite de toutes les occasions pour mettre en œuvre les valeurs agiles. Mes  domaines de prédilection sont la facilitation, les interactions humaines, l’agilité et les serious games. Je suis également président de l’association Agile Rennes qui promeut l’agilité sur une partie de la Bretagne. Ma dernière passion est exercée tous les week-ends lorsque j’aide les plus courageux à sauter à l’élastique du haut d’un pont (une certaine forme de gestion du changement).​ Twitter @AurelienMorvant
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
+  bio: " "
+  photo: male200.png
+- name: Guillaume Nurdin
+  bio: " "
+  photo: male200.png
+- name : Bernard Notarianni
+  bio: As an agile coach, I share and adapt in context my knowledge to create better software. I train and mentor software creation teams, ranging from strategy, marketing, design up to development and operations. As a software creator, I design and implement information systems for profesionnals seeking to improve quality of their products and services. I use best currently available software platforms (PHP, Erlang, Ember JS, C++) for corporate and web information infrastructures.
+  photo: bertrand_notorianni.jpg
 - name: Sébastien Sacard
   bio: Sébastien est entrepreneur, product manager et auteur de la méthode « Lean Product Management ». Il a passé 7 ans chez Kelkoo en tant que responsable technique et chez Yahoo UK en tant que Product Manager, et 7 ans en tant que consultant en Product Management pour différents groupes (Fnac.com, Lemonde.fr, Myfab). Il  a participé à la traduction de Running Lean de Ash Maurya, et a créé une méthode permettant aux grands groupes de proposer le bon produit à leurs clients, le Lean Product Management.
   photo: Sebastien-Sacard.jpg
-- name: Cédric Tumminello
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
 - name: Elalami Lafkih
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
-- name: Pierre-Emmanuel Dautreppe, Norman Deschauwer
+  bio: Significant experience delivering large scale digital projects (global websites, platform builds, mobile applications, DAM, PIM, CMS, ect), within an Agile approach and process.
+       A strong level of general digital knowledge and good understanding of key digital marketing disciplines including Web Design, User Experience, e-Merchandising, Marketing.
+       Leadership Experience in a full range of Scrum, "Scrum of Scrums", Agile and Lean practices.
+  photo: elalami_lafkih.jpg
+- name: Pierre-Emmanuel Dautreppe
   bio: Depuis 2002, Pierre-Emmanuel est spécialiste des technologies Microsoft, et de l'écosystème Microsoft.NET en particulier. Il s’est dirigé vers les méthodologies agiles en 2005 en découvrant Scrum et eXtreme Programming. En commençant à travailler avec une équipe qui n’était pas sensibilisée à l’agilité, il a pu voir bon nombre d’anti-patterns appliqués par des équipes venues du milieu “traditionnel”. Depuis ce jour, il partage son expérience et ses recettes en essayant d’enseigner les valeurs et la culture agile. Multi-casquette, Pierre-Emmanuel travaille aujourd'hui à la fois dans l'environnement technique comme  développeur, expert technique ou encore architecte, mais aussi dans l'environnement agile comme coach ou scrum master. Il travaille également comme formateur.
   photo: Pierre-Emmanuel-Dautreppe.jpg
+- name: Norman Deschauwer
+  bio: " "
+  photo: Norman_Deschauwer.jpg
 - name: Christopher Parola
-  bio: Lorem Ipsum
+  bio: " "
   photo: Christopher-Parola.jpg
-- name: Hakan Forss
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
 - name: Renaud Chevalier
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
+  bio: " "
+  photo: renaud_chevalier.jpg
 - name: Bastien Gallay
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
+  bio: " "
+  photo: bastien_gallay.jpg
 - name: Derbier Gery
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
+  bio: " "
+  photo: male200.png
 - name: Jean-Laurent de Morlhon
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
-- name: Laurent Sarazin
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
+  bio: I love the act of writing software transforming a vague idea from the mind of someone, into an efficient software which really helps.
+        Writing software is often associated with bloat, bugs, late, unmaintainable code and crappy interface. I like challenging this idea, and thrive to convince people that there is another way of writing software. For that matter I explore the software craftsmanship movement and built from the ground up the Xebia Studio where we write elegant software for client who care for quickness and quality.
+        I’m a tdd guy, and I host many coderetreats, to meet clever developpers, learn new techniques, and just train.
+  photo: jean-laurent_de-morlhon.jpg
 - name: Jérémie Hattat
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
-- name: Alban Dalle
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
+  bio: Agiliste dans l’âme, Jérémie accompagne des équipes dans l‘adoption de méthodes et de pratiques agiles sans dogmatisme. Il aime utiliser le jeu pour créer la prise de conscience et générer l’engouement et la curiosité. Dans cet esprit, il contribue à la communauté agile de la région Lilloise en organisant ou en animant des événements tels que l’Agile Tour Lille, Scrumbeer, Code Retreat, PO Dojo.
+  photo: jeremie_hattat.png
 - name: Christophe Thibaut
-  bio: Lorem Ipsum
+  bio: " "
   photo: Christophe-Thibaut.jpg
-- name: Alexandre Siguier, Cyrille Deruel
-  bio: Lorem Ipsum
+- name: Alexandre Siguier
+  bio: " "
   photo: Alexandre-Siguier.jpg
+- name: Cyrille Deruel
+  bio: " "
+  photo: cyrille_deruel.jpg
 - name: Erik Talboom
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
+  bio: " "
+  photo: eric_talboom.jpg
 - name: Jérôme Guenver
-  bio: Lorem Ipsum
-  photo: http://i2.wp.com/c0589922.cdn.cloudfiles.rackspacecloud.com/avatars/male200.png
+  bio: " "
+  photo: male200.png
 - name: Yves Hanouilles
   bio: The last 10 years, Yves is focussing on agile coaching. Yves grows community builders. His personal goal is to make his customer independent from him as soon as possible. Yves is the inventor of the Who is agile series of books and the co-inventor of the leadership game, last year played at agile tour Lille. Although he co-invented PairCoaching & CoachRetreat, Yves is not interested in being a rockstar coach inventing new methodologies, he rather wants to mix existing ideas like a thoughtjockey DJ adjusting to the needs of the audience.
-  photo: Yves-Hanoulle.png
+  photo: Yves-Hanoulle.jpeg
+- name: Nelson Dufossé
+  bio: Ancien coach sportif et maintenance coach agile après des missions de scrum master et product owner, j'aide les équipes à devenir agiles. Aujourd'hui dans des missions de product manager, je m'efforce de remettre le client au centre des projets et domaines où il pourrait être oublié et préfère les démarches pragmatiques à celles malheureusement historiques... Pour moi les serious games favorisent la prise de conscience et facilitent l'introduction à l'agilité. Cette année nous allons jouer! Membre de l'association Nord-Agile, j'organise régulièrement des événements sur l'agilité, j'espère que l'agile tour sera à la hauteur de vos espérances.
+  photo: Nelson-Dufosse.png
+- name: Aurélien Morvant
+  bio: Enzyme (au sens catalyseur) agile. Je suis passé par toutes les étapes de l’agilité – développeur agile puis scrum master et depuis quelques années coach/facilitateur. En charge du déploiement de l’agilité chez ses partenaires, mais également en interne, je profite de toutes les occasions pour mettre en œuvre les valeurs agiles. Mes  domaines de prédilection sont la facilitation, les interactions humaines, l’agilité et les serious games. Je suis également président de l’association Agile Rennes qui promeut l’agilité sur une partie de la Bretagne. Ma dernière passion est exercée tous les week-ends lorsque j’aide les plus courageux à sauter à l’élastique du haut d’un pont (une certaine forme de gestion du changement).​ Twitter @AurelienMorvant
+  photo: aurelien_morvant.jpg
+- name: Pascal van Cauwenberghe
+  bio: " "
+  photo: male200.png

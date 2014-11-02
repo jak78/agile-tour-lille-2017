@@ -6,12 +6,13 @@ permalink: /organisateurs/
 
 <div class="container">
 <div class="row speakers">
-    {% for speaker in site.data.orga %}
+    {% assign speakers = site.data.orga | sort:"name" %}
+    {% for speaker in speakers %}
     <div class="col-md-6 speaker">
         <img src="{{ speaker.photo | prepend: "/img/orga/" | prepend: site.baseurl }}" alt="{{speaker.name}}"/>
         <a name="{{ speaker.name }}"></a>
         <h2>{{ speaker.name }}</h2>
-        <p>{{ speaker.bio | markdown }}</p>
+        <p>{{ speaker.bio | markdownify }}</p>
     </div>
     </li>
     {% endfor %}

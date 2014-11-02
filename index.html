@@ -28,15 +28,26 @@ layout: default
                 {% for talk in slot.content %}{% if talk.hide-on-home != 1 %}
                 <div class="col-md-6 col-xs-12 talk">
                     {% if talk.image %}
-                    <img src="{{talk.image}}" alt="{{talk.subject}}" width="80" height="80"/>
-                    {% else %}
-                    {% for speaker in site.data.speakers %}{% if speaker.name == talk.speaker %}
-                    <img src="{{speaker.photo}}" alt="{{speaker.name}}" width="80" height="80"/>
-                    {% endif %}{% endfor %}
+                        <img src="{{talk.image| prepend: "/img/" | prepend: site.baseurl}}" alt="{{talk.subject}}" width="80" height="80"/>
+                        {% else %}
+                        {% if talk.speaker %}
+                            {% assign speakers = talk.speaker | split: ", " %}
+                            {% assign first_speaker = speakers | first %}
+                            {% for speaker in site.data.speakers %}{% if speaker.name == first_speaker %}
+                            <img src="{{speaker.photo| prepend: "/img/speakers/" | prepend: site.baseurl}}" alt="{{speaker.name}}" width="80" height="80"/>
+                            {% endif %}{% endfor %}
+                        {% endif %}
                     {% endif %}
                     <div>
                         <span class="subject"><a href="{{ "/programme/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a></span>
-                        {% if talk.speaker %}<span class="speaker">par <a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{talk.speaker | uri_escape }}">{{ talk.speaker }}</a></span>{% endif %}<span class="room">{% if talk.room %}{{ talk.room }}{%else%}{{ site.data.rooms[forloop.index0] }}{% endif %}</span>
+                        {% if talk.speaker %}
+                            <span class="speaker">par
+                                {% for speaker in speakers %}
+                                <a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>{% if forloop.last == false %}, {% endif %}
+                                {% endfor %}
+                            </span>
+                        {% endif %}
+                        <span class="room">{% if talk.room %}{{ talk.room }}{%else%}{{ site.data.rooms[forloop.index0] }}{% endif %}</span>
                     </div>
                 </div>
                 {% endif %}{% endfor %}

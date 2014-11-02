@@ -6,16 +6,17 @@ permalink: /conferenciers/
 
 <div class="container">
 <div class="row speakers">
-    {% for speaker in site.data.speakers %}
+    {% assign speakers = site.data.speakers | sort:"name" %}
+    {% for speaker in speakers %}
     <div class="col-md-6 speaker">
-        <img src="{{speaker.photo}}" alt="{{speaker.name}}"/>
+        <img src="{{speaker.photo | prepend: "/img/speakers/" | prepend: site.baseurl }}" alt="{{speaker.name}}"/>
         <a name="{{ speaker.name }}"></a>
         <h2>{{ speaker.name }}</h2>
-        <p>{{ speaker.bio}}</p>
+        <p>{{ speaker.bio | markdownify }}</p>
         {% for part in site.data.schedule %}
             {% for slot in part %}
                 {% for talk in slot.content %}
-                    {% if talk.speaker == speaker.name %}<span class="subject"><a href="{{ "/programme/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a></span>{% endif %}
+                    {% if talk.speaker contains speaker.name %}<span class="subject"><a href="{{ "/programme/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a>, à {{slot.hour}}h15</span>{% endif %}
                 {% endfor %}
             {% endfor %}
         {% endfor %}
