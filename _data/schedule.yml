@@ -43,13 +43,10 @@
   - hour: 13
     content:
       - subject: Déjeuner
-        room: ""
+        room: Atrium
         image: 6494564331_ef123e70d5_q_d.jpg
-      - subject: Les dix buzzwords du Hipster Agile - 20minutes
-        speaker: Christopher Parola
-      - subject: Déjeuner
-        fill: 3
-        hide-on-home: 1
+        fill: 5
+        highlight: 1
 -
   - hour: 14
     content:
@@ -77,6 +74,8 @@
     content:
       - subject: Inception agile
         speaker: Jérémie Hattat
+      - subject: Les dix buzzwords du Hipster Agile - 20minutes
+        speaker: Christopher Parola
   - hour: 17
     content:
       - subject: Etes-vous prêts pour le modèle Spotify?
