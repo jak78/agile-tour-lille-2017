@@ -5,17 +5,29 @@ permalink: /sponsors/
 ---
 <div class="container">
 
-    <h2>Sponsors Platine</h2>
     <div class="row">
+        <div class="col-md-6 col-xs-6 sponsor">
+        <h2>Sponsors Platine</h2>
         {% assign sponsors = site.data.sponsors.platinum | sort:"name" %}
         {% for sponsor in sponsors %}
-        <div class="col-md-4 col-xs-6 sponsor">
+        <div class="col-md-3 col-xs-3 sponsor">
             <a href="{{ sponsor.url }}">
                 <img class="platinum" src="{{ sponsor.logo | prepend: "/img/sponsors/" | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
             </a>
         </div>
-        </li>
+        </div>
         {% endfor %}
+        <div class="col-md-6 col-xs-6 sponsor">
+            <h2>Partenaires</h2>
+            {% assign sponsors = site.data.sponsors.partner | sort:"name" %}
+            {% for sponsor in sponsors %}
+            <div class="col-md-3 col-xs-3 sponsor">
+                <a href="{{ sponsor.url }}">
+                    <img class="platinum" src="{{ sponsor.logo | prepend: "/img/sponsors/" | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 
     <h2>Sponsors Or</h2>
@@ -27,7 +39,6 @@ permalink: /sponsors/
                 <img src="{{ sponsor.logo | prepend: "/img/sponsors/" | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
             </a>
         </div>
-        </li>
         {% endfor %}
     </div>
 
@@ -40,7 +51,6 @@ permalink: /sponsors/
                 <img src="{{ sponsor.logo | prepend: "/img/sponsors/" | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
             </a>
         </div>
-        </li>
         {% endfor %}
     </div>
 
