@@ -2,6 +2,10 @@ platinum:
  - name: EFIDEV
    url: http://www.efidev.com
    logo: logo_efidev.png
+partner:
+ - name: EuraTechnlogies
+   url: http://www.euratechnologies.com/
+   logo: logo_euratechnologies.png
 
 gold:
  - name: Cap Gemini
