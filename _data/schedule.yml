@@ -67,6 +67,7 @@
       - subject: Coding Dojo
         speaker: Jean-Laurent de Morlhon
         duration: 2
+        extra: <i class="fa fa-warning"></i> Venir avec de quoi développer et lancer des tests unitaires
       - subject: Jouons sérieusement
         speaker: Nelson Duffosé, Aurélien Morvant
         duration: 2
