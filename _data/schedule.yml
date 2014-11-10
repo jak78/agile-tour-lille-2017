@@ -59,8 +59,8 @@
     content:
       - subject: 20 X sur le métier
         speaker: Christophe Thibaut
-      - subject: Retour d'expérience sur une startup agile
-        speaker: Sarah Mortel
+      - subject: The Lean Agile mindset
+        speaker: Yves Hanoulle
       - subject: Et un carpaccio ! Un !
         speaker: Derbier Gery
         duration: 2
@@ -86,8 +86,8 @@
         speaker: Erik Talboom
       - subject: Le Lean Startup au service du Product Owner
         speaker: Jérôme Guenver
-      - subject: The Lean Agile mindset
-        speaker: Yves Hanoulle
+      - subject: Retour d'expérience sur une startup agile
+        speaker: Sarah Mortel
   - hour: 18
     content:
       - subject: Pot
