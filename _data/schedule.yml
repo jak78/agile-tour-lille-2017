@@ -155,6 +155,7 @@
       - subject: Inception agile
         speaker: Jérémie Hattat
         description:  Cette sesion est un retour d'expérience de la "vraie vie" dans un "vrai contexte" sur l'inception agile. L'inception est cette phase ou une énergie est déployée pour faire comprendre, adhérer, et faire en sorte que les gens puissent "sauter le pas" et tenter quelques "expériences agiles". Le retour est cru, sans bisousnours, on évoquera les choses qui ont marché, les loupés, les difficultés et les désillusions. Cette présentation permet d'identifier des pistes d'expérimentation, et replace le contexte de coaching. Elle évitera peut-être à certains les écueils que j'ai pu rencontrer. A noter, cette session s'adresse aux personnes initiées, par exemple, nous parlerons de certains outils (story mapping, impact mapping, ...) sans en rappeler la définition.
+        extra: <i class="fa fa-warning"></i> Cette présentation s'adresse a un public averti.
       - subject: Les dix buzzwords du Hipster Agile - 20minutes
         speaker: Christopher Parola
         description: Depuis ces douze derniers mois, trop de buzzwords utilisés à contre sens à la machine à café défrisent nos moustaches de Hipsters Agiles.
