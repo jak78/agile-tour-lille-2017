@@ -63,7 +63,7 @@
         speaker: Guillaume Nurdin, Bernard Notarianni
         description:
           Nous présenterons un retour d'expérience d'un projet dans lequel nous avons utilisé des coding Dojo et le Mob programming pour former l'équipe de développement, et augmenter sa vélocité.
-          
+
           Le projet&colon; refonte du Système d'Information d'un organisme financier sur 1 an L'équipe&colon; 6 développeurs dont 3 débutants sur la technologie (ASP.NET MVC)</p>
           <p>Nous avons mis en place un cycle de formations au rythme de 2 à 3 sessions par semaine. Les sujets traités couvraient entre autre .Net/MVC, Test Driven Development et Fitnesse.</p>
           <p>Chaque formation dure 2h, elle a lieu de préférence le matin. Elle est préparée à l'avance, et contient un exercice à réaliser, accompagné d'un document détaillant l'ensemble des tâches à faire.</p>
@@ -133,7 +133,7 @@
       - subject: Et un carpaccio ! Un !
         speaker: Derbier Gery
         duration: 2
-        description: Exercice de 120 minutes dont le but est de montrer (1) aux "clients" comment découper les besoins métier aussi finement que nécessaire pour tenir dans n'importe quelle taille d'itération ou de sprint, (2) aux développeurs comment les meilleurs développeurs travaillent aujourd’hui en décomposant leur effort en de très nombreux épisodes courts produisant du code entièrement fonctionnel, testé, visible par l'utilisateur final. 
+        description: Exercice de 120 minutes dont le but est de montrer (1) aux "clients" comment découper les besoins métier aussi finement que nécessaire pour tenir dans n'importe quelle taille d'itération ou de sprint, (2) aux développeurs comment les meilleurs développeurs travaillent aujourd’hui en décomposant leur effort en de très nombreux épisodes courts produisant du code entièrement fonctionnel, testé, visible par l'utilisateur final.
       - subject: Coding Dojo
         speaker: Jean-Laurent de Morlhon
         duration: 2
@@ -151,7 +151,7 @@
     content:
       - subject: Inception agile
         speaker: Jérémie Hattat
-        description: La transition agile est une histoire propre à chaque contexte. C'est cette phase ingrate ou les pièces de l'échiquier se déplacent dans l'ombre pour arriver au coup final qui permet le premier mouvement du changement. Je vous propose dans ce retour d'expérience d'évoquer plus d'une année dans la société Eurotunnel, pour aboutir au cadrage d'un projet officiellement agile.
+        description:  Cette sesion est un retour d'expérience de la "vraie vie" dans un "vrai contexte" sur l'inception agile. L'inception est cette phase ou une énergie est déployée pour faire comprendre, adhérer, et faire en sorte que les gens puissent "sauter le pas" et tenter quelques "expériences agiles". Le retour est cru, sans bisousnours, on évoquera les choses qui ont marché, les loupés, les difficultés et les désillusions. Cette présentation permet d'identifier des pistes d'expérimentation, et replace le contexte de coaching. Elle évitera peut-être à certains les écueils que j'ai pu rencontrer. A noter, cette session s'adresse aux personnes initiées, par exemple, nous parlerons de certains outils (story mapping, impact mapping, ...) sans en rappeler la définition.
       - subject: Les dix buzzwords du Hipster Agile - 20minutes
         speaker: Christopher Parola
         description: Depuis ces douze derniers mois, trop de buzzwords utilisés à contre sens à la machine à café défrisent nos moustaches de Hipsters Agiles.
