@@ -8,15 +8,15 @@ permalink: /conferenciers/
 <div class="row speakers">
     {% assign speakers = site.data.speakers | sort:"name" %}
     {% for speaker in speakers %}
+    <a name="{{ speaker.name }}"></a>
     <div class="col-md-6 speaker">
         <img src="{{speaker.photo | prepend: "/img/speakers/" | prepend: site.baseurl }}" alt="{{speaker.name}}"/>
-        <a name="{{ speaker.name }}"></a>
         <h2>{{ speaker.name }}</h2>
         <p>{{ speaker.bio | markdownify }}</p>
         {% for part in site.data.schedule %}
             {% for slot in part %}
                 {% for talk in slot.content %}
-                    {% if talk.speaker contains speaker.name %}<span class="subject"><a href="{{ "/programme/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a>, à {{slot.hour}}h15</span><br/>{% endif %}
+                    {% if talk.speaker contains speaker.name %}<span class="subject"><a href="{{ "/conferences/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a>, à {{slot.hour}}h15</span><br/>{% endif %}
                 {% endfor %}
             {% endfor %}
         {% endfor %}

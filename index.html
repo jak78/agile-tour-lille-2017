@@ -29,7 +29,7 @@ layout: default
                 <div class="col-md-6 col-xs-12 talk">
                     {% if talk.image %}
                         <img src="{{talk.image| prepend: "/img/" | prepend: site.baseurl}}" alt="{{talk.subject}}" width="80" height="80"/>
-                        {% else %}
+                    {% else %}
                         {% if talk.speaker %}
                             {% assign speakers = talk.speaker | split: ", " %}
                             {% assign first_speaker = speakers | first %}
