@@ -6,11 +6,10 @@ partner:
  - name: EuraTechnlogies
    url: http://www.euratechnologies.com/
    logo: logo_euratechnologies.png
+gold:
  - name: M2I
    url: http://www.m2iformation.fr/
    logo: logo_m2i.png
-
-gold:
  - name: Cap Gemini
    url: http://www.fr.capgemini.com
    logo: logo_cap.png
