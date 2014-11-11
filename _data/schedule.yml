@@ -10,36 +10,96 @@
     content:
       - subject: La fin de middle management
         speaker: Kevin Maccioni
+        description: L'agilité a le vent en poupe aux seins des sociétés de services, et nombreuses sont celles qui ont tentées une transformation pour approcher un modèle culturel et organisationnel correspondant plus à leur attentes. Mais trop nombreux sont encore les chefs de projets laissés sur le côté et qui ne trouvent plus leur place face à des équipes pluridisciplinaires, autonomes et responsabilisées. Est-ce que le middle management est amené à disparaître? Ou doit-il changer son périmètre et son type d'action ? Du manager décisionnaire au servant leader, le processus de prise de conscience face au changement semble inévitable pour la survie du middle management !
       - subject: "Les Aventures d'Alice : la Révolte des Tests"
         speaker: Ly-Jia Goldstein
+        description: Alice rêve de tests à ajouter dans son application quand elle aperçoit le Lapin blanc soucieux de qualité. Partie à sa poursuite, elle se trouve propulsée dans un monde ressemblant étrangement à son code, et commence à faire apparaître de nombreux tests unitaires. Pourtant, le Lapin blanc est encore insatisfait ; lesdits tests se rebellent, deviennent incontrôlables et ne veulent plus vérifier ce qu'elle veut. Comment Alice va-t-elle réussir à reprendre la main sur les tests et les faire fonctionner correctement ?</p><p>À travers les aventures d'Alice, je vais vous présenter les pièges courants du testing qui découragent souvent les débutants, mais également les bonnes pratiques et des outils pour obtenir des tests fonctionnels et efficaces.
       - subject: Je suis agile... mais suis-je créatif ?
         speaker: Cédric Pourbaix
+        description: Dans cette session, je vais proposer de nous interroger sur les liens entre créativité et agilité.</p><p>L'agilité peut-elle s'entendre avec la créativité ? Doit-on laisser de la place à la créativité ? Qui doit-être créatif ? Un projet IT peut-il être créatif ? Nous laisse-t-on être créatif ?
       - subject: Libérez vos idées et partez à la découverte de la facilitation graphique
         speaker: Romain Couturier
+        description:
+           Vous devez animer une réunion avec votre(vos) client(s), votre équipe et/ou vos collègues que faites-vous ?
+           <ol>
+           <li>Vous présentez vos idées à partir d’un PowerPoint au risque que tout le monde ne vous écoute pas
+           <li>Vous donnez un paquet de Post-It à chacun et animez une séance de brainstorming avec le risque que trop d’idées se dégagent
+           <li>Vous organisez un jeu d’Innovation, c’est ludique, c’est fun mais certains auraient préféré une bonne réunion descendante (voir réponse 1)
+           <li>Vous restez silencieux, à l’écoute et illustrer la complexité des idées exprimées à la seule force de votre crayon
+           </ol>
+           Je vous propose de découvrir cette 4ème option &colon; la facilitation graphique. Vous ne savez pas dessiner ? C’est possible mais vous avez d’autres qualités innées qui feront de vous un bon « architecte visuels des idées »
+           </p><p>
+           Pendant cet atelier pratique, vous
+           <ul>
+           <li>Serez initié aux techniques de base de la facilitation graphique des interactions de groupe,
+           <li>Apprendrez comment capturer visuellement l’information et établir des connexions simples,
+           <li>Découvrirez pourquoi la facilitation graphique apporte une dynamique interactive et innovante dans les réunions,
+           <li>Amènerez votre assistance à libérer ses idées et à les ancrer dans les esprits de tous
+           </ul>
         duration: 2
       - subject: Management 3.0 what's next
         speaker: Laurent Sarrazin
+        description:
+          Jurgen Appelo, avec son modèle MANAGEMENT 3.0, nous a apporté de solides bases en matière de management agile. Pendant ce temps, le monde continue à bouger et révèle des formes de leadership qui nous ouvrent des voies pour aller encore plus loin &colon; l'exemple de Chronoflex (Aleandre GERARD), le management libérateur (Isaac GETZ), le Host Leadership (Mark Mc KERGOW), voire les bonnes astuces d'un commandant de sous-marin de la Navy &colon; David MARQUET.
+          </p><p>Dans cet atelier, nous vous proposons de découvrir et surtout savourer quelques uns de ces ingrédients du leadership du 21ème siècle … véritables exhausteurs pour le management agile de vos activités. Vous verrez par vous-même s'ils sont à consommer avec modération ou pas...
         duration: 2
   - hour: 11
     content:
       - subject: La régression continue – Une méthode pour bien faire rater l'adoption agile en entreprise
         speaker: Bastien Gallay
+        description:
+          Vous avez tous essuyé des déboires en essayant d’agiliser une entreprise. Ces échecs et difficultés sont surtout l’occasion d’apprendre. Mais si vous deviez faire échouer l’agilité, quelles seraient vos idées? Et si vous étiez dans la peau d’un empêcheur d’agiliser en rond, comment agiriez-vous? Et si vous étiez menés par un processus valorisant en priorité le plan, le contrat, la documentation et les outils, quelle stratégie pourriez-vous adopter?
+          </p><p>Un "grand méchant" de l'agilité, vous entraîne, au travers de ce retour d’expérience fictif, à contre-pied de l’adoption agile. Découvrez, ou redécouvrez, les pièges freinant l’amélioration et l'émergence d’un esprit agile en entreprise. Découvrez aussi quelques pistes pour les déjouer, au travers des difficultés que peut avoir ce personnage à annihiler l'agilité.
       - subject: Intégration des équipes de tests dans un projet Kanban
         speaker: Vincent Dugarin, Marie Vaganay
+        description: En 2013, AXA France Services décide de faire évoluer sa méthode projet agile de Scrum vers Kanban. A cette occasion les équipes de qualification voient s’enrichir leurs rôles au sein des équipes projets &colon;
+                     <ul>
+                     <li>Intervention en amont des développements (rédaction de BDDs)
+                     <li>Co-localisation avec les développeurs (Pair Testing)
+                     <li>Evolution des outils de travail (QC/TFS, premiers pas vers DEVOPS)
+                     </ul>
+                     Quelles difficultés avons-nous rencontrées, quels bénéfices en avons-nous tirés, quels retours des POs, des développeurs, de nos clients internes … et des testeurs.
       - subject: Expérimentation Mob Programming en entreprise
         speaker: Guillaume Nurdin, Bernard Notarianni
+        description:
+          Nous présenterons un retour d'expérience d'un projet dans lequel nous avons utilisé des coding Dojo et le Mob programming pour former l'équipe de développement, et augmenter sa vélocité.
+          
+          Le projet&colon; refonte du Système d'Information d'un organisme financier sur 1 an L'équipe&colon; 6 développeurs dont 3 débutants sur la technologie (ASP.NET MVC)</p>
+          <p>Nous avons mis en place un cycle de formations au rythme de 2 à 3 sessions par semaine. Les sujets traités couvraient entre autre .Net/MVC, Test Driven Development et Fitnesse.</p>
+          <p>Chaque formation dure 2h, elle a lieu de préférence le matin. Elle est préparée à l'avance, et contient un exercice à réaliser, accompagné d'un document détaillant l'ensemble des tâches à faire.</p>
+          Les formateurs font l'exercice en projetant le code et en expliquant ce qu'ils font pendant 30 minutes (mode Kata). Ensuite on refait l'exercice en mode Randori par binome, chacun tient le clavier pendant 10 minutes. Le document sert de support.</p>
+          Le temps qui reste permet le débrief / prefection game et de choisir le prochain sujet ainsi que ceux qui prépareront la formation.</p>
+          <p>          En parallèle nous livrons les contenus des sprints (1 sprint = 1 semaine), et nous faisons des sessions de Mob Programming&colon; 6 développeurs, 1 clavier, 1 PO occasionnellement. Le but est que chacun code, le clavier change de main toutes les 15/20 minutes.</p>
+          <p>          Nous présenterons durant notre session les résultats obtenus sur le projet. Nous ferons également une démonstration avec les participants volontaires présents.
   - hour: 12
     content:
       - subject: Outils et pratiques pour mieux travailler ensemble
         speaker: Aurélien Morvant
+        description: A travers un certain nombre d'ateliers type, venez découvrir des pratiques collaboratives. Après une introduction sur la posture du facilitateur, les participants seront invités à choisir un premier type d'atelier parmi ceux proposés&colon; un lancement de projet, un bilan de projet, un atelier de résolution de problème par la créativité, un atelier de cohésion d'équipe, une réunion d'entité. Je proposerai alors pour le déroulé sélectionné un certain nombre de pratiques collaboratives. Un second atelier pourra être sélectionné.
+           </p><p>
+           Le pourquoi de votre session&colon; Pendant plusieurs mois, j'ai impulsé avec mon équipe un certain nombre de pratiques collaboratives au sein d'un grand groupe qui ont permis de créer le terreau d'une transition agile qui a réussie.
+           </p><p>
+           Les pratiques collaboratives apportent du sens aux équipes, aux organisations et constituent un pont incroyable pour évoluer vers l'agilité.
       - subject: Délivrer le bon produit avec le Lean Product Management
         speaker: Sébastien Sacard
+        description:
+          Le Lean Product Management est une méthode issue de 15 ans de pratiques de conceptions et management de produits innovants, dans des startups agiles internationales et des entreprises plus traditionnelles.
+          </p><p>
+          Le Lean Product Management est la synthèse entre le Product Management (pilotage des équipes par Produits plutôt que par Projets) et les principes du Lean Thinking (pilotage par la valeur perçue par le client final, fluidification du flux de conception, production et amélioration continue, tendre vers la production de services à la demande plutôt que la planification).
       - subject: Initiation au prétotyping
         speaker: Elalami Lafkih
+        description: Ce n'est pas une erreur de typo, mais il s'agit bien de prEtotyping – une démarche d'innovation qui consiste à répondre à une question basique mais souvent oubliée &colon; comment s'assurer que nous sommes en train de développer le bon Produit AVANT d'investir du temps, de l'argent et des efforts ? Si au cours de votre carrière, vous avez passé des weekends et des nuits entières, ou bien vous avez dépensé beaucoup d'argent dans le développement des Produits, qu'une fois mis sur le marché, ont connu un flop total, alors le Prétotyping est la session To Be.
+           </p><p>
+           Le plus grand défi de l'innovation ne réside pas dans la collecte de nouvelles idées de produits ou services. Mais, de savoir laquelle de ces idées est la plus susceptible de rencontrer un succès sur le marché – "le bon produit". Le Prétotyping peut vous aider à tester vos idées rapidement, à moindre coût et d'une manière objective. En d'autre terme, identifier le plus tôt possible si votre idée de produit est la "bonne". L'innovation n’est pas un processus top-down piloté par une poignée de personnes en charge de l’innovation au sein d’une entreprise, mais une démarche bottom-up où chaque personne peut y contribuer. Le Prétotyping démocratise et démystifie l’innovation par l’adoption d’une culture d’expérimentation et privilégie l’échec rapide et à moindre coût.
       - subject: Programmation concurrente
         speaker: Pascal van Cauwenberghe
       - subject: The Marshmallow Challenge
         speaker: Pierre-Emmanuel Dautreppe, Norman Deschauwer
+        description: Des spaghettis, un marshmallow et 18 minutes intenses !
+           </p><p>
+           Venez vous mesurer à un challenge auquel plusieurs millier de personnes ont déjà participé.
+           </p><p>
+           Le Marshmallow Challenge est un exercice de design, particulièrement amusant et instructif, qui permet aux équipes de retirer des leçons simples, mais primordiales, dans les domaines de la collaboration, de l'innovation et de la créativité.
   - hour: 13
     content:
       - subject: Déjeuner
@@ -59,34 +119,77 @@
     content:
       - subject: 20 X sur le métier
         speaker: Christophe Thibaut
+        description: Aujourd’hui c’est à la mode, tout le monde est Agile. Mais qu’est-ce qu’être Agile au fond? C’est bien sûr privilégier la communication directe et la collaboration, embrasser le changement, rechercher la simplicité.. C’est aussi cultiver l’excellence technique, sans laquelle l’Agile devient Fragile. Or, pour cultiver l’excellence – et mieux répondre aux enjeux et contraintes du client – il faut apprendre. Apprendre quoi ? Ce que les écoles (d’ingénieurs ou autres) n’enseignent pas &colon; il faut apprendre son métier de développeur. C’est ici que l’effet de mode s’arrête et que l’on retrouve les vieilles habitudes. On apprend très lentement, au travail, et les leçons, si tant est que l’on soit au rendez-vous pour les recevoir, sont cher payées. On n’est pas là pour apprendre, d’ailleurs, mais pour produire.
+                     </p><p>Et pourtant, où et quand pourrait-on apprendre à développer ailleurs qu’au tra- vail ? Pas à l’école. Pas dans sa chambre. Mais sur son projet, en équipe, tous les jours. Pourquoi est-ce difficile ? Ce n’est pas l’information qui manque. (Connaissez vous une seule pratique de développement qui ne serait pas décrite sur internet ?) C’est plutôt que dans le monde du travail les modèles mentaux – pour ne pas dire les clichés – ont la vie dure &colon; spécialisation, performance individuelle, processus… L’informatique c’est l’usine !
+                     </p><p>Le fait que nos projets, Agiles ou pas, se terminent tous invariablement « à l’arrache », et ne nous permettent donc pas de prendre le temps de progresser dans notre art, constitue sans doute l’ironie la plus remarquable de cette « industrie ». C’est l’histoire du développeur qui n’a « pas le temps d’écrire des tests, avec tous ces bugs à corriger ! ».
+                     </p><p>Apprendre à progresser de manière continue en équipe, c’est à la fois simple et difficile. Simple, car il existe des pratiques élémentaires reconnues, et ce depuis qu’il existe des équipes de développeurs. Elles sont faciles à mettre en oeuvre. Il suffit de le décider. Difficile &colon; il faut le décider. Et pour cela il faut changer les modèles, car ces pratiques mettent l’accent non sur le process, les tâches, les rôles, mais sur le feedback, sur la diffusion du savoir-faire, sur la culture du savoir-être. Adieu, « l’usine logicielle » !
+                     </p><p>Dans cette session, je tenterai de lancer quelques balises sur la voie de l’excellence, en vous parlant du métier de développeur tel que je l’observe depuis deux décennies.
+                     </p><p>PS &colon; Cette keynote est garantie sans recette miracle. Les termes tels que « scalabilité », « digitalisation », « innovation disruptive », « serious games », et « Toyota Way » en ont été soigneusement extirpés.
       - subject: The Lean Agile mindset
         speaker: Yves Hanoulle
+        description: In this session I will talk about the agile & lean mindset.
+                     </p><p>
+                     What are all the contradictionary idea's that makes it so hard to have an agile mindset.
       - subject: Et un carpaccio ! Un !
         speaker: Derbier Gery
         duration: 2
+        description: Exercice de 120 minutes dont le but est de montrer (1) aux "clients" comment découper les besoins métier aussi finement que nécessaire pour tenir dans n'importe quelle taille d'itération ou de sprint, (2) aux développeurs comment les meilleurs développeurs travaillent aujourd’hui en décomposant leur effort en de très nombreux épisodes courts produisant du code entièrement fonctionnel, testé, visible par l'utilisateur final. 
       - subject: Coding Dojo
         speaker: Jean-Laurent de Morlhon
         duration: 2
+        description: L'Axa Web Center de Lille, anime un coding dojo bi-mensuel. Nous vous proposons d'animer une session. Vous pourrez vous entrainer à programmer avec un exercice choisit pour l'occasion. Et rencontrer les animateurs du dojo afin qu'ils vous aident à monter votre propre dojo dans votre société.
         extra: <i class="fa fa-warning"></i> Venir avec de quoi développer et lancer des tests unitaires
       - subject: Jouons sérieusement
         speaker: Nelson Duffosé, Aurélien Morvant
+        description: Les jeux prennent une part de plus en plus prépondérante dans l'accompagnement d'équipes ainsi que dans la formation aux méthodes et principes agiles.
+           </p><p>
+           Nous vous proposons dans cette session de tout réaliser via des jeux sérieux et innovants !
+           </p><p>
+           De votre présentation à la sélection des jeux en passant par votre participation, tout, tout, tout, vous saurez tout sur les jeux agiles. Et même votre sortie de la session sera conditionnée à la pratique d'un serious game.
         duration: 2
   - hour: 16
     content:
       - subject: Inception agile
         speaker: Jérémie Hattat
+        description: La transition agile est une histoire propre à chaque contexte. C'est cette phase ingrate ou les pièces de l'échiquier se déplacent dans l'ombre pour arriver au coup final qui permet le premier mouvement du changement. Je vous propose dans ce retour d'expérience d'évoquer plus d'une année dans la société Eurotunnel, pour aboutir au cadrage d'un projet officiellement agile.
       - subject: Les dix buzzwords du Hipster Agile - 20minutes
         speaker: Christopher Parola
+        description: Depuis ces douze derniers mois, trop de buzzwords utilisés à contre sens à la machine à café défrisent nos moustaches de Hipsters Agiles.
+                     </p><p>
+                     On les a toutes entendues &colon;
+                     </p><p>
+                     "On est hyper agile, on sait monter une VM en deux jours"<br/>
+                     "On est agile depuis longtemps, mais on n'appelait pas ça comme ça"<br/>
+                     "Mon MVP, c'est la somme de mes MMF de l'itération zéro"<br/>
+                     "L'agile dans un grand groupe ? Facile, il suffit de faire des Feature Teams"<br/>
+                     </p><p>
+                     Toute cette jargonite peut vous aider à briller en société, mais employés à mauvais escient, ils peuvent être à l'origine de contre sens désastreux pour les projets.
+                     </p><p>
+                     Nous essaierons en toute humilité – mais non sans prétention – de ré expliquer l'origine de ces notions en s'appuyant sur des sources historiques et concrètes.
+                     </p><p>
+                     Pour chacune de ces explications, nous nous attacherons à les étayer d'exemples pour rétablir la vérité à la machine à café.
   - hour: 17
     content:
       - subject: Etes-vous prêts pour le modèle Spotify?
         speaker: Renaud Chevalier
+        description: Depuis la publication de Kniberg en 2012, le modèle Spotify est devenu "LE" modèle organisationnel en feature teams à la mode. Toutes les compétences réunies dans une même équipe pour réaliser un besoin fonctionnel de bout en bout. Ca fait rêver! Mais concrètement, comment l’implémenter? Suite à plusieurs transformations d'envergures, nous avons identifié les 10 questions indispensables à se poser avant de se lancer &colon; stratégie, gestion de produit, organisation, test, devops et communication.</p><p>Vous voulez savoir si vous êtes prêts pour le modèle Spotify? Venez vous évaluer dans ma session!
       - subject: "Projets Agiles : Arrêtez les dérives !"
         speaker: Alexandre Siguier, Cyrille Deruel
+        description: En 2014, l'Agilité est mainstream, tous les projets sont Agiles (ou presque tous), les rituels sont là (démo, rétro, planning game & co), le management visuel est visible de tous… Néanmoins les résultats ne sont pas là; les utilisateurs ne sont pas satisfaits, les développeurs sont démotivés et les DSI commencent à regretter leur choix.
+                     </p><p>
+                     A travers l'analyse d'une dizaine de projets sur une période de 2 ans, je vous proposerais les origines de ces dérives mais surtout les drivers qui permettent aux clients, développeurs et DSI de connaitre la température de leur projet et la cause générique de ces échecs."
       - subject: Sujet
         speaker: Erik Talboom
       - subject: Le Lean Startup au service du Product Owner
         speaker: Jérôme Guenver
+        description:
+          Cette atelier qui a déjà été réalisé au ScrumDay 2014 (jour 1 ET jour 2) sera structuré comme ceci &colon;
+          <ul>
+          <li>Introduction (5')
+          <li>Atelier sur le Lean Canvas (45')
+          <li>Atelier sur le Validation Board (45')
+          <li>Debrief (15')
+          </ul>
       - subject: Retour d'expérience sur une startup agile
         speaker: Sarah Mortel
   - hour: 18

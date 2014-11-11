@@ -5,15 +5,15 @@ visible: 0
 permalink: /conferences/
 ---
 
-<div class="container">
+<div class="container talks">
     {% for part in site.data.schedule %}
     {% for slot in part %}
     <div id="slot-{{slot.hour }}" class="conference-slot">
         <div class="slot row">
             {% for talk in slot.content %}{% if talk.hide-on-home != 1 %}
             {% if talk.speaker %}
+            <a name="{{ talk.subject }}"></a>
             <div class="talk">
-                    <a name="{{ talk.subject }}"></a>
                     <h2>{{ talk.subject }}</h2>
                     <div class="speakers">
                         {% if talk.image %}
@@ -38,6 +38,9 @@ permalink: /conferences/
                         </span>
                     </div>
                     <p class="description">{{ talk.description }}</p>
+                    {% if talk.extra %}
+                    <p class="extra">{{ talk.extra }}</p>
+                    {% endif %}
             </div>
             {% endif %}
             {% endif %}{% endfor %}
