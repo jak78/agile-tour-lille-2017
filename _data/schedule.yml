@@ -92,7 +92,10 @@
            </p><p>
            Le plus grand défi de l'innovation ne réside pas dans la collecte de nouvelles idées de produits ou services. Mais, de savoir laquelle de ces idées est la plus susceptible de rencontrer un succès sur le marché – "le bon produit". Le Prétotyping peut vous aider à tester vos idées rapidement, à moindre coût et d'une manière objective. En d'autre terme, identifier le plus tôt possible si votre idée de produit est la "bonne". L'innovation n’est pas un processus top-down piloté par une poignée de personnes en charge de l’innovation au sein d’une entreprise, mais une démarche bottom-up où chaque personne peut y contribuer. Le Prétotyping démocratise et démystifie l’innovation par l’adoption d’une culture d’expérimentation et privilégie l’échec rapide et à moindre coût.
       - subject: Programmation concurrente
-        speaker: Pascal van Cauwenberghe
+        speaker: Pascal van Cauwenberghe, Thien Que Nguyen
+        description: Vous pensez qu'écrire des programmes concurrents est trop dur pour le commun des mortels? Vous croyez qu'on ne peut pas y appliquer le Test Driven Design (TDD)? Vous avez peur que ça ne soit pas amusant?
+            </p><p>Pas nous!
+            <p>Venez jouer avec nous pour découvrir une autre façon de construire des systèmes concurrents et parallelèles. Aucune connaissance de programmation requise, ni des ordinateurs car... dans ce jeu c'est vous l'ordinateur! Nous allons vous "programmer" pour collaborer sur la solution d'un puzzle.
       - subject: The Marshmallow Challenge
         speaker: Pierre-Emmanuel Dautreppe, Norman Deschauwer
         description: Des spaghettis, un marshmallow et 18 minutes intenses !
