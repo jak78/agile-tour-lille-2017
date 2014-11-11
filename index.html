@@ -39,7 +39,7 @@ layout: default
                         {% endif %}
                     {% endif %}
                     <div>
-                        <span class="subject"><a href="{{ "/programme/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a></span>
+                        <span class="subject"><a href="{{ "/conferences/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a></span>
                         {% if talk.speaker %}
                             <span class="speaker">par
                                 {% for speaker in speakers %}

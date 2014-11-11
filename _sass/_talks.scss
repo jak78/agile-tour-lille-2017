@@ -1,0 +1,25 @@
+.conference-slot .talk {
+  clear: both;
+  padding-top: 50px;
+  .info {
+    background: #eee;
+    padding: 4px 6px;
+    font-style: italic;
+  }
+  .description {
+    margin-top: 5px;
+  }
+  .speakers {
+    float: left;
+    img {
+      display: block;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      max-width: 120px;
+      max-heights: 120px;
+    }
+  }
+}

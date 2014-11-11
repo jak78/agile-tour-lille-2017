@@ -1,0 +1,47 @@
+---
+layout: default
+title: Conferences
+visible: 0
+permalink: /conferences/
+---
+
+<div class="container">
+    {% for part in site.data.schedule %}
+    {% for slot in part %}
+    <div id="slot-{{slot.hour }}" class="conference-slot">
+        <div class="slot row">
+            {% for talk in slot.content %}{% if talk.hide-on-home != 1 %}
+            {% if talk.speaker %}
+            <div class="talk">
+                    <a name="{{ talk.subject }}"></a>
+                    <h2>{{ talk.subject }}</h2>
+                    <div class="speakers">
+                        {% if talk.image %}
+                        <img src="{{talk.image| prepend: "/img/" | prepend: site.baseurl}}" alt="{{talk.subject}}" width="80" height="80"/>
+                        {% else %}
+                        {% if talk.speaker %}
+                        {% assign speakers = talk.speaker | split: ", " %}
+                        {% for speaker in site.data.speakers %}{% if talk.speaker contains speaker.name %}
+                        <a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker.name | uri_escape }}">
+                        <img src="{{speaker.photo| prepend: "/img/speakers/" | prepend: site.baseurl}}" alt="{{speaker.name}}" width="80" height="80"/>
+                        </a>
+                        {% endif %}{% endfor %}
+                        {% endif %}
+                        {% endif %}
+                    </div>
+                    {% if talk.speaker %}
+                    <div>
+                        <span class="info">
+                            <span class="speaker">par
+                                {% for speaker in speakers %}
+                                <a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}</span>{% endif %}<span class="room">{% if talk.room %}, {{ talk.room }}{%else%}, {{ site.data.rooms[forloop.index0] }}{% endif %} à {{slot.hour }}h15</span>
+                        </span>
+                    </div>
+                    <p class="description">{{ talk.description }}</p>
+            </div>
+            {% endif %}
+            {% endif %}{% endfor %}
+    </div>
+    {% endfor %}
+    {% endfor %}
+</div>
