@@ -3,7 +3,7 @@
   bio:
     Olivier est responsable du centre de compétence Web Opensource chez Infrabel
     où il encadre une équipe de 15 développeurs. Utilisateur d'Open Source depuis plus de 15 ans,
-    il vient de cofonder [catchy.io](http://catchy.io), une solution SaaS de monitoring temps
+    il vient de cofonder <a href="http://catchy.io">catchy.io</a>, une solution SaaS de monitoring temps
     réel des erreurs et des performances.
 - name: Julien Jakubowski
   photo: julien_jakubowski.jpg
@@ -37,3 +37,8 @@
   photo: jeremie_hattat.png
   bio:
     Agiliste dans l’âme, Jérémie accompagne des équipes dans l‘adoption de méthodes et de pratiques agiles sans dogmatisme. Il aime utiliser le jeu pour créer la prise de conscience et générer l’engouement et la curiosité. Dans cet esprit, il contribue à la communauté agile de la région Lilloise en organisant ou en animant des événements tels que l’Agile Tour Lille, Scrumbeer, Code Retreat, PO Dojo.
+- name: Sarah Mortel
+  bio: Coach agile chez EFIDEV depuis 2 ans et demi et Product Owner depuis 4 mois pour le projet Taïkoon, je suis convaincue qu’il est possible d’être plus efficace dans la conduite de projets &colon;
+       En bon agilitateur je suis à l’écoute des utilisateurs, je cherche à tester le produit le plus rapidement possible et je n’oublie pas de me remettre en question une fois de temps en temps.
+       Plus qu’un métier.. Un état d’esprit !
+  photo: sarah_mortel.jpg

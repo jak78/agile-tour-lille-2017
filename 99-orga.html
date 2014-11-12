@@ -5,16 +5,21 @@ permalink: /organisateurs/
 ---
 
 <div class="container">
-<div class="row speakers">
     {% assign speakers = site.data.orga | sort:"name" %}
     {% for speaker in speakers %}
+    {% assign loopindex = forloop.index0 | modulo: 2 %}
+    {% if loopindex == 0 %}
+    <div class="row speakers">
+    {% endif %}
     <div class="col-md-6 speaker">
         <img src="{{ speaker.photo | prepend: "/img/orga/" | prepend: site.baseurl }}" alt="{{speaker.name}}"/>
         <a name="{{ speaker.name }}"></a>
         <h2>{{ speaker.name }}</h2>
-        <p>{{ speaker.bio | markdownify }}</p>
+        <p>{{ speaker.bio }}</p>
     </div>
-    </li>
+    {% if loopindex == 1 %}
+    </div>
+    {% endif %}
     {% endfor %}
 </div>
 </div>
