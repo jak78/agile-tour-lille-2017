@@ -137,6 +137,7 @@
         speaker: Derbier Gery
         duration: 2
         description: Exercice de 120 minutes dont le but est de montrer (1) aux "clients" comment découper les besoins métier aussi finement que nécessaire pour tenir dans n'importe quelle taille d'itération ou de sprint, (2) aux développeurs comment les meilleurs développeurs travaillent aujourd’hui en décomposant leur effort en de très nombreux épisodes courts produisant du code entièrement fonctionnel, testé, visible par l'utilisateur final.
+        extra: <i class="fa fa-warning"></i> Venir avec de quoi développer
       - subject: Coding Dojo
         speaker: Jean-Laurent de Morlhon
         duration: 2
