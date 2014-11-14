@@ -156,22 +156,16 @@
         description: In this session I will talk about the agile & lean mindset.
                      </p><p>
                      What are all the contradictionary idea's that makes it so hard to have an agile mindset.
-      - subject: Les dix buzzwords du Hipster Agile - 20minutes
-        speaker: Christopher Parola
-        description: Depuis ces douze derniers mois, trop de buzzwords utilisés à contre sens à la machine à café défrisent nos moustaches de Hipsters Agiles.
-                     </p><p>
-                     On les a toutes entendues &colon;
-                     </p><p>
-                     "On est hyper agile, on sait monter une VM en deux jours"<br/>
-                     "On est agile depuis longtemps, mais on n'appelait pas ça comme ça"<br/>
-                     "Mon MVP, c'est la somme de mes MMF de l'itération zéro"<br/>
-                     "L'agile dans un grand groupe ? Facile, il suffit de faire des Feature Teams"<br/>
-                     </p><p>
-                     Toute cette jargonite peut vous aider à briller en société, mais employés à mauvais escient, ils peuvent être à l'origine de contre sens désastreux pour les projets.
-                     </p><p>
-                     Nous essaierons en toute humilité – mais non sans prétention – de ré expliquer l'origine de ces notions en s'appuyant sur des sources historiques et concrètes.
-                     </p><p>
-                     Pour chacune de ces explications, nous nous attacherons à les étayer d'exemples pour rétablir la vérité à la machine à café.
+      - subject: Retour d'expérience sur une startup agile
+        speaker: Sarah Mortel
+        description:Je suis coach agile chez EFIDEV depuis plus de 2 ans et je viens partager mon expérience de Product Owner de Taïkoon, assistant des TPE/PME pour le pilotage financier de leur activité &colon;
+          <ul>
+          <li>Comment mélanger Lean start up et agilité  ?
+          <li>Comment fait-on pour tester son produit quand on est éditeur de logiciel ?
+          <li>Comment a-t-on organiser notre espace ?
+          <li>Quelles sont les difficultés que nous rencontrons ?
+          <li>Quelles solutions avons-nous imaginées ?
+          </ul>
   - hour: 17
     content:
       - subject: Sujet
@@ -193,17 +187,6 @@
           <li>Atelier sur le Lean Canvas (45')
           <li>Atelier sur le Validation Board (45')
           <li>Debrief (15')
-          </ul>
-      - subject: Retour d'expérience sur une startup agile
-        speaker: Sarah Mortel
-        description:
-          Je suis coach agile chez EFIDEV depuis plus de 2 ans et je viens partager mon expérience de Product Owner de Taïkoon, assistant des TPE/PME pour le pilotage financier de leur activité &colon;
-          <ul>
-          <li>Comment mélanger Lean start up et agilité  ?
-          <li>Comment fait-on pour tester son produit quand on est éditeur de logiciel ?
-          <li>Comment a-t-on organiser notre espace ?
-          <li>Quelles sont les difficultés que nous rencontrons ?
-          <li>Quelles solutions avons-nous imaginées ?
           </ul>
   - hour: 18
     content:
