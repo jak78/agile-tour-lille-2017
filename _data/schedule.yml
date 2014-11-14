@@ -8,15 +8,15 @@
         highlight: 1
   - hour: 10
     content:
-      - subject: La fin de middle management
-        speaker: Kevin Maccioni
-        description: L'agilité a le vent en poupe aux seins des sociétés de services, et nombreuses sont celles qui ont tentées une transformation pour approcher un modèle culturel et organisationnel correspondant plus à leur attentes. Mais trop nombreux sont encore les chefs de projets laissés sur le côté et qui ne trouvent plus leur place face à des équipes pluridisciplinaires, autonomes et responsabilisées. Est-ce que le middle management est amené à disparaître? Ou doit-il changer son périmètre et son type d'action ? Du manager décisionnaire au servant leader, le processus de prise de conscience face au changement semble inévitable pour la survie du middle management !
-      - subject: "Les Aventures d'Alice : la Révolte des Tests"
-        speaker: Ly-Jia Goldstein
-        description: Alice rêve de tests à ajouter dans son application quand elle aperçoit le Lapin blanc soucieux de qualité. Partie à sa poursuite, elle se trouve propulsée dans un monde ressemblant étrangement à son code, et commence à faire apparaître de nombreux tests unitaires. Pourtant, le Lapin blanc est encore insatisfait ; lesdits tests se rebellent, deviennent incontrôlables et ne veulent plus vérifier ce qu'elle veut. Comment Alice va-t-elle réussir à reprendre la main sur les tests et les faire fonctionner correctement ?</p><p>À travers les aventures d'Alice, je vais vous présenter les pièges courants du testing qui découragent souvent les débutants, mais également les bonnes pratiques et des outils pour obtenir des tests fonctionnels et efficaces.
       - subject: Je suis agile... mais suis-je créatif ?
         speaker: Cédric Pourbaix
         description: Dans cette session, je vais proposer de nous interroger sur les liens entre créativité et agilité.</p><p>L'agilité peut-elle s'entendre avec la créativité ? Doit-on laisser de la place à la créativité ? Qui doit-être créatif ? Un projet IT peut-il être créatif ? Nous laisse-t-on être créatif ?
+      - subject: "Les Aventures d'Alice : la Révolte des Tests"
+        speaker: Ly-Jia Goldstein
+        description: Alice rêve de tests à ajouter dans son application quand elle aperçoit le Lapin blanc soucieux de qualité. Partie à sa poursuite, elle se trouve propulsée dans un monde ressemblant étrangement à son code, et commence à faire apparaître de nombreux tests unitaires. Pourtant, le Lapin blanc est encore insatisfait ; lesdits tests se rebellent, deviennent incontrôlables et ne veulent plus vérifier ce qu'elle veut. Comment Alice va-t-elle réussir à reprendre la main sur les tests et les faire fonctionner correctement ?</p><p>À travers les aventures d'Alice, je vais vous présenter les pièges courants du testing qui découragent souvent les débutants, mais également les bonnes pratiques et des outils pour obtenir des tests fonctionnels et efficaces.
+      - subject: La fin de middle management
+        speaker: Kevin Maccioni
+        description: L'agilité a le vent en poupe aux seins des sociétés de services, et nombreuses sont celles qui ont tentées une transformation pour approcher un modèle culturel et organisationnel correspondant plus à leur attentes. Mais trop nombreux sont encore les chefs de projets laissés sur le côté et qui ne trouvent plus leur place face à des équipes pluridisciplinaires, autonomes et responsabilisées. Est-ce que le middle management est amené à disparaître? Ou doit-il changer son périmètre et son type d'action ? Du manager décisionnaire au servant leader, le processus de prise de conscience face au changement semble inévitable pour la survie du middle management !
       - subject: Libérez vos idées et partez à la découverte de la facilitation graphique
         speaker: Romain Couturier
         description:
