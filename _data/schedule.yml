@@ -128,11 +128,10 @@
                      </p><p>Apprendre à progresser de manière continue en équipe, c’est à la fois simple et difficile. Simple, car il existe des pratiques élémentaires reconnues, et ce depuis qu’il existe des équipes de développeurs. Elles sont faciles à mettre en oeuvre. Il suffit de le décider. Difficile &colon; il faut le décider. Et pour cela il faut changer les modèles, car ces pratiques mettent l’accent non sur le process, les tâches, les rôles, mais sur le feedback, sur la diffusion du savoir-faire, sur la culture du savoir-être. Adieu, « l’usine logicielle » !
                      </p><p>Dans cette session, je tenterai de lancer quelques balises sur la voie de l’excellence, en vous parlant du métier de développeur tel que je l’observe depuis deux décennies.
                      </p><p>PS &colon; Cette keynote est garantie sans recette miracle. Les termes tels que « scalabilité », « digitalisation », « innovation disruptive », « serious games », et « Toyota Way » en ont été soigneusement extirpés.
-      - subject: The Lean Agile mindset
-        speaker: Yves Hanoulle
-        description: In this session I will talk about the agile & lean mindset.
-                     </p><p>
-                     What are all the contradictionary idea's that makes it so hard to have an agile mindset.
+      - subject: Inception agile
+        speaker: Jérémie Hattat
+        description:  Cette sesion est un retour d'expérience de la "vraie vie" dans un "vrai contexte" sur l'inception agile. L'inception est cette phase ou une énergie est déployée pour faire comprendre, adhérer, et faire en sorte que les gens puissent "sauter le pas" et tenter quelques "expériences agiles". Le retour est cru, sans bisousnours, on évoquera les choses qui ont marché, les loupés, les difficultés et les désillusions. Cette présentation permet d'identifier des pistes d'expérimentation, et replace le contexte de coaching. Elle évitera peut-être à certains les écueils que j'ai pu rencontrer. A noter, cette session s'adresse aux personnes initiées, par exemple, nous parlerons de certains outils (story mapping, impact mapping, ...) sans en rappeler la définition.
+        extra: <i class="fa fa-warning"></i> Cette présentation s'adresse a un public averti.
       - subject: Et un carpaccio ! Un !
         speaker: Derbier Gery
         duration: 2
@@ -153,10 +152,11 @@
         duration: 2
   - hour: 16
     content:
-      - subject: Inception agile
-        speaker: Jérémie Hattat
-        description:  Cette sesion est un retour d'expérience de la "vraie vie" dans un "vrai contexte" sur l'inception agile. L'inception est cette phase ou une énergie est déployée pour faire comprendre, adhérer, et faire en sorte que les gens puissent "sauter le pas" et tenter quelques "expériences agiles". Le retour est cru, sans bisousnours, on évoquera les choses qui ont marché, les loupés, les difficultés et les désillusions. Cette présentation permet d'identifier des pistes d'expérimentation, et replace le contexte de coaching. Elle évitera peut-être à certains les écueils que j'ai pu rencontrer. A noter, cette session s'adresse aux personnes initiées, par exemple, nous parlerons de certains outils (story mapping, impact mapping, ...) sans en rappeler la définition.
-        extra: <i class="fa fa-warning"></i> Cette présentation s'adresse a un public averti.
+      - subject: The Lean Agile mindset
+        speaker: Yves Hanoulle
+        description: In this session I will talk about the agile & lean mindset.
+                     </p><p>
+                     What are all the contradictionary idea's that makes it so hard to have an agile mindset.
       - subject: Les dix buzzwords du Hipster Agile - 20minutes
         speaker: Christopher Parola
         description: Depuis ces douze derniers mois, trop de buzzwords utilisés à contre sens à la machine à café défrisent nos moustaches de Hipsters Agiles.
