@@ -175,16 +175,16 @@
                      Pour chacune de ces explications, nous nous attacherons à les étayer d'exemples pour rétablir la vérité à la machine à café.
   - hour: 17
     content:
-      - subject: Etes-vous prêts pour le modèle Spotify?
-        speaker: Renaud Chevalier
-        description: Depuis la publication de Kniberg en 2012, le modèle Spotify est devenu "LE" modèle organisationnel en feature teams à la mode. Toutes les compétences réunies dans une même équipe pour réaliser un besoin fonctionnel de bout en bout. Ca fait rêver! Mais concrètement, comment l’implémenter? Suite à plusieurs transformations d'envergures, nous avons identifié les 10 questions indispensables à se poser avant de se lancer &colon; stratégie, gestion de produit, organisation, test, devops et communication.</p><p>Vous voulez savoir si vous êtes prêts pour le modèle Spotify? Venez vous évaluer dans ma session!
+      - subject: Sujet
+        speaker: Erik Talboom
       - subject: "Projets Agiles : Arrêtez les dérives !"
         speaker: Alexandre Siguier, Cyrille Deruel
         description: En 2014, l'Agilité est mainstream, tous les projets sont Agiles (ou presque tous), les rituels sont là (démo, rétro, planning game & co), le management visuel est visible de tous… Néanmoins les résultats ne sont pas là; les utilisateurs ne sont pas satisfaits, les développeurs sont démotivés et les DSI commencent à regretter leur choix.
                      </p><p>
                      A travers l'analyse d'une dizaine de projets sur une période de 2 ans, je vous proposerais les origines de ces dérives mais surtout les drivers qui permettent aux clients, développeurs et DSI de connaitre la température de leur projet et la cause générique de ces échecs."
-      - subject: Sujet
-        speaker: Erik Talboom
+      - subject: Etes-vous prêts pour le modèle Spotify?
+        speaker: Renaud Chevalier
+        description: Depuis la publication de Kniberg en 2012, le modèle Spotify est devenu "LE" modèle organisationnel en feature teams à la mode. Toutes les compétences réunies dans une même équipe pour réaliser un besoin fonctionnel de bout en bout. Ca fait rêver! Mais concrètement, comment l’implémenter? Suite à plusieurs transformations d'envergures, nous avons identifié les 10 questions indispensables à se poser avant de se lancer &colon; stratégie, gestion de produit, organisation, test, devops et communication.</p><p>Vous voulez savoir si vous êtes prêts pour le modèle Spotify? Venez vous évaluer dans ma session!
       - subject: Le Lean Startup au service du Product Owner
         speaker: Jérôme Guenver
         description:
