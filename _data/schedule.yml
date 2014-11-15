@@ -119,14 +119,11 @@
         highlight: 1
   - hour: 15
     content:
-      - subject: 20 X sur le métier
-        speaker: Christophe Thibaut
-        description: Aujourd’hui c’est à la mode, tout le monde est Agile. Mais qu’est-ce qu’être Agile au fond? C’est bien sûr privilégier la communication directe et la collaboration, embrasser le changement, rechercher la simplicité.. C’est aussi cultiver l’excellence technique, sans laquelle l’Agile devient Fragile. Or, pour cultiver l’excellence – et mieux répondre aux enjeux et contraintes du client – il faut apprendre. Apprendre quoi ? Ce que les écoles (d’ingénieurs ou autres) n’enseignent pas &colon; il faut apprendre son métier de développeur. C’est ici que l’effet de mode s’arrête et que l’on retrouve les vieilles habitudes. On apprend très lentement, au travail, et les leçons, si tant est que l’on soit au rendez-vous pour les recevoir, sont cher payées. On n’est pas là pour apprendre, d’ailleurs, mais pour produire.
-                     </p><p>Et pourtant, où et quand pourrait-on apprendre à développer ailleurs qu’au tra- vail ? Pas à l’école. Pas dans sa chambre. Mais sur son projet, en équipe, tous les jours. Pourquoi est-ce difficile ? Ce n’est pas l’information qui manque. (Connaissez vous une seule pratique de développement qui ne serait pas décrite sur internet ?) C’est plutôt que dans le monde du travail les modèles mentaux – pour ne pas dire les clichés – ont la vie dure &colon; spécialisation, performance individuelle, processus… L’informatique c’est l’usine !
-                     </p><p>Le fait que nos projets, Agiles ou pas, se terminent tous invariablement « à l’arrache », et ne nous permettent donc pas de prendre le temps de progresser dans notre art, constitue sans doute l’ironie la plus remarquable de cette « industrie ». C’est l’histoire du développeur qui n’a « pas le temps d’écrire des tests, avec tous ces bugs à corriger ! ».
-                     </p><p>Apprendre à progresser de manière continue en équipe, c’est à la fois simple et difficile. Simple, car il existe des pratiques élémentaires reconnues, et ce depuis qu’il existe des équipes de développeurs. Elles sont faciles à mettre en oeuvre. Il suffit de le décider. Difficile &colon; il faut le décider. Et pour cela il faut changer les modèles, car ces pratiques mettent l’accent non sur le process, les tâches, les rôles, mais sur le feedback, sur la diffusion du savoir-faire, sur la culture du savoir-être. Adieu, « l’usine logicielle » !
-                     </p><p>Dans cette session, je tenterai de lancer quelques balises sur la voie de l’excellence, en vous parlant du métier de développeur tel que je l’observe depuis deux décennies.
-                     </p><p>PS &colon; Cette keynote est garantie sans recette miracle. Les termes tels que « scalabilité », « digitalisation », « innovation disruptive », « serious games », et « Toyota Way » en ont été soigneusement extirpés.
+      - subject: The Lean Agile mindset
+        speaker: Yves Hanoulle
+        description: In this session I will talk about the agile & lean mindset.
+                     </p><p>
+                     What are all the contradictionary idea's that makes it so hard to have an agile mindset.
       - subject: Inception agile
         speaker: Jérémie Hattat
         description:  Cette sesion est un retour d'expérience de la "vraie vie" dans un "vrai contexte" sur l'inception agile. L'inception est cette phase ou une énergie est déployée pour faire comprendre, adhérer, et faire en sorte que les gens puissent "sauter le pas" et tenter quelques "expériences agiles". Le retour est cru, sans bisousnours, on évoquera les choses qui ont marché, les loupés, les difficultés et les désillusions. Cette présentation permet d'identifier des pistes d'expérimentation, et replace le contexte de coaching. Elle évitera peut-être à certains les écueils que j'ai pu rencontrer. A noter, cette session s'adresse aux personnes initiées, par exemple, nous parlerons de certains outils (story mapping, impact mapping, ...) sans en rappeler la définition.
@@ -151,11 +148,14 @@
         duration: 2
   - hour: 16
     content:
-      - subject: The Lean Agile mindset
-        speaker: Yves Hanoulle
-        description: In this session I will talk about the agile & lean mindset.
-                     </p><p>
-                     What are all the contradictionary idea's that makes it so hard to have an agile mindset.
+      - subject: 20 X sur le métier
+        speaker: Christophe Thibaut
+        description: Aujourd’hui c’est à la mode, tout le monde est Agile. Mais qu’est-ce qu’être Agile au fond? C’est bien sûr privilégier la communication directe et la collaboration, embrasser le changement, rechercher la simplicité.. C’est aussi cultiver l’excellence technique, sans laquelle l’Agile devient Fragile. Or, pour cultiver l’excellence – et mieux répondre aux enjeux et contraintes du client – il faut apprendre. Apprendre quoi ? Ce que les écoles (d’ingénieurs ou autres) n’enseignent pas &colon; il faut apprendre son métier de développeur. C’est ici que l’effet de mode s’arrête et que l’on retrouve les vieilles habitudes. On apprend très lentement, au travail, et les leçons, si tant est que l’on soit au rendez-vous pour les recevoir, sont cher payées. On n’est pas là pour apprendre, d’ailleurs, mais pour produire.
+                     </p><p>Et pourtant, où et quand pourrait-on apprendre à développer ailleurs qu’au tra- vail ? Pas à l’école. Pas dans sa chambre. Mais sur son projet, en équipe, tous les jours. Pourquoi est-ce difficile ? Ce n’est pas l’information qui manque. (Connaissez vous une seule pratique de développement qui ne serait pas décrite sur internet ?) C’est plutôt que dans le monde du travail les modèles mentaux – pour ne pas dire les clichés – ont la vie dure &colon; spécialisation, performance individuelle, processus… L’informatique c’est l’usine !
+                     </p><p>Le fait que nos projets, Agiles ou pas, se terminent tous invariablement « à l’arrache », et ne nous permettent donc pas de prendre le temps de progresser dans notre art, constitue sans doute l’ironie la plus remarquable de cette « industrie ». C’est l’histoire du développeur qui n’a « pas le temps d’écrire des tests, avec tous ces bugs à corriger ! ».
+                     </p><p>Apprendre à progresser de manière continue en équipe, c’est à la fois simple et difficile. Simple, car il existe des pratiques élémentaires reconnues, et ce depuis qu’il existe des équipes de développeurs. Elles sont faciles à mettre en oeuvre. Il suffit de le décider. Difficile &colon; il faut le décider. Et pour cela il faut changer les modèles, car ces pratiques mettent l’accent non sur le process, les tâches, les rôles, mais sur le feedback, sur la diffusion du savoir-faire, sur la culture du savoir-être. Adieu, « l’usine logicielle » !
+                     </p><p>Dans cette session, je tenterai de lancer quelques balises sur la voie de l’excellence, en vous parlant du métier de développeur tel que je l’observe depuis deux décennies.
+                     </p><p>PS &colon; Cette keynote est garantie sans recette miracle. Les termes tels que « scalabilité », « digitalisation », « innovation disruptive », « serious games », et « Toyota Way » en ont été soigneusement extirpés.
       - subject: Retour d'expérience sur une startup agile
         speaker: Sarah Mortel
         description: Je suis coach agile chez EFIDEV depuis plus de 2 ans et je viens partager mon expérience de Product Owner de Taïkoon, assistant des TPE/PME pour le pilotage financier de leur activité &colon;
