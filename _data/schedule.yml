@@ -50,15 +50,11 @@
         description:
           Vous avez tous essuyé des déboires en essayant d’agiliser une entreprise. Ces échecs et difficultés sont surtout l’occasion d’apprendre. Mais si vous deviez faire échouer l’agilité, quelles seraient vos idées? Et si vous étiez dans la peau d’un empêcheur d’agiliser en rond, comment agiriez-vous? Et si vous étiez menés par un processus valorisant en priorité le plan, le contrat, la documentation et les outils, quelle stratégie pourriez-vous adopter?
           </p><p>Un "grand méchant" de l'agilité, vous entraîne, au travers de ce retour d’expérience fictif, à contre-pied de l’adoption agile. Découvrez, ou redécouvrez, les pièges freinant l’amélioration et l'émergence d’un esprit agile en entreprise. Découvrez aussi quelques pistes pour les déjouer, au travers des difficultés que peut avoir ce personnage à annihiler l'agilité.
-      - subject: Intégration des équipes de tests dans un projet Kanban
-        speaker: Vincent Dugarin, Marie Vaganay
-        description: En 2013, AXA France Services décide de faire évoluer sa méthode projet agile de Scrum vers Kanban. A cette occasion les équipes de qualification voient s’enrichir leurs rôles au sein des équipes projets &colon;
-                     <ul>
-                     <li>Intervention en amont des développements (rédaction de BDDs)
-                     <li>Co-localisation avec les développeurs (Pair Testing)
-                     <li>Evolution des outils de travail (QC/TFS, premiers pas vers DEVOPS)
-                     </ul>
-                     Quelles difficultés avons-nous rencontrées, quels bénéfices en avons-nous tirés, quels retours des POs, des développeurs, de nos clients internes … et des testeurs.
+      - subject: Délivrer le bon produit avec le Lean Product Management
+        speaker: Sébastien Sacard
+        description:
+          Le Lean Product Management est une méthode issue de 15 ans de pratiques de conceptions et management de produits innovants, dans des startups agiles internationales et des entreprises plus traditionnelles.
+          </p><p>Le Lean Product Management est la synthèse entre le Product Management (pilotage des équipes par Produits plutôt que par Projets) et les principes du Lean Thinking (pilotage par la valeur perçue par le client final, fluidification du flux de conception, production et amélioration continue, tendre vers la production de services à la demande plutôt que la planification).
       - subject: Expérimentation Mob Programming en entreprise
         speaker: Guillaume Nurdin, Bernard Notarianni
         description:
@@ -80,12 +76,15 @@
            Le pourquoi de votre session&colon; Pendant plusieurs mois, j'ai impulsé avec mon équipe un certain nombre de pratiques collaboratives au sein d'un grand groupe qui ont permis de créer le terreau d'une transition agile qui a réussie.
            </p><p>
            Les pratiques collaboratives apportent du sens aux équipes, aux organisations et constituent un pont incroyable pour évoluer vers l'agilité.
-      - subject: Délivrer le bon produit avec le Lean Product Management
-        speaker: Sébastien Sacard
-        description:
-          Le Lean Product Management est une méthode issue de 15 ans de pratiques de conceptions et management de produits innovants, dans des startups agiles internationales et des entreprises plus traditionnelles.
-          </p><p>
-          Le Lean Product Management est la synthèse entre le Product Management (pilotage des équipes par Produits plutôt que par Projets) et les principes du Lean Thinking (pilotage par la valeur perçue par le client final, fluidification du flux de conception, production et amélioration continue, tendre vers la production de services à la demande plutôt que la planification).
+      - subject: Intégration des équipes de tests dans un projet Kanban
+        speaker: Vincent Dugarin, Marie Vaganay
+        description: En 2013, AXA France Services décide de faire évoluer sa méthode projet agile de Scrum vers Kanban. A cette occasion les équipes de qualification voient s’enrichir leurs rôles au sein des équipes projets &colon;
+               <ul>
+               <li>Intervention en amont des développements (rédaction de BDDs)
+               <li>Co-localisation avec les développeurs (Pair Testing)
+               <li>Evolution des outils de travail (QC/TFS, premiers pas vers DEVOPS)
+               </ul>
+               Quelles difficultés avons-nous rencontrées, quels bénéfices en avons-nous tirés, quels retours des POs, des développeurs, de nos clients internes … et des testeurs.
       - subject: Initiation au prétotyping
         speaker: Elalami Lafkih
         description: Ce n'est pas une erreur de typo, mais il s'agit bien de prEtotyping – une démarche d'innovation qui consiste à répondre à une question basique mais souvent oubliée &colon; comment s'assurer que nous sommes en train de développer le bon Produit AVANT d'investir du temps, de l'argent et des efforts ? Si au cours de votre carrière, vous avez passé des weekends et des nuits entières, ou bien vous avez dépensé beaucoup d'argent dans le développement des Produits, qu'une fois mis sur le marché, ont connu un flop total, alors le Prétotyping est la session To Be.
@@ -157,22 +156,16 @@
         description: In this session I will talk about the agile & lean mindset.
                      </p><p>
                      What are all the contradictionary idea's that makes it so hard to have an agile mindset.
-      - subject: Les dix buzzwords du Hipster Agile - 20minutes
-        speaker: Christopher Parola
-        description: Depuis ces douze derniers mois, trop de buzzwords utilisés à contre sens à la machine à café défrisent nos moustaches de Hipsters Agiles.
-                     </p><p>
-                     On les a toutes entendues &colon;
-                     </p><p>
-                     "On est hyper agile, on sait monter une VM en deux jours"<br/>
-                     "On est agile depuis longtemps, mais on n'appelait pas ça comme ça"<br/>
-                     "Mon MVP, c'est la somme de mes MMF de l'itération zéro"<br/>
-                     "L'agile dans un grand groupe ? Facile, il suffit de faire des Feature Teams"<br/>
-                     </p><p>
-                     Toute cette jargonite peut vous aider à briller en société, mais employés à mauvais escient, ils peuvent être à l'origine de contre sens désastreux pour les projets.
-                     </p><p>
-                     Nous essaierons en toute humilité – mais non sans prétention – de ré expliquer l'origine de ces notions en s'appuyant sur des sources historiques et concrètes.
-                     </p><p>
-                     Pour chacune de ces explications, nous nous attacherons à les étayer d'exemples pour rétablir la vérité à la machine à café.
+      - subject: Retour d'expérience sur une startup agile
+        speaker: Sarah Mortel
+        description: Je suis coach agile chez EFIDEV depuis plus de 2 ans et je viens partager mon expérience de Product Owner de Taïkoon, assistant des TPE/PME pour le pilotage financier de leur activité &colon;
+          <ul>
+          <li>Comment mélanger Lean start up et agilité  ?
+          <li>Comment fait-on pour tester son produit quand on est éditeur de logiciel ?
+          <li>Comment a-t-on organiser notre espace ?
+          <li>Quelles sont les difficultés que nous rencontrons ?
+          <li>Quelles solutions avons-nous imaginées ?
+          </ul>
   - hour: 17
     content:
       - subject: Sujet
@@ -194,17 +187,6 @@
           <li>Atelier sur le Lean Canvas (45')
           <li>Atelier sur le Validation Board (45')
           <li>Debrief (15')
-          </ul>
-      - subject: Retour d'expérience sur une startup agile
-        speaker: Sarah Mortel
-        description:
-          Je suis coach agile chez EFIDEV depuis plus de 2 ans et je viens partager mon expérience de Product Owner de Taïkoon, assistant des TPE/PME pour le pilotage financier de leur activité &colon;
-          <ul>
-          <li>Comment mélanger Lean start up et agilité  ?
-          <li>Comment fait-on pour tester son produit quand on est éditeur de logiciel ?
-          <li>Comment a-t-on organiser notre espace ?
-          <li>Quelles sont les difficultés que nous rencontrons ?
-          <li>Quelles solutions avons-nous imaginées ?
           </ul>
   - hour: 18
     content:
