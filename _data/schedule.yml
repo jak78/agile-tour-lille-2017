@@ -1,8 +1,10 @@
 -
   - hour: 9
     content:
-      - subject: Keynote
+      - subject: Keynote The Busy Bee paradox
         speaker: Hakan Forss
+        description: Don’t we all think that we get more done if we stay busy? We feel good and efficient. We may even get a pat on the back or even a promotion.
+          But is this good for the company? Is it good for our customers? Are we really optimizing for the whole or are we just keeping ourselves busy?
         fill: 5
         room: Auditorium
         highlight: 1
@@ -112,7 +114,7 @@
 -
   - hour: 14
     content:
-      - subject: Keynote
+      - subject: Keynote No Estimate !
         speaker: Henri Karhatsu
         room: Auditorium
         fill: 5
@@ -124,10 +126,16 @@
         description: In this session I will talk about the agile & lean mindset.
                      </p><p>
                      What are all the contradictionary idea's that makes it so hard to have an agile mindset.
-      - subject: Inception agile
-        speaker: Jérémie Hattat
-        description:  Cette sesion est un retour d'expérience de la "vraie vie" dans un "vrai contexte" sur l'inception agile. L'inception est cette phase ou une énergie est déployée pour faire comprendre, adhérer, et faire en sorte que les gens puissent "sauter le pas" et tenter quelques "expériences agiles". Le retour est cru, sans bisousnours, on évoquera les choses qui ont marché, les loupés, les difficultés et les désillusions. Cette présentation permet d'identifier des pistes d'expérimentation, et replace le contexte de coaching. Elle évitera peut-être à certains les écueils que j'ai pu rencontrer. A noter, cette session s'adresse aux personnes initiées, par exemple, nous parlerons de certains outils (story mapping, impact mapping, ...) sans en rappeler la définition.
-        extra: <i class="fa fa-warning"></i> Cette présentation s'adresse a un public averti.
+      - subject: Retour d'expérience sur une startup agile
+        speaker: Sarah Mortel
+        description: Je suis coach agile chez EFIDEV depuis plus de 2 ans et je viens partager mon expérience de Product Owner de Taïkoon, assistant des TPE/PME pour le pilotage financier de leur activité &colon;
+          <ul>
+          <li>Comment mélanger Lean start up et agilité  ?
+          <li>Comment fait-on pour tester son produit quand on est éditeur de logiciel ?
+          <li>Comment a-t-on organiser notre espace ?
+          <li>Quelles sont les difficultés que nous rencontrons ?
+          <li>Quelles solutions avons-nous imaginées ?
+          </ul>
       - subject: Et un carpaccio ! Un !
         speaker: Derbier Gery
         duration: 2
@@ -156,20 +164,12 @@
                      </p><p>Apprendre à progresser de manière continue en équipe, c’est à la fois simple et difficile. Simple, car il existe des pratiques élémentaires reconnues, et ce depuis qu’il existe des équipes de développeurs. Elles sont faciles à mettre en oeuvre. Il suffit de le décider. Difficile &colon; il faut le décider. Et pour cela il faut changer les modèles, car ces pratiques mettent l’accent non sur le process, les tâches, les rôles, mais sur le feedback, sur la diffusion du savoir-faire, sur la culture du savoir-être. Adieu, « l’usine logicielle » !
                      </p><p>Dans cette session, je tenterai de lancer quelques balises sur la voie de l’excellence, en vous parlant du métier de développeur tel que je l’observe depuis deux décennies.
                      </p><p>PS &colon; Cette keynote est garantie sans recette miracle. Les termes tels que « scalabilité », « digitalisation », « innovation disruptive », « serious games », et « Toyota Way » en ont été soigneusement extirpés.
-      - subject: Retour d'expérience sur une startup agile
-        speaker: Sarah Mortel
-        description: Je suis coach agile chez EFIDEV depuis plus de 2 ans et je viens partager mon expérience de Product Owner de Taïkoon, assistant des TPE/PME pour le pilotage financier de leur activité &colon;
-          <ul>
-          <li>Comment mélanger Lean start up et agilité  ?
-          <li>Comment fait-on pour tester son produit quand on est éditeur de logiciel ?
-          <li>Comment a-t-on organiser notre espace ?
-          <li>Quelles sont les difficultés que nous rencontrons ?
-          <li>Quelles solutions avons-nous imaginées ?
-          </ul>
+      - subject: Inception agile
+        speaker: Jérémie Hattat
+        description:  Cette sesion est un retour d'expérience de la "vraie vie" dans un "vrai contexte" sur l'inception agile. L'inception est cette phase ou une énergie est déployée pour faire comprendre, adhérer, et faire en sorte que les gens puissent "sauter le pas" et tenter quelques "expériences agiles". Le retour est cru, sans bisousnours, on évoquera les choses qui ont marché, les loupés, les difficultés et les désillusions. Cette présentation permet d'identifier des pistes d'expérimentation, et replace le contexte de coaching. Elle évitera peut-être à certains les écueils que j'ai pu rencontrer. A noter, cette session s'adresse aux personnes initiées, par exemple, nous parlerons de certains outils (story mapping, impact mapping, ...) sans en rappeler la définition.
+        extra: <i class="fa fa-warning"></i> Cette présentation s'adresse a un public averti.
   - hour: 17
     content:
-      - subject: Sujet
-        speaker: Erik Talboom
       - subject: "Projets Agiles : Arrêtez les dérives !"
         speaker: Alexandre Siguier, Cyrille Deruel
         description: En 2014, l'Agilité est mainstream, tous les projets sont Agiles (ou presque tous), les rituels sont là (démo, rétro, planning game & co), le management visuel est visible de tous… Néanmoins les résultats ne sont pas là; les utilisateurs ne sont pas satisfaits, les développeurs sont démotivés et les DSI commencent à regretter leur choix.
@@ -188,6 +188,11 @@
           <li>Atelier sur le Validation Board (45')
           <li>Debrief (15')
           </ul>
+      - subject: Split up the problem - let's build a poker API
+        speaker: Erik Talboom
+        description:
+          During this hands-on workshop each pair will develop part of the domain of poker. They will be responsible for part of the code that is needed. Every pair can choose their own technology and or programming language. This is a deliberate practice workshop, designed with several learning objectives in mind which we will retrospect on at the end of the session. Please make sure you have a laptop with your favourite programming environment ( including testing framework ) set up. Let's work this shop ;-)
+        extra: <i class="fa fa-warning"></i> Venir avec de quoi développer et lancer des tests unitaires
   - hour: 18
     content:
       - subject: Pot
