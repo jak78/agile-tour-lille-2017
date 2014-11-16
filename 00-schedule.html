@@ -18,7 +18,7 @@ permalink: /programme/
         </tr>
         {% endif %}
         <tr class="{% cycle '', 'alt' %}">
-            <th class="hour">{{ slot.hour }}h15</th>
+            <th class="hour">{{ slot.hour }}</th>
             {% for talk in slot.content %}
             <td{% if talk.duration %} rowspan="2"{% endif %}{% if talk.fill %} colspan="{{ talk.fill }}"{% endif %} {% if talk.highlight %} class="highlight{% endif %}">
                 {% if talk.room %}

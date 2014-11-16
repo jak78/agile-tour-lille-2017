@@ -1,12 +1,24 @@
 -
-  - hour: 9
+  - hour: 8h30
     content:
-      - subject: Keynote
+      - subject: Café / Accueil
+        fill: 5
+        room: Atrium
+  - hour: 8h50
+    content:
+      - subject: Lancement conférence et pitch des sessions matin
+        fill: 5
+        room: Auditorium
+  - hour: 9h15
+    content:
+      - subject: Keynote The Busy Bee paradox
         speaker: Hakan Forss
+        description: Don’t we all think that we get more done if we stay busy? We feel good and efficient. We may even get a pat on the back or even a promotion.
+          But is this good for the company? Is it good for our customers? Are we really optimizing for the whole or are we just keeping ourselves busy?
         fill: 5
         room: Auditorium
         highlight: 1
-  - hour: 10
+  - hour: 10h15
     content:
       - subject: Je suis agile... mais suis-je créatif ?
         speaker: Cédric Pourbaix
@@ -17,33 +29,32 @@
       - subject: La fin de middle management
         speaker: Kevin Maccioni
         description: L'agilité a le vent en poupe aux seins des sociétés de services, et nombreuses sont celles qui ont tentées une transformation pour approcher un modèle culturel et organisationnel correspondant plus à leur attentes. Mais trop nombreux sont encore les chefs de projets laissés sur le côté et qui ne trouvent plus leur place face à des équipes pluridisciplinaires, autonomes et responsabilisées. Est-ce que le middle management est amené à disparaître? Ou doit-il changer son périmètre et son type d'action ? Du manager décisionnaire au servant leader, le processus de prise de conscience face au changement semble inévitable pour la survie du middle management !
+      - subject: Et un carpaccio ! Un !
+        speaker: Derbier Gery
+        description: Exercice de 120 minutes dont le but est de montrer (1) aux "clients" comment découper les besoins métier aussi finement que nécessaire pour tenir dans n'importe quelle taille d'itération ou de sprint, (2) aux développeurs comment les meilleurs développeurs travaillent aujourd’hui en décomposant leur effort en de très nombreux épisodes courts produisant du code entièrement fonctionnel, testé, visible par l'utilisateur final.
+        extra: <i class="fa fa-warning"></i> Venir avec de quoi développer
+        duration: 2
       - subject: Libérez vos idées et partez à la découverte de la facilitation graphique
         speaker: Romain Couturier
         description:
-           Vous devez animer une réunion avec votre(vos) client(s), votre équipe et/ou vos collègues que faites-vous ?
-           <ol>
-           <li>Vous présentez vos idées à partir d’un PowerPoint au risque que tout le monde ne vous écoute pas
-           <li>Vous donnez un paquet de Post-It à chacun et animez une séance de brainstorming avec le risque que trop d’idées se dégagent
-           <li>Vous organisez un jeu d’Innovation, c’est ludique, c’est fun mais certains auraient préféré une bonne réunion descendante (voir réponse 1)
-           <li>Vous restez silencieux, à l’écoute et illustrer la complexité des idées exprimées à la seule force de votre crayon
-           </ol>
-           Je vous propose de découvrir cette 4ème option &colon; la facilitation graphique. Vous ne savez pas dessiner ? C’est possible mais vous avez d’autres qualités innées qui feront de vous un bon « architecte visuels des idées »
-           </p><p>
-           Pendant cet atelier pratique, vous
-           <ul>
-           <li>Serez initié aux techniques de base de la facilitation graphique des interactions de groupe,
-           <li>Apprendrez comment capturer visuellement l’information et établir des connexions simples,
-           <li>Découvrirez pourquoi la facilitation graphique apporte une dynamique interactive et innovante dans les réunions,
-           <li>Amènerez votre assistance à libérer ses idées et à les ancrer dans les esprits de tous
-           </ul>
+             Vous devez animer une réunion avec votre(vos) client(s), votre équipe et/ou vos collègues que faites-vous ?
+             <ol>
+             <li>Vous présentez vos idées à partir d’un PowerPoint au risque que tout le monde ne vous écoute pas
+             <li>Vous donnez un paquet de Post-It à chacun et animez une séance de brainstorming avec le risque que trop d’idées se dégagent
+             <li>Vous organisez un jeu d’Innovation, c’est ludique, c’est fun mais certains auraient préféré une bonne réunion descendante (voir réponse 1)
+             <li>Vous restez silencieux, à l’écoute et illustrer la complexité des idées exprimées à la seule force de votre crayon
+             </ol>
+             Je vous propose de découvrir cette 4ème option &colon; la facilitation graphique. Vous ne savez pas dessiner ? C’est possible mais vous avez d’autres qualités innées qui feront de vous un bon « architecte visuels des idées »
+             </p><p>
+             Pendant cet atelier pratique, vous
+             <ul>
+             <li>Serez initié aux techniques de base de la facilitation graphique des interactions de groupe,
+             <li>Apprendrez comment capturer visuellement l’information et établir des connexions simples,
+             <li>Découvrirez pourquoi la facilitation graphique apporte une dynamique interactive et innovante dans les réunions,
+             <li>Amènerez votre assistance à libérer ses idées et à les ancrer dans les esprits de tous
+             </ul>
         duration: 2
-      - subject: Management 3.0 what's next
-        speaker: Laurent Sarrazin
-        description:
-          Jurgen Appelo, avec son modèle MANAGEMENT 3.0, nous a apporté de solides bases en matière de management agile. Pendant ce temps, le monde continue à bouger et révèle des formes de leadership qui nous ouvrent des voies pour aller encore plus loin &colon; l'exemple de Chronoflex (Aleandre GERARD), le management libérateur (Isaac GETZ), le Host Leadership (Mark Mc KERGOW), voire les bonnes astuces d'un commandant de sous-marin de la Navy &colon; David MARQUET.
-          </p><p>Dans cet atelier, nous vous proposons de découvrir et surtout savourer quelques uns de ces ingrédients du leadership du 21ème siècle … véritables exhausteurs pour le management agile de vos activités. Vous verrez par vous-même s'ils sont à consommer avec modération ou pas...
-        duration: 2
-  - hour: 11
+  - hour: 11h15
     content:
       - subject: La régression continue – Une méthode pour bien faire rater l'adoption agile en entreprise
         speaker: Bastien Gallay
@@ -67,7 +78,7 @@
           Le temps qui reste permet le débrief / prefection game et de choisir le prochain sujet ainsi que ceux qui prépareront la formation.</p>
           <p>          En parallèle nous livrons les contenus des sprints (1 sprint = 1 semaine), et nous faisons des sessions de Mob Programming&colon; 6 développeurs, 1 clavier, 1 PO occasionnellement. Le but est que chacun code, le clavier change de main toutes les 15/20 minutes.</p>
           <p>          Nous présenterons durant notre session les résultats obtenus sur le projet. Nous ferons également une démonstration avec les participants volontaires présents.
-  - hour: 12
+  - hour: 12h15
     content:
       - subject: Outils et pratiques pour mieux travailler ensemble
         speaker: Aurélien Morvant
@@ -85,16 +96,16 @@
                <li>Evolution des outils de travail (QC/TFS, premiers pas vers DEVOPS)
                </ul>
                Quelles difficultés avons-nous rencontrées, quels bénéfices en avons-nous tirés, quels retours des POs, des développeurs, de nos clients internes … et des testeurs.
-      - subject: Initiation au prétotyping
-        speaker: Elalami Lafkih
-        description: Ce n'est pas une erreur de typo, mais il s'agit bien de prEtotyping – une démarche d'innovation qui consiste à répondre à une question basique mais souvent oubliée &colon; comment s'assurer que nous sommes en train de développer le bon Produit AVANT d'investir du temps, de l'argent et des efforts ? Si au cours de votre carrière, vous avez passé des weekends et des nuits entières, ou bien vous avez dépensé beaucoup d'argent dans le développement des Produits, qu'une fois mis sur le marché, ont connu un flop total, alors le Prétotyping est la session To Be.
-           </p><p>
-           Le plus grand défi de l'innovation ne réside pas dans la collecte de nouvelles idées de produits ou services. Mais, de savoir laquelle de ces idées est la plus susceptible de rencontrer un succès sur le marché – "le bon produit". Le Prétotyping peut vous aider à tester vos idées rapidement, à moindre coût et d'une manière objective. En d'autre terme, identifier le plus tôt possible si votre idée de produit est la "bonne". L'innovation n’est pas un processus top-down piloté par une poignée de personnes en charge de l’innovation au sein d’une entreprise, mais une démarche bottom-up où chaque personne peut y contribuer. Le Prétotyping démocratise et démystifie l’innovation par l’adoption d’une culture d’expérimentation et privilégie l’échec rapide et à moindre coût.
+      - subject: Management 3.0 what's next
+        speaker: Laurent Sarrazin, Derbier Gery
+        description:
+          Jurgen Appelo, avec son modèle MANAGEMENT 3.0, nous a apporté de solides bases en matière de management agile. Pendant ce temps, le monde continue à bouger et révèle des formes de leadership qui nous ouvrent des voies pour aller encore plus loin &colon; l'exemple de Chronoflex (Aleandre GERARD), le management libérateur (Isaac GETZ), le Host Leadership (Mark Mc KERGOW), voire les bonnes astuces d'un commandant de sous-marin de la Navy &colon; David MARQUET.
+          </p><p>Dans cet atelier, nous vous proposons de découvrir et surtout savourer quelques uns de ces ingrédients du leadership du 21ème siècle … véritables exhausteurs pour le management agile de vos activités. Vous verrez par vous-même s'ils sont à consommer avec modération ou pas...
       - subject: Programmation concurrente
         speaker: Pascal van Cauwenberghe, Thien Que Nguyen
         description: Vous pensez qu'écrire des programmes concurrents est trop dur pour le commun des mortels? Vous croyez qu'on ne peut pas y appliquer le Test Driven Design (TDD)? Vous avez peur que ça ne soit pas amusant?
-            </p><p>Pas nous!
-            <p>Venez jouer avec nous pour découvrir une autre façon de construire des systèmes concurrents et parallelèles. Aucune connaissance de programmation requise, ni des ordinateurs car... dans ce jeu c'est vous l'ordinateur! Nous allons vous "programmer" pour collaborer sur la solution d'un puzzle.
+          </p><p>Pas nous!
+          <p>Venez jouer avec nous pour découvrir une autre façon de construire des systèmes concurrents et parallelèles. Aucune connaissance de programmation requise, ni des ordinateurs car... dans ce jeu c'est vous l'ordinateur! Nous allons vous "programmer" pour collaborer sur la solution d'un puzzle.
       - subject: The Marshmallow Challenge
         speaker: Pierre-Emmanuel Dautreppe, Norman Deschauwer
         description: Des spaghettis, un marshmallow et 18 minutes intenses !
@@ -102,37 +113,46 @@
            Venez vous mesurer à un challenge auquel plusieurs millier de personnes ont déjà participé.
            </p><p>
            Le Marshmallow Challenge est un exercice de design, particulièrement amusant et instructif, qui permet aux équipes de retirer des leçons simples, mais primordiales, dans les domaines de la collaboration, de l'innovation et de la créativité.
-  - hour: 13
+  - hour: 13h15
     content:
       - subject: Déjeuner
         room: Atrium
         image: 6494564331_ef123e70d5_q_d.jpg
         fill: 5
-        highlight: 1
--
-  - hour: 14
+  - hour: 14h00
     content:
-      - subject: Keynote
+    - subject: Pitch Sessions
+      room: Auditorium
+      fill: 5
+  - hour: 14h15
+    content:
+      - subject: Keynote No Estimate !
         speaker: Henri Karhatsu
         room: Auditorium
         fill: 5
         highlight: 1
-  - hour: 15
+  - hour: 15h15
     content:
       - subject: The Lean Agile mindset
         speaker: Yves Hanoulle
         description: In this session I will talk about the agile & lean mindset.
                      </p><p>
                      What are all the contradictionary idea's that makes it so hard to have an agile mindset.
-      - subject: Inception agile
-        speaker: Jérémie Hattat
-        description:  Cette sesion est un retour d'expérience de la "vraie vie" dans un "vrai contexte" sur l'inception agile. L'inception est cette phase ou une énergie est déployée pour faire comprendre, adhérer, et faire en sorte que les gens puissent "sauter le pas" et tenter quelques "expériences agiles". Le retour est cru, sans bisousnours, on évoquera les choses qui ont marché, les loupés, les difficultés et les désillusions. Cette présentation permet d'identifier des pistes d'expérimentation, et replace le contexte de coaching. Elle évitera peut-être à certains les écueils que j'ai pu rencontrer. A noter, cette session s'adresse aux personnes initiées, par exemple, nous parlerons de certains outils (story mapping, impact mapping, ...) sans en rappeler la définition.
-        extra: <i class="fa fa-warning"></i> Cette présentation s'adresse a un public averti.
-      - subject: Et un carpaccio ! Un !
-        speaker: Derbier Gery
-        duration: 2
-        description: Exercice de 120 minutes dont le but est de montrer (1) aux "clients" comment découper les besoins métier aussi finement que nécessaire pour tenir dans n'importe quelle taille d'itération ou de sprint, (2) aux développeurs comment les meilleurs développeurs travaillent aujourd’hui en décomposant leur effort en de très nombreux épisodes courts produisant du code entièrement fonctionnel, testé, visible par l'utilisateur final.
-        extra: <i class="fa fa-warning"></i> Venir avec de quoi développer
+      - subject: Retour d'expérience sur une startup agile
+        speaker: Sarah Mortel
+        description: Je suis coach agile chez EFIDEV depuis plus de 2 ans et je viens partager mon expérience de Product Owner de Taïkoon, assistant des TPE/PME pour le pilotage financier de leur activité &colon;
+          <ul>
+          <li>Comment mélanger Lean start up et agilité  ?
+          <li>Comment fait-on pour tester son produit quand on est éditeur de logiciel ?
+          <li>Comment a-t-on organiser notre espace ?
+          <li>Quelles sont les difficultés que nous rencontrons ?
+          <li>Quelles solutions avons-nous imaginées ?
+          </ul>
+      - subject: Initiation au prétotyping
+        speaker: Elalami Lafkih
+        description: Ce n'est pas une erreur de typo, mais il s'agit bien de prEtotyping – une démarche d'innovation qui consiste à répondre à une question basique mais souvent oubliée &colon; comment s'assurer que nous sommes en train de développer le bon Produit AVANT d'investir du temps, de l'argent et des efforts ? Si au cours de votre carrière, vous avez passé des weekends et des nuits entières, ou bien vous avez dépensé beaucoup d'argent dans le développement des Produits, qu'une fois mis sur le marché, ont connu un flop total, alors le Prétotyping est la session To Be.
+          </p><p>
+          Le plus grand défi de l'innovation ne réside pas dans la collecte de nouvelles idées de produits ou services. Mais, de savoir laquelle de ces idées est la plus susceptible de rencontrer un succès sur le marché – "le bon produit". Le Prétotyping peut vous aider à tester vos idées rapidement, à moindre coût et d'une manière objective. En d'autre terme, identifier le plus tôt possible si votre idée de produit est la "bonne". L'innovation n’est pas un processus top-down piloté par une poignée de personnes en charge de l’innovation au sein d’une entreprise, mais une démarche bottom-up où chaque personne peut y contribuer. Le Prétotyping démocratise et démystifie l’innovation par l’adoption d’une culture d’expérimentation et privilégie l’échec rapide et à moindre coût.
       - subject: Coding Dojo
         speaker: Jean-Laurent de Morlhon
         duration: 2
@@ -146,7 +166,7 @@
            </p><p>
            De votre présentation à la sélection des jeux en passant par votre participation, tout, tout, tout, vous saurez tout sur les jeux agiles. Et même votre sortie de la session sera conditionnée à la pratique d'un serious game.
         duration: 2
-  - hour: 16
+  - hour: 16h15
     content:
       - subject: 20 X sur le métier
         speaker: Christophe Thibaut
@@ -156,20 +176,22 @@
                      </p><p>Apprendre à progresser de manière continue en équipe, c’est à la fois simple et difficile. Simple, car il existe des pratiques élémentaires reconnues, et ce depuis qu’il existe des équipes de développeurs. Elles sont faciles à mettre en oeuvre. Il suffit de le décider. Difficile &colon; il faut le décider. Et pour cela il faut changer les modèles, car ces pratiques mettent l’accent non sur le process, les tâches, les rôles, mais sur le feedback, sur la diffusion du savoir-faire, sur la culture du savoir-être. Adieu, « l’usine logicielle » !
                      </p><p>Dans cette session, je tenterai de lancer quelques balises sur la voie de l’excellence, en vous parlant du métier de développeur tel que je l’observe depuis deux décennies.
                      </p><p>PS &colon; Cette keynote est garantie sans recette miracle. Les termes tels que « scalabilité », « digitalisation », « innovation disruptive », « serious games », et « Toyota Way » en ont été soigneusement extirpés.
-      - subject: Retour d'expérience sur une startup agile
-        speaker: Sarah Mortel
-        description: Je suis coach agile chez EFIDEV depuis plus de 2 ans et je viens partager mon expérience de Product Owner de Taïkoon, assistant des TPE/PME pour le pilotage financier de leur activité &colon;
-          <ul>
-          <li>Comment mélanger Lean start up et agilité  ?
-          <li>Comment fait-on pour tester son produit quand on est éditeur de logiciel ?
-          <li>Comment a-t-on organiser notre espace ?
-          <li>Quelles sont les difficultés que nous rencontrons ?
-          <li>Quelles solutions avons-nous imaginées ?
-          </ul>
-  - hour: 17
+      - subject: Inception agile
+        speaker: Jérémie Hattat
+        description:  Cette sesion est un retour d'expérience de la "vraie vie" dans un "vrai contexte" sur l'inception agile. L'inception est cette phase ou une énergie est déployée pour faire comprendre, adhérer, et faire en sorte que les gens puissent "sauter le pas" et tenter quelques "expériences agiles". Le retour est cru, sans bisousnours, on évoquera les choses qui ont marché, les loupés, les difficultés et les désillusions. Cette présentation permet d'identifier des pistes d'expérimentation, et replace le contexte de coaching. Elle évitera peut-être à certains les écueils que j'ai pu rencontrer. A noter, cette session s'adresse aux personnes initiées, par exemple, nous parlerons de certains outils (story mapping, impact mapping, ...) sans en rappeler la définition.
+      - subject: Le Lean Startup au service du Product Owner
+        speaker: Jérôme Guenver
+        description:
+            Cet atelier qui a déjà été réalisé au ScrumDay 2014 (jour 1 ET jour 2) sera structuré comme ceci &colon;
+            <ul>
+            <li>Introduction (5')
+            <li>Atelier sur le Lean Canvas (45')
+            <li>Atelier sur le Validation Board (45')
+            <li>Debrief (15')
+            </ul>
+        duration: 2
+  - hour: 17h15
     content:
-      - subject: Sujet
-        speaker: Erik Talboom
       - subject: "Projets Agiles : Arrêtez les dérives !"
         speaker: Alexandre Siguier, Cyrille Deruel
         description: En 2014, l'Agilité est mainstream, tous les projets sont Agiles (ou presque tous), les rituels sont là (démo, rétro, planning game & co), le management visuel est visible de tous… Néanmoins les résultats ne sont pas là; les utilisateurs ne sont pas satisfaits, les développeurs sont démotivés et les DSI commencent à regretter leur choix.
@@ -178,19 +200,14 @@
       - subject: Etes-vous prêts pour le modèle Spotify?
         speaker: Renaud Chevalier
         description: Depuis la publication de Kniberg en 2012, le modèle Spotify est devenu "LE" modèle organisationnel en feature teams à la mode. Toutes les compétences réunies dans une même équipe pour réaliser un besoin fonctionnel de bout en bout. Ca fait rêver! Mais concrètement, comment l’implémenter? Suite à plusieurs transformations d'envergures, nous avons identifié les 10 questions indispensables à se poser avant de se lancer &colon; stratégie, gestion de produit, organisation, test, devops et communication.</p><p>Vous voulez savoir si vous êtes prêts pour le modèle Spotify? Venez vous évaluer dans ma session!
-      - subject: Le Lean Startup au service du Product Owner
-        speaker: Jérôme Guenver
+      - subject: Split up the problem - let's build a poker API
+        speaker: Erik Talboom
         description:
-          Cet atelier qui a déjà été réalisé au ScrumDay 2014 (jour 1 ET jour 2) sera structuré comme ceci &colon;
-          <ul>
-          <li>Introduction (5')
-          <li>Atelier sur le Lean Canvas (45')
-          <li>Atelier sur le Validation Board (45')
-          <li>Debrief (15')
-          </ul>
-  - hour: 18
+          During this hands-on workshop each pair will develop part of the domain of poker. They will be responsible for part of the code that is needed. Every pair can choose their own technology and or programming language. This is a deliberate practice workshop, designed with several learning objectives in mind which we will retrospect on at the end of the session. Please make sure you have a laptop with your favourite programming environment ( including testing framework ) set up. Let's work this shop ;-)
+        extra: <i class="fa fa-warning"></i> Venir avec de quoi développer et lancer des tests unitaires
+  - hour: 18h15
     content:
-      - subject: Pot
+      - subject: Echanges autour d'une bière
         image: 2818268935_5d06ed7b4a_m_d.jpg
         room: Atrium
         highlight: 1
