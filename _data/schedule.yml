@@ -19,31 +19,31 @@
       - subject: La fin de middle management
         speaker: Kevin Maccioni
         description: L'agilité a le vent en poupe aux seins des sociétés de services, et nombreuses sont celles qui ont tentées une transformation pour approcher un modèle culturel et organisationnel correspondant plus à leur attentes. Mais trop nombreux sont encore les chefs de projets laissés sur le côté et qui ne trouvent plus leur place face à des équipes pluridisciplinaires, autonomes et responsabilisées. Est-ce que le middle management est amené à disparaître? Ou doit-il changer son périmètre et son type d'action ? Du manager décisionnaire au servant leader, le processus de prise de conscience face au changement semble inévitable pour la survie du middle management !
-      - subject: Libérez vos idées et partez à la découverte de la facilitation graphique
-        speaker: Romain Couturier
-        description:
-           Vous devez animer une réunion avec votre(vos) client(s), votre équipe et/ou vos collègues que faites-vous ?
-           <ol>
-           <li>Vous présentez vos idées à partir d’un PowerPoint au risque que tout le monde ne vous écoute pas
-           <li>Vous donnez un paquet de Post-It à chacun et animez une séance de brainstorming avec le risque que trop d’idées se dégagent
-           <li>Vous organisez un jeu d’Innovation, c’est ludique, c’est fun mais certains auraient préféré une bonne réunion descendante (voir réponse 1)
-           <li>Vous restez silencieux, à l’écoute et illustrer la complexité des idées exprimées à la seule force de votre crayon
-           </ol>
-           Je vous propose de découvrir cette 4ème option &colon; la facilitation graphique. Vous ne savez pas dessiner ? C’est possible mais vous avez d’autres qualités innées qui feront de vous un bon « architecte visuels des idées »
-           </p><p>
-           Pendant cet atelier pratique, vous
-           <ul>
-           <li>Serez initié aux techniques de base de la facilitation graphique des interactions de groupe,
-           <li>Apprendrez comment capturer visuellement l’information et établir des connexions simples,
-           <li>Découvrirez pourquoi la facilitation graphique apporte une dynamique interactive et innovante dans les réunions,
-           <li>Amènerez votre assistance à libérer ses idées et à les ancrer dans les esprits de tous
-           </ul>
-        duration: 2
       - subject: Management 3.0 what's next
         speaker: Laurent Sarrazin
         description:
           Jurgen Appelo, avec son modèle MANAGEMENT 3.0, nous a apporté de solides bases en matière de management agile. Pendant ce temps, le monde continue à bouger et révèle des formes de leadership qui nous ouvrent des voies pour aller encore plus loin &colon; l'exemple de Chronoflex (Aleandre GERARD), le management libérateur (Isaac GETZ), le Host Leadership (Mark Mc KERGOW), voire les bonnes astuces d'un commandant de sous-marin de la Navy &colon; David MARQUET.
           </p><p>Dans cet atelier, nous vous proposons de découvrir et surtout savourer quelques uns de ces ingrédients du leadership du 21ème siècle … véritables exhausteurs pour le management agile de vos activités. Vous verrez par vous-même s'ils sont à consommer avec modération ou pas...
+        duration: 2
+      - subject: Libérez vos idées et partez à la découverte de la facilitation graphique
+        speaker: Romain Couturier
+        description:
+             Vous devez animer une réunion avec votre(vos) client(s), votre équipe et/ou vos collègues que faites-vous ?
+             <ol>
+             <li>Vous présentez vos idées à partir d’un PowerPoint au risque que tout le monde ne vous écoute pas
+             <li>Vous donnez un paquet de Post-It à chacun et animez une séance de brainstorming avec le risque que trop d’idées se dégagent
+             <li>Vous organisez un jeu d’Innovation, c’est ludique, c’est fun mais certains auraient préféré une bonne réunion descendante (voir réponse 1)
+             <li>Vous restez silencieux, à l’écoute et illustrer la complexité des idées exprimées à la seule force de votre crayon
+             </ol>
+             Je vous propose de découvrir cette 4ème option &colon; la facilitation graphique. Vous ne savez pas dessiner ? C’est possible mais vous avez d’autres qualités innées qui feront de vous un bon « architecte visuels des idées »
+             </p><p>
+             Pendant cet atelier pratique, vous
+             <ul>
+             <li>Serez initié aux techniques de base de la facilitation graphique des interactions de groupe,
+             <li>Apprendrez comment capturer visuellement l’information et établir des connexions simples,
+             <li>Découvrirez pourquoi la facilitation graphique apporte une dynamique interactive et innovante dans les réunions,
+             <li>Amènerez votre assistance à libérer ses idées et à les ancrer dans les esprits de tous
+             </ul>
         duration: 2
   - hour: 11
     content:
