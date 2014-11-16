@@ -1,5 +1,15 @@
 -
-  - hour: 9
+  - hour: 8h30
+    content:
+      - subject: Café / Accueil
+        fill: 5
+        room: Atrium
+  - hour: 8h50
+    content:
+      - subject: Lancement conférence et pitch des sessions matin
+        fill: 5
+        room: Auditorium
+  - hour: 9h15
     content:
       - subject: Keynote The Busy Bee paradox
         speaker: Hakan Forss
@@ -8,7 +18,7 @@
         fill: 5
         room: Auditorium
         highlight: 1
-  - hour: 10
+  - hour: 10h15
     content:
       - subject: Je suis agile... mais suis-je créatif ?
         speaker: Cédric Pourbaix
@@ -44,7 +54,7 @@
              <li>Amènerez votre assistance à libérer ses idées et à les ancrer dans les esprits de tous
              </ul>
         duration: 2
-  - hour: 11
+  - hour: 11h15
     content:
       - subject: La régression continue – Une méthode pour bien faire rater l'adoption agile en entreprise
         speaker: Bastien Gallay
@@ -68,7 +78,7 @@
           Le temps qui reste permet le débrief / prefection game et de choisir le prochain sujet ainsi que ceux qui prépareront la formation.</p>
           <p>          En parallèle nous livrons les contenus des sprints (1 sprint = 1 semaine), et nous faisons des sessions de Mob Programming&colon; 6 développeurs, 1 clavier, 1 PO occasionnellement. Le but est que chacun code, le clavier change de main toutes les 15/20 minutes.</p>
           <p>          Nous présenterons durant notre session les résultats obtenus sur le projet. Nous ferons également une démonstration avec les participants volontaires présents.
-  - hour: 12
+  - hour: 12h15
     content:
       - subject: Outils et pratiques pour mieux travailler ensemble
         speaker: Aurélien Morvant
@@ -103,22 +113,25 @@
            Venez vous mesurer à un challenge auquel plusieurs millier de personnes ont déjà participé.
            </p><p>
            Le Marshmallow Challenge est un exercice de design, particulièrement amusant et instructif, qui permet aux équipes de retirer des leçons simples, mais primordiales, dans les domaines de la collaboration, de l'innovation et de la créativité.
-  - hour: 13
+  - hour: 13h15
     content:
       - subject: Déjeuner
         room: Atrium
         image: 6494564331_ef123e70d5_q_d.jpg
         fill: 5
-        highlight: 1
--
-  - hour: 14
+  - hour: 14h00
+    content:
+    - subject: Pitch Sessions
+      room: Auditorium
+      fill: 5
+  - hour: 14h15
     content:
       - subject: Keynote No Estimate !
         speaker: Henri Karhatsu
         room: Auditorium
         fill: 5
         highlight: 1
-  - hour: 15
+  - hour: 15h15
     content:
       - subject: The Lean Agile mindset
         speaker: Yves Hanoulle
@@ -153,7 +166,7 @@
            </p><p>
            De votre présentation à la sélection des jeux en passant par votre participation, tout, tout, tout, vous saurez tout sur les jeux agiles. Et même votre sortie de la session sera conditionnée à la pratique d'un serious game.
         duration: 2
-  - hour: 16
+  - hour: 16h15
     content:
       - subject: 20 X sur le métier
         speaker: Christophe Thibaut
@@ -177,7 +190,7 @@
             <li>Debrief (15')
             </ul>
         duration: 2
-  - hour: 17
+  - hour: 17h15
     content:
       - subject: "Projets Agiles : Arrêtez les dérives !"
         speaker: Alexandre Siguier, Cyrille Deruel
@@ -192,9 +205,9 @@
         description:
           During this hands-on workshop each pair will develop part of the domain of poker. They will be responsible for part of the code that is needed. Every pair can choose their own technology and or programming language. This is a deliberate practice workshop, designed with several learning objectives in mind which we will retrospect on at the end of the session. Please make sure you have a laptop with your favourite programming environment ( including testing framework ) set up. Let's work this shop ;-)
         extra: <i class="fa fa-warning"></i> Venir avec de quoi développer et lancer des tests unitaires
-  - hour: 18
+  - hour: 18h15
     content:
-      - subject: Pot
+      - subject: Echanges autour d'une bière
         image: 2818268935_5d06ed7b4a_m_d.jpg
         room: Atrium
         highlight: 1
