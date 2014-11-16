@@ -24,7 +24,6 @@
         description:
           Jurgen Appelo, avec son modèle MANAGEMENT 3.0, nous a apporté de solides bases en matière de management agile. Pendant ce temps, le monde continue à bouger et révèle des formes de leadership qui nous ouvrent des voies pour aller encore plus loin &colon; l'exemple de Chronoflex (Aleandre GERARD), le management libérateur (Isaac GETZ), le Host Leadership (Mark Mc KERGOW), voire les bonnes astuces d'un commandant de sous-marin de la Navy &colon; David MARQUET.
           </p><p>Dans cet atelier, nous vous proposons de découvrir et surtout savourer quelques uns de ces ingrédients du leadership du 21ème siècle … véritables exhausteurs pour le management agile de vos activités. Vous verrez par vous-même s'ils sont à consommer avec modération ou pas...
-        duration: 2
       - subject: Libérez vos idées et partez à la découverte de la facilitation graphique
         speaker: Romain Couturier
         description:
@@ -69,6 +68,11 @@
           Le temps qui reste permet le débrief / prefection game et de choisir le prochain sujet ainsi que ceux qui prépareront la formation.</p>
           <p>          En parallèle nous livrons les contenus des sprints (1 sprint = 1 semaine), et nous faisons des sessions de Mob Programming&colon; 6 développeurs, 1 clavier, 1 PO occasionnellement. Le but est que chacun code, le clavier change de main toutes les 15/20 minutes.</p>
           <p>          Nous présenterons durant notre session les résultats obtenus sur le projet. Nous ferons également une démonstration avec les participants volontaires présents.
+      - subject: Et un carpaccio ! Un !
+        speaker: Derbier Gery
+        description: Exercice de 120 minutes dont le but est de montrer (1) aux "clients" comment découper les besoins métier aussi finement que nécessaire pour tenir dans n'importe quelle taille d'itération ou de sprint, (2) aux développeurs comment les meilleurs développeurs travaillent aujourd’hui en décomposant leur effort en de très nombreux épisodes courts produisant du code entièrement fonctionnel, testé, visible par l'utilisateur final.
+        extra: <i class="fa fa-warning"></i> Venir avec de quoi développer
+        duration: 2
   - hour: 12
     content:
       - subject: Outils et pratiques pour mieux travailler ensemble
@@ -92,11 +96,6 @@
         description: Ce n'est pas une erreur de typo, mais il s'agit bien de prEtotyping – une démarche d'innovation qui consiste à répondre à une question basique mais souvent oubliée &colon; comment s'assurer que nous sommes en train de développer le bon Produit AVANT d'investir du temps, de l'argent et des efforts ? Si au cours de votre carrière, vous avez passé des weekends et des nuits entières, ou bien vous avez dépensé beaucoup d'argent dans le développement des Produits, qu'une fois mis sur le marché, ont connu un flop total, alors le Prétotyping est la session To Be.
            </p><p>
            Le plus grand défi de l'innovation ne réside pas dans la collecte de nouvelles idées de produits ou services. Mais, de savoir laquelle de ces idées est la plus susceptible de rencontrer un succès sur le marché – "le bon produit". Le Prétotyping peut vous aider à tester vos idées rapidement, à moindre coût et d'une manière objective. En d'autre terme, identifier le plus tôt possible si votre idée de produit est la "bonne". L'innovation n’est pas un processus top-down piloté par une poignée de personnes en charge de l’innovation au sein d’une entreprise, mais une démarche bottom-up où chaque personne peut y contribuer. Le Prétotyping démocratise et démystifie l’innovation par l’adoption d’une culture d’expérimentation et privilégie l’échec rapide et à moindre coût.
-      - subject: Programmation concurrente
-        speaker: Pascal van Cauwenberghe, Thien Que Nguyen
-        description: Vous pensez qu'écrire des programmes concurrents est trop dur pour le commun des mortels? Vous croyez qu'on ne peut pas y appliquer le Test Driven Design (TDD)? Vous avez peur que ça ne soit pas amusant?
-            </p><p>Pas nous!
-            <p>Venez jouer avec nous pour découvrir une autre façon de construire des systèmes concurrents et parallelèles. Aucune connaissance de programmation requise, ni des ordinateurs car... dans ce jeu c'est vous l'ordinateur! Nous allons vous "programmer" pour collaborer sur la solution d'un puzzle.
       - subject: The Marshmallow Challenge
         speaker: Pierre-Emmanuel Dautreppe, Norman Deschauwer
         description: Des spaghettis, un marshmallow et 18 minutes intenses !
@@ -136,11 +135,12 @@
           <li>Quelles sont les difficultés que nous rencontrons ?
           <li>Quelles solutions avons-nous imaginées ?
           </ul>
-      - subject: Et un carpaccio ! Un !
-        speaker: Derbier Gery
+      - subject: Programmation concurrente
+        speaker: Pascal van Cauwenberghe, Thien Que Nguyen
+        description: Vous pensez qu'écrire des programmes concurrents est trop dur pour le commun des mortels? Vous croyez qu'on ne peut pas y appliquer le Test Driven Design (TDD)? Vous avez peur que ça ne soit pas amusant?
+          </p><p>Pas nous!
+          <p>Venez jouer avec nous pour découvrir une autre façon de construire des systèmes concurrents et parallelèles. Aucune connaissance de programmation requise, ni des ordinateurs car... dans ce jeu c'est vous l'ordinateur! Nous allons vous "programmer" pour collaborer sur la solution d'un puzzle.
         duration: 2
-        description: Exercice de 120 minutes dont le but est de montrer (1) aux "clients" comment découper les besoins métier aussi finement que nécessaire pour tenir dans n'importe quelle taille d'itération ou de sprint, (2) aux développeurs comment les meilleurs développeurs travaillent aujourd’hui en décomposant leur effort en de très nombreux épisodes courts produisant du code entièrement fonctionnel, testé, visible par l'utilisateur final.
-        extra: <i class="fa fa-warning"></i> Venir avec de quoi développer
       - subject: Coding Dojo
         speaker: Jean-Laurent de Morlhon
         duration: 2
