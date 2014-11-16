@@ -193,7 +193,7 @@
   - hour: 17h15
     content:
       - subject: "Projets Agiles : Arrêtez les dérives !"
-        speaker: Alexandre Siguier, Cyrille Deruel
+        speaker: Cyrille Deruel
         description: En 2014, l'Agilité est mainstream, tous les projets sont Agiles (ou presque tous), les rituels sont là (démo, rétro, planning game & co), le management visuel est visible de tous… Néanmoins les résultats ne sont pas là; les utilisateurs ne sont pas satisfaits, les développeurs sont démotivés et les DSI commencent à regretter leur choix.
                      </p><p>
                      A travers l'analyse d'une dizaine de projets sur une période de 2 ans, je vous proposerais les origines de ces dérives mais surtout les drivers qui permettent aux clients, développeurs et DSI de connaitre la température de leur projet et la cause générique de ces échecs."
