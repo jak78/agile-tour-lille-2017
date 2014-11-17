@@ -34,7 +34,7 @@ permalink: /conferences/
                         <span class="info">
                             <span class="speaker">par
                                 {% for speaker in speakers %}
-                                <a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}</span>{% endif %}<span class="room">{% if talk.room %}, {{ talk.room }}{%else%}, {{ site.data.rooms[forloop.index0] }}{% endif %} à {{slot.hour }}h15</span>
+                                <a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}</span>{% endif %}<span class="room">{% if talk.room %}, {{ talk.room }}{%else%}, {{ site.data.rooms[forloop.index0] }}{% endif %} à {{slot.hour }}</span>
                         </span>
                     </div>
                     <p class="description">{{ talk.description }}</p>
