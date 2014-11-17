@@ -203,7 +203,7 @@
         speaker: Renaud Chevalier
         description: Depuis la publication de Kniberg en 2012, le modèle Spotify est devenu "LE" modèle organisationnel en feature teams à la mode. Toutes les compétences réunies dans une même équipe pour réaliser un besoin fonctionnel de bout en bout. Ca fait rêver! Mais concrètement, comment l’implémenter? Suite à plusieurs transformations d'envergures, nous avons identifié les 10 questions indispensables à se poser avant de se lancer &colon; stratégie, gestion de produit, organisation, test, devops et communication.</p><p>Vous voulez savoir si vous êtes prêts pour le modèle Spotify? Venez vous évaluer dans ma session!
       - subject: Split up the problem - let's build a poker API
-        speaker: Erik Talboom
+        speaker: Erik Talboom, Jeremy Moulin
         description:
           During this hands-on workshop each pair will develop part of the domain of poker. They will be responsible for part of the code that is needed. Every pair can choose their own technology and or programming language. This is a deliberate practice workshop, designed with several learning objectives in mind which we will retrospect on at the end of the session. Please make sure you have a laptop with your favourite programming environment ( including testing framework ) set up. Let's work this shop ;-)
         extra: <i class="fa fa-warning"></i> Venir avec de quoi développer et lancer des tests unitaires
