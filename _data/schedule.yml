@@ -30,7 +30,7 @@
         speaker: Kevin Maccioni
         description: L'agilité a le vent en poupe aux seins des sociétés de services, et nombreuses sont celles qui ont tentées une transformation pour approcher un modèle culturel et organisationnel correspondant plus à leur attentes. Mais trop nombreux sont encore les chefs de projets laissés sur le côté et qui ne trouvent plus leur place face à des équipes pluridisciplinaires, autonomes et responsabilisées. Est-ce que le middle management est amené à disparaître? Ou doit-il changer son périmètre et son type d'action ? Du manager décisionnaire au servant leader, le processus de prise de conscience face au changement semble inévitable pour la survie du middle management !
       - subject: Et un carpaccio ! Un !
-        speaker: Derbier Gery
+        speaker: Géry Derbier
         description: Exercice de 120 minutes dont le but est de montrer (1) aux "clients" comment découper les besoins métier aussi finement que nécessaire pour tenir dans n'importe quelle taille d'itération ou de sprint, (2) aux développeurs comment les meilleurs développeurs travaillent aujourd’hui en décomposant leur effort en de très nombreux épisodes courts produisant du code entièrement fonctionnel, testé, visible par l'utilisateur final.
         extra: <i class="fa fa-warning"></i> Venir avec de quoi développer
         duration: 2
@@ -97,7 +97,7 @@
                </ul>
                Quelles difficultés avons-nous rencontrées, quels bénéfices en avons-nous tirés, quels retours des POs, des développeurs, de nos clients internes … et des testeurs.
       - subject: Management 3.0 what's next
-        speaker: Laurent Sarrazin, Derbier Gery
+        speaker: Laurent Sarrazin, Géry Derbier
         description:
           Jurgen Appelo, avec son modèle MANAGEMENT 3.0, nous a apporté de solides bases en matière de management agile. Pendant ce temps, le monde continue à bouger et révèle des formes de leadership qui nous ouvrent des voies pour aller encore plus loin &colon; l'exemple de Chronoflex (Aleandre GERARD), le management libérateur (Isaac GETZ), le Host Leadership (Mark Mc KERGOW), voire les bonnes astuces d'un commandant de sous-marin de la Navy &colon; David MARQUET.
           </p><p>Dans cet atelier, nous vous proposons de découvrir et surtout savourer quelques uns de ces ingrédients du leadership du 21ème siècle … véritables exhausteurs pour le management agile de vos activités. Vous verrez par vous-même s'ils sont à consommer avec modération ou pas...

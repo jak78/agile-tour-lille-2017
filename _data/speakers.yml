@@ -52,9 +52,9 @@
 - name: Bastien Gallay
   bio: " "
   photo: bastien_gallay.jpg
-- name: Derbier Gery
-  bio: " "
-  photo: male200.png
+- name: Géry Derbier
+  bio: Diplômé de l'École Centrale de Paris, Géry Derbier travaille dans l'industrie du logiciel depuis la fin des années 80. Son parcours s'est fait dans l'industrie, l'édition de logiciels et le service où il a exercé les fonctions de développeur, manager et directeur technique.
+  photo: gery_derbier.jpg
 - name: Jean-Laurent de Morlhon
   bio: I love the act of writing software transforming a vague idea from the mind of someone, into an efficient software which really helps.
         Writing software is often associated with bloat, bugs, late, unmaintainable code and crappy interface. I like challenging this idea, and thrive to convince people that there is another way of writing software. For that matter I explore the software craftsmanship movement and built from the ground up the Xebia Studio where we write elegant software for client who care for quickness and quality.
