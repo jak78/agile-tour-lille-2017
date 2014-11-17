@@ -126,11 +126,13 @@
       fill: 5
   - hour: 14h15
     content:
-      - subject: Keynote No Estimate !
+      - subject: Keynote No Estimates !
         speaker: Henri Karhatsu
         room: Auditorium
         fill: 5
         highlight: 1
+        description:
+          Have you ever wondered what the reasons for estimation in software development are? Are you interested to see the world behind them? Are you looking for alternatives to estimates? Let’s open the secret door and go beyond estimates. You may not want to go back.
   - hour: 15h15
     content:
       - subject: The Lean Agile mindset
