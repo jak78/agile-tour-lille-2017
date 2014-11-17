@@ -11,6 +11,14 @@
     color: #900;
   }
 
+  .extra span {
+    color: #000;
+    i {
+      color: #888;
+      text-shadow: 1px 1px #ccc;
+    }
+  }
+
   .room {
     float:left;
     padding-bottom: 20px;

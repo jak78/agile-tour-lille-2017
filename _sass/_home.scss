@@ -1,3 +1,9 @@
+@media (max-width: 768px) {
+  #index .navbar-default {
+    background: #000 !important;
+  }
+}
+
 #index {
   a.navbar-brand {
     color: #fff !important;

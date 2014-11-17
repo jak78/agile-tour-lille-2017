@@ -212,5 +212,6 @@
       - subject: Echanges autour d'une bière
         image: 2818268935_5d06ed7b4a_m_d.jpg
         room: Atrium
+        extra: <span><i class="fa fa-beer"></i> Bière, <span><i class="fa fa-comment"></i> échanges et <span><i class="fa fa-music"></i> rock 'n' roll</span>
         highlight: 1
         fill: 5
