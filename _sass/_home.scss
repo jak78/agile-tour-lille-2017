@@ -4,7 +4,7 @@
   }
 }
 
-#index {
+#xindex {
   a.navbar-brand {
     color: #fff !important;
     &:hover {
@@ -13,10 +13,10 @@
   }
 
   .navbar-default {
+    color: #fff;
     background: transparent;
     border: none;
     margin: 1px 0;
-    color: #fff;
     a {
       color: #ddd;
       &:hover {
