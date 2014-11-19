@@ -2,15 +2,16 @@
 layout: default
 ---
 
-<div class="header" style="display: none">
+<div class="header">
     <div class="bg">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <h1>32 conférenciers d'envergure internationale.</h1>
                     <h2>Une occasion unique de rencontrer des experts et des utilisateurs des méthodes agiles dans la région.</h2>
+		    <p>L'Agile Tour Lille a eu lieu de 18 Novembre 2014.</p>
                     <div class="call-to-action">
-                        <a href="https://www.eventbrite.fr/e/billets-agile-tour-de-lille-13521879305">Inscrivez-vous, c'est gratuit</a>
+                        <a href="{{ "/programme/" | prepend: site.baseurl }}">Voir le programme</a>
                     </div>
                 </div>
             </div>
@@ -22,7 +23,7 @@ layout: default
     {% for part in site.data.schedule %}
     {% for slot in part %}
     <div id="slot-{{slot.hour | split:'h' |first }}" class="conference-slot hidden">
-        <div><h2>Prochaines conférences à {{ slot.hour }}</h2></div>
+        <div><h2>Conférences à {{ slot.hour }}</h2></div>
 
         <div class="slot row">
                 {% for talk in slot.content %}{% if talk.hide-on-home != 1 %}
