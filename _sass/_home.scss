@@ -48,7 +48,7 @@
   }
   div.call-to-action {
     margin-top: 50px;
-    a {
+    a, span {
       background-color: rgba(16, 16, 16, 0.8);
       border: 1px solid #ccc;
       padding: 12px;
@@ -57,10 +57,12 @@
       text-shadow: 2px 2px #000;
       border-radius: 5px;
       font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-      &:hover {
-        border: 1px solid #fff;
-      }
     }
+
+    a:hover {
+      border: 1px solid #fff;
+    }
+
   }
 }
 

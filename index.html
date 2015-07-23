@@ -6,12 +6,11 @@ layout: default
     <div class="bg">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <h1>32 conférenciers d'envergure internationale.</h1>
+                <div class="col-md-8">
+                    <h1>Plus de 20 conférenciers d'envergure internationale.</h1>
                     <h2>Une occasion unique de rencontrer des experts et des utilisateurs des méthodes agiles dans la région.</h2>
-		    <p>L'Agile Tour Lille a eu lieu de 18 Novembre 2014.</p>
                     <div class="call-to-action">
-                        <a href="{{ "/programme/" | prepend: site.baseurl }}">Voir le programme</a>
+                        <span>L'Agile Tour Lille 2015 aura lieu le 15 Octobre.</span>
                     </div>
                 </div>
             </div>
@@ -20,63 +19,16 @@ layout: default
 </div>
 
 <div class="container slots">
-    {% for part in site.data.schedule %}
-    {% for slot in part %}
-    <div id="slot-{{slot.hour | split:'h' |first }}" class="conference-slot hidden">
-        <div><h2>Conférences à {{ slot.hour }}</h2></div>
+    <h2>Conférenciers de l'édition 2015</h2>
 
-        <div class="slot row">
-                {% for talk in slot.content %}{% if talk.hide-on-home != 1 %}
-                <div class="col-md-6 col-xs-12 talk">
-                    {% if talk.image %}
-                        <img src="{{talk.image| prepend: "/img/" | prepend: site.baseurl}}" alt="{{talk.subject}}" width="80" height="80"/>
-                    {% else %}
-                        {% if talk.speaker %}
-                            {% assign speakers = talk.speaker | split: ", " %}
-                            {% assign first_speaker = speakers | first %}
-                            {% for speaker in site.data.speakers %}{% if speaker.name == first_speaker %}
-                            <img src="{{speaker.photo| prepend: "/img/speakers/" | prepend: site.baseurl}}" alt="{{speaker.name}}" width="80" height="80"/>
-                            {% endif %}{% endfor %}
-                        {% endif %}
-                    {% endif %}
-                    <div>
-                        <span class="subject"><a href="{{ "/conferences/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a></span>
-                        {% if talk.speaker %}
-                            <span class="speaker">par
-                                {% for speaker in speakers %}
-                                <a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>{% if forloop.last == false %}, {% endif %}
-                                {% endfor %}
-                            </span>
-                        {% endif %}
-                        <span class="room">{% if talk.room %}{{ talk.room }}{%else%}{{ site.data.rooms[forloop.index0] }}{% endif %}</span>
-                    </div>
-                </div>
-                {% endif %}{% endfor %}
-            <div class="col-md-6 more"><a href="{{ "/programme/" | prepend: site.baseurl }}" class="btn btn-default">&raquo; Voir tout le programme</a></div>
+    <div class="slot row">
+        <div class="col-md-6 col-xs-12 talk">
+            <img src="/img/speakers-2015/BenLinders-Square-150x150.jpg" alt="Ben Linders" width="80" height="80"/>
+            <span class="subject"><a href="http://www.benlinders.com/">Ben Linders</a></span>
+            <div class="bio">
+                Ben Linders is an Independent Consultant in Agile, Lean, Quality and Continuous Improvement, based in The Netherlands.<br/>
+                Author of Getting Value out of Agile Retrospectives, Waardevolle Agile Retrospectives & What Drives Quality.
+            </div>
         </div>
     </div>
-    {% endfor %}
-    {% endfor %}
 </div>
-
-<script type="application/javascript">
-    function hideAllSlots() {
-        $('.conference-slot').addClass('hidden');
-    }
-
-    function displaySlot(hour) {
-        $('#slot-' + parseInt(hour)).removeClass('hidden');
-        $('#slot-' + parseInt(hour)).show();
-    }
-
-    $(function() {
-        var hours = (new Date()).getHours() + 1;
-        if (hours < 9) {
-            hours = 9;
-        }
-        if (hours > 18) {
-            hours = 18;
-        }
-        displaySlot(hours);
-    });;
-</script>
