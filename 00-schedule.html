@@ -5,8 +5,7 @@ visible: 0
 permalink: /programme/
 ---
 <div class="container">
-<p>L'Agile Tour Lille a eu lieu de 18 Novembre 2014.</p>
-<h1>Programme de l'édition 2014</h1>
+<h1>Programme de l'édition 2015</h1>
 {% for part in site.data.schedule %}
 <table class="schedule table table-condensed">
     <tbody>
@@ -26,12 +25,17 @@ permalink: /programme/
                 {% if talk.room %}
                 <span class="room">{{ talk.room }}</span>
                 {% endif %}
-                <a name="{{ talk.subject }}"></a>
+                {% if talk.subject %}
+                <a class="subject" name="{{ talk.subject }}"></a>
                 <span class="subject"><a href="{{ "/conferences/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a></span>
+                {% else %}
+                {{ talk.label }}
+                {% endif %}
+
                 {% if talk.speaker %}
                 {% assign speakers = talk.speaker | split: ", " %}
                 {% for speaker in speakers %}
-                <a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>{% if forloop.last == false %}, {% endif %}
+                <a class="speaker" href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>{% if forloop.last == false %}, {% endif %}
                 {% endfor %}
                 {% endif %}
                 {% if talk.extra %}
