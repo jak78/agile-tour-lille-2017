@@ -55,7 +55,7 @@
       - subject: Dis Papa, c'est quoi l'agilité ?
         speaker: Charles-Louis de Maere
         description: "L’autre jour, en revenant de l’école, ma fille ainée (11 ans) m’a dit qu’elle allait faire un exposé sur le boulot de son papa. Du coup, elle m’a demandé de lui expliquer ce que c’est que l’agilité. Cela m’a permis d’effectuer une réflexion de fond sur la philosophie et les concepts de l’agilité. Finalement, pourquoi veut-on être agile?"
-      - subject: ""
+      - subject: "Sujet à définir"
         speaker: Erik Talboom
         description: ""
         duration: 2
@@ -78,8 +78,9 @@
         room: Atrium
 -
   - hour: 13h45
+    special: 1
     content:
-    - subject: Teasing Speakers Après Midi
+    - label: Teasing Speakers Après Midi
       room: Auditorium
       fill: 5
   - hour: 14h00
@@ -88,7 +89,7 @@
         speaker: Ben Linders
         description: ""
         highlight: 1
-      - subject: L'estimation, un formidable outil de discussion, même pour les projets #NoEstimate
+      - subject: "L'estimation, un formidable outil de discussion, même pour les projets #NoEstimate"
         speaker: Delest Sébastien
         description: "L'estimation est au cœur de la gestion de projet informatique aujourd’hui. On l’utilise pour anticiper ce que sera le produit (le périmètre, les fonctionnalités), son coût (le budget) et sa date de livraison. Sans estimation, il semble difficile de lancer et de faire vivre un projet. Pourtant, une communauté grandissante, réunie autour de la bannière #NoEstimates, avance que l'estimation n’est plus nécessaire, ou plutôt qu’il existe des alternatives.  Cette session explore les problématiques liées à l’estimation et détaille leurs alternatives. Elle aborde aussi les contextes dans lesquels l'estimation peut être un formidable vecteur de discussion autour de la valeur et de l'effort."
       - subject: Psychomotricien d’équipe !
@@ -166,8 +167,9 @@
         speaker: Thomas Clavier
         description: "À travers cette session, c'est par l'expérience que l'on survolera l'ensemble des fonctionnalités des conteneurs applicatifs.  Après avoir vu les principes d'isolation et d'immuabilité, nous verrons le cycle de vie du conteneur et son implication sur l'organisation de l'entreprise. Enfin nous finiront par la mise en œuvre d'une chaîne de déploiement continu."
   - hour: 18h15
+    special: 1
     content:
-      - subject: Agilistes autour d'une bière
+      - label: Agilistes autour d'un verre
         image: 2818268935_5d06ed7b4a_m_d.jpg
         room: Atrium
         extra: <span><i class="fa fa-beer"></i> Bières<sup>*</sup> et <span><i class="fa fa-comment"></i> échanges.
