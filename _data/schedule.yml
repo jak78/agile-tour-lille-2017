@@ -34,7 +34,7 @@
         speaker: Baudimont Perrine
         description: "Le but est de faire découvrir un modèle de centre de développement centré sur l'humain, la valeur produit et la qualité – en réponse aux problématiques des Centres de Services FO/BO classiques.  Cette session est orientée gamestorming et démo pour les REX. En fin de session les participants repartent avec la photo de la facilitation graphique réalisée au fil de la session (par Benoit Hermant – facilitateur graphique).  Déroulement de l'atelier : -Présentation flash des speaker -Ice breaker participants -Atelier 1 itération 1 : Représentation des CDS actuels (approche catastrophe) -Atelier 1 Itération 2 : Rêve du centre de dev idéal – Atelier 2 : Remember the future sur le centre de dev idéal – Atelier 3 : Monopoly d'un projet (démos, débats, pratiques de jeux agiles sur les thèmes qualité – management – développement en approche produit) – Conclusion et synthèse"
       - subject: Atelier devops mindstorms ou comment rapprocher les devs des ops de manière ludique
-        speaker: Aurelien Morvant,Nelson Dufossé
+        speaker: Aurélien Morvant, Nelson Dufossé
         description: "Comment aborder des problématiques rencontrées quotidiennement entre les équipes de développement et les équipes d’exploitation efficacement en 2 heures ? Comment aborder de manière ludique cette problématique ? Nous vous proposons d’associer les Legos à DevOps. Il va falloir se retrousser les manches :)  cette session se veut être un atelier géant. Mettre en avant l’importance d’avoir des équipes de développement et d’exploitation qui travaillent main dans la main."
         duration: 2
       - subject: Petits Outils d'AgileUX - LeanUX à l'usage des Honnêtes Product Owners
@@ -52,7 +52,7 @@
         speaker: Charles-Louis de Maere
         description: "L’autre jour, en revenant de l’école, ma fille ainée (11 ans) m’a dit qu’elle allait faire un exposé sur le boulot de son papa. Du coup, elle m’a demandé de lui expliquer ce que c’est que l’agilité. Cela m’a permis d’effectuer une réflexion de fond sur la philosophie et les concepts de l’agilité. Finalement, pourquoi veut-on être agile?"
       - subject: ""
-        speaker: Talboom Erik
+        speaker: Erik Talboom
         description: ""
         duration: 2
   - hour: 12h30

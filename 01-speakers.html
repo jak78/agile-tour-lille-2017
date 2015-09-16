@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Conférenciers
-visible: 0
+visible: 1
 permalink: /conferenciers/
 ---
 
@@ -17,7 +17,7 @@ permalink: /conferenciers/
         {% for part in site.data.schedule %}
             {% for slot in part %}
                 {% for talk in slot.content %}
-                    {% if talk.speaker contains speaker.name %}<span class="subject"><a href="{{ "/conferences/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a>, à {{slot.hour}}h15</span><br/>{% endif %}
+                    {% if talk.speaker contains speaker.name %}<span class="subject"><a href="{{ "/conferences/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a>, à {{slot.hour}}</span><br/>{% endif %}
                 {% endfor %}
             {% endfor %}
         {% endfor %}
