@@ -1,20 +1,19 @@
 -
   - hour: 8h30
     content:
-      - label: Café / Accueil
+      - label: Accueil
         fill: 5
         room: Atrium
-  - hour: 9h00
+  - hour: 8h45
     content:
       - label: Lancement conférence et pitch des sessions matin
         fill: 5
         room: Auditorium
   - hour: 9h15
     content:
-      - subject: Keynote Débureaucraisation ou Rétrospectives
-        speaker: Pierre Pezziardi ou  Ben Linders
-        description: Don’t we all think that we get more done if we stay busy? We feel good and efficient. We may even get a pat on the back or even a promotion.
-          But is this good for the company? Is it good for our customers? Are we really optimizing for the whole or are we just keeping ourselves busy?
+      - subject: Des lean startups dans l'administration !?
+        speaker: Pierre Pezziardi
+        description: Comment ont donc été fabriqués dans l’état des outils aussi divers que data.gouv.fr, Marchés Publics Simplifiés, ou mes-aides.gouv.fr ? Saviez-vous qu’il s’agissait toujours d’équipes de 4 personnes et de mise en marché en moins de 6 mois. Etonnant non ?
         fill: 5
         room: Auditorium
         highlight: 1
@@ -25,51 +24,51 @@
         fill: 5
   - hour: 10h30
     content:
-      - subject: "Collaboration: un problème récurrent dans les projets."
+      - subject: "Collaboration: un problème récurrent dans les projets"
         speaker: Cédric Pourbaix
-        description: xxx
+        description: "Finalement, les problèmes de nos projets ne seraient-ils pas que des problèmes de collaboration ? Faudrait-il supprimer la collaboration pour être plus efficace ? La question semble bizarre et pourtant si on y regarde bien, la plupart des outils de la conduite de projet ont pour but de limiter ou supprimer le besoin de collaboration. Arrêtons-nous pour faire le point sur cette pratique qui envahie nos projets ! "
       - subject: 12+1 patterns opérationnels pour la transition agile d'un grand projet
-        speaker: Addinquy Christophe
-        description: xxx
+        speaker: Christophe Addinquy
+        description: "Basculer en agile un très gros projet est un challenge, pour certains cela peut même apparaitre comme une ineptie. Pourtant c’est que le projet Linky a décidé de faire ! Un tel choix fait émerger des difficultés souvent absentes de projets plus petits : culture « cycle en V » omnisciente, grandes équipes, intégration dans l’architecture du SI, etc. Mais si la route reste longue, les signes de succès sont réels. Plutôt que d’exposer l’histoire du projet, nous allons voir ensemble 12+1 leçons apprises, sous forme de « patterns » opérationnels : des recettes que vous ne trouverez dans aucun livre. Les patterns que nous vous proposons sont tous directement utilisables pour votre propre transition agile dès demain."
       - subject: Prenons un temps pour en gagner ou Centre de Dev Agile
         speaker: Baudimont Perrine
-        description: xxx
-      - subject: Mindstorm4Scrum
+        description: "Le but est de faire découvrir un modèle de centre de développement centré sur l'humain, la valeur produit et la qualité – en réponse aux problématiques des Centres de Services FO/BO classiques.  Cette session est orientée gamestorming et démo pour les REX. En fin de session les participants repartent avec la photo de la facilitation graphique réalisée au fil de la session (par Benoit Hermant – facilitateur graphique).  Déroulement de l'atelier : -Présentation flash des speaker -Ice breaker participants -Atelier 1 itération 1 : Représentation des CDS actuels (approche catastrophe) -Atelier 1 Itération 2 : Rêve du centre de dev idéal – Atelier 2 : Remember the future sur le centre de dev idéal – Atelier 3 : Monopoly d'un projet (démos, débats, pratiques de jeux agiles sur les thèmes qualité – management – développement en approche produit) – Conclusion et synthèse"
+      - subject: Atelier devops mindstorms ou comment rapprocher les devs des ops de manière ludique
         speaker: Aurelien Morvant,Nelson Dufossé
-        description: xxx
+        description: "Comment aborder des problématiques rencontrées quotidiennement entre les équipes de développement et les équipes d’exploitation efficacement en 2 heures ? Comment aborder de manière ludique cette problématique ? Nous vous proposons d’associer les Legos à DevOps. Il va falloir se retrousser les manches :)  cette session se veut être un atelier géant. Mettre en avant l’importance d’avoir des équipes de développement et d’exploitation qui travaillent main dans la main."
         duration: 2
       - subject: Petits Outils d'AgileUX - LeanUX à l'usage des Honnêtes Product Owners
         speaker: Jean Claude Grosjean
-        description: xxx
+        description: "Au delà du changement (sa problématique de départ), au delà de la valeur à livrer au plus vite, la capacité d'une Organisation à RAVIR ses utilisateurs & ses clients est devenu aujourd'hui l'enjeu majeur de l'agilité. Dés lors, l'intégration de l'Experience Utilisateur (UX) dans les projets Agiles est de plus en marquée et pertinente. Au cours de cette session, je vous propose de parcourir différentes techniques UX (Personas, Vision, Art de l'Interview, Tests Utilisateurs...) au service du Product Owner et des Equipes Agiles. Nous avancerons ensemble, technique par technique, dans une logique problème - contexte - solution."
   - hour: 11h30
     content:
       - subject: LEAN/KABAN???
-        speaker: Hery Ismaël
-        description: xxx
+        speaker: Ismaël Hery
+        description: ""
       - subject: Si le TDD est mort, alors pratiquons une autopsie
         speaker: Bruno Boucard
-        description: xxx
+        description: "Dans cette session, nous analyserons pourquoi de nombreux développeurs ont finalement jeté l’éponge du test-first face à la difficulté de faire émerger du code.  Par comparaison, si Michel-Ange avait été développeur quels auraient été ses secrets. Quelle était la posture de cet artiste ?  En effet, comment concilier nos intuitions et projections mentales avec cette approche a priori minimaliste et contre-intuitive ?  Exemples à l'appui, 2 craftsmen vous montreront comment sauter le pas… ou tout simplement optimiser votre efficacité dans ce dispositif sans jamais tomber dans le dogmatisme."
       - subject: Dis Papa, c'est quoi l'agilité ?
         speaker: Charles-Louis de Maere
-        description: xxx
-      - subject: xxx
+        description: "L’autre jour, en revenant de l’école, ma fille ainée (11 ans) m’a dit qu’elle allait faire un exposé sur le boulot de son papa. Du coup, elle m’a demandé de lui expliquer ce que c’est que l’agilité. Cela m’a permis d’effectuer une réflexion de fond sur la philosophie et les concepts de l’agilité. Finalement, pourquoi veut-on être agile?"
+      - subject: ""
         speaker: Talboom Erik
-        description: xxx
+        description: ""
         duration: 2
   - hour: 12h30
     content:
       - subject: Ratez vos revues de code en 5 leçons !
         speaker: Michel Domenjoud
-        description: xxx
+        description: "Qu’est-ce qu’un Tech Lead ? Sémantiquement ça semble évident : c’est un leader technique, donc une personne qui a des responsabilités d’encadrement et de prise de décisions, tout en s’impliquant dans la réalisation technique. Ça parait simple, mais c’est en réalité suffisamment vague pour que ce rôle varie du tout au tout d’une organisation à l’autre, voire souvent d’une équipe à l’autre.  Dans cette session, on explorera les facettes du rôle de Tech Lead : garant de la qualité, facilitateur tech, moteur de la progression des compétences tech de l'équipe. On parlera aussi plus généralement du fonctionnement de l'équipe de dév sur les aspects techniques et pourquoi il est important d'avoir de bons Tech Leads dans une organisation."
       - subject: Bon, pour de vrai, pourquoi "faisons" nous de l’Agile ?
-        speaker: Buisine Arnaud
-        description: xxx
+        speaker: Arnaud Buisine
+        description: "Depuis le début des années 2000 les méthodes Agile connaissent un succès grandissant en entreprise. Plusieurs raisons justifiant leur usage et leur succès sont invoquées de façon récurrente : d'un côté l’échec des projets dits « traditionnels », de l’autre des méthodes projet disruptives. Je suis convaincu que les vraies raisons de l’engouement pour ces méthodes ne résident pas dans ces arguments très rationnels mais dans des facteurs plus profondément ancrés dans notre nature. Notre envie de faire de l’agile renvoie vers notre besoin profond de prendre plaisir à ce que nous faisons dans un environnement sécurisé. Je vais montrer dans ce talk que c’est par la satisfaction de ces besoins que les méthodes agile font la différence. Après cela vous peut être ne verrez plus les approches Agiles de la même manière.  "
       - subject: Agilité et espace de travail collaboratif
-        speaker: Veneziani Cécile
-        description: xxx
-      - subject: Slot libre
-        speaker: ???
-        description: xxx
+        speaker: Cécile Veneziani
+        description: ""
+      - subject: ""
+        speaker: ""
+        description: ""
   - hour: 12h45
     content:
       - subject: Déjeuner
@@ -83,19 +82,34 @@
       fill: 5
   - hour: 14h00
     content:
-      - subject: ???
-        speaker: Pierre Pezziardi OU Ben Linders
-        description: xxx
+      - subject: "Rétrospectives"
+        speaker: Ben Linders
+        description: ""
         highlight: 1
       - subject: L'estimation, un formidable outil de discussion, même pour les projets #NoEstimate
         speaker: Delest Sébastien
-        description: xxx
+        description: "L'estimation est au cœur de la gestion de projet informatique aujourd’hui. On l’utilise pour anticiper ce que sera le produit (le périmètre, les fonctionnalités), son coût (le budget) et sa date de livraison. Sans estimation, il semble difficile de lancer et de faire vivre un projet. Pourtant, une communauté grandissante, réunie autour de la bannière #NoEstimates, avance que l'estimation n’est plus nécessaire, ou plutôt qu’il existe des alternatives.  Cette session explore les problématiques liées à l’estimation et détaille leurs alternatives. Elle aborde aussi les contextes dans lesquels l'estimation peut être un formidable vecteur de discussion autour de la valeur et de l'effort."
       - subject: Psychomotricien d’équipe !
         speaker: Bastien Gallay
-        description: xxx
-      - subject: La bataille du kata diamand !
-        speaker: Jean-Laurent de Morlhon
-        description: xxx
+        description: "Et si le coaching agile était une forme de psychomotricité d’équipe ?
+                      En effet, si l’on considère qu’une équipe (en tant que système complexe) est un être humain, on réalise alors que de nombreuses caractéristiques de la psychomotricité trouvent un parallèle dans la pratique du coaching agile…
+
+                      Pour exemples, voici ce que nous dit Wikipédia sur cette discipline paramédicale :
+                      – La psychomotricité à plusieurs champs d'action (l'éducation, la thérapie, la rééducation) et s'adresse à un large public allant du bébé et ses parents, aux jeunes enfants, adolescents, adultes, jusqu'aux personnes âgées.
+                      – Le psychomotricien intervient dans le dépistage, la prévention et le traitement des troubles psychomoteurs (trouble déficitaire de l'attention, trouble de la communication non-verbale, trouble du tonus musculaire, etc.)
+                      – C'est une discipline autant qu'un courant de pensée qui met en avant la liaison du corps et de la pensée, contrairement à la dichotomie souvent mise en avant.
+
+                      Si vous n’identifiez toujours pas de points communs avec le coaching agile, venez nous voir rejouer vos scènes quotidiennes rencontrées en équipe, et posez-nous vos questions à chaque entracte !
+                      Prise de conscience et humour assurés ;)"
+      - subject: Refactoriser votre code legacy en toute sécurité
+        speaker: Julien Hatzig
+        description: "Dojo sur la mise en place de tests de caractérisations pour sécuriser la refactorisation d'un code.
+
+                      Je pars d'un sujet déjà existant :
+                      https://github.com/emilybache/Yatzy-Refactoring-Kata
+
+                      Le pourquoi de votre session: Je travaille au WebCenter d'Axa, et j'anime des sessions de code depuis bientôt un an.
+                      Dans notre travail de tous les jours je me suis rendu compte que beaucoup de développeurs pouvait avoir peur de faire de la refactorisation sur du code legacy, car il n'y avait pas de tests unitaires, les méthodes sont trop grosses. Le but est de leur montrer la mise en place de tests unitaires pour comprendre le code et sécurisé l'ensemble avant la moindre modification de code."
         duration: 2
       - subject: The scaling agile
         speaker: Yves Hanoulle
@@ -103,15 +117,15 @@
         duration: 2
   - hour: 15h00
     content:
-      - subject: Le myth de l'Agile à l'echelle
-        speaker: Elalami LAFKIH
-        description: xxx
+      - subject: Le mythe de l'Agile à l'echelle
+        speaker: Elalami Lafkih
+        description: "Cette session est une réflexion à haute voix durant laquelle je vous propose :  1- Une rétrospective des pratiques « Agiles » basée sur ma propre expérience 2- Une analyse des approches alternatives « post-agile » qui ont agité la communauté ces dernières années.  Dans ce talk, je partagerai ma perception des dérives dites « Agile » et notamment, le fake attitude, la fausse-camaraderie et les vanity metrics des coaches agiles.  Ensuite, un petit détour par l'Agile à l’échelle pour voir comment certains frameworks dites à « l’échelle » risquent de dégrader et détruire tout ce qui à l'Agilité d'authentique et utile.  Nous terminons notre session par quelques alternatives et autres visions de transformation d'entreprise comme « les Organisations Bimodales » ou « Dual Operating System », le « Wardley value chain Mapping » et le mouvement « AntiFragile »  Petite mise en garde! je ne suis pas un geek, adepte des tendances à la mode et les buzzwords hypes et attrape-managers. Mais il s'avère que depuis plus un an que j’ai commencé à explorer, expérimenter et s’intéresser à ses alternatives."
       - subject: Comment j'ai amélioré mon Kanban avec Bison Futé
         speaker: Cyrille Deruel
-        description: xxx
-      - subject: Faire la conception en équipe sans architecte, non mais allô quoi ?
-        speaker: Ly-Jia Goldstein
-        description: xxxx
+        description: "Votre Kanban ressemble à un trafic routier ! Les tickets bougent comme des voitures sur les routes. Je vous propose de faire comme le centre d'information routière (CIR) et d'utiliser les infos provenant de bison futé pour extraire les bonnes pratiques et les bonnes surprises afin de les intégrer dans vos projets.  Pour que votre Kanban ressemble plus à une autoroute qu'à un chemin communal !"
+      - subject: "Monoïdes : le secret de la composabilité infinie"
+        speaker: Cyrille Martraire
+        description: "Les monoïdes , c'est puissant, élégant, indispensable. C'est surtout facile à comprendre et à utiliser dans votre langage, sans framework, et même dans une vieille version de Java, C# ou PHP. Même si vous ne voulez pas entendre parler de monades, les monoïdes sauront vous convaincre, tout en mettant un pied à la fois en DDD et en Programmation Fonctionnelle.  Expliqué avec des verres de bière et de nombreux exemples, découvrez un style de code qui séduit les développeurs dans le monde entier. Vous ne verrez plus les verres de bière ni votre code de la même manière !"
   - hour: 15h45
     content:
       - label: Pause
@@ -120,32 +134,33 @@
     content:
       - subject: Les organisations Agile porteuses de sens
         speaker: Oana Juncu
-        description: xxx
+        description: "Une session qui raconte l'histoire les 3 étapes qui motivent le déploiement de l'agilité : la 1ère qui se positionne comme la recherche d'une nouvelle méthode magique la 2ème qui s'installe quant la prise de conscience que l'Agilité est une posture a eu lieu et qui génère d'autres travers de thérapie intensive la 3ème ( ma préférée :) ) quand tous les contributeurs d'une organisation on réussi à définir un rêve partagé et construisent en conséquence des produits étonnants"
       - subject: Alliés ensemble contre les défauts – pourquoi et comment relire ensemble le code que nous produisons
-        speaker: Julien Jakubowski,Antoine Blancke
-        description: xxx
-      - subject: Organisation agile ? Scrum is not enough!
-        speaker: Christophe Keromen
-        description: xxx
-      - subject: Refactoriser votre code legacy en toute sécurité
-        speaker: Julien Hatzig
-        description: xxx
+        speaker: Julien Jakubowski, Antoine Blancke
+        description: "La pratique de la revue de code prévient énormément de défauts. Mais elle a aussi d’autres “effets kiss-cool”. C’est une pratique qui existe depuis une soixantaine d’années. Mais pourquoi est-elle si rarement rencontrée dans les DSI ? Sans doute parce qu’elle est méconnue, mais aussi parce qu’elle fait l’objet d’appréhensions. Faites-vous des revues de code chez vous ? Et sinon, pourquoi pas ? Peut-être pensez-vous que cela prend trop de temps, que c’est trop cher, qu’en jugeant le code on jugera l’auteur… Au Webcenter AXA, le code est revu systématiquement avant de partir en production. Cela porte ses fruits. Mais cela ne s’est pas fait sans accrocs. Venez découvrir un retour d’expérience, illustré à travers des mises en situation concrètes."
+      - subject:  Passer à SCRUM avec 45 personnes - Rétrospective Step by step
+        speaker: Simon Langlet, Guillaume Magnier
+        description: "Passer le pas de l'agilité n'est pas forcément facile. Les questions de productivité, d'efficacité et de coûts peuvent entraver et freiner cette démarche (surtout lorsque cela concerne 45 personnes).
+                      Au travers le partage de notre expérience, nous reviendrons step by step sur notre transformation en commençant par les raisons qui nous ont fait sauter le pas, nos difficultés et réussites, où nous en sommes aujourd'hui et le chemin qu'il nous reste à parcourir."
+      - subject: La bataille du kata diamand !
+        speaker: Jean-Laurent de Morlhon
+        description: "Vous êtes un veteran du TDD ou vous voulez en apprendre plus sur le sujet aprés quelques essais, le kata diamand est un bon challenge pour tout ceux qui s'essayent à TDD. Dans cette session d'environ 2 heures, nous essaierons de dompter ce kata, dans le langage de votre choix. Jean-Laurent & Bruno vous donneront des astuces ainsi que aides si besoin. La dernière demi-heure est consacré à une discussion sur le pour et le contre des differentes approches.  Un portable pour 2 personnes est nécessaire pour cet atelier."
         duration: 2
       - subject: Atelier BDD / Spécification par l'exemple
         speaker: Stéphane Bagnier
-        description: xxx
+        description: "Bien avant la qualité technique, un enjeu crucial du développement logiciel est d’avoir une communication efficace entre les participants. Dans cet atelier, vous apprendrez à utiliser des exemples pour créer une compréhension commune autour de l’énoncé d’un besoin. Vous explorerez un domaine métier drôle, complexe et retord. Vous découvrirez comment parler à un expert métier afin de l’interviewer efficacement. Vous écrirez en binôme des exemples que votre expert saura valider et qui serviront de spécifications fonctionnelles. Vous verrez comment, en écrivant ces spécifications par l’exemple, obtenir des tests automatiques d'acceptation. Vous comprendrez comment écrire vos propres règles métiers et refermer pour de bon les documents de spécifications fonctionnelles."
         duration: 2
   - hour: 17h15
     content:
       - subject: Intégration continue, DevOps et après ?
         speaker: Laurent Tardif
-        description: xxx
-      - subject: vous saurez tout ! (REX lean startup)
+        description: "Depuis plusieurs années les équipes techniques industrialisent la production logicielle, pour livrer plus souvent et sereinement de la valeur au(x) client(s). Pour atteindre ce but, les équipes ont par exemple mis en place l’intégration continue, automatisé leur tests et facilité leur déploiement en production au travers d’une démarche Devops. Toutes ces améliorations ont permis de réduire les silos entre les différents départements techniques, ce qui contribue à réduire le temps de prise en compte et de livraison d’une demande utilisateur. Aujourd’hui, ce mouvement tend à se généraliser au niveau de l’entreprise. Nous voyons maintenant émerger de nouveaux besoins comme : – Comment capturer plus rapidement des retours utilisateurs ? – Comment déployer une nouvelle fonctionnalité à une partie des utilisateurs ? – Comment mesurer et évaluer l’utilisation d’une nouvelle fonctionnalité, mais aussi mesurer le revenu généré en temps réel ? Dans cette session, je vous propose de découvrir quels sont les outils techniques à notre disposition aujourd’hui qui permettent de répondre à ces nouveaux besoins. Nous ne philosopherons pas sur la transformation agile de l’entreprise, et nous resterons focalisés sur les outils."
+      - subject: Vous saurez tout ! - Retour d'expérience Lean Startup
         speaker: Christopher Parola
-        description: xxx
+        description: "Transformer la veille individuelle et collective : voilà ce qui anime l'équipe elCurator depuis deux ans.  Startup née au sein d'OCTO Technology d'une initiative spontanée et innovante, il a fallu faire avec les moyens du bord, ce qui nous a conduit à tout tester pour investir notre temps là où c'était vraiment nécessaire ; le Lean Startup s'est naturellement imposé à nous. Cela nous a permis jusqu'ici d'éviter de nous contribuer au chiffre effrayant de 90% de startups qui échouent, faute d'avoir trouvé leur marché.  Nous avons mis en oeuvre un grand nombre de pratiques pour réduire le temps de la fameuse boucle Construire – Mesurer – Apprendre, et tirer un maximum d'apprentissages avec un minimum de développements. Nous avons beaucoup appris – surtout de nos échecs ; un grand nombre de nos convictions se sont avérées fausses ! Nous tenons à partager cette expérience avec vous, du concierge MVP aux A/B tests mis en place.  A l'image des Géants du Web, nous avons mis au fur et à mesure notre système sous monitoring complet prendre les bonnes décisions. D'ailleurs, nous allons vous montrer des chiffres et des hypothèses : attention, il va y avoir de la donnée !"
       - subject: Échec Leanstartup
         speaker: Thomas Clavier
-        description: xxxx
+        description: "À travers cette session, c'est par l'expérience que l'on survolera l'ensemble des fonctionnalités des conteneurs applicatifs.  Après avoir vu les principes d'isolation et d'immuabilité, nous verrons le cycle de vie du conteneur et son implication sur l'organisation de l'entreprise. Enfin nous finiront par la mise en œuvre d'une chaîne de déploiement continu."
   - hour: 18h15
     content:
       - subject: Echanges autour d'une bière
