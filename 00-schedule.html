@@ -5,13 +5,15 @@ visible: 1
 permalink: /programme/
 ---
 <div class="container">
+    <h1>Programme de l'édition 2015</h1>
     <div class="row">
         <div class="col-md-6 col-xs-12">
-            <h1>Programme de l'édition 2015</h1>
-            Le programme est susceptible de changer en fonction des contraintes de dernière minute.
+            <i>
+            Le programme est susceptible de changer en fonction des contraintes de nos conférenciers.
+            </i>
         </div>
         <div class="col-md-6 col-xs-12">
-            <p style="padding: 10px; margin: 10px 40px; background: #ff8">Fabrice Aimetti organisera un "Coach Clinic" dans l'Atrium de 10h30 à 12h45 et de 14h à 18h</p>
+            <p style="padding: 10px; margin: -10px 0 10px 20px ; background: #ff8">Fabrice Aimetti organisera un "Coach Clinic" dans l'Atrium de 10h30 à 12h45 et de 14h à 18h</p>
         </div>
     </div>
 
@@ -30,7 +32,7 @@ permalink: /programme/
         <tr class="{% cycle '', 'alt' %}">
             <th class="hour">{{ slot.hour }}</th>
             {% for talk in slot.content %}
-            <td{% if talk.duration %} rowspan="2"{% endif %}{% if talk.fill %} colspan="{{ talk.fill }}"{% endif %} {% if talk.highlight %} class="highlight{% endif %}">
+            <td{% if talk.duration %} rowspan="2"{% endif %}{% if talk.fill %} colspan="{{ talk.fill }}"{% endif %} class="{% if talk.highlight %} highlight{% endif %}{% if talk.hide-on-home %} dim{% endif %}">
                 {% if talk.room %}
                 <span class="room">{{ talk.room }}</span>
                 {% endif %}
@@ -57,4 +59,5 @@ permalink: /programme/
     </tbody>
 </table>
 {% endfor %}
+    <p style="margin-top: 80px;">* L'abus d'alcool est dangereux pour la santé, à consommer avec modération</p>
 </div>

@@ -58,8 +58,9 @@
   bio: ''
   photo: male200.png
 - name: Ben Linders
-  bio: ''
-  photo: male200.png
+  bio: Ben Linders is an Independent Consultant in Agile, Lean, Quality and Continuous Improvement, based in The Netherlands.
+       Author of Getting Value out of Agile Retrospectives, Waardevolle Agile Retrospectives & What Drives Quality.
+  photo: ../speakers-2015/BenLinders-Square-150x150.jpg
 - name: Delest Sébastien
   bio: ''
   photo: male200.png
@@ -67,9 +68,6 @@
   bio: ''
   photo: male200.png
 - name: Julien Hatzig
-  bio: ''
-  photo: male200.png
-- name: Elalami Lafkih
   bio: ''
   photo: male200.png
 - name: Cyrille Martraire
@@ -88,9 +86,6 @@
   bio: ''
   photo: male200.png
 - name: Guillaume Magnier
-  bio: ''
-  photo: male200.png
-- name: Jean-Laurent de Morlhon
   bio: ''
   photo: male200.png
 - name: Stéphane Bagnier

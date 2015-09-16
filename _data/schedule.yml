@@ -1,10 +1,12 @@
 -
   - hour: 8h30
+    special: 1
     content:
       - label: Accueil
         fill: 5
         room: Atrium
   - hour: 8h45
+    special: 1
     content:
       - label: Lancement conférence et pitch des sessions matin
         fill: 5
@@ -19,9 +21,11 @@
         highlight: 1
 -
   - hour: 10h00
+    special: 1
     content:
       - label: Pause
         fill: 5
+        hide-on-home: 1
   - hour: 10h30
     content:
       - subject: "Collaboration: un problème récurrent dans les projets"
@@ -66,12 +70,10 @@
       - subject: Agilité et espace de travail collaboratif
         speaker: Cécile Veneziani
         description: ""
-      - subject: ""
-        speaker: ""
-        description: ""
   - hour: 12h45
+    special: 1
     content:
-      - subject: Déjeuner
+      - label: Déjeuner
         fill: 5
         room: Atrium
 -
@@ -113,23 +115,25 @@
         duration: 2
       - subject: The scaling agile
         speaker: Yves Hanoulle
-        description: xxx
+        description: ""
         duration: 2
   - hour: 15h00
     content:
       - subject: Le mythe de l'Agile à l'echelle
         speaker: Elalami Lafkih
         description: "Cette session est une réflexion à haute voix durant laquelle je vous propose :  1- Une rétrospective des pratiques « Agiles » basée sur ma propre expérience 2- Une analyse des approches alternatives « post-agile » qui ont agité la communauté ces dernières années.  Dans ce talk, je partagerai ma perception des dérives dites « Agile » et notamment, le fake attitude, la fausse-camaraderie et les vanity metrics des coaches agiles.  Ensuite, un petit détour par l'Agile à l’échelle pour voir comment certains frameworks dites à « l’échelle » risquent de dégrader et détruire tout ce qui à l'Agilité d'authentique et utile.  Nous terminons notre session par quelques alternatives et autres visions de transformation d'entreprise comme « les Organisations Bimodales » ou « Dual Operating System », le « Wardley value chain Mapping » et le mouvement « AntiFragile »  Petite mise en garde! je ne suis pas un geek, adepte des tendances à la mode et les buzzwords hypes et attrape-managers. Mais il s'avère que depuis plus un an que j’ai commencé à explorer, expérimenter et s’intéresser à ses alternatives."
-      - subject: Comment j'ai amélioré mon Kanban avec Bison Futé
+      - subject: Le Kanban expliqué par Bison futé
         speaker: Cyrille Deruel
         description: "Votre Kanban ressemble à un trafic routier ! Les tickets bougent comme des voitures sur les routes. Je vous propose de faire comme le centre d'information routière (CIR) et d'utiliser les infos provenant de bison futé pour extraire les bonnes pratiques et les bonnes surprises afin de les intégrer dans vos projets.  Pour que votre Kanban ressemble plus à une autoroute qu'à un chemin communal !"
       - subject: "Monoïdes : le secret de la composabilité infinie"
         speaker: Cyrille Martraire
         description: "Les monoïdes , c'est puissant, élégant, indispensable. C'est surtout facile à comprendre et à utiliser dans votre langage, sans framework, et même dans une vieille version de Java, C# ou PHP. Même si vous ne voulez pas entendre parler de monades, les monoïdes sauront vous convaincre, tout en mettant un pied à la fois en DDD et en Programmation Fonctionnelle.  Expliqué avec des verres de bière et de nombreux exemples, découvrez un style de code qui séduit les développeurs dans le monde entier. Vous ne verrez plus les verres de bière ni votre code de la même manière !"
   - hour: 15h45
+    special: 1
     content:
       - label: Pause
         fill: 5
+        hide-on-home: 1
   - hour: 16h15
     content:
       - subject: Les organisations Agile porteuses de sens
@@ -163,9 +167,9 @@
         description: "À travers cette session, c'est par l'expérience que l'on survolera l'ensemble des fonctionnalités des conteneurs applicatifs.  Après avoir vu les principes d'isolation et d'immuabilité, nous verrons le cycle de vie du conteneur et son implication sur l'organisation de l'entreprise. Enfin nous finiront par la mise en œuvre d'une chaîne de déploiement continu."
   - hour: 18h15
     content:
-      - subject: Echanges autour d'une bière
+      - subject: Agilistes autour d'une bière
         image: 2818268935_5d06ed7b4a_m_d.jpg
         room: Atrium
-        extra: <span><i class="fa fa-beer"></i> Bière, <span><i class="fa fa-comment"></i> échanges et <span><i class="fa fa-music"></i> rock 'n' roll</span>
+        extra: <span><i class="fa fa-beer"></i> Bières<sup>*</sup> et <span><i class="fa fa-comment"></i> échanges.
         highlight: 1
         fill: 5
