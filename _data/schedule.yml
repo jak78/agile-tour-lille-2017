@@ -46,7 +46,7 @@
         description: "Au delà du changement (sa problématique de départ), au delà de la valeur à livrer au plus vite, la capacité d'une Organisation à RAVIR ses utilisateurs & ses clients est devenu aujourd'hui l'enjeu majeur de l'agilité. Dés lors, l'intégration de l'Experience Utilisateur (UX) dans les projets Agiles est de plus en marquée et pertinente. Au cours de cette session, je vous propose de parcourir différentes techniques UX (Personas, Vision, Art de l'Interview, Tests Utilisateurs...) au service du Product Owner et des Equipes Agiles. Nous avancerons ensemble, technique par technique, dans une logique problème - contexte - solution."
   - hour: 11h30
     content:
-      - subject: LEAN/KABAN???
+      - subject: LEAN/KANBAN???
         speaker: Ismaël Hery
         description: ""
       - subject: Si le TDD est mort, alors pratiquons une autopsie
