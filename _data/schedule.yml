@@ -116,7 +116,7 @@
         duration: 2
       - subject: The scaling agile
         speaker: Yves Hanoulle
-        description: ""
+        description: "During the game you will experience scaling issues that occur when multiple teams work on the same product. Multiple Teams will look for solutions to scaling issues and experiment in an iterative way with their ideas on solving them.. "
         duration: 2
   - hour: 15h00
     content:
