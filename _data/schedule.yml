@@ -46,16 +46,16 @@
         description: "Au delà du changement (sa problématique de départ), au delà de la valeur à livrer au plus vite, la capacité d'une Organisation à RAVIR ses utilisateurs & ses clients est devenu aujourd'hui l'enjeu majeur de l'agilité. Dés lors, l'intégration de l'Experience Utilisateur (UX) dans les projets Agiles est de plus en marquée et pertinente. Au cours de cette session, je vous propose de parcourir différentes techniques UX (Personas, Vision, Art de l'Interview, Tests Utilisateurs...) au service du Product Owner et des Equipes Agiles. Nous avancerons ensemble, technique par technique, dans une logique problème - contexte - solution."
   - hour: 11h30
     content:
-      - subject: LEAN/KANBAN???
-        speaker: Ismaël Hery
-        description: ""
+      - subject: "Get fast at building great product requires to learn fast in UX, dev, ops, and mgt. Sharing experiences from le Monde!"
+        speaker: Ismaël Héry
+        description: "Getting fast and efficiently to the 'product market fit' state requires fast and efficient learning in the diverse and risky activities of user experience and design, software development, operations in production and management. We will share practices for maximizing learning in those activities, based on le Monde product development experiences, taking inspiration in the Lean principle of Heijunka."
       - subject: Si le TDD est mort, alors pratiquons une autopsie
         speaker: Bruno Boucard
         description: "Dans cette session, nous analyserons pourquoi de nombreux développeurs ont finalement jeté l’éponge du test-first face à la difficulté de faire émerger du code.  Par comparaison, si Michel-Ange avait été développeur quels auraient été ses secrets. Quelle était la posture de cet artiste ?  En effet, comment concilier nos intuitions et projections mentales avec cette approche a priori minimaliste et contre-intuitive ?  Exemples à l'appui, 2 craftsmen vous montreront comment sauter le pas… ou tout simplement optimiser votre efficacité dans ce dispositif sans jamais tomber dans le dogmatisme."
       - subject: Dis Papa, c'est quoi l'agilité ?
         speaker: Charles-Louis de Maere
         description: "L’autre jour, en revenant de l’école, ma fille ainée (11 ans) m’a dit qu’elle allait faire un exposé sur le boulot de son papa. Du coup, elle m’a demandé de lui expliquer ce que c’est que l’agilité. Cela m’a permis d’effectuer une réflexion de fond sur la philosophie et les concepts de l’agilité. Finalement, pourquoi veut-on être agile?"
-      - subject: "Sujet à définir"
+      - subject: "Axen Rose"
         speaker: Erik Talboom
         description: ""
         duration: 2
