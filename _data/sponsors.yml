@@ -7,35 +7,25 @@ partner:
    url: http://www.euratechnologies.com/
    logo: logo_euratechnologies.png
 gold:
- - name: M2I
-   url: http://www.m2iformation.fr/
-   logo: logo_m2i.png
- - name: Cap Gemini
-   url: http://www.fr.capgemini.com
-   logo: logo_cap.png
  - name: AXA
    logo: logo_axa.png
    url: http://www.axa.fr
- - name: PROXIAD
-   url: http://www.proxiad.com
-   logo: logo_proxiad.jpeg
- - name: Adeo
-   url: http://www.groupe-adeo.com
-   logo: logo_adeo.jpg
+ - name: Decathlon
+   url: http://www.decathlon.fr
+   logo: logo_decathlon.png
  - name: Zenika
    url: http://www.zenika.com
    logo: logo_zenika.jpg
- - name: Octo
+ - name: OCTO Technology
    url: http://www.octo.com
    logo: logo_octo.jpg
+ - name: Norsys
+   url: http://www.norsys.fr
+   logo: logo_norsys.jpg
+ - name: Proxiad
+   url: http://www.proxiad.com
+   logo: logo_proxiad.jpeg
 
-media:
- - name: ITPMS
-   url: http://www.itpms.fr
-   logo: logo_itpms.gif
- - name: Archriss
-   url: http://www.archriss.fr/
-   logo: logo_archriss.png
 hosting:
  - name: Euratechnologies
    url: http://www.euratechnologies.com
