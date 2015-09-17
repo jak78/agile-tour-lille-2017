@@ -19,49 +19,7 @@ layout: default
 </div>
 
 <div class="container slots">
-    <h2>Prochaines conférences</h2>
-    {% for part in site.data.schedule %}
-    {% for slot in part %}
-    <div class="slot-{{slot.hour | split:'h' |first }} conference-slot hidden">
-        {% if slot.special != 1 %}
-        <div><h3><span  class="hour">{{ slot.hour }}</span></h3></div>
-        {% endif %}
-
-        <div class="slot row">
-                {% for talk in slot.content %}{% if talk.hide-on-home != 1 %}
-                <div class="col-md-{% if slot.special != 1 %}6{%else%}12{%endif%} col-xs-12 talk">
-                    {% if talk.image %}
-                        <img src="{{talk.image| prepend: "/img/" | prepend: site.baseurl}}" alt="{{talk.subject}}" width="80" height="80"/>
-                    {% else %}
-                        {% if talk.speaker %}
-                            {% assign speakers = talk.speaker | split: ", " %}
-                            {% assign first_speaker = speakers | first %}
-                            {% for speaker in site.data.speakers %}{% if speaker.name == first_speaker %}
-                            <img src="{{speaker.photo| prepend: "/img/speakers/" | prepend: site.baseurl}}" alt="{{speaker.name}}" width="80" height="80"/>
-                            {% endif %}{% endfor %}
-                        {% endif %}
-                    {% endif %}
-                    <div>
-                        {% if slot.special == 1 %}
-                        <h3><span class="hour">{{ slot.hour }}</span> - {{talk.label}}, {{talk.room}}</h3>
-                        {% elsif talk.subject %}
-                            <span class="subject"><a href="{{ "/conferences/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a></span>
-                            {% if talk.speaker %}
-                                <span class="speaker">par
-                                    {% for speaker in speakers %}
-                                    <a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>{% if forloop.last == false %}, {% endif %}
-                                    {% endfor %}
-                                </span>
-                            {% endif %}
-                            <span class="room">{% if talk.room %}{{ talk.room }}{%else%}{{ site.data.rooms[forloop.index0] }}{% endif %}</span>
-                        {% endif %}
-                    </div>
-                </div>
-                {% endif %}{% endfor %}
-        </div>
-    </div>
-    {% endfor %}
-    {% endfor %}
+    <h2>Le programme 2015 est disponible !</h2>
     <div class="col-md-12 more"><a href="{{ "/programme/" | prepend: site.baseurl }}" class="btn btn-default">&raquo; <b>Voir tout le programme</b> &laquo;</a></div>
 </div>
 
