@@ -106,17 +106,11 @@
                       Prise de conscience et humour assurés ;)"
       - subject: Refactoriser votre code legacy en toute sécurité
         speaker: Julien Hatzig
-        description: "Dojo sur la mise en place de tests de caractérisations pour sécuriser la refactorisation d'un code.
-
-                      Je pars d'un sujet déjà existant :
-                      https://github.com/emilybache/Yatzy-Refactoring-Kata
-
-                      Le pourquoi de votre session: Je travaille au WebCenter d'Axa, et j'anime des sessions de code depuis bientôt un an.
-                      Dans notre travail de tous les jours je me suis rendu compte que beaucoup de développeurs pouvait avoir peur de faire de la refactorisation sur du code legacy, car il n'y avait pas de tests unitaires, les méthodes sont trop grosses. Le but est de leur montrer la mise en place de tests unitaires pour comprendre le code et sécurisé l'ensemble avant la moindre modification de code."
+        description: "Dojo sur la mise en place de tests de caractérisations pour sécuriser la refactorisation d'un code."
         duration: 2
       - subject: The scaling agile
         speaker: Yves Hanoulle
-        description: "During the game you will experience scaling issues that occur when multiple teams work on the same product. Multiple Teams will look for solutions to scaling issues and experiment in an iterative way with their ideas on solving them.. "
+        description: "During the game you will experience scaling issues that occur when multiple teams work on the same product. Multiple Teams will look for solutions to scaling issues and experiment in an iterative way with their ideas on solving them."
         duration: 2
   - hour: 15h00
     content:
