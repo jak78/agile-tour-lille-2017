@@ -1,11 +1,11 @@
 - name: Cédric Pourbaix
-  bio: " "
+  bio: "Consultant expérimenté, Cédric possède une grande capacité à se concentrer sur l’essentiel : ce qui a le plus de valeur ajoutée pour le client final. Spécialiste des approches agiles, c’est un animateur efficace de réunions et un grand facilitateur dans la prise de décisions des projets complexes. Adepte de KISS (Keep it simple, stupid !), il manie l’art de la métaphore pour simplifier ce qui est complexe et excelle dans la traduction des besoins en scénarios."
   photo: cedric_pourbaix.jpg
 - name: Elalami Lafkih
   bio: Responsable de développement des applications chez ReCommerce Solutions, Elalami Lafkih s’intéresse aux défis et aux problématiques d’innovation et plus précisément aux outils et méthodologies de validation des idées. Auparavant, Elalami a travaillé dans plusieurs start-up françaises, puis Coach Agile chez Valtech. Il aide aujourd’hui les start-up et les grandes entreprises à développer le bon produit avant d'investir massivement dans une mauvaise idée. Elalami intervient également lors des conférences européennes et anime le mouvement de <a href="http://www.pretotyping.fr">prétotyping</a> en France.
   photo: elalami_lafkih.jpg
 - name: Christopher Parola
-  bio: " "
+  bio: "Product Manager elCurator, expert curation, fan de Lean Startup et de rugby !"
   photo: Christopher-Parola.jpg
 - name: Jean-Laurent de Morlhon
   bio: I love the act of writing software transforming a vague idea from the mind of someone, into an efficient software which really helps.
@@ -29,60 +29,60 @@
   photo: aurelien_morvant.jpg
 - name: Pierre Pezziardi
   bio: "Entrepreneur, co-fondateur du cabinet de conseil OCTO Technology et de l’Université du SI, fondateur d’OpenCBS Microfinance, associé de KissKissBankBank, auteur, conférencier, Pierre Pezziardi (Twitter: @ppezziardi) promeut l’idée d’Informatique Conviviale : des systèmes fondés sur la confiance et destinés à décloisonner les organisations en renforçant l’autonomie de leurs acteurs. En 2010, il a déployé les méthodes du Lean en tant que DSI de la Bred Banque Populaire, puis développé des outils financiers communautaires innovants, et notamment la plateforme de prêts solidaires entre particuliers hellomerci.com. En tant qu’Entrepreneur en Résidence, il anime aujourd’hui une filière de startups d’état au sein du Secrétariat Général pour la Modernisation de l’Action Publique, qui a notamment donné vie au nouveau portail de l’Open Data Français, aux Marchés Publics Simplifiés, au simulateur des droits mes-aides.gouv.fr... Pierre Pezziardi, débureaucratisateur (Nouvel Obs, décembre 2014) hellomerci, empruntez à des gens qui vous veulent du bien. Pierre Pezziardi est par ailleurs l’auteur de plusieurs ouvrages, préfaces, articles et conférences, et notamment « Une Politique pour le Système d’information – Descartes, Wittgenstein, (XML) » paru en 2005, « Lean Management, mieux, plus vite, avec les mêmes personnes – L’informatique Conviviale » paru en 2010 aux éditions Eyrolles et « La débureaucratisation par la confiance » édité en 2013 chez Fondapol."
-  photo: male200.png
+  photo: pierre_pezziardi.jpg
 - name: Christophe Addinquy
   bio: ''
-  photo: male200.png
-- name: Baudimont Perrine
+  photo: christophe-addinquy.jpg
+- name: Perrine Baudimont
   bio: ''
-  photo: male200.png
+  photo: perrine-baudimont.jpg
 - name: Jean Claude Grosjean
   bio: ''
-  photo: male200.png
+  photo: jcg.png
 - name: Ismaël Héry
   bio: ''
-  photo: male200.png
+  photo: ismael-hery.jpg
 - name: Bruno Boucard
   bio: ''
-  photo: male200.png
+  photo: bruno_boucard.jpeg
 - name: Charles-Louis de Maere
   bio: ''
-  photo: male200.png
+  photo: charles-louis-de-maere.jpg
 - name: Michel Domenjoud
   bio: ''
   photo: male200.png
 - name: Arnaud Buisine
   bio: ''
-  photo: male200.png
+  photo: arnaud-buisine.jpg
 - name: Cécile Veneziani
   bio: ''
-  photo: male200.png
+  photo: cecile_veneziani.jpeg
 - name: Ben Linders
   bio: Ben Linders is an Independent Consultant in Agile, Lean, Quality and Continuous Improvement, based in The Netherlands.
        Author of Getting Value out of Agile Retrospectives, Waardevolle Agile Retrospectives & What Drives Quality.
-  photo: ../speakers-2015/BenLinders-Square-150x150.jpg
+  photo: BenLinders-Square-150x150.jpg
 - name: Delest Sébastien
   bio: ''
-  photo: male200.png
+  photo: sebastien-delest.jpg
 - name: Bastien Gallay
   bio: ''
-  photo: male200.png
+  photo: bastien_gallay.jpg
 - name: Julien Hatzig
   bio: 'WebCenter AXA'
   photo: male200.png
 - name: Cyrille Martraire
   bio: ''
-  photo: male200.png
+  photo: cyrille-martraire.jpg
 - name: Oana Juncu
   bio: ''
-  photo: male200.png
+  photo: oana.gif
 - name: Julien Jakubowski
   bio:
     Julien est artisan logiciel chez <a href="http://www.octo.com/">OCTO Technology</a>. Depuis une dizaine d'années,
     il aide des équipes à livrer du logiciel de qualité élevée,
     avec efficacité et fun. Julien est un des fondateurs du Ch'ti JUG à Lille
     et il participe également à l'organisation de l'Agile Tour Lille depuis 2009.
-  photo: male200.png
+  photo: Julien-Jakubowski.jpg
 - name: Antoine Blancke
   bio: 'WebCenter AXA'
   photo: male200.png
@@ -91,13 +91,14 @@
   photo: male200.png
 - name: Guillaume Magnier
   bio: ''
-  photo: male200.png
+  photo: guillaume-magnier.png
 - name: Stéphane Bagnier
   bio: ''
-  photo: male200.png
+  photo: SBagnier_400x400.jpg
 - name: Laurent Tardif
   bio: ''
   photo: male200.png
 - name: Thomas Clavier
   bio: ''
-  photo: male200.png
+  photo: thomas-clavier.jpeg
+  
