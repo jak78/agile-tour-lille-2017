@@ -5,6 +5,7 @@ permalink: /organisateurs/
 ---
 
 <div class="container">
+    <h3>L'Agile Tour Lille est organisé par l'association <a href="http://nord-agile.org/">Nord Agile</a>.</h3>
     {% assign speakers = site.data.orga | sort:"name" %}
     {% for speaker in speakers %}
     {% assign loopindex = forloop.index0 | modulo: 2 %}
