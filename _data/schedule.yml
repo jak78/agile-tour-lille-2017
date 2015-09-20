@@ -50,7 +50,7 @@
         speaker: Ismaël Héry
         description: "Getting fast and efficiently to the 'product market fit' state requires fast and efficient learning in the diverse and risky activities of user experience and design, software development, operations in production and management. We will share practices for maximizing learning in those activities, based on le Monde product development experiences, taking inspiration in the Lean principle of Heijunka."
       - subject: Si le TDD est mort, alors pratiquons une autopsie
-        speaker: Bruno Boucard
+        speaker: Bruno Boucard, Thomas Pierrain
         description: "Dans cette session, nous analyserons pourquoi de nombreux développeurs ont finalement jeté l’éponge du test-first face à la difficulté de faire émerger du code.  Par comparaison, si Michel-Ange avait été développeur quels auraient été ses secrets. Quelle était la posture de cet artiste ?  En effet, comment concilier nos intuitions et projections mentales avec cette approche a priori minimaliste et contre-intuitive ?  Exemples à l'appui, 2 craftsmen vous montreront comment sauter le pas… ou tout simplement optimiser votre efficacité dans ce dispositif sans jamais tomber dans le dogmatisme."
       - subject: Dis Papa, c'est quoi l'agilité ?
         speaker: Charles-Louis de Maere
