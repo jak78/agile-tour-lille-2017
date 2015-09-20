@@ -34,8 +34,8 @@
       - subject: 12+1 patterns opérationnels pour la transition agile d'un grand projet
         speaker: Christophe Addinquy
         description: "Basculer en agile un très gros projet est un challenge, pour certains cela peut même apparaitre comme une ineptie. Pourtant c’est que le projet Linky a décidé de faire ! Un tel choix fait émerger des difficultés souvent absentes de projets plus petits : culture « cycle en V » omnisciente, grandes équipes, intégration dans l’architecture du SI, etc. Mais si la route reste longue, les signes de succès sont réels. Plutôt que d’exposer l’histoire du projet, nous allons voir ensemble 12+1 leçons apprises, sous forme de « patterns » opérationnels : des recettes que vous ne trouverez dans aucun livre. Les patterns que nous vous proposons sont tous directement utilisables pour votre propre transition agile dès demain."
-      - subject: Prenons un temps pour en gagner ou Centre de Dev Agile
-        speaker: Perrine Baudimont
+      - subject: "Ice Breaker : Prenons un temps pour en gagner"
+        speaker: Perrine Baudimont, Marine Fromentin
         description: "Après une rapide présentation théorique de l'intérêt de l'étape de brise glace et de quelques jeux qui nous semble être efficaces, nous proposons de pratiquer en groupe un voire 2 jeux originaux pour faire connaissance dans la bonne humeur."
       - subject: Atelier Mindstorm4Scrum
         speaker: Aurélien Morvant, Nelson Dufossé
