@@ -142,7 +142,7 @@
         description: "Passer le pas de l'agilité n'est pas forcément facile. Les questions de productivité, d'efficacité et de coûts peuvent entraver et freiner cette démarche (surtout lorsque cela concerne 45 personnes).
                       Au travers le partage de notre expérience, nous reviendrons step by step sur notre transformation en commençant par les raisons qui nous ont fait sauter le pas, nos difficultés et réussites, où nous en sommes aujourd'hui et le chemin qu'il nous reste à parcourir."
       - subject: La bataille du kata diamand !
-        speaker: Jean-Laurent de Morlhon
+        speaker: Jean-Laurent de Morlhon, Bruno Boucard
         description: "Vous êtes un veteran du TDD ou vous voulez en apprendre plus sur le sujet aprés quelques essais, le kata diamand est un bon challenge pour tout ceux qui s'essayent à TDD. Dans cette session d'environ 2 heures, nous essaierons de dompter ce kata, dans le langage de votre choix. Jean-Laurent & Bruno vous donneront des astuces ainsi que aides si besoin. La dernière demi-heure est consacré à une discussion sur le pour et le contre des differentes approches.  Un portable pour 2 personnes est nécessaire pour cet atelier."
         duration: 2
       - subject: Atelier BDD / Spécification par l'exemple
