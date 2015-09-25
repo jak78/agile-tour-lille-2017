@@ -34,9 +34,9 @@
       - subject: 12+1 patterns opérationnels pour la transition agile d'un grand projet
         speaker: Christophe Addinquy
         description: "Basculer en agile un très gros projet est un challenge, pour certains cela peut même apparaitre comme une ineptie. Pourtant c’est que le projet Linky a décidé de faire ! Un tel choix fait émerger des difficultés souvent absentes de projets plus petits : culture « cycle en V » omnisciente, grandes équipes, intégration dans l’architecture du SI, etc. Mais si la route reste longue, les signes de succès sont réels. Plutôt que d’exposer l’histoire du projet, nous allons voir ensemble 12+1 leçons apprises, sous forme de « patterns » opérationnels : des recettes que vous ne trouverez dans aucun livre. Les patterns que nous vous proposons sont tous directement utilisables pour votre propre transition agile dès demain."
-      - subject: "Ice Breaker : Prenons un temps pour en gagner"
-        speaker: Perrine Baudimont, Marine Fromentin
-        description: "Après une rapide présentation théorique de l'intérêt de l'étape de brise glace et de quelques jeux qui nous semble être efficaces, nous proposons de pratiquer en groupe un voire 2 jeux originaux pour faire connaissance dans la bonne humeur."
+      - subject: Si le TDD est mort, alors pratiquons une autopsie
+        speaker: Bruno Boucard, Thomas Pierrain
+        description: "Dans cette session, nous analyserons pourquoi de nombreux développeurs ont finalement jeté l’éponge du test-first face à la difficulté de faire émerger du code.  Par comparaison, si Michel-Ange avait été développeur quels auraient été ses secrets. Quelle était la posture de cet artiste ?  En effet, comment concilier nos intuitions et projections mentales avec cette approche a priori minimaliste et contre-intuitive ?  Exemples à l'appui, 2 craftsmen vous montreront comment sauter le pas… ou tout simplement optimiser votre efficacité dans ce dispositif sans jamais tomber dans le dogmatisme."
       - subject: Atelier Mindstorm4Scrum
         speaker: Aurélien Morvant, Nelson Dufossé
         description: "Nous proposons ici de relever un challenge simple en construisant un robot qui est capable de mouvement les fonctionnels définiront les US les développeurs/testeurs programmeront le robot et le construirons Bien sur le tout, sans plan et en appliquant SCRUM Seul pré-requis : avoir 10 ans ou plus  les points abordés sont : – utilisation d'un support innovant les legos … enfin … les legos programmables – mise en oeuvre d'une approche SCRUM – les participants pratiquent : détail des US avec un animateur dédié pour les PO planification construction du robot avec un animateur dédié pour scrum et le langage de programmation Le tout : – de manière itérative, – de manière créative : pas de plan – de manière collaborative : l'envie de se surpasser."
@@ -49,9 +49,9 @@
       - subject: "Get fast at building great product requires to learn fast in UX, dev, ops, and mgt. Sharing experiences from le Monde!"
         speaker: Ismaël Héry
         description: "Getting fast and efficiently to the 'product market fit' state requires fast and efficient learning in the diverse and risky activities of user experience and design, software development, operations in production and management. We will share practices for maximizing learning in those activities, based on le Monde product development experiences, taking inspiration in the Lean principle of Heijunka."
-      - subject: Si le TDD est mort, alors pratiquons une autopsie
-        speaker: Bruno Boucard, Thomas Pierrain
-        description: "Dans cette session, nous analyserons pourquoi de nombreux développeurs ont finalement jeté l’éponge du test-first face à la difficulté de faire émerger du code.  Par comparaison, si Michel-Ange avait été développeur quels auraient été ses secrets. Quelle était la posture de cet artiste ?  En effet, comment concilier nos intuitions et projections mentales avec cette approche a priori minimaliste et contre-intuitive ?  Exemples à l'appui, 2 craftsmen vous montreront comment sauter le pas… ou tout simplement optimiser votre efficacité dans ce dispositif sans jamais tomber dans le dogmatisme."
+      - subject: "Ice Breaker : Prenons un temps pour en gagner"
+        speaker: Perrine Baudimont, Marine Fromentin
+        description: "Après une rapide présentation théorique de l'intérêt de l'étape de brise glace et de quelques jeux qui nous semble être efficaces, nous proposons de pratiquer en groupe un voire 2 jeux originaux pour faire connaissance dans la bonne humeur."
       - subject: Dis Papa, c'est quoi l'agilité ?
         speaker: Charles-Louis de Maere
         description: "L’autre jour, en revenant de l’école, ma fille ainée (11 ans) m’a dit qu’elle allait faire un exposé sur le boulot de son papa. Du coup, elle m’a demandé de lui expliquer ce que c’est que l’agilité. Cela m’a permis d’effectuer une réflexion de fond sur la philosophie et les concepts de l’agilité. Finalement, pourquoi veut-on être agile?"
@@ -61,12 +61,12 @@
         duration: 2
   - hour: 12h30
     content:
-      - subject: Ratez vos revues de code en 5 leçons !
-        speaker: Michel Domenjoud
-        description: "La revue de code, tout le monde connait, bien sûr. C'est d'ailleurs une des plus vieilles pratiques de développement, dont l'efficacité est prouvée depuis longtemps pour détecter des défauts au plus tôt. Alors pourquoi tant d'équipes n'utilisent elles pas la revue de code, ou n'en tirent pas les bénéfices qu'évoquent de nombreuses études ?  Au cours de cette session, on explorera les nombreux écueils à éviter au travers de situations de revue de code qui se passent mal, et on proposera des pistes pour corriger le tir."
       - subject: Bon, pour de vrai, pourquoi "faisons" nous de l’Agile ?
         speaker: Arnaud Buisine
         description: "Depuis le début des années 2000 les méthodes Agile connaissent un succès grandissant en entreprise. Plusieurs raisons justifiant leur usage et leur succès sont invoquées de façon récurrente : d'un côté l’échec des projets dits « traditionnels », de l’autre des méthodes projet disruptives. Je suis convaincu que les vraies raisons de l’engouement pour ces méthodes ne résident pas dans ces arguments très rationnels mais dans des facteurs plus profondément ancrés dans notre nature. Notre envie de faire de l’agile renvoie vers notre besoin profond de prendre plaisir à ce que nous faisons dans un environnement sécurisé. Je vais montrer dans ce talk que c’est par la satisfaction de ces besoins que les méthodes agile font la différence. Après cela vous peut être ne verrez plus les approches Agiles de la même manière.  "
+      - subject: Ratez vos revues de code en 5 leçons !
+        speaker: Michel Domenjoud
+        description: "La revue de code, tout le monde connait, bien sûr. C'est d'ailleurs une des plus vieilles pratiques de développement, dont l'efficacité est prouvée depuis longtemps pour détecter des défauts au plus tôt. Alors pourquoi tant d'équipes n'utilisent elles pas la revue de code, ou n'en tirent pas les bénéfices qu'évoquent de nombreuses études ?  Au cours de cette session, on explorera les nombreux écueils à éviter au travers de situations de revue de code qui se passent mal, et on proposera des pistes pour corriger le tir."
       - subject: Agilité et espace de travail collaboratif
         speaker: Cécile Veneziani
         description: ""
@@ -85,26 +85,15 @@
       fill: 5
   - hour: 14h00
     content:
-      - subject: "The Why, What and How of Agile Retrospectives"
-        speaker: Ben Linders
-        description: "Becoming agile is a learning process which requires that you reflect regularly and adopt your way of working. Valuable Agile Retrospectives provide the solution for a successful agile adoption at all levels in the organization. They help you to apply agile practices effectively. 
-                      Ben Linders, co-author of Getting Value out of Agile Retrospectives, will explain the “why” and “what” of retrospectives, the business value and benefits that they can bring you, and provide hands on advice for introducing and improving retrospectives in your teams. He will also show how using different exercises can help you to get more value out of agile retrospectives"
-        highlight: 1
+      - subject: Les organisations Agile porteuses de sens
+        speaker: Oana Juncu
+        description: "Une session qui raconte l'histoire les 3 étapes qui motivent le déploiement de l'agilité : la 1ère qui se positionne comme la recherche d'une nouvelle méthode magique la 2ème qui s'installe quant la prise de conscience que l'Agilité est une posture a eu lieu et qui génère d'autres travers de thérapie intensive la 3ème ( ma préférée :) ) quand tous les contributeurs d'une organisation on réussi à définir un rêve partagé et construisent en conséquence des produits étonnants"
       - subject: "L'estimation, un formidable outil de discussion, même pour les projets #NoEstimate"
         speaker: Delest Sébastien
         description: "L'estimation est au cœur de la gestion de projet informatique aujourd’hui. On l’utilise pour anticiper ce que sera le produit (le périmètre, les fonctionnalités), son coût (le budget) et sa date de livraison. Sans estimation, il semble difficile de lancer et de faire vivre un projet. Pourtant, une communauté grandissante, réunie autour de la bannière #NoEstimates, avance que l'estimation n’est plus nécessaire, ou plutôt qu’il existe des alternatives.  Cette session explore les problématiques liées à l’estimation et détaille leurs alternatives. Elle aborde aussi les contextes dans lesquels l'estimation peut être un formidable vecteur de discussion autour de la valeur et de l'effort."
-      - subject: Psychomotricien d’équipe !
-        speaker: Bastien Gallay
-        description: "Et si le coaching agile était une forme de psychomotricité d’équipe ?
-                      En effet, si l’on considère qu’une équipe (en tant que système complexe) est un être humain, on réalise alors que de nombreuses caractéristiques de la psychomotricité trouvent un parallèle dans la pratique du coaching agile…
-
-                      Pour exemples, voici ce que nous dit Wikipédia sur cette discipline paramédicale :
-                      – La psychomotricité à plusieurs champs d'action (l'éducation, la thérapie, la rééducation) et s'adresse à un large public allant du bébé et ses parents, aux jeunes enfants, adolescents, adultes, jusqu'aux personnes âgées.
-                      – Le psychomotricien intervient dans le dépistage, la prévention et le traitement des troubles psychomoteurs (trouble déficitaire de l'attention, trouble de la communication non-verbale, trouble du tonus musculaire, etc.)
-                      – C'est une discipline autant qu'un courant de pensée qui met en avant la liaison du corps et de la pensée, contrairement à la dichotomie souvent mise en avant.
-
-                      Si vous n’identifiez toujours pas de points communs avec le coaching agile, venez nous voir rejouer vos scènes quotidiennes rencontrées en équipe, et posez-nous vos questions à chaque entracte !
-                      Prise de conscience et humour assurés ;)"
+      - subject: "Monoïdes : le secret de la composabilité infinie"
+        speaker: Cyrille Martraire
+        description: "Les monoïdes , c'est puissant, élégant, indispensable. C'est surtout facile à comprendre et à utiliser dans votre langage, sans framework, et même dans une vieille version de Java, C# ou PHP. Même si vous ne voulez pas entendre parler de monades, les monoïdes sauront vous convaincre, tout en mettant un pied à la fois en DDD et en Programmation Fonctionnelle.  Expliqué avec des verres de bière et de nombreux exemples, découvrez un style de code qui séduit les développeurs dans le monde entier. Vous ne verrez plus les verres de bière ni votre code de la même manière !"
       - subject: Refactoriser votre code legacy en toute sécurité
         speaker: Julien Hatzig
         description: "Dojo sur la mise en place de tests de caractérisations pour sécuriser la refactorisation d'un code."
@@ -121,9 +110,18 @@
       - subject: Le Kanban expliqué par Bison futé
         speaker: Cyrille Deruel
         description: "Votre Kanban ressemble à un trafic routier ! Les tickets bougent comme des voitures sur les routes. Je vous propose de faire comme le centre d'information routière (CIR) et d'utiliser les infos provenant de bison futé pour extraire les bonnes pratiques et les bonnes surprises afin de les intégrer dans vos projets.  Pour que votre Kanban ressemble plus à une autoroute qu'à un chemin communal !"
-      - subject: "Monoïdes : le secret de la composabilité infinie"
-        speaker: Cyrille Martraire
-        description: "Les monoïdes , c'est puissant, élégant, indispensable. C'est surtout facile à comprendre et à utiliser dans votre langage, sans framework, et même dans une vieille version de Java, C# ou PHP. Même si vous ne voulez pas entendre parler de monades, les monoïdes sauront vous convaincre, tout en mettant un pied à la fois en DDD et en Programmation Fonctionnelle.  Expliqué avec des verres de bière et de nombreux exemples, découvrez un style de code qui séduit les développeurs dans le monde entier. Vous ne verrez plus les verres de bière ni votre code de la même manière !"
+      - subject: Psychomotricien d’équipe !
+        speaker: Bastien Gallay
+        description: "Et si le coaching agile était une forme de psychomotricité d’équipe ?
+                      En effet, si l’on considère qu’une équipe (en tant que système complexe) est un être humain, on réalise alors que de nombreuses caractéristiques de la psychomotricité trouvent un parallèle dans la pratique du coaching agile…
+
+                      Pour exemples, voici ce que nous dit Wikipédia sur cette discipline paramédicale :
+                      – La psychomotricité à plusieurs champs d'action (l'éducation, la thérapie, la rééducation) et s'adresse à un large public allant du bébé et ses parents, aux jeunes enfants, adolescents, adultes, jusqu'aux personnes âgées.
+                      – Le psychomotricien intervient dans le dépistage, la prévention et le traitement des troubles psychomoteurs (trouble déficitaire de l'attention, trouble de la communication non-verbale, trouble du tonus musculaire, etc.)
+                      – C'est une discipline autant qu'un courant de pensée qui met en avant la liaison du corps et de la pensée, contrairement à la dichotomie souvent mise en avant.
+
+                      Si vous n’identifiez toujours pas de points communs avec le coaching agile, venez nous voir rejouer vos scènes quotidiennes rencontrées en équipe, et posez-nous vos questions à chaque entracte !
+                      Prise de conscience et humour assurés ;)"
   - hour: 15h45
     special: 1
     content:
@@ -132,16 +130,16 @@
         hide-on-home: 1
   - hour: 16h15
     content:
-      - subject: Les organisations Agile porteuses de sens
-        speaker: Oana Juncu
-        description: "Une session qui raconte l'histoire les 3 étapes qui motivent le déploiement de l'agilité : la 1ère qui se positionne comme la recherche d'une nouvelle méthode magique la 2ème qui s'installe quant la prise de conscience que l'Agilité est une posture a eu lieu et qui génère d'autres travers de thérapie intensive la 3ème ( ma préférée :) ) quand tous les contributeurs d'une organisation on réussi à définir un rêve partagé et construisent en conséquence des produits étonnants"
+      - subject: "The Why, What and How of Agile Retrospectives"
+        speaker: Ben Linders
+        description: "Becoming agile is a learning process which requires that you reflect regularly and adopt your way of working. Valuable Agile Retrospectives provide the solution for a successful agile adoption at all levels in the organization. They help you to apply agile practices effectively. 
+                      Ben Linders, co-author of Getting Value out of Agile Retrospectives, will explain the “why” and “what” of retrospectives, the business value and benefits that they can bring you, and provide hands on advice for introducing and improving retrospectives in your teams. He will also show how using different exercises can help you to get more value out of agile retrospectives"
       - subject: Alliés ensemble contre les défauts – pourquoi et comment nous relisons ensemble le code que nous produisons
         speaker: Julien Jakubowski, Antoine Blancke
         description: "La pratique de la revue de code prévient énormément de défauts. Mais elle a aussi d’autres “effets kiss-cool”. C’est une pratique qui existe depuis une soixantaine d’années. Mais pourquoi est-elle si rarement rencontrée dans les DSI ? Sans doute parce qu’elle est méconnue, mais aussi parce qu’elle fait l’objet d’appréhensions. Faites-vous des revues de code chez vous ? Et sinon, pourquoi pas ? Peut-être pensez-vous que cela prend trop de temps, que c’est trop cher, qu’en jugeant le code on jugera l’auteur… Au Webcenter AXA, le code est revu systématiquement avant de partir en production. Cela porte ses fruits. Mais cela ne s’est pas fait sans accrocs. Venez découvrir un retour d’expérience, illustré à travers des mises en situation concrètes."
-      - subject:  Passer à SCRUM avec 45 personnes - Rétrospective Step by step
-        speaker: Simon Langlet, Guillaume Magnier
-        description: "Passer le pas de l'agilité n'est pas forcément facile. Les questions de productivité, d'efficacité et de coûts peuvent entraver et freiner cette démarche (surtout lorsque cela concerne 45 personnes).
-                      Au travers le partage de notre expérience, nous reviendrons step by step sur notre transformation en commençant par les raisons qui nous ont fait sauter le pas, nos difficultés et réussites, où nous en sommes aujourd'hui et le chemin qu'il nous reste à parcourir."
+      - subject: Échec Leanstartup
+        speaker: Thomas Clavier
+        description: "Fermement engagé dans une démarche Lean Startup, alors que tout le monde insistait sur la nécessité de la proximité avec le client, attiré par les sirènes de la technique, nous nous sommes échoué sur la proximité client. Retour sur cette belle expérience."
       - subject: La bataille du kata diamand !
         speaker: Jean-Laurent de Morlhon, Bruno Boucard
         description: "Vous êtes un veteran du TDD ou vous voulez en apprendre plus sur le sujet aprés quelques essais, le kata diamand est un bon challenge pour tout ceux qui s'essayent à TDD. Dans cette session d'environ 2 heures, nous essaierons de dompter ce kata, dans le langage de votre choix. Jean-Laurent & Bruno vous donneront des astuces ainsi que aides si besoin. La dernière demi-heure est consacré à une discussion sur le pour et le contre des differentes approches.  Un portable pour 2 personnes est nécessaire pour cet atelier."
@@ -158,9 +156,10 @@
       - subject: Vous saurez tout ! - Retour d'expérience Lean Startup
         speaker: Christopher Parola
         description: "Transformer la veille individuelle et collective : voilà ce qui anime l'équipe elCurator depuis deux ans.  Startup née au sein d'OCTO Technology d'une initiative spontanée et innovante, il a fallu faire avec les moyens du bord, ce qui nous a conduit à tout tester pour investir notre temps là où c'était vraiment nécessaire ; le Lean Startup s'est naturellement imposé à nous. Cela nous a permis jusqu'ici d'éviter de nous contribuer au chiffre effrayant de 90% de startups qui échouent, faute d'avoir trouvé leur marché.  Nous avons mis en oeuvre un grand nombre de pratiques pour réduire le temps de la fameuse boucle Construire – Mesurer – Apprendre, et tirer un maximum d'apprentissages avec un minimum de développements. Nous avons beaucoup appris – surtout de nos échecs ; un grand nombre de nos convictions se sont avérées fausses ! Nous tenons à partager cette expérience avec vous, du concierge MVP aux A/B tests mis en place.  A l'image des Géants du Web, nous avons mis au fur et à mesure notre système sous monitoring complet prendre les bonnes décisions. D'ailleurs, nous allons vous montrer des chiffres et des hypothèses : attention, il va y avoir de la donnée !"
-      - subject: Échec Leanstartup
-        speaker: Thomas Clavier
-        description: "Fermement engagé dans une démarche Lean Startup, alors que tout le monde insistait sur la nécessité de la proximité avec le client, attiré par les sirènes de la technique, nous nous sommes échoué sur la proximité client. Retour sur cette belle expérience."
+      - subject:  Passer à SCRUM avec 45 personnes - Rétrospective Step by step
+        speaker: Simon Langlet, Guillaume Magnier
+        description: "Passer le pas de l'agilité n'est pas forcément facile. Les questions de productivité, d'efficacité et de coûts peuvent entraver et freiner cette démarche (surtout lorsque cela concerne 45 personnes).
+                      Au travers le partage de notre expérience, nous reviendrons step by step sur notre transformation en commençant par les raisons qui nous ont fait sauter le pas, nos difficultés et réussites, où nous en sommes aujourd'hui et le chemin qu'il nous reste à parcourir."
   - hour: 18h15
     special: 1
     content:
