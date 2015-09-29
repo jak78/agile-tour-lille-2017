@@ -110,7 +110,7 @@
       - subject: Le Kanban expliqué par Bison futé
         speaker: Cyrille Deruel
         description: "Votre Kanban ressemble à un trafic routier ! Les tickets bougent comme des voitures sur les routes. Je vous propose de faire comme le centre d'information routière (CIR) et d'utiliser les infos provenant de bison futé pour extraire les bonnes pratiques et les bonnes surprises afin de les intégrer dans vos projets.  Pour que votre Kanban ressemble plus à une autoroute qu'à un chemin communal !"
-      - subject: Psychomotricien d’équipe !
+      - subject: "Moi, coach Agile : 'Psychomotricien d’équipe !'"
         speaker: Bastien Gallay
         description: "Et si le coaching agile était une forme de psychomotricité d’équipe ?
                       En effet, si l’on considère qu’une équipe (en tant que système complexe) est un être humain, on réalise alors que de nombreuses caractéristiques de la psychomotricité trouvent un parallèle dans la pratique du coaching agile…
@@ -141,7 +141,7 @@
         speaker: Thomas Clavier
         description: "Fermement engagé dans une démarche Lean Startup, alors que tout le monde insistait sur la nécessité de la proximité avec le client, attiré par les sirènes de la technique, nous nous sommes échoué sur la proximité client. Retour sur cette belle expérience."
       - subject: La bataille du kata diamand !
-        speaker: Jean-Laurent de Morlhon, Bruno Boucard
+        speaker: Thomas Pierrain, Bruno Boucard
         description: "Vous êtes un veteran du TDD ou vous voulez en apprendre plus sur le sujet aprés quelques essais, le kata diamand est un bon challenge pour tout ceux qui s'essayent à TDD. Dans cette session d'environ 2 heures, nous essaierons de dompter ce kata, dans le langage de votre choix. Jean-Laurent & Bruno vous donneront des astuces ainsi que aides si besoin. La dernière demi-heure est consacré à une discussion sur le pour et le contre des differentes approches.  Un portable pour 2 personnes est nécessaire pour cet atelier."
         duration: 2
       - subject: Atelier BDD / Spécification par l'exemple
