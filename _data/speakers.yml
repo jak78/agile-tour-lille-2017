@@ -76,8 +76,9 @@
   bio: ''
   photo: bastien_gallay.jpg
 - name: Julien Hatzig
-  bio: 'WebCenter AXA'
-  photo: male200.png
+  bio: Développeur .NET /Tech Leader/Scrum Master chez AXA, sensibilisé aux bonnes pratiques de développement comme le TDD, le clean code, la code review.
+    J’anime des sessions de code au sein du Webcenter d’AXA et lors de meetups dans le but de partager, d’échanger et d’enrichir ces pratiques avec des développeurs de tout profils désirant partager leur propre expérience du code.
+  photo: Julien_Hatzig.jpg
 - name: Cyrille Martraire
   bio: ''
   photo: cyrille-martraire.jpg
