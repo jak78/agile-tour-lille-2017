@@ -54,7 +54,9 @@
   bio: ''
   photo: charles-louis-de-maere.jpg
 - name: Michel Domenjoud
-  bio: ''
+  bio: Codeur passionné depuis de nombreuses années, Michel en a fait son métier. Il est aujourd'hui consultant chez OCTO Technology depuis 5 ans, et au sein de la tribu Software Craftsmanship depuis sa création.
+    Développeur, Tech Lead chez ses clients sur des projets de delivery, il s'est construit de solides convictions sur les pratiques agiles et eXtreme Programming.
+    TDD, Revue de code et Code propre sont devenus ses standards. Il intervient aujourd'hui en tant que coach sur les pratiques de développement pour aider des équipes à aller vers une culture de la qualité du code.
   photo: MDO_150x150.jpg
 - name: Arnaud Buisine
   bio: Avec une vingtaine d’années à user ses fonds de culotte sur les bancs du service IT auprès d’une dizaine de sociétés, Arnaud Buisine a fait désormais le choix de se consacrer au management collaboratif, responsabilisant et agile
