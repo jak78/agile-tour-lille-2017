@@ -108,7 +108,7 @@
         duration: 2
   - hour: 15h00
     content:
-      - subject: Le mythe de l'Agile à l'echelle
+      - subject: Le mythe de l'Agile à l'échelle
         speaker: Elalami Lafkih
         description: "Cette session est une réflexion à haute voix durant laquelle je vous propose :  1- Une rétrospective des pratiques « Agiles » basée sur ma propre expérience 2- Une analyse des approches alternatives « post-agile » qui ont agité la communauté ces dernières années.  Dans ce talk, je partagerai ma perception des dérives dites « Agile » et notamment, le fake attitude, la fausse-camaraderie et les vanity metrics des coaches agiles.  Ensuite, un petit détour par l'Agile à l’échelle pour voir comment certains frameworks dites à « l’échelle » risquent de dégrader et détruire tout ce qui à l'Agilité d'authentique et utile.  Nous terminons notre session par quelques alternatives et autres visions de transformation d'entreprise comme « les Organisations Bimodales » ou « Dual Operating System », le « Wardley value chain Mapping » et le mouvement « AntiFragile »  Petite mise en garde! je ne suis pas un geek, adepte des tendances à la mode et les buzzwords hypes et attrape-managers. Mais il s'avère que depuis plus un an que j’ai commencé à explorer, expérimenter et s’intéresser à ses alternatives."
       - subject: Le Kanban expliqué par Bison futé
