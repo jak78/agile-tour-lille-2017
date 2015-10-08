@@ -80,7 +80,12 @@
     J’anime des sessions de code au sein du Webcenter d’AXA et lors de meetups dans le but de partager, d’échanger et d’enrichir ces pratiques avec des développeurs de tout profils désirant partager leur propre expérience du code.
   photo: Julien_Hatzig.jpg
 - name: Cyrille Martraire
-  bio: ''
+  bio: 
+    Cyrille est co-fondateur et directeur technique d'Arolla, une société spécialisée sur les pratiques de développement regroupées sous la bannière "Software Craftsmanship".
+    Il développe des logiciels avec passion dans des startups et banques depuis 1999. 
+    Aujourd’hui il aide ses clients sur des projets avec une forte implication dans l'analyse métier, ou en accompagnement sur des pratiques pour des équipes qui veulent progresser. 
+    Passionné de design sous tous ses aspects (Clean Code, TDD, BDD, DDD, architecture), 
+    il a aussi fondé la communauté Software Craftsmanship Paris et intervient fréquemment comme orateur dans des conférences en Europe et parfois au-délà.
   photo: cyrille-martraire.jpg
 - name: Oana Juncu
   bio: 'Test Driven Business DJ entrepreneur mixing Agile Kanban, Lean, storytelling and neuroscience to thrive purposeful organisations, proud of their outcomes'
