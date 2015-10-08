@@ -98,9 +98,13 @@
         speaker: Julien Hatzig
         description: "Dojo sur la mise en place de tests de caractérisations pour sécuriser la refactorisation d'un code."
         duration: 2
-      - subject: The scaling agile
+      - subject: The scaling game
         speaker: Yves Hanoulle, Erik Talboom
-        description: "During the game you will experience scaling issues that occur when multiple teams work on the same product. Multiple Teams will look for solutions to scaling issues and experiment in an iterative way with their ideas on solving them."
+        description: "During the game you will experience scaling issues that occur when multiple teams work on the same product. Multiple Teams will look for solutions to scaling issues and experiment in an iterative way with their ideas on solving them.
+        This workshop is for everyone who wants to experience the problems of scaling development teams. People will not write code, this makes it possible for both technical and non-technical people to work together.
+        Both Erik and Yves have been speaking at local and international conferences.
+ They have been helping companies with scaling issues. They have used that experience to add different scaling issues into the game.
+        "
         duration: 2
   - hour: 15h00
     content:
