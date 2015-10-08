@@ -75,6 +75,11 @@
 - name: Bastien Gallay
   bio: ''
   photo: bastien_gallay.jpg
+- name: Cédric Bodin
+  bio: 'J’accompagne les équipes et organisations dans leur chemin pour re-devenir agile, en mêlant 3 ingrédients « HUMmm »…
+  La recette : une base d’ HUManisme, une bonne dose d’ HUMilité, et une pincée d’ HUMour ;)
+  Mon centre de gravité se trouvant à Nantes, je suis donc tout naturellement membre de l’association Agile Nantes et co-organisateur de la conférence Agile Tour à Nantes.'
+  photo: cedric-bodin.jpg  
 - name: Julien Hatzig
   bio: Développeur .NET /Tech Leader/Scrum Master chez AXA, sensibilisé aux bonnes pratiques de développement comme le TDD, le clean code, la code review.
     J’anime des sessions de code au sein du Webcenter d’AXA et lors de meetups dans le but de partager, d’échanger et d’enrichir ces pratiques avec des développeurs de tout profils désirant partager leur propre expérience du code.
