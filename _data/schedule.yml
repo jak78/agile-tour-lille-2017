@@ -67,9 +67,9 @@
       - subject: Ratez vos revues de code en 5 leçons !
         speaker: Michel Domenjoud
         description: "La revue de code, tout le monde connait, bien sûr. C'est d'ailleurs une des plus vieilles pratiques de développement, dont l'efficacité est prouvée depuis longtemps pour détecter des défauts au plus tôt. Alors pourquoi tant d'équipes n'utilisent elles pas la revue de code, ou n'en tirent pas les bénéfices qu'évoquent de nombreuses études ?  Au cours de cette session, on explorera les nombreux écueils à éviter au travers de situations de revue de code qui se passent mal, et on proposera des pistes pour corriger le tir."
-      - subject: Agilité et espace de travail collaboratif
+      - subject: Comment 60 personnes gèrent leur espace de travail sans chef depuis 5 ans ?
         speaker: Cécile Veneziani
-        description: ""
+        description: "Une soixantaine de personnes, 25 métiers, un repas collectif, une livraison d'un maraîcher, des conférences/débats, des ateliers yoga/massage/dessin/etc. le tout dans 160m2, auto-géré et auto-financé depuis 5 ans. Venez découvrir comment les membres de La Coroutine gèrent leur lieu au quotidien en agilité."
   - hour: 12h45
     special: 1
     content:
