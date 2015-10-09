@@ -8,7 +8,7 @@ gems:
   - jekyll-sitemap
 
 baseurl: '' # the subpath of your site, e.g. /blog/
-url: 'http://agiletour-lille.org/'
+url: 'http://agiletour-lille.org'
 twitter_username: NordAgile
 github_username:  0livier
 
