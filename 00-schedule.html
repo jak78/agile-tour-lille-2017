@@ -7,10 +7,9 @@ permalink: /programme/
 <div class="container">
     <h1>Programme de l'édition 2015</h1>
     <div class="row">
-        <div class="col-md-6 col-xs-12">
-            <i>
-            Le programme est susceptible de changer en fonction des contraintes de nos conférenciers.
-            </i>
+        <div class="col-md-12 col-xs-12">
+            <p><i>Le programme est susceptible de changer légèrement en fonction des contraintes de dernière minute.<br>
+                Il est conseillé d'amener votre PC/Mac aux conférences signalées par le picto <i class="fa fa-laptop"></i>.</i></p>
         </div>
     </div>
 
@@ -32,6 +31,9 @@ permalink: /programme/
             <td{% if talk.duration %} rowspan="2"{% endif %}{% if talk.fill %} colspan="{{ talk.fill }}"{% endif %} class="{% if talk.highlight %} highlight{% endif %}{% if talk.hide-on-home %} dim{% endif %}">
                 {% if talk.room %}
                 <span class="room">{{ talk.room }}</span>
+                {% endif %}
+                {% if talk.bring_your_pc %}
+                <p class="picto"><i class="fa fa-laptop"></i></p>
                 {% endif %}
                 {% if talk.subject %}
                 <a class="subject" name="{{ talk.subject }}"></a>

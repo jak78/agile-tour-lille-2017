@@ -8,7 +8,7 @@
   - hour: 8h45
     special: 1
     content:
-      - label: Lancement conférence et pitch des sessions matin
+      - label: Lancement de la conférence et pitch des sessions de la matinée
         fill: 5
         room: Auditorium
   - hour: 9h15
@@ -80,7 +80,7 @@
   - hour: 13h45
     special: 1
     content:
-    - label: Teasing Speakers Après Midi
+    - label: Pitch des sessions de l'après-midi
       room: Auditorium
       fill: 5
   - hour: 14h00
@@ -98,6 +98,7 @@
         speaker: Julien Hatzig
         description: "Dojo sur la mise en place de tests de caractérisations pour sécuriser la refactorisation d'un code."
         duration: 2
+        bring_your_pc: 1
       - subject: The scaling game
         speaker: Yves Hanoulle, Erik Talboom
         description: "During the game you will experience scaling issues that occur when multiple teams work on the same product. Multiple Teams will look for solutions to scaling issues and experiment in an iterative way with their ideas on solving them.
@@ -144,14 +145,16 @@
       - subject: Échec Leanstartup
         speaker: Thomas Clavier
         description: "Fermement engagé dans une démarche Lean Startup, alors que tout le monde insistait sur la nécessité de la proximité avec le client, attiré par les sirènes de la technique, nous nous sommes échoué sur la proximité client. Retour sur cette belle expérience."
-      - subject: La bataille du kata diamand !
+      - subject: La bataille du kata diamand
         speaker: Thomas Pierrain, Bruno Boucard
         description: "Vous êtes un veteran du TDD ou vous voulez en apprendre plus sur le sujet aprés quelques essais, le kata diamand est un bon challenge pour tout ceux qui s'essayent à TDD. Dans cette session d'environ 2 heures, nous essaierons de dompter ce kata, dans le langage de votre choix. Jean-Laurent & Bruno vous donneront des astuces ainsi que aides si besoin. La dernière demi-heure est consacré à une discussion sur le pour et le contre des differentes approches.  Un portable pour 2 personnes est nécessaire pour cet atelier."
         duration: 2
+        bring_your_pc: 1
       - subject: Atelier BDD / Spécification par l'exemple
         speaker: Stéphane Bagnier
         description: "Bien avant la qualité technique, un enjeu crucial du développement logiciel est d’avoir une communication efficace entre les participants. Dans cet atelier, vous apprendrez à utiliser des exemples pour créer une compréhension commune autour de l’énoncé d’un besoin. Vous explorerez un domaine métier drôle, complexe et retord. Vous découvrirez comment parler à un expert métier afin de l’interviewer efficacement. Vous écrirez en binôme des exemples que votre expert saura valider et qui serviront de spécifications fonctionnelles. Vous verrez comment, en écrivant ces spécifications par l’exemple, obtenir des tests automatiques d'acceptation. Vous comprendrez comment écrire vos propres règles métiers et refermer pour de bon les documents de spécifications fonctionnelles."
         duration: 2
+        bring_your_pc: 1
   - hour: 17h15
     content:
       - subject: Intégration continue, DevOps et après ?
