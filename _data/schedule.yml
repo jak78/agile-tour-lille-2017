@@ -85,12 +85,12 @@
       fill: 5
   - hour: 14h00
     content:
-      - subject: Les organisations Agile porteuses de sens
-        speaker: Oana Juncu
-        description: "Une session qui raconte l'histoire les 3 étapes qui motivent le déploiement de l'agilité : la 1ère qui se positionne comme la recherche d'une nouvelle méthode magique la 2ème qui s'installe quant la prise de conscience que l'Agilité est une posture a eu lieu et qui génère d'autres travers de thérapie intensive la 3ème ( ma préférée :) ) quand tous les contributeurs d'une organisation on réussi à définir un rêve partagé et construisent en conséquence des produits étonnants"
       - subject: "L'estimation, un formidable outil de discussion, même pour les projets #NoEstimate"
         speaker: Delest Sébastien
         description: "L'estimation est au cœur de la gestion de projet informatique aujourd’hui. On l’utilise pour anticiper ce que sera le produit (le périmètre, les fonctionnalités), son coût (le budget) et sa date de livraison. Sans estimation, il semble difficile de lancer et de faire vivre un projet. Pourtant, une communauté grandissante, réunie autour de la bannière #NoEstimates, avance que l'estimation n’est plus nécessaire, ou plutôt qu’il existe des alternatives.  Cette session explore les problématiques liées à l’estimation et détaille leurs alternatives. Elle aborde aussi les contextes dans lesquels l'estimation peut être un formidable vecteur de discussion autour de la valeur et de l'effort."
+      - subject: Les organisations Agile porteuses de sens
+        speaker: Oana Juncu
+        description: "Une session qui raconte l'histoire les 3 étapes qui motivent le déploiement de l'agilité : la 1ère qui se positionne comme la recherche d'une nouvelle méthode magique la 2ème qui s'installe quant la prise de conscience que l'Agilité est une posture a eu lieu et qui génère d'autres travers de thérapie intensive la 3ème ( ma préférée :) ) quand tous les contributeurs d'une organisation on réussi à définir un rêve partagé et construisent en conséquence des produits étonnants"
       - subject: "Monoïdes : le secret de la composabilité infinie"
         speaker: Cyrille Martraire
         description: "Les monoïdes , c'est puissant, élégant, indispensable. C'est surtout facile à comprendre et à utiliser dans votre langage, sans framework, et même dans une vieille version de Java, C# ou PHP. Même si vous ne voulez pas entendre parler de monades, les monoïdes sauront vous convaincre, tout en mettant un pied à la fois en DDD et en Programmation Fonctionnelle.  Expliqué avec des verres de bière et de nombreux exemples, découvrez un style de code qui séduit les développeurs dans le monde entier. Vous ne verrez plus les verres de bière ni votre code de la même manière !"
