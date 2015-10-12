@@ -46,9 +46,9 @@
         description: "Au delà du changement (sa problématique de départ), au delà de la valeur à livrer au plus vite, la capacité d'une Organisation à RAVIR ses utilisateurs & ses clients est devenu aujourd'hui l'enjeu majeur de l'agilité. Dés lors, l'intégration de l'Experience Utilisateur (UX) dans les projets Agiles est de plus en marquée et pertinente. Au cours de cette session, je vous propose de parcourir différentes techniques UX (Personas, Vision, Art de l'Interview, Tests Utilisateurs...) au service du Product Owner et des Equipes Agiles. Nous avancerons ensemble, technique par technique, dans une logique problème - contexte - solution."
   - hour: 11h30
     content:
-      - subject: "Get fast at building great product requires to learn fast in UX, dev, ops, and mgt. Sharing experiences from le Monde!"
+      - subject: "Construire plus vite en apprenant plus vite – Retour d'expérience du Monde.fr"
         speaker: Ismaël Héry
-        description: "Getting fast and efficiently to the 'product market fit' state requires fast and efficient learning in the diverse and risky activities of user experience and design, software development, operations in production and management. We will share practices for maximizing learning in those activities, based on le Monde product development experiences, taking inspiration in the Lean principle of Heijunka."
+        description: "Arriver au stade d'un produit qui satisfasse complètement ses utilisateur tout en étant maîtrisé par ses concepteurs requiert de très nombreux apprentissages. Voici un retour d'expérience issu des produits numériques du Monde.fr, sur des approches et des pratiques pour maximiser la vitesse de ces apprentissages, aussi bien côté produit, développement ou exploitation."
       - subject: "Ice Breaker : Prenons un temps pour en gagner"
         speaker: Perrine Baudimont, Marine Fromentin
         description: "Après une rapide présentation théorique de l'intérêt de l'étape de brise glace et de quelques jeux qui nous semble être efficaces, nous proposons de pratiquer en groupe un voire 2 jeux originaux pour faire connaissance dans la bonne humeur."
