@@ -95,7 +95,7 @@
         speaker: Cyrille Martraire
         description: "Les monoïdes , c'est puissant, élégant, indispensable. C'est surtout facile à comprendre et à utiliser dans votre langage, sans framework, et même dans une vieille version de Java, C# ou PHP. Même si vous ne voulez pas entendre parler de monades, les monoïdes sauront vous convaincre, tout en mettant un pied à la fois en DDD et en Programmation Fonctionnelle.  Expliqué avec des verres de bière et de nombreux exemples, découvrez un style de code qui séduit les développeurs dans le monde entier. Vous ne verrez plus les verres de bière ni votre code de la même manière !"
       - subject: Refactoriser votre code legacy en toute sécurité
-        speaker: Julien Hatzig
+        speaker: Julien Hatzig, Abdoul Karim Cisse
         description: "Dojo sur la mise en place de tests de caractérisations pour sécuriser la refactorisation d'un code."
         duration: 2
         bring_your_pc: 1
