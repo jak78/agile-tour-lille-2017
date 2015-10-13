@@ -117,7 +117,10 @@
   bio: ''
   photo: SBagnier_400x400.jpg
 - name: Laurent Tardif
-  bio: ''
+  bio: 
+    J'ai promu les tests automatisés et l'intégration automatique chez Kelkoo.
+    En tant qu'architecte chez Yahoo, j'ai pu automatiser le déploiement d'applications à grande échelle. 
+    Aujourd’hui j'accompagne les équipes dans leur transformation Agile, Devops, CI, BigData dans un esprit Agile.
   photo: laurent_tardif.jpg
 - name: Thomas Clavier
   bio: ''
@@ -125,4 +128,4 @@
 - name: Thomas Pierrain
   bio: 'Agile de père en fils depuis 1905 (tendance XP), Thomas est obsédé par les use cases et le "pourquoi" en général (par opposition aux approches "solutions driven"). Développeur open source, architecte technique dans la finance depuis 2005 (après une première partie de carrière les pieds dans le Web), Thomas s''attache à démontrer régulièrement que DDD et low latency ne sont pas incompatibles. Curieux, passionné, Thomas ne loupe également aucune occasion pour organiser des rencontres, et échanger avec d''autres passionné(e)s.'
   photo: Thomas-Pierrain.jpg
-  
+
