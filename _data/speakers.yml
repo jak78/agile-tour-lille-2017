@@ -125,6 +125,11 @@
 - name: Thomas Clavier
   bio: ''
   photo: thomas-clavier.jpeg
+- name: Olivier Albiez
+  bio: 
+    Olivier Albiez est développeur logiciel et coach agile, passionné des méthodes de travail et de l'auto-organisation dans les entreprises. 
+    Il est toujours à la recherche de ce qui peut accélérer le cycle de développement. Il est récemment co-fondateur de deliverous.
+  photo: olivier-albiez.jpg  
 - name: Thomas Pierrain
   bio: 'Agile de père en fils depuis 1905 (tendance XP), Thomas est obsédé par les use cases et le "pourquoi" en général (par opposition aux approches "solutions driven"). Développeur open source, architecte technique dans la finance depuis 2005 (après une première partie de carrière les pieds dans le Web), Thomas s''attache à démontrer régulièrement que DDD et low latency ne sont pas incompatibles. Curieux, passionné, Thomas ne loupe également aucune occasion pour organiser des rencontres, et échanger avec d''autres passionné(e)s.'
   photo: Thomas-Pierrain.jpg
