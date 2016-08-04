@@ -5,58 +5,16 @@ visible: 1
 permalink: /programme/
 ---
 <div class="container">
-    <h1>Programme de l'édition 2015</h1>
-    <div class="row">
-        <div class="col-md-12 col-xs-12">
-            <p><i>Le programme est susceptible de changer légèrement en fonction des contraintes de dernière minute.<br>
-                Il est conseillé d'amener votre PC/Mac aux conférences signalées par le picto <i class="fa fa-laptop"></i>.</i></p>
-        </div>
-    </div>
-
-{% for part in site.data.schedule %}
-<table class="schedule table table-condensed">
-    <tbody>
-    {% for slot in part %}
-        {% if forloop.index0 == 1%}
-        <tr class="rooms">
-            <th></th>
-            {% for room in site.data.rooms %}
-            <th width="20%">{{ room }}</th>
-            {% endfor %}
-        </tr>
-        {% endif %}
-        <tr class="{% cycle '', 'alt' %}">
-            <th class="hour">{{ slot.hour }}</th>
-            {% for talk in slot.content %}
-            <td{% if talk.duration %} rowspan="2"{% endif %}{% if talk.fill %} colspan="{{ talk.fill }}"{% endif %} class="{% if talk.highlight %} highlight{% endif %}{% if talk.hide-on-home %} dim{% endif %}">
-                {% if talk.room %}
-                <span class="room">{{ talk.room }}</span>
-                {% endif %}
-                {% if talk.bring_your_pc %}
-                <p class="picto"><i class="fa fa-laptop"></i></p>
-                {% endif %}
-                {% if talk.subject %}
-                <a class="subject" name="{{ talk.subject }}"></a>
-                <span class="subject"><a href="{{ "/conferences/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a></span>
-                {% else %}
-                {{ talk.label }}
-                {% endif %}
-
-                {% if talk.speaker %}
-                {% assign speakers = talk.speaker | split: ", " %}
-                {% for speaker in speakers %}
-                <a class="speaker" href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>{% if forloop.last == false %}, {% endif %}
-                {% endfor %}
-                {% endif %}
-                {% if talk.extra %}
-                <p class="extra">{{ talk.extra }}</p>
-                {% endif %}
-            </td>
-            {% endfor %}
-        </tr>
-    {% endfor %}
-    </tbody>
-</table>
-{% endfor %}
-    <p style="margin-top: 80px;">* L'abus d'alcool est dangereux pour la santé, à consommer avec modération</p>
+    <h1>Programme de l'édition {{ site.data.event.date.year }}</h1>
+    <p>Le progamme est en cours d'élaboration. Vous serez prochainement informés de sa publication :</p>
+    <ul>
+      <li>Par email si vous êtes déjà inscrits à une édition de l'Agile Tour Lille</li>
+      <li>Par <a href="https://twitter.com/NordAgile">Twitter</a></li>
+    </ul>
+    <p>Nous pouvons déjà vous annoncer la présence de&nbsp;</p>
+    <ul>
+      <li><a href="https://leanpub.com/u/duarte_vasco" target="_blank">Vasco Duarte</a></li>
+      <li><a href="https://www.mix-it.fr/member/speaker/5662" target="_blank">Youmna Ovazza</a></li>
+      <li><a href="http://www.allankelly.net/" target="_blank">Alan Kelly</a></li>
+    </ul>
 </div>

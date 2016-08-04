@@ -1,10 +1,12 @@
-- name: Olivier Garcia
-  photo: olivier_garcia.jpg
-  bio:
-    Olivier est responsable du centre de compétence Web Opensource chez Infrabel
-    où il encadre une équipe de 15 développeurs. Utilisateur d'Open Source depuis plus de 15 ans,
-    il vient de cofonder <a href="http://catchy.io">catchy.io</a>, une solution SaaS de monitoring temps
-    réel des erreurs et des performances.
+- name: Sarah Mortel
+  bio: Sarah est coach agilitatrice chez Efidev et responsable du produit Taïkoon (solution de gestion de trésorerie pour les TPE). Les utilisateurs sont le centre de ses préoccupations, l’amélioration continue est sa philosophie. Elle aime transmettre ce qu’elle apprend aux équipes qu’elle accompagne et découvrir de nouveaux outils pour être plus efficace dans le travail en équipe.<br/>Elle est fière de faire partie de l’équipe Nord Agile, organisatrice de l’Agile Tour Lille pour la 6ème édition.
+  photo: sarah_mortel.jpg
+- name: Lucie Pruvost
+  bio: "Lucie Pruvost, pas technique mais convaincue que l'agilité améliore  grandement vos projets. Ingénieur commerciale chez Zenika, j'ai participé à différents événements : Chti Jug, Scrum beer ...  mais c'est avec plaisir que je prends part à l'Agile Tour."
+  photo: Lucie-Pruvost.jpg
+- name: Nelson Dufossé
+  photo: Nelson-Dufosse.png
+  bio: Ancien coach sportif et maintenant coach agile après des missions de scrum master et product owner, j'aide les équipes à devenir agiles. Aujourd'hui dans des missions de product manager, je m'efforce de remettre le client au centre des projets et domaines où il pourrait être oublié et préfère les démarches pragmatiques à celles malheureusement historiques... Pour moi les serious games favorisent la prise de conscience et facilitent l'introduction à l'agilité. Cette année nous allons jouer! Membre de l'association Nord-Agile, j'organise régulièrement des événements sur l'agilité, j'espère que l'agile tour sera à la hauteur de vos espérances.
 - name: Julien Jakubowski
   photo: julien_jakubowski.jpg
   bio:
@@ -12,36 +14,9 @@
     il aide des équipes à livrer du logiciel de qualité élevée,
     avec efficacité et fun. Julien est un des fondateurs du <a href="http://chtijug.org">Ch'ti JUG</a> à Lille
     et il participe également à l'organisation de l'Agile Tour Lille depuis 2009.
-- name: Nelson Dufossé
-  photo: Nelson-Dufosse.png
-  bio: Ancien coach sportif et maintenant coach agile après des missions de scrum master et product owner, j'aide les équipes à devenir agiles. Aujourd'hui dans des missions de product manager, je m'efforce de remettre le client au centre des projets et domaines où il pourrait être oublié et préfère les démarches pragmatiques à celles malheureusement historiques... Pour moi les serious games favorisent la prise de conscience et facilitent l'introduction à l'agilité. Cette année nous allons jouer! Membre de l'association Nord-Agile, j'organise régulièrement des événements sur l'agilité, j'espère que l'agile tour sera à la hauteur de vos espérances.
-- name: Gwennaël Buchet
-  photo: gwennael_buchet.jpg
-  bio:
-    Gwennaël est directeur technique chez Zenika Nord, architecte des SI, artisan logiciel et beer evangelist.
-    Il accompagne les entreprises sur leurs projets d'expertise depuis plus de 12 ans.
-    Gwennaël est aussi un prôneur de l'échange et du partage, une composante indispensable au succès des projets.
 - name: Olivier Lemaitre
   photo: olivier_lemaitre.png
   bio:
     Olivier travaille comme ingénieur logiciel indépendant.
     Il est passionné par l'innovation, la programmation et l'architecture.
     Membre de Nord Agile et fidèle de l'agile tour, il essaie d'apporter une vision différente de l'informatique aux entreprises pour lesquelles il travaille.
-- name: Jérémie Hattat
-  photo: jeremie_hattat.png
-  bio:
-    Agiliste dans l’âme, Jérémie accompagne des équipes dans l‘adoption de méthodes et de pratiques agiles sans dogmatisme. Il aime utiliser le jeu pour créer la prise de conscience et générer l’engouement et la curiosité. Dans cet esprit, il contribue à la communauté agile de la région Lilloise en organisant ou en animant des événements tels que l’Agile Tour Lille, Scrumbeer, Code Retreat, PO Dojo.
-- name: Sarah Mortel
-  bio: Sarah est coach agilitatrice chez Efidev et responsable du produit Taïkoon (solution de gestion de trésorerie pour les TPE). Les utilisateurs sont le centre de ses préoccupations, l’amélioration continue est sa philosophie. Elle aime transmettre ce qu’elle apprend aux équipes qu’elle accompagne et découvrir de nouveaux outils pour être plus efficace dans le travail en équipe.<br/>Elle est fière de faire partie de l’équipe Nord Agile, organisatrice de l’Agile Tour Lille pour la 6ème édition.
-  photo: sarah_mortel.jpg
-- name: Thomas De Clercq
-  bio: "Manager d’une équipe de développement web pour la société AXA, je facilite et coache le travail d’une équipe de 12 ingénieurs. Je suis convaincu de l’efficacité des pratiques agiles et de leurs apports : facilité de communication, responsabilisation, réactivité, exigence technique et pertinence des indicateurs de pilotage. Etre agile au quotidien n’est pas si simple, c’est pour moi un challenge qui se nourrit des expériences des autres : alors quoi de plus naturel que de soutenir l’agile tour ?"
-  photo: thomas_de_clercq_photo.jpg
-- name: Jérôme Maslak
-  bio: Scrum Master chez AXA et convaincu que la philosophie Agile et les méthodes améliorent notre quotidien sur les projets informatiques, 
-    j'ai eu l'occasion de participer à différents évènements comme les Scrum Beer et Ch’ti JUG. 
-    C’est avec plaisir que je prends part à l’organisation de l’Agile Tour cette année.
-  photo: jerome_maslak.jpg
-- name: Lucie Pruvost
-  bio: "Lucie Pruvost, pas technique mais convaincue que l'agilité améliore  grandement vos projets. Ingénieur commerciale chez Zenika, j'ai participé à différents événements : Chti Jug, Scrum beer ...  mais c'est avec plaisir que je prends part à l'Agile Tour pour la première année."
-  photo: Lucie-Pruvost.jpg

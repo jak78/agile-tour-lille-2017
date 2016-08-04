@@ -8,13 +8,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">Agile Tour <span class="hidden-xs hidden-sm">15 Octobre 2015</span><span class="visible-xs-inline">15/10/15</span></a>
+            <a class="navbar-brand" href="{{ site.baseurl }}/">Agile Tour Lille
+              <span class="hidden-xs hidden-sm">{{ site.data.event.date.long }}</span>
+              <span class="visible-xs-inline">{{ site.data.event.date.short }}</span>
+            </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="page-link" href="http://www.eventbrite.fr/e/billets-agile-tour-lille-2015-17807940028" target="_blank">S'inscrire</a></li>
                 {% assign sorted_pages = site.pages | sort:"path" %}
                 {% for page in site.pages %}
                 {% if page.title %}
