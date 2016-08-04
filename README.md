@@ -2,9 +2,20 @@
 
 Le site est actuellement configuré pour être sur `/agile-tour-lille`.
 
-## Jekyll en local
+## Pour tester ses modifs en local
 
-    jekyll serve -b ''
+### Installation de Jekyll en local
+
+https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+
+Si problème "nokogiri" sur Mac:
+
+    bundle config build.nokogiri --use-system-libraries
+    bundle install
+
+### Lancement de Jekyll
+
+    jekyll serve
 
 ## Workflow
 

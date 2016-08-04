@@ -1,3 +1,1 @@
 User-agent: *
-
-Sitemap: http://agiletour-lille.org/sitemap.xml
