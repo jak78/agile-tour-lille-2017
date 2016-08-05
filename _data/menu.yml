@@ -1,7 +1,9 @@
 # Navigation bar on top-right
+- title: A propos
+  url: /a-propos
+  visible: 1
 - title: Soumettre un talk
-  url: https://docs.google.com/a/octo.com/forms/d/e/1FAIpQLSeWu3-YhP3Z6oau0ddnWZCgPjzzbRJ6Oft5R5oK95OMMAnpAw/viewform
-  target: _blank
+  url: /cfp
   visible: 1
 - title: Programme
   url: /programme
