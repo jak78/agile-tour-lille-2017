@@ -4,22 +4,20 @@ title: Sponsors 2015
 permalink: /sponsors/
 ---
 <div class="container">
-
     <div class="row">
-      La liste des sponsors de l'année 2016 est en cours d'élaboration. Voici pour information <strong>les sponsors de l'édition précédente</strong>.
+        <p>La liste des sponsors de l'année 2016 est en cours d'élaboration.</p>
+        <p>Il ne manque plus que votre entreprise sur cette liste !
+            Nous vous invitons à <a href="/devenir-sponsor">découvrir les bénéfices à être sponsor et comment procéder</a>.</p>
+        <p>Voici pour information <strong>les sponsors de l'édition précédente</strong> :</p>
     </div>
-    <div class="row">
-      Si vous êtes intéressés pour être sponsors, contactez-nous : <a href="mailto:agiletour@nord-agile.org">agiletour@nord-agile.org</a>
-    </div>
-
     <div class="row">
         <div class="col-md-6 col-xs-6 ">
-        <h2>Sponsor Platine</h2>
+        <h2>Sponsor Platinium</h2>
         {% assign sponsors = site.data.sponsors.platinum | sort:"name" %}
         {% for sponsor in sponsors %}
         <div class="col-md-3 col-xs-3 sponsor">
             <a href="{{ sponsor.url }}">
-                <img class="platinum" src="{{ sponsor.logo | prepend: "/img/sponsors/" | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
+                <img class="platinum" src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
             </a>
         </div>
         </div>
@@ -30,20 +28,20 @@ permalink: /sponsors/
             {% for sponsor in sponsors %}
             <div class="col-md-6 col-xs-12 sponsor">
                 <a href="{{ sponsor.url }}">
-                    <img class="platinum" src="{{ sponsor.logo | prepend: "/img/sponsors/" | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
+                    <img class="platinum" src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
                 </a>
             </div>
             {% endfor %}
         </div>
     </div>
 
-    <h2>Sponsors Or</h2>
+    <h2>Sponsors Gold</h2>
     <div class="row">
         {% assign sponsors = site.data.sponsors.gold | sort:"name" %}
         {% for sponsor in sponsors %}
         <div class="col-md-4 col-xs-6 sponsor">
             <a href="{{ sponsor.url }}">
-                <img src="{{ sponsor.logo | prepend: "/img/sponsors/" | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
+                <img src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
             </a>
         </div>
         {% endfor %}

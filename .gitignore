@@ -2,3 +2,4 @@ _site/
 .sass-cache/
 .idea
 npm-debug.log
+.jekyll-metadata
