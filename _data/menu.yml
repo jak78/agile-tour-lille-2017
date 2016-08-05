@@ -2,6 +2,10 @@
 - title: A propos
   url: /a-propos
   visible: 1
+- title: S'inscrire
+  url: https://www.billetweb.fr/agile-tour-2016
+  target: _blank
+  visible: 0 # TODO à activer le jour de l'ouverture des inscriptions
 - title: Soumettre un talk
   url: /cfp
   visible: 1
