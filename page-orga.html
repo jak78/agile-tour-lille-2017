@@ -5,7 +5,7 @@ permalink: /organisateurs/
 ---
 
 <div class="container">
-    <h3>L'Agile Tour Lille est organisé par l'association <a href="http://nord-agile.org/">Nord Agile</a>.</h3>
+    <h3>L'Agile Tour Lille est organisé par l'association <a href="http://nord-agile.org/" target="_blank">Nord Agile</a>.</h3>
     {% assign speakers = site.data.orga %}
     {% for speaker in speakers %}
     {% assign loopindex = forloop.index0 | modulo: 2 %}
@@ -13,7 +13,7 @@ permalink: /organisateurs/
     <div class="row speakers">
     {% endif %}
     <div class="col-md-6 speaker">
-        <img src="{{ speaker.photo | prepend: "/img/orga/" | prepend: site.baseurl }}" alt="{{speaker.name}}"/>
+        <img src="{{ speaker.photo | prepend: '/img/orga/' | prepend: site.baseurl }}" alt="{{speaker.name}}"/>
         <a name="{{ speaker.name }}"></a>
         <h2>{{ speaker.name }}</h2>
         <p>{{ speaker.bio }}</p>
