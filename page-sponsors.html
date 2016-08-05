@@ -4,47 +4,45 @@ title: Sponsors 2015
 permalink: /sponsors/
 ---
 <div class="container">
-    <div class="row">
-        <p>La liste des sponsors de l'année 2016 est en cours d'élaboration.</p>
-        <p>Il ne manque plus que votre entreprise sur cette liste !
-            Nous vous invitons à <a href="/devenir-sponsor">découvrir les bénéfices à être sponsor et comment procéder</a>.</p>
-        <p>Voici pour information <strong>les sponsors de l'édition précédente</strong> :</p>
+  <div class="row">
+    <h1>Sponsors 2016</h1>
+    <p>La liste des sponsors de l'année 2016 est en cours d'élaboration.</p>
+    <p>Il ne manque plus que votre entreprise sur cette liste !
+      Nous vous invitons à <a href="/devenir-sponsor">découvrir les bénéfices à être sponsor et comment procéder</a>.
+    </p>
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-xs-6 ">
+      <h2>Platinium</h2>
+      <p>Bientôt annoncé...</p>
     </div>
-    <div class="row">
-        <div class="col-md-6 col-xs-6 ">
-        <h2>Sponsor Platinium</h2>
-        {% assign sponsors = site.data.sponsors.platinum | sort:"name" %}
-        {% for sponsor in sponsors %}
-        <div class="col-md-3 col-xs-3 sponsor">
-            <a href="{{ sponsor.url }}">
-                <img class="platinum" src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
-            </a>
-        </div>
-        </div>
-        {% endfor %}
-        <div class="col-md-6 col-xs-6 ">
-            <h2>Partenaire</h2>
-            {% assign sponsors = site.data.sponsors.partner | sort:"name" %}
-            {% for sponsor in sponsors %}
-            <div class="col-md-6 col-xs-12 sponsor">
-                <a href="{{ sponsor.url }}">
-                    <img class="platinum" src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
-                </a>
-            </div>
-            {% endfor %}
-        </div>
+    <div class="col-md-6 col-xs-6 ">
+      <h2>Partenaire</h2>
+      {% assign sponsors = site.data.sponsors.partner | sort:"name" %}
+      {% for sponsor in sponsors %}
+      <div class="col-md-6 col-xs-12 sponsor">
+        <a href="{{ sponsor.url }}" target="_blank">
+          <img class="platinum" src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}"
+               alt="{{sponsor.name}}"/>
+        </a>
+      </div>
+      {% endfor %}
     </div>
-
-    <h2>Sponsors Gold</h2>
-    <div class="row">
-        {% assign sponsors = site.data.sponsors.gold | sort:"name" %}
-        {% for sponsor in sponsors %}
-        <div class="col-md-4 col-xs-6 sponsor">
-            <a href="{{ sponsor.url }}">
-                <img src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
-            </a>
-        </div>
-        {% endfor %}
+  </div>
+  <h2>Gold</h2>
+  <div class="row">
+    {% assign sponsors = site.data.sponsors.gold %}
+    {% for sponsor in sponsors %}
+    <div class="col-md-4 col-xs-6 sponsor">
+      <a href="{{ sponsor.url }}" target="_blank">
+        <img src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
+      </a>
     </div>
-
+    {% endfor %}
+    <div class="col-md-4 col-xs-6 sponsor">
+      <a class="placeholder" href="/devenir-sponsor">Votre entreprise ici</a>
+    </div>
+  </div>
+  <h1>Sponsors 2015</h1>
+  <p><a href="http://2015.agiletour-lille.org/sponsors">Voir les sponsors de l'édition précédente.</a></p>
 </div>

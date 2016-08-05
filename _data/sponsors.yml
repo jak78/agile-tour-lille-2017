@@ -1,27 +1,8 @@
-platinum:
- - name: EFIDEV
-   url: http://www.efidev.com
-   logo: logo_efidev_2.png
 partner:
  - name: EuraTechnlogies
    url: http://www.euratechnologies.com/
    logo: logo_euratechnologies.png
 gold:
- - name: AXA
-   logo: logo_axa.png
-   url: http://www.axa.fr
- - name: Decathlon
-   url: http://www.decathlon.fr
-   logo: logo_decathlon_2.png
- - name: Zenika
-   url: http://www.zenika.com
-   logo: logo_zenika.jpg
- - name: OCTO Technology
-   url: http://www.octo.com
-   logo: logo_octo.jpg
- - name: Norsys
-   url: http://www.norsys.fr
-   logo: logo_norsys.jpg
- - name: Proxiad
-   url: http://www.proxiad.com
-   logo: logo_proxiad.jpeg
+ - name: OPEN Group
+   logo: logo_open.png
+   url: http://www.open-groupe.com/
