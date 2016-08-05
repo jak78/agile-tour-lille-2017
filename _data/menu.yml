@@ -1,0 +1,23 @@
+# Navigation bar on top-right
+- title: Soumettre un talk
+  url: https://docs.google.com/a/octo.com/forms/d/e/1FAIpQLSeWu3-YhP3Z6oau0ddnWZCgPjzzbRJ6Oft5R5oK95OMMAnpAw/viewform
+  target: _blank
+  visible: 1
+- title: Programme
+  url: /programme
+  visible: 1
+- title: Speakers
+  url: /conferenciers
+  visible: 0
+- title: Talks
+  url: /conferences
+  visible: 0
+- title: Accès
+  url: /acces
+  visible: 1
+- title: Sponsors
+  url: /sponsors
+  visible: 1
+- title: Orga
+  url: /organisateurs
+  visible: 1

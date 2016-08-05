@@ -17,12 +17,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                {% assign sorted_pages = site.pages | sort:"path" %}
-                {% for page in site.pages %}
-                {% if page.title %}
-                {% if 0 != page.visible %}
-                <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-                {% endif %}
+                {% for item in site.data.menu %}
+                {% if 0 != item.visible %}
+                <li><a class="page-link" href="{{ item.url | prepend: site.baseurl }}" target="{{ item.target }}">{{ item.title }}</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
