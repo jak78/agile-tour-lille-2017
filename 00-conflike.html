@@ -49,7 +49,8 @@ permalink: /conflike/
     var vote = getVote(confID);
     var comment = getComment(confID);
     
-    var url = 'https://3gwmfohd5g.execute-api.eu-west-1.amazonaws.com/prod/ConfLike';
+    var api_id = '3gwmfohd5g'; 
+    var url = 'https://'+ api_id +'.execute-api.eu-west-1.amazonaws.com/prod/ConfLike?userid=' + userID;
     var data = '{"ConfID": { "S": "' + confID + '" }, "UserID": { "S": "' + userID + '" }, "Vote": { "S":"' + vote + '"}, "Comment": { "S": "' + comment + '" }}';
     
     var request = $.ajax({
