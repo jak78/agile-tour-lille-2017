@@ -104,11 +104,32 @@ permalink: /conflike/
   
   <div class="row">    
       <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#9h15" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">MATIN</a>
+          <a class="col-xs-12" href="/conflike/#9h15" style="padding:10px;text-align:center;background-color:yellow;text-decoration:none">MATIN</a>
      </div>
       <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#14h00" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">APRES-MIDI</a>
+          <a class="col-xs-12" href="/conflike/#10h30" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">10h30</a>
+     </div> 
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#11h30" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">11h30</a>
+     </div>
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#12h30" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">12h30</a>
+     </div>     
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#14h00" style="padding:10px;text-align:center;background-color:yellow;text-decoration:none">APRES-MIDI</a>
       </div>
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#14h00" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">14h00</a>
+     </div> 
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#15h00" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">15h00</a>
+     </div>
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#16h15" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">16h15</a>
+     </div>  
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#17h15" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">17h15</a>
+     </div>     
   </div>
   
   </br>
@@ -116,19 +137,30 @@ permalink: /conflike/
   <div class="row">
   {% for part in site.data.schedule %}
     {% for slot in part %}
-        {% for talk in slot.content %}
-            <div class="col-xs-12" id="{{ slot.hour }}" style="margin:1px">
-                <div class="col-xs-2" style="text-align:center;">{{ slot.hour }}</div>
-                <!--<span>{{ slot.special}}</span>-->
-                <div class="col-xs-3" style="text-align:center">{{ talk.room }}</div>
-                <a class="col-xs-7" href="/conflike/#{{slot.hour}}_{{ talk.room }}"style="text-align:center;background-color:lightgrey">
-                    {{ talk.label }}
-                    {{ talk.subject }}
-                    </br>
-                    ({{ talk.speaker }})
-                </a>
-            </div>
-        {% endfor %}
+      {% for talk in slot.content %}
+        <div class="col-xs-12" id="{{ slot.hour }}" style="margin:1px">
+          <div class="col-xs-2" style="text-align:center;">
+            </br>
+            {{ slot.hour }}
+          </div>
+          <!--<span>{{ slot.special}}</span>-->
+          <div class="col-xs-3">
+           </br>
+            {{ talk.room }}
+          </div>
+          <a class="col-xs-7" href="/conflike/#{{slot.hour}}_{{ talk.room }}"style="text-align:center;background-color:lightgrey;text-decoration:none">
+              </br>
+              {{ talk.label }}
+              {{ talk.subject }}
+              </br>
+              {% if talk.speaker != nil %} 
+                ({{ talk.speaker }})
+                </br>
+              {% endif %}
+              </br>
+          </a>
+        </div>
+      {% endfor %}
     {% endfor %}
   {% endfor %}
   </div>
@@ -179,7 +211,7 @@ permalink: /conflike/
             <textarea class="form-control" rows="5" id="{{slot.hour}}/{{ talk.room }}/comment"></textarea>
             </br>
             <div style="text-align:right">
-              <button type="submit" class="btn btn-default" onclick="save('{{slot.hour}}/{{ talk.room }}')">Envoyer Votre Commentaire</button>          
+              <button type="submit" class="btn btn-default" onclick="save('{{slot.hour}}/{{ talk.room }}')">Envoyez Votre Commentaire</button>          
             </div>
           </div>
         </div>
