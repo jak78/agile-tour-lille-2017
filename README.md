@@ -19,12 +19,9 @@ Si problème "nokogiri" sur Mac:
 
 ## Workflow
 
-Travailler sur `master` et lorsqu'une version est valide, la pusher sur `gh-pages`.
+Pour publier, pusher sur `master`. La branche `gh-pages` n'est plus utilisée, c'est `master` qui est publiée directement.
 
     git checkout master
     echo do something funny
     git commit -a -m "Added: Something funny"
-    git push
-    git checkout gh-pages
-    git pull origin master
     git push
