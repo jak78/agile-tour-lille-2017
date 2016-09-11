@@ -52,7 +52,7 @@ permalink: /conflike/
     var api_id = '3gwmfohd5g'; 
     var url = 'https://'+ api_id +'.execute-api.eu-west-1.amazonaws.com/prod/ConfLike?userid=' + userID;
     var data = '{"ConfID": { "S": "' + confID + '" }, "UserID": { "S": "' + userID + '" }, "Vote": { "S":"' + vote + '"}, "Comment": { "S": "' + comment + '" }}';
-    
+
     var request = $.ajax({
       url: url,
       method: "POST",
@@ -102,120 +102,157 @@ permalink: /conflike/
   
   <div><span>UserID= </span><span id="userid">?</span></div>
   
-  <div class="row">    
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#9h15" style="padding:10px;text-align:center;background-color:yellow;text-decoration:none">MATIN</a>
-     </div>
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#10h30" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">10h30</a>
-     </div> 
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#11h30" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">11h30</a>
-     </div>
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#12h30" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">12h30</a>
-     </div>     
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#14h00" style="padding:10px;text-align:center;background-color:yellow;text-decoration:none">APRES-MIDI</a>
-      </div>
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#14h00" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">14h00</a>
-     </div> 
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#15h00" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">15h00</a>
-     </div>
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#16h15" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">16h15</a>
+  <div class="row">
+    <!-- 13 Octobre -->
+    <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#13_octobre" style="padding:10px;text-align:center;background-color:orange;text-decoration:none">JEUDI 13 Octobre</a>
      </div>  
       <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#17h15" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">17h15</a>
-     </div>     
+          <a class="col-xs-12" href="/conflike/#13_octobre_09h30" style="padding:10px;text-align:center;background-color:yellow;text-decoration:none">MATIN</a>
+     </div>
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#13_octobre_10h45" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">10h45</a>
+     </div> 
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#13_octobre_11h45" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">11h45</a>
+     </div>
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#13_octobre_14h00" style="padding:10px;text-align:center;background-color:yellow;text-decoration:none">APRES-MIDI</a>
+      </div>
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#13_octobre_14h00" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">14h00</a>
+     </div> 
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#13_octobre_15h00" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">15h00</a>
+     </div>
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#13_octobre_16h15" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">16h15</a>
+     </div>  
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#13_octobre_17h15" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">17h15</a>
+     </div> 
+     <!-- 14 Octobre -->
+     <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#14_octobre" style="padding:10px;text-align:center;background-color:orange;text-decoration:none">VENDREDI 14 Octobre</a>
+     </div>  
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#14_octobre_9h30" style="padding:10px;text-align:center;background-color:yellow;text-decoration:none">MATIN</a>
+     </div>
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#14_octobre_10h45" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">10h45</a>
+     </div> 
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#14_octobre_11h45" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">11h45</a>
+     </div>
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#14_octobre_14h00" style="padding:10px;text-align:center;background-color:yellow;text-decoration:none">APRES-MIDI</a>
+      </div>
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#14_octobre_14h00" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">14h00</a>
+     </div> 
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#14_octobre_15h00" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">15h00</a>
+     </div>
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#14_octobre_16h15" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">16h15</a>
+     </div>  
+      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
+          <a class="col-xs-12" href="/conflike/#14_octobre_17h15" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">17h15</a>
+     </div>       
   </div>
   
   </br>
   
   <div class="row">
-  {% for part in site.data.schedule %}
-    {% for slot in part %}
-      {% for talk in slot.content %}
-        <div class="col-xs-12" id="{{ slot.hour }}" style="margin:1px">
-          <div class="col-xs-2" style="text-align:center;">
-            </br>
-            {{ slot.hour }}
-          </div>
-          <!--<span>{{ slot.special}}</span>-->
-          <div class="col-xs-3">
-           </br>
-            {{ talk.room }}
-          </div>
-          <a class="col-xs-7" href="/conflike/#{{slot.hour}}_{{ talk.room }}"style="text-align:center;background-color:lightgrey;text-decoration:none">
+  {% for day in site.data.schedule %}
+    <div id="{{ day.date | replace:' ','_' }}">{{ day.date }}</div>
+    {% for part in day.schedule %}
+      {% for slot in part %}
+        {% for talk in slot.content %}
+          <div class="col-xs-12" id="{{ day.date | replace:' ','_' }}_{{ slot.hour }}" style="margin:1px">
+            <div class="col-xs-2" style="text-align:center;">
               </br>
-              {{ talk.label }}
-              {{ talk.subject }}
-              </br>
-              {% if talk.speaker != nil %} 
-                ({{ talk.speaker }})
+              {{ slot.hour }}
+            </div>
+            <!--<span>{{ slot.special}}</span>-->
+            <div class="col-xs-3">
+             </br>
+              {{ talk.room }}
+            </div>
+            <a class="col-xs-7" href="/conflike/#{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}"style="text-align:center;background-color:lightgrey;text-decoration:none">
                 </br>
-              {% endif %}
-              </br>
-          </a>
-        </div>
+                {{ talk.label }}
+                {{ talk.subject }}
+                </br>
+                {% if talk.speaker != nil %} 
+                  ({{ talk.speaker }})
+                  </br>
+                {% endif %}
+                </br>
+            </a>
+          </div>
+        {% endfor %}
       {% endfor %}
     {% endfor %}
   {% endfor %}
   </div>
 
-  {% for part in site.data.schedule %}
-    {% for slot in part %}
+  {% for day in site.data.schedule %}
+    <div id="{{ day.date | replace:' ','_' }}">{{ day.date }}</div>
+    {% for part in day.schedule %}
+      {% for slot in part %}
         {% for talk in slot.content %}
-        <div id="{{slot.hour}}_{{ talk.room }}" >
-          <div style="text-align:center">
-            <div class="alert alert-success">{{slot.hour}}_{{ talk.room }}</div>
-          </div>    
-          <div style="text-align:center">
-            <div class="alert alert-success">{{ talk.label }}{{ talk.subject }}</div>
-          </div>
-          <div style="text-align:center">
-            <div class="alert alert-success">{{ talk.speaker }}</div>
-          </div>    
-          <div style="text-align:center">
-            <div class="alert alert-info">Qu'avez vous pensé de cette conférence ?</div>
-          </div>
-          <div class="btn-group btn-group-justified">
-            <div class="btn-group">
-              <button type="button" class="btn btn-primary" id="not_great" onclick="setVote('-2', '{{slot.hour}}/{{ talk.room }}');save('{{slot.hour}}/{{ talk.room }}')">
-                Pas Super
-              </button>
+          <div id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}" >
+            <div style="text-align:center">
+              <div class="alert alert-success">{{ day.date }} / {{slot.hour}} / {{ talk.room }}</div>
+            </div>    
+            <div style="text-align:center">
+              <div class="alert alert-success">{{ talk.label }}{{ talk.subject }}</div>
             </div>
-            <div class="btn-group">
-              <button type="button" class="btn btn-primary" id="so_so" onclick="setVote('-1', '{{slot.hour}}/{{ talk.room }}');save('{{slot.hour}}/{{ talk.room }}')">
-                Moyen
-              </button>
+            <div style="text-align:center">
+              <div class="alert alert-success">{{ talk.speaker }}</div>
+            </div>    
+            <div style="text-align:center">
+              <div class="alert alert-info">Qu'avez vous pensé de cette conférence ?</div>
             </div>
-            <div class="btn-group">
-              <button type="button" class="btn btn-primary" id="good" onclick="setVote('+1', '{{slot.hour}}/{{ talk.room }}');save('{{slot.hour}}/{{ talk.room }}')">
-                Bien
-              </button>
+            
+            <span>Votre Note: </span>
+            <span id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/vote" style="visibility:visible">0</span>
+            <span id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/vote/label" style="visibility:visible">(Pas de note pour le moment)</span>
+            <div class="btn-group btn-group-justified">
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary" id="not_great" onclick="setVote('-2', '{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}');save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')">
+                  Pas Super
+                </button>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary" id="so_so" onclick="setVote('-1', '{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}');save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')">
+                  Moyen
+                </button>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary" id="good" onclick="setVote('+1', '{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}');save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')">
+                  Bien
+                </button>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary" id="very_good" onclick="setVote('+2', '{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}');save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')">
+                  Très bien
+                </button>
+              </div>
             </div>
-            <div class="btn-group">
-              <button type="button" class="btn btn-primary" id="very_good" onclick="setVote('+2', '{{slot.hour}}/{{ talk.room }}');save('{{slot.hour}}/{{ talk.room }}')">
-                Très bien
-              </button>
-            </div>
-          </div>
-          <span>Votre Note: </span>
-          <span id="{{slot.hour}}/{{ talk.room }}/vote" style="visibility:visible">0</span>
-          <span id="{{slot.hour}}/{{ talk.room }}/vote/label" style="visibility:visible">(Pas de note pour le moment)</span>
-          <div>Votre commentaire :</div>
-          <div class="form-group">
-            <textarea class="form-control" rows="5" id="{{slot.hour}}/{{ talk.room }}/comment"></textarea>
             </br>
-            <div style="text-align:right">
-              <button type="submit" class="btn btn-default" onclick="save('{{slot.hour}}/{{ talk.room }}')">Envoyez Votre Commentaire</button>          
+            <div>Votre commentaire :</div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/comment"></textarea>
+              </br>
+              <div style="text-align:right">
+                <button type="submit" class="btn btn-default" onclick="save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')">Envoyez Votre Commentaire</button>          
+              </div>
             </div>
           </div>
-        </div>
         {% endfor %}
+      {% endfor %}
     {% endfor %}
   {% endfor %}
 </div>
