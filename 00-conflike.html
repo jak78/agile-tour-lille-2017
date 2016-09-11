@@ -35,23 +35,31 @@ permalink: /conflike/
   function setComment(value, confID){
     document.getElementById(confID + '/comment').value=value;
   }  
+  function setCheckStatus(value, confID) {
+    document.getElementById(confID + '/check').checked = value;
+  }  
   function getVote(confID) {
     var vote = document.getElementById(confID + '/vote').innerHTML;
     return vote;
   }
+  function getCheckStatus(confID) {
+    var checkStatus = document.getElementById(confID + '/check').checked;
+    return checkStatus;
+  }  
   function getComment(confID) {
     var comment = document.getElementById(confID + '/comment').value;
     if (comment == "") comment = "-"; //Attribute can not be empty with DynamoDB
     return comment;
-  }  
-  
+  }
+ 
   function save(confID) {
+    var checkStatus = getCheckStatus(confID);
     var vote = getVote(confID);
     var comment = getComment(confID);
-    
-    var api_id = '3gwmfohd5g'; 
+
+    var api_id = '3gwmfohd5g';
     var url = 'https://'+ api_id +'.execute-api.eu-west-1.amazonaws.com/prod/ConfLike?userid=' + userID;
-    var data = '{"ConfID": { "S": "' + confID + '" }, "UserID": { "S": "' + userID + '" }, "Vote": { "S":"' + vote + '"}, "Comment": { "S": "' + comment + '" }}';
+    var data = '{"ConfID": { "S": "' + confID + '" }, "UserID": { "S": "' + userID + '" }, "Vote": { "S":"' + vote + '"}, "Comment": { "S": "' + comment + '" }, "Checked": { "BOOL": "' + checkStatus + '" }}';
 
     var request = $.ajax({
       url: url,
@@ -84,6 +92,7 @@ permalink: /conflike/
         var confID=item.ConfID.S;
         setVote(item.Vote.S, confID);
         setComment(item.Comment.S, confID);
+        setCheckStatus(item.Checked.BOOL, confID);       
       }
     });
      
@@ -175,9 +184,12 @@ permalink: /conflike/
         {% for talk in slot.content %}
           <div class="col-xs-12" id="{{ day.date | replace:' ','_' }}_{{ slot.hour }}" style="margin:1px">
             <div class="col-xs-2" style="text-align:center;">
+              <label>
+              <input type="checkbox" id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/check" name="" value="" onchange="save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')">                
               {{ day.date| replace:'13 octobre', 'Jeudi'| replace:'14 octobre', 'Vendredi' }}
               </br>
               {{ slot.hour }}
+              </label>
             </div>
             <!--<span>{{ slot.special}}</span>-->
             <div class="col-xs-3">
