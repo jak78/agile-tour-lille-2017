@@ -166,12 +166,14 @@ permalink: /conflike/
 
   {% for day in site.data.schedule %}
   <div class="row">
-    <div id="{{ day.date | replace:' ','_' }}">{{ day.date }}</div>
+    <div id="{{ day.date | replace:' ','_' }}" style="text-align:center">{{ day.date }}</div>
     {% for part in day.schedule %}
       {% for slot in part %}
         {% for talk in slot.content %}
           <div class="col-xs-12" id="{{ day.date | replace:' ','_' }}_{{ slot.hour }}" style="margin:1px">
             <div class="col-xs-2" style="text-align:center;">
+              </br>
+              {{ day.date }}
               </br>
               {{ slot.hour }}
             </div>
