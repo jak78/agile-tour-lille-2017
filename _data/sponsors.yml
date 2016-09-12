@@ -12,3 +12,15 @@ gold:
  - name: OCTO Technology
    url: http://www.octo.com
    logo: logo_octo.jpg
+ - name: Nordnet
+   url: http://www.nordnet.com
+   logo: logo_nordnet.png
+ - name: Decathlon
+   url: http://www.decathlon.fr
+   logo: logo_decathlon_2.png
+ - name: CapGemini
+   url: http://www.capgemini.fr
+   logo: logo_cap.png
+ - name: AXA
+   url: http://www.axa.fr
+   logo: logo_axa.png
