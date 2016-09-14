@@ -1,136 +1,156 @@
-- name: Cédric Pourbaix
-  bio: "Consultant expérimenté, Cédric possède une grande capacité à se concentrer sur l’essentiel : ce qui a le plus de valeur ajoutée pour le client final. Spécialiste des approches agiles, c’est un animateur efficace de réunions et un grand facilitateur dans la prise de décisions des projets complexes. Adepte de KISS (Keep it simple, stupid !), il manie l’art de la métaphore pour simplifier ce qui est complexe et excelle dans la traduction des besoins en scénarios."
-  photo: cedric_pourbaix.jpg
-- name: Elalami Lafkih
-  bio: Responsable de développement des applications chez ReCommerce Solutions, Elalami Lafkih s’intéresse aux défis et aux problématiques d’innovation et plus précisément aux outils et méthodologies de validation des idées. Auparavant, Elalami a travaillé dans plusieurs start-up françaises, puis Coach Agile chez Valtech. Il aide aujourd’hui les start-up et les grandes entreprises à développer le bon produit avant d'investir massivement dans une mauvaise idée. Elalami intervient également lors des conférences européennes et anime le mouvement de <a href="http://www.pretotyping.fr">prétotyping</a> en France.
-  photo: elalami_lafkih.jpg
-- name: Christopher Parola
-  bio: "Product Manager elCurator, expert curation, fan de Lean Startup et de rugby !"
-  photo: Christopher-Parola-2.jpg
-- name: Cyrille Deruel
-  bio: Cyrille est Delivery Manager dans la tribu Delivery Agile chez OCTO Technology. Après avoir débuté sa carrière en tant que directeur de mission en mode cascade, il s'est fortement investi depuis 2008 dans les méthodologies Agiles. Scrum, Lean et Kanban sont devenus ses maître-mots. Motivé par le challenge, il s'est forgé une solide expérience au travers de nombreux projets de Delivery sur des durées de 6 à 12 mois avec des équipes de 10 à 40 personnes. Dans ces missions, il accompagne les organisations dans la mise en œuvre de Scrum notamment. 
-       Poussé par son optique d'amélioration continue et animé par l'apprentissage de nouvelles méthodes de travail, Cyrille aime à conserver une ambiance conviviale dans ses projets et motiver ses équipes à donner le meilleur d'elles-mêmes.
-  photo: Cyrille_Deruel_2.jpg
-- name: Erik Talboom
-  bio: " "
-  photo: eric_talboom.jpg
-- name: Yves Hanoulle
-  bio: The last 10 years, Yves is focussing on agile coaching. Yves grows community builders. His personal goal is to make his customer independent from him as soon as possible. Yves is the inventor of the Who is agile series of books and the co-inventor of the leadership game, last year played at agile tour Lille. Although he co-invented PairCoaching & CoachRetreat, Yves is not interested in being a rockstar coach inventing new methodologies, he rather wants to mix existing ideas like a thoughtjockey DJ adjusting to the needs of the audience.
-  photo: Yves-Hanoulle.jpeg
-- name: Nelson Dufossé
-  bio: Ancien coach sportif et maintenant coach agile après des missions de scrum master et product owner, j'aide les équipes à devenir agiles. Aujourd'hui dans des missions de product manager, je m'efforce de remettre le client au centre des projets et domaines où il pourrait être oublié et préfère les démarches pragmatiques à celles malheureusement historiques... Pour moi les serious games favorisent la prise de conscience et facilitent l'introduction à l'agilité. Cette année nous allons jouer! Membre de l'association Nord-Agile, j'organise régulièrement des événements sur l'agilité, j'espère que l'agile tour sera à la hauteur de vos espérances.
-  photo: Nelson-Dufosse.png
-- name: Aurélien Morvant
-  bio: Enzyme (au sens catalyseur) agile. Je suis passé par toutes les étapes de l’agilité – développeur agile puis scrum master et depuis quelques années coach/facilitateur. En charge du déploiement de l’agilité chez ses partenaires, mais également en interne, je profite de toutes les occasions pour mettre en œuvre les valeurs agiles. Mes  domaines de prédilection sont la facilitation, les interactions humaines, l’agilité et les serious games. Je suis également président de l’association Agile Rennes qui promeut l’agilité sur une partie de la Bretagne. Ma dernière passion est exercée tous les week-ends lorsque j’aide les plus courageux à sauter à l’élastique du haut d’un pont (une certaine forme de gestion du changement).​ Twitter @AurelienMorvant
-  photo: aurelien_morvant.jpg
-- name: Pierre Pezziardi
-  bio: "Entrepreneur, co-fondateur du cabinet de conseil OCTO Technology et de l’Université du SI, fondateur d’OpenCBS Microfinance, associé de KissKissBankBank, auteur, conférencier, Pierre Pezziardi (Twitter: @ppezziardi) promeut l’idée d’Informatique Conviviale : des systèmes fondés sur la confiance et destinés à décloisonner les organisations en renforçant l’autonomie de leurs acteurs. En 2010, il a déployé les méthodes du Lean en tant que DSI de la Bred Banque Populaire, puis développé des outils financiers communautaires innovants, et notamment la plateforme de prêts solidaires entre particuliers hellomerci.com. En tant qu’Entrepreneur en Résidence, il anime aujourd’hui une filière de startups d’état au sein du Secrétariat Général pour la Modernisation de l’Action Publique, qui a notamment donné vie au nouveau portail de l’Open Data Français, aux Marchés Publics Simplifiés, au simulateur des droits mes-aides.gouv.fr... Pierre Pezziardi, débureaucratisateur (Nouvel Obs, décembre 2014) hellomerci, empruntez à des gens qui vous veulent du bien. Pierre Pezziardi est par ailleurs l’auteur de plusieurs ouvrages, préfaces, articles et conférences, et notamment « Une Politique pour le Système d’information – Descartes, Wittgenstein, (XML) » paru en 2005, « Lean Management, mieux, plus vite, avec les mêmes personnes – L’informatique Conviviale » paru en 2010 aux éditions Eyrolles et « La débureaucratisation par la confiance » édité en 2013 chez Fondapol."
-  photo: pierre_pezziardi.jpg
-- name: Christophe Addinquy
-  bio: ''
-  photo: christophe-addinquy.jpg
-- name: Perrine Baudimont
-  bio: "Coach et facilitatrice, j’accompagne les équipes et les clients sur la mise en place de pratiques Agiles et Lean pour optimiser le travail collaboratif et la production de valeur. L’humain et l’intelligence collective sont ma priorité : mon credo est le gamestorming et la facilitation par le jeu en général. La veille et le partage sont encrés dans mes valeurs. Mon livre de chevet : Le Management 3.0."
-  photo: perrine-baudimont.jpg
-- name: Marine Fromentin
-  bio: "Marine, consultante chez Norsys et spécialisée dans l’animation de sessions de travail innovantes s’appuyant et pronant l’intelligence collective. Avec sa créativité,  et son énergie, elle accompagne les entreprises dans la gestion de leurs projets ou leur organisation."
-  photo: Marine_Fromentin.jpg
-- name: Jean Claude Grosjean
-  bio: ''
-  photo: jcg.png
-- name: Ismaël Héry
-  bio: Ismaël coach ou encadre des équipes pluridisciplinaires dans des médias, des startups ou même des administrations pour construire plus vite de super produits numériques. 
-    Au cocktail détonnant Agile/Lean/DevOps il ajoute des meilleures pratiques de management, et parfois aussi un zest de \#JFDI pour relever le tout.
-  photo: ismael-hery.jpg
-- name: Bruno Boucard
-  bio: 'Bruno est programmeur free-lancee depuis plus de 20 ans. Il est spécialisé sur les technos Microsoft depuis plus de 17 ans, c’est aussi un Microsoft, MVP. Il travaille essentiellement dans le secteur de la finance depuis plus de 15 ans. Aujourd’hui Il est à la fois formateur et coach agile pour transformer les développeurs en software craftsmen chez de nombreuses sociétés. Bruno intervient aussi en tant que speaker de nombreux évènements comme par exemple Agile France, Lean Kanban France, Mix-It, NCraft, et les MS TechDays.'
-  photo: bruno_boucard.jpeg
-- name: Charles-Louis de Maere
-  bio: ''
-  photo: charles-louis-de-maere.jpg
-- name: Michel Domenjoud
-  bio: Codeur passionné depuis de nombreuses années, Michel en a fait son métier. Il est aujourd'hui consultant chez OCTO Technology depuis 5 ans, et au sein de la tribu Software Craftsmanship depuis sa création.
-    Développeur, Tech Lead chez ses clients sur des projets de delivery, il s'est construit de solides convictions sur les pratiques agiles et eXtreme Programming.
-    TDD, Revue de code et Code propre sont devenus ses standards. Il intervient aujourd'hui en tant que coach sur les pratiques de développement pour aider des équipes à aller vers une culture de la qualité du code.
-  photo: MDO_150x150.jpg
-- name: Arnaud Buisine
-  bio: Avec une vingtaine d’années à user ses fonds de culotte sur les bancs du service IT auprès d’une dizaine de sociétés, Arnaud Buisine a fait désormais le choix de se consacrer au management collaboratif, responsabilisant et agile
-    Il est aujourd’hui co-fondateur et Directeur de Zenika Nord, et a été précédemment directeur de centre de compétences, directeur technique, architecte, chef de projet, concepteur objet, développeur Java, développeur C++.
-  photo: arnaud-buisine.jpg
-- name: Cécile Veneziani
-  bio: Cécile est à la fois coworkeuse, développeuse web, prof/coach et globe-trotteuse.
-    Elle partage sa vie entre le code, le voyage, le coworking et les communautés Ruby autour d'elle.
-    Quand elle n'intervient pas en renfort dans une équipe d'une agence web ou d'une startup, elle transmet sa passion pour Ruby on Rails en donnant des cours au Wagon à Paris et Lille. 
-    Jamais fatiguée, elle co-anime Ruby Nord, le groupe des développeurs Ruby/Rails de la région.
-  photo: cecile_veneziani.jpeg
-- name: Ben Linders
-  bio: Ben Linders is an Independent Consultant in Agile, Lean, Quality and Continuous Improvement, based in The Netherlands.
-       Author of Getting Value out of Agile Retrospectives, Waardevolle Agile Retrospectives & What Drives Quality.
-  photo: BenLinders-Square-150x150.jpg
-- name: Delest Sébastien
-  bio: 
-    Sébastien aide les équipes à développer un fonctionnement agile (Scrum / Scrumban / Kanban) et les conseille sur la stratégie de test. Il s’intéresse beaucoup aux concepts d'intégration et de livraison continue qu'il utilise pour amener les équipes à profiter de tout leur potentiel.
-  photo: sebastien-delest.jpg
-- name: Bastien Gallay
-  bio: 
-    Après quelques allers-retours entre développeur et chef de projet, j’ai choisit d’apprendre à mieux connaître l’Agilité. C’est alors le début d’une grande histoire d’amour, depuis 8 ans. 
-    Je la vis pleinement au travers du coaching agile en entreprise. Je vie Agile avec un quotidien rempli de Lean Startup, de Scrum et d'eXtreme Programming.
-    Il y a 2 ans, j'ai créé Upwiser, pour aider les entreprises à réveiller le meilleur d’elle même !
-  photo: bastien_gallay.jpg
-- name: Cédric Bodin
-  bio: 'J’accompagne les équipes et organisations dans leur chemin pour re-devenir agile, en mêlant 3 ingrédients « HUMmm »…
-  La recette : une base d’ HUManisme, une bonne dose d’ HUMilité, et une pincée d’ HUMour ;)
-  Mon centre de gravité se trouvant à Nantes, je suis donc tout naturellement membre de l’association Agile Nantes et co-organisateur de la conférence Agile Tour à Nantes.'
-  photo: cedric-bodin.jpg  
-- name: Julien Hatzig
-  bio: Développeur .NET /Tech Leader/Scrum Master chez AXA, sensibilisé aux bonnes pratiques de développement comme le TDD, le clean code, la code review.
-    J’anime des sessions de code au sein du Webcenter d’AXA et lors de meetups dans le but de partager, d’échanger et d’enrichir ces pratiques avec des développeurs de tout profils désirant partager leur propre expérience du code.
-  photo: Julien_Hatzig.jpg
-- name: Cyrille Martraire
-  bio: 
-    Cyrille est co-fondateur et directeur technique d'Arolla, une société spécialisée sur les pratiques de développement regroupées sous la bannière "Software Craftsmanship".
-    Il développe des logiciels avec passion dans des startups et banques depuis 1999. 
-    Aujourd’hui il aide ses clients sur des projets avec une forte implication dans l'analyse métier, ou en accompagnement sur des pratiques pour des équipes qui veulent progresser. 
-    Passionné de design sous tous ses aspects (Clean Code, TDD, BDD, DDD, architecture), 
-    il a aussi fondé la communauté Software Craftsmanship Paris et intervient fréquemment comme orateur dans des conférences en Europe et parfois au-délà.
-  photo: cyrille-martraire.jpg
-- name: Oana Juncu
-  bio: 'Test Driven Business DJ entrepreneur mixing Agile Kanban, Lean, storytelling and neuroscience to thrive purposeful organisations, proud of their outcomes'
-  photo: oana.gif
-- name: Julien Jakubowski
-  bio:
-    Julien est artisan logiciel chez <a href="http://www.octo.com/">OCTO Technology</a>. Depuis une dizaine d'années,
-    il aide des équipes à sortir de la non-qualité logicielle. 
-    Julien est un des fondateurs du Ch'ti JUG à Lille
-    et il participe également à l'organisation de l'Agile Tour Lille depuis 2009.
-  photo: Julien-Jakubowski.jpg
-- name: Antoine Blancke
-  bio: 'WebCenter AXA'
-  photo: AntoineBlancke.jpg
-- name: Simon Langlet
-  bio: 'Directeur de projet au sein des équipes CGI, Simon a été élevé et bercé par le modèle du cycle en V classique sur de nombreux projets, TMA et centre de services essentiellement dans le Retail et l’eCommerce. Il s’est mis à l’agile tout récemment fin 2014 (mieux vaut tard que jamais ;-) avec la mise en place de Scrum dans une équipe de plus de 40 personnes. Convaincu par ses bienfaits et ses apports, Simon multiplie les échanges et les partages d’expérience sur le sujet et prône l’agilité autour de lui.'
-  photo: Simon-Langlet.jpg
-- name: Guillaume Magnier
-  bio: ''
-  photo: guillaume-magnier.png
-- name: Stéphane Bagnier
-  bio: 'Après avoir créé plusieurs entreprises, mes activités professionnelles sont aujourd’hui consacrées au développement logiciel, au coaching d’équipes et à la formation professionnelle des adultes. J’organise à Paris les communautés de pratique consacrées à la Gamification et au Software Craftsmanship. L’Agile est pour moi un point d’entrée vers une réflexion plus globale sur la place et les responsabilités des développeurs dans notre société où tout devient logiciel.'
-  photo: SBagnier_400x400.jpg
-- name: Laurent Tardif
-  bio: 
-    J'ai promu les tests automatisés et l'intégration automatique chez Kelkoo.
-    En tant qu'architecte chez Yahoo, j'ai pu automatiser le déploiement d'applications à grande échelle. 
-    Aujourd’hui j'accompagne les équipes dans leur transformation Agile, Devops, CI, BigData dans un esprit Agile.
-  photo: laurent_tardif.jpg
-- name: Thomas Clavier
-  bio: ''
-  photo: thomas-clavier.jpeg
+- name: Bruno BOUCARD
+  bio: " Avec une expérience de plus 30 ans dans le développement, dont la majorité dans la finance de marché, je suis actuellement coach agile spécialisé sur le software craftsmanship. Je pratique et j’enseigne quotidiennement les valeurs et pratiques crafts depuis plusieurs années. Je suis aussi co-fondateur la société 42 skillz (http://www.42skillz.io/)."
+  photo: " https://pbs.twimg.com/profile_images/576808473343582208/3s3g8VMM_400x400.jpeg "
+- name: Ismaël - Hery
+  bio: " Ismaël coach des équipes pluridisciplinaires pour construire plus vite de super produits numériques. Ses expériences terrain les plus récentes ont eu lieu dans les grands médias internet ou dans l’incubateur de services numériques de l'Etat. Expert en « conception du temps » il écrit sur le blog http://letempsreconquis.fr"
+  photo: " https://avatars3.githubusercontent.com/u/1038499?v=3&s=460 "
+- name: Jeremie GRODZISKI
+  bio: " Jeremie est un expert de la conception et du développement logiciel. Concentré sur la compréhension du domaine et de la valeur qu'un logiciel peut apporter aux personnes qui l'utilise. Jérémie est un fervent promoteur du Domain-Driven Design et des approches de construction du logiciel pragmatiques et efficaces comme le Behavior-Driven Development et les langages fonctionnels comme Clojure. Jérémie apprécie la curiosité, l'apprentissage permanent et les échanges avec tous ceux qui partagent ces valeurs."
+  photo: " http://pbs.twimg.com/profile_images/1586158309/moi-portrait.png "
+- name: Frédéric Leguédois
+  bio: " Frédéric Leguédois est un agiliste évangéliste, libriste et geek humaniste. Au quotidien, il anime des équipes de développement logiciel. Volontiers polémiste, il apprécie ceux qui pensent à côté, loin des évidences, assumant pleinement les contradictions d’un monde complexe."
+  photo: " https://pbs.twimg.com/profile_images/562896408387141632/FQwmHjZ8_400x400.png "
+- name: Frédéric Leguédois
+  bio: " Frédéric Leguédois est un agiliste évangéliste, libriste et geek humaniste. Au quotidien, il anime des équipes de développement logiciel. Volontiers polémiste, il apprécie ceux qui pensent à côté, loin des évidences, assumant pleinement les contradictions d’un monde complexe."
+  photo: " https://pbs.twimg.com/profile_images/562896408387141632/FQwmHjZ8_400x400.png "
+- name: Jérôme Guenver
+  bio: " Dès 2006, Jérôme Guenver a eu la chance de travailler sur un projet où tout restait a faire en matière d'agilité, et a découvert sa passion pour le sujet. Aujourd’hui, Jérôme, certifié CSP, CSM, CSPO, CSD et membre d'une REP de la Scrum Alliance, intervient en tant que formateur et/ou coach agile afin de mettre en place l'agilité au seins des organisations. Jérôme est également conférencier lors d’évènements tels que les Scrum Days, Les agiles tour, ainsi que des évènement locaux agile Grenoble, Scrum Night (Paris) …Agiliste accompli, pédagogue passioné, Jerôme applique la souplesse de son caractère à transmettre l’agilité par l’appropriation naturelle."
+  photo: " https://pbs.twimg.com/profile_images/539431542838157313/3sHys3pF.jpeg "
+- name: Guillaume Wallet
+  bio: " Software Craftsman, freelance depuis 2 ans après 10 ans en ESN"
+  photo: " https://www.gravatar.com/avatar/af22c5952fd5e43d12016def954cf503?s=200 "
+- name: Jean-Philippe Douet
+  bio: " Consultant/coach Lean chez Operae Partners avec 24 ans en SSII"
+  photo: " https://pbs.twimg.com/profile_images/417725654302339072/mdjxmWoI_400x400.jpeg "
+- name: François Xavier VENDE
+  bio: " François Xavier est architecte OPS chez OCTO Technology. Il a eu l’occasion de développer une expertise sur les sujets d’intégration logiciel, de mettre en place des plateformes d’intégration continue et d’être le lien entre les équipes de développement et les équipes d’exploitation avec un objectif : « automatiser pour pouvoir livrer le produit aussi souvent que possible ». Il intervient en tant que coach « DevOps » et/ou architecte technique au sein de projets agiles."
+  photo: " http://bit.ly/29U1Tvd "
+- name: Retiere Samuel
+  bio: " https://www.linkedin.com/in/samuel-retiere-7438981b"
+  photo: " J'en prendrais une digne de ce nom "
+- name: Nicolas Umiastowski
+  bio: " Je suis coach agile chez SQLI, actuellement en mission chez un grand compte du domaine alimentaire, dan la partie e-commerce. J'ai expérimenté le Mob Programming lors de ma mission de coaching chez Amadeus IT Group à Sophia-ntipolis, et le NoEstimates actuellement sur un projet Kanban."
+  photo: " https://pbs.twimg.com/profile_images/576121434361102336/uGU-3A5f_400x400.jpeg "
+- name: Alban Dalle
+  bio: " Coach Agile et Manager de la tribu Scaling Agile @ OCTO Technology"
+  photo: " https://www.linkedin.com/in/albandalle?trk=hp-identity-name "
+- name: Olivier Lemaitre
+  bio: " Olivier travaille comme ingénieur logiciel indépendant. Il est passionné par l'innovation, la programmation et l'architecture logicielle. Membre de Nord Agile, il essaie d'apporter une vision différente de l'informatique aux entreprises pour lesquelles il travaille."
+  photo: " https://pbs.twimg.com/profile_images/463619775852081152/gSNRVYgp.png "
 - name: Olivier Albiez
-  bio: 
-    Olivier Albiez est développeur logiciel et coach agile, passionné des méthodes de travail et de l'auto-organisation dans les entreprises. 
-    Il est toujours à la recherche de ce qui peut accélérer le cycle de développement. Il est récemment co-fondateur de deliverous.
-  photo: olivier-albiez.jpg  
-- name: Thomas Pierrain
-  bio: 'Agile de père en fils depuis 1905 (tendance XP), Thomas est obsédé par les use cases et le "pourquoi" en général (par opposition aux approches "solutions driven"). Développeur open source, architecte technique dans la finance depuis 2005 (après une première partie de carrière les pieds dans le Web), Thomas s''attache à démontrer régulièrement que DDD et low latency ne sont pas incompatibles. Curieux, passionné, Thomas ne loupe également aucune occasion pour organiser des rencontres, et échanger avec d''autres passionné(e)s.'
-  photo: Thomas-Pierrain.jpg
-
+  bio: " Je suis coach agile, enseignant à l’université de Lille 1 et co-fondateur de deliverous, mes sujets de prédilection sont l’agilité, devops, docker, le lean startup et l’artisanat logiciel. Depuis plus de 10 ans, j’essaye de transformer le travail en un jeu, faire progresser les geeks et challenger les managers, poser des questions pour faire progresser les équipes."
+  photo: " http://azae.net/assets/images/olivier.albiez.jpg "
+- name: Thomas Clavier
+  bio: " Olivier Albiez : Je suis artisan logiciel et coach agile, passionné des méthodes de travail et de l’auto-organisation dans les entreprises. Curieux par nature, je suis toujours à la recherche de ce qui peut améliorer le travail collectif d’une organisation. Je suis récemment co-fondateur de deliverous. Je suis signataire des manifestes Artisans du Logiciel et Agile"
+  photo: " http://azae.net/assets/images/thomas.clavier.jpg "
+- name: Yan Matagne
+  bio: " Yan est développeur depuis une petite dizaine d'années et navigue de projets en projets pour aider et animer les équipes. Passionné par l'automatisation des projets, il rend accessible le projet à l'ensemble des équipiers."
+  photo: " https://pbs.twimg.com/profile_images/670598827561328640/1gZ374Aq.png "
+- name: Antoine Stalin
+  bio: " Développeur assumé et attaché aux développements orientés par les tests et le comportement, je porte un fort intérêt à la qualité logicielle. Toutefois, je considère que le premier facteur de qualité d'un produit reste la communication, sous toutes ses formes, et recherche constamment des methodes innovantes pour venir dynamiser et motiver les équipes qui entourent ce produit."
+  photo: " https://pbs.twimg.com/profile_images/763705359878000640/5qBP4XAD.jpg "
+- name: Benoit Hermant
+  bio: " PIlote, facilitateur au sein du Centre de Développement Norsys Lille, j'applique une démarche agile avec mes équipes et clients axée sur une approche produit. Mes outils préférés pour y parvenir : les jeux sérieux, le sketchnoting, incontournables dans la créativité et le partage des informations."
+  photo: " https://pbs.twimg.com/profile_images/770547481625190400/A_VOMHkQ.jpg "
+- name: Thomas Shakeshaft
+  bio: " Contrairement à Obélix, je ne suis pas tombé dedans lorsque j’étais petit ! Par apprentissages successifs et en multipliant les expériences, je nourris ma curiosité d’agiliste. Responsable du centre de développement et formateur dans l’école du pilotage de norsys, j’aide les équipes et les clients à élaborer leur propre potion agile."
+  photo: " http://img4.hostingpics.net/pics/407215Thomas.jpg "
+- name: Gautier Gaspard
+  bio: " Facilitateur, je suis tombé dans l’agilité en même temps que dans le pilotage de projets. Mes pratiques tournent maintenant autour du management des équipes au service du produit."
+  photo: " http://img4.hostingpics.net/pics/866213gautiermatete.png "
+- name: Maxime Bonnet
+  bio: " L'informatique et moi, nous nous sommes rencontrés avec un Videopac dans les années 70. Ça date un peu. Le Bac en main, me voilà à Rennes pour suivre un cursus informatique à l'INSA. Après un passage Erasmus en Angleterre, retour en France. Des débuts dans le domaine des télécoms avec Cap Gémini, une suite dans les univers Web et mobile avec Objet Direct / Viséo et me voilà coach agile chez CGI. Je travaille avec des équipes de tous types et toutes tailles pour implémenter des bonnes pratiques agiles et plus si affinité.J'ai été formateur Innovation Games, Scrum, Recueil du besoin en mode agile. Je pratiquebeaucoup le serious gaming (innovation games, Lego Serious Play, Management 3.0, etc..) Formé à Management 3.0, j'accompagne aussi les managers dans les transformations agiles."
+  photo: " http://static8.viadeo-static.com/CWWD0INZvK9P3Qd-WUP39R0NGrA=/140x185/smart/member/002590v6ec3if1z?ts=1400014002000 "
+- name: Marine Fromentin
+  bio: " Consultante facilitatrice et membre du Pôle d'innovation chez Norsys. J'accompagne, en interne, les collaborateurs Norsys à tendre vers notre ambition de haut de gamme mais également nos clients afin de les conseillers dans leurs projets de transformation. C'est par l'animation de sessions de travail via des techniques innovantes s'appuyant sur l'intelligence collective que je permets à mes interlocuteurs d’exprimer leurs idées!"
+  photo: " https://www.linkedin.com/in/marine-fromentin-483858120?authType=NAME_SEARCH&authToken=Ea-c&locale=fr_FR&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A503754147%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1472575149212%2Ctas%3Amar "
+- name: Marine Fromentin
+  bio: " Consultante facilitatrice et membre du Pôle d'innovation chez Norsys. J'accompagne, en interne, les collaborateurs Norsys à tendre vers notre ambition de haut de gamme mais également nos clients afin de les conseillers dans leurs projets de transformation. C'est par l'animation de sessions de travail via des techniques innovantes s'appuyant sur l'intelligence collective que je permets à mes interlocuteurs d’exprimer leurs idées!"
+  photo: " https://www.linkedin.com/in/marine-fromentin-483858120?authType=NAME_SEARCH&authToken=Ea-c&locale=fr_FR&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A503754147%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1472575149212%2Ctas%3Amar "
+- name: Nicolas Kalmanovitz
+  bio: " Agile Coach & mindset hacker @OctoTechnology, formerly Agile transformation director @meetic. I'm an agile evangelist and a kanban-maniac for ever startup minded. I advise executives on transformation strategy, coach people and organizations through their continuous improvement journey and promote the arising of a permanent innovation culture."
+  photo: " https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/005/055/299/182a587.jpg "
+- name: Alban Dalle
+  bio: " Coach Agile et Leader de la tribu Scaling Agile chez OCTO Technology. Passionné par l’accompagnement des équipes et des organisations dans leur adoption des Méthodes Agiles, je suis tombé dans la « marmite Agile » dès les années 2002-2003 et je me suis tout de suite reconnu dans cette approche. J’ai maintenant plus de dix ans de pratique en tant que Scrum Master, Coach Agile, Consultant et Formateur. J’interviens chez Meetic depuis 2015, pour aider à conduire la transformation agile."
+  photo: " https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAdNAAAAJGRlMzhiOGM0LTRhMmEtNDg5MC1hMDUwLTE1NzA4OTJkZjEyNQ.jpg "
+- name: Basile du Plessis
+  bio: " Basile est Coach Agile, il accompagne les entreprises dans les transformations Agile depuis plus de 6 ans. Sa vision de l’Agilité est pragmatique et orientée vers l’atteinte d’objectifs. Adepte de la conduite du changement il sait accompagner les organisations dans la découverte d’une Agilité pérenne, efficace et adaptée à leur contexte. De par son expérience dans le management d’équipes et la technique, il sait accompagner avec pertinence et crédibilité les managers d’équipes Agile. Ses expériences récentes sur des projets d’envergure (+60 personnes) lui ont permis d’éprouver avec succès sa pratique de l’Agilité à l’échelle. Basile est un speaker reconnu de la communauté Agile (Lean Kanban France, Kanban Day, French Kanban UG, Meetup Agile Change Management), ses conférences sont pour lui des occasions de partage et d’apprentissage autour des pratiques Agile et des retours d’expériences."
+  photo: " https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAdrAAAAJGMxYjdkYjRiLTA0OWUtNGM4YS04N2Q1LWNiYjcwOWZiMzIzMw.jpg "
+- name: Stephane Thanasack
+  bio: " Maintenant Scrum Master, Coach Agile"
+  photo: " tweeter @stphtsk "
+- name: Djim BA
+  bio: ""
+  photo: " https://media.licdn.com/media/p/1/000/284/1e5/00c11d3.jpg "
+- name: Mehdi BALZA
+  bio: " Coachs agile chez AXA"
+  photo: " https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/005/012/2d8/3d49dd7.jpg "
+- name: Nicolas Kalmanovitz
+  bio: " Agile Coach & mindset hacker @OctoTechnology, formerly Agile transformation director @meetic. I'm an agile evangelist and a kanban-maniac for ever startup minded. I advise executives on transformation strategy, coach people and organizations through their continuous improvement journey and promote the arising of a permanent innovation culture."
+  photo: " https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/005/055/299/182a587.jpg "
+- name: Antoine Peze
+  bio: " Antoine est UX designer chez OCTO. Chaque jour il cherche à observer les utilisateurs pour comprendre leurs habitudes et identifier le process dans lequel ils évoluent. Cette étape clé lui permet ensuite de designer des interfaces pertinentes, en accord avec l’équipe, qu’il va ensuite tester auprès des usagers."
+  photo: " http://antoinepeze.com/images/antoine-peze.png "
+- name: Fabien Arcellier
+  bio: " Fabien cherche à démystifier la technologie et à la rendre plus accessible. Aucun produit défaillant n'est vraiment accessible. C'est pourquoi il est en recherche constante de pratiques d'ingénierie qui fiabilisent les réalisations et permettent de construire les bon produits comme l'instrumentation, le TDD, l'infra as code ou les immersions utilisateurs. Il est consultant chez Octo Technology. Il anime également 2 formations. L'une sur les pratiques DevOps et l'autre sur les architectures de données."
+  photo: " https://avatars0.githubusercontent.com/u/159559?v=3&s=460 "
+- name: Jean-Claude Grosjean
+  bio: " Jean-Claude GROSJEAN est coach Agile Indépendant et Coach Professionnel (Certifié HEC). Il est également formateur et facilitateur, et vient de créer son propre cabinet de coaching aprés avoir exercé son activité pendant plus d'une dizaine d'années dans le Conseil IT. Jean-Claude est aussi l'auteur du blog qualitystreet.fr, blog consacré au coaching, à la facilitation et à l'innovation managériale."
+  photo: " https://twitter.com/jcQualitystreet "
+- name: Julien HATZIG
+  bio: " Tech Leader chez AXA, je suis sensibilisé aux bonnes pratiques de développement comme le TDD, le clean code, la code review. J’anime des sessions de code au sein du Webcenter d’AXA et lors de meetups dans le but de partager, d’échanger et d’enrichir ces pratiques avec des développeurs de tout profils désirant partager leur propre expérience du code."
+  photo: " https://pbs.twimg.com/profile_images/646680455782211584/es2hD16f.jpg "
+- name: Nicolas TONDEUR
+  bio: " Nicolas Tondeur, Agilitesteur chez Open, allie le test et l’agilité dans la pratique. Adepte de serious games, il utilise ces outils au quotidien dans sa gestion d’équipe et de relation clients. Dev Web et .Net, joueur invétéré, mangeur de sucrerie professionnel"
+  photo: " https://pbs.twimg.com/profile_images/757459893888712704/payhKtAo.jpg "
+- name: Matthieu SALIKHOV
+  bio: " Matthieu SALIKHOV officie comme Coach Agile, Scrum Master ou PO au fil de ses missions pour OPEN et leurs clients. Convaincu que les Serious Games sont le chemin le plus court vers l’apprentissage, il crée, organise et fait jouer dès que l’occasion se présente"
+  photo: " https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAATtAAAAJDQ1Y2U0ZGMzLWZjNWUtNGMzMy05MGM5LTUxNGQ4YmM0MTAwMw.jpg "
+- name: Pablo Pernot
+  bio: " agent provocateur, mentoring agile"
+  photo: " https://twitter.com/benextcompany/status/743372629831196672 "
+- name: Dragos Dreptate
+  bio: " Agile & Lean Coach, Organisational Change Alchemist"
+  photo: " "
+- name: Géraldine Legris
+  bio: " Coach agile"
+  photo: " "
+- name: GHIAR Nawel
+  bio: " chef de projet test chez Axa"
+  photo: " http://fr.viadeo.com/fr/profile/nawel.ghiar "
+- name: Cyril Martraire
+  bio: ""
+  photo: " "
+- name: Euratechnologies
+  bio: ""
+  photo: " "
+- name: Michel Goldenberg
+  bio: ""
+  photo: " "
+- name: Claire Morin
+  bio: " Agile Native, je suis rentrée dans le bain des méthodes agiles depuis ma première expérience professionnelle. J'ai une approche concrète et pure du Product Ownership mêlant des influences Lean Startup et Design Thinking à une maîtrise profonde des principes de l'agilité. Mon parcours (associant formation en physique fondamentale et passion pour la psychologie cognitive, sociale ) me permet d'avoir une vision associant démarche expérimentale et accent mis sur la prise en compte des facteurs humains. Grâce à ces influences diverse ma pratique du Product Ownership allie rigueur et créativité, et s'adapte particulièrement aux projets innovants ."
+  photo: " "
+- name: David Vandersarren
+  bio: " scrumaster équipe CRM"
+  photo: " https://drive.google.com/open?id=0B81eE1n1DK2JMFpwN0JuWS1rOFk "
+- name: Stéphanie Tallon
+  bio: " scrumaster équipe E-Merchandising"
+  photo: " https://drive.google.com/open?id=0B81eE1n1DK2JdUVTZ0pzR2VSOFU "
+- name: Aurélien MORVANT
+  bio: " Aurélien est un Agent du changement. Coach il ne sait pas dire s'il en est un. Est-ce grave ? Il ne pense pas. Il a la chance d'être un spectateur privilégié de très grandes transformations de ces dernières années. Bon spectateur et surtout acteur de ces transformations. Quand il était petit il disait 'je voulais être ingénieur chez Lego' ... Il y est presque. C'est un support qu'il utilise au quotidien mais pas que ! la facilitation, les interactions humaines, l’agilité, les serious games et la facilitation graphique font partis de sa trousse à outils. Sinon il a un avantage concurrentiel incomparable ... il est breton. Sa dernière passion est exercée tous les week-ends lorsque il aide les plus motivés à sauter à l’élastique du haut d’un pont (une certaine forme de gestion du changement).? Enfin, il a créé KoKan en 2016 pour accompagner qui le souhaite dans sa gestion du changement. Et vous ? quel sera votre premier petit pas vers un monde meilleur ?"
+  photo: " https://lh5.googleusercontent.com/sWkgLcrbYBfnGpjy3cInEm9frVBzdq9BnCelGIAXwpdjsgyObAUJpkCUotb67js55DymEiCSUAJ7d8g=w1920-h970 "
+- name: Thomas PIERRAIN
+  bio: " 'Pragmatic architect' travaillant sur des problématique réactives et 'low latency' à la SG CIB depuis plus de 10 ans maintenant (et après 7 ans passées à apprendre son métier les pieds dans le web), Thomas est ultra-curieux de nature. Agile de père en fils depuis 1905... et obsédé par l'identification des use cases (vs. approches 'solution'), il adore aussi prouver régulièrement au boulot qu'une approche DDD est parfaitement compatible avec l'espace dit 'low latency'. Speaker, Brown Bag Luncher, Craftsman accro aux coding dojos et meetups de toute sorte (DDD, Software Craftsmanship, XP & Alt.NET), Thomas est aussi le créateur de la librairie open source NFluent (un pendant .NET à Fest-assert/AssertJ)."
+  photo: " https://pbs.twimg.com/profile_images/745726209674346500/6_GJ3Vbv_400x400.jpg "
+- name: Olivier Durnez
+  bio: " Ingénieur Telecom Nancy, je suis chef de projet sénior au sein de la DSI de la branche SNCF RESEAU (Maintenance, ingénierie et travaux sur le réseau ferré français). Ma mission consiste à piloter la conception de logiciels informatique déployés nationalement pour les directions métiers en m'appuyant sur les départements de la DSI et ses fournisseurs. Je pratique l'agilité au quotidien, mon rôle actuel s'apparente à celui de 'product manager' ou PO délégué. Le contexte en évolution de la DSI me permet d'innover et expérimenter en amélioration continue."
+  photo: " https://fr.linkedin.com/in/olivierdurnez "
+- name: LOPEZ Antonio
+  bio: " I'm an agile agitator at Decathlon Spain. Since more than 5 years building other ways of working to foster participation, share responsibility, improve productivity and innovate while we have fun! I use all the weapons I can to fight uncertainty and to improve our ability to adapt. Agile and lean frameworks, Lean Startup, Design thinking or Facilitaton techniques. And in this process me and many others colleagues we're building innovative projects trying to 'do the right thing right', while we try to provoke some changes on how we collaborate to build them."
+  photo: " https://pbs.twimg.com/profile_images/500294398262128641/mdHPTp2W.jpeg "
+- name: Anael Ichane
+  bio: " Consultant - Chef de produit chez OCTO - J'ai eu l'occasion de travailler sur des projets au long court alliant refonte, maintenance et évolution. J'aide aussi certains clients à innover à travers une approche 'design first'. Intrapreneur chez OCTO sur l'offre www.virtuose.community, et entrepreneur sur mon temps libre, je me fais fais les dents sur www.appreciali.com. Je fais de mon mieux pour apporter à chaque monde, le meilleur des autres."
+  photo: " https://pbs.twimg.com/profile_images/696768402401140736/R6dK7uZY.jpg "  
+- name: Marie-Christine PESSIOT
+  bio: " Since that and for over 7 years, I have been actively supporting Agile approaches. I mainly act as an Agile Consultant, trainer and facilitator for leaders and organizations who wish to integrate this type of posture and approach. Far more interesting is that every of my assertions shall be supported by concrete examples taken from my daily life so that should be acceptable for all participants and each one shall be able to reach an informed opinion. In the beginning of 2015 I created the 'Club Agile Provence' in the south east of France as a platform for contacts between leaders and managers who can reflect together during workshops about their Agile approaches and practices : https://www.facebook.com/clubagileprovence/ I am also a member of the Rotary Club of Avignon-Chateauneuf du Pape and work for Rotary professionnal actions. I am a 56 years old woman who begin my professionnal life in Paris as controller for great US and GB groups (Rockwell US, Colas GB). Then I installed a management control system in a french group with 17 companies who had no structure to evaluate activity. In 1999 I got through an Lbo with a little B to B regional company (25 employees) in the south of France. Then I developped the business and gave it to a more important group in 2008. That taught me the importance of a well managed team working in an Agile way for the benefit of all. It was my first practical and hands-on experience of Agility."
+  photo: " "  

@@ -5,7 +5,8 @@ permalink: /conferences/
 ---
 
 <div class="container talks">
-    {% for part in site.data.schedule %}
+    {% for day in site.data.schedule %}
+    {% for part in day.schedule %}    
     {% for slot in part %}
     <div id="slot-{{slot.hour }}" class="conference-slot">
         <div class="slot row">
@@ -22,7 +23,8 @@ permalink: /conferences/
                         {% assign speakers = talk.speaker | split: ", " %}
                         {% for speaker in site.data.speakers %}{% if talk.speaker contains speaker.name %}
                         <a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker.name | uri_escape }}">
-                        <img src="{{speaker.photo| prepend: "/img/speakers/" | prepend: site.baseurl}}" alt="{{speaker.name}}" width="80" height="80"/>
+                        <!--img src="{{speaker.photo| prepend: "/img/speakers/" | prepend: site.baseurl}}" alt="{{speaker.name}}" width="80" height="80"/-->
+                        <img src="{{ speaker.photo }}" alt="{{speaker.name}}" width="80" height="80"/>
                         </a>
                         {% endif %}{% endfor %}
                         {% endif %}
@@ -44,6 +46,7 @@ permalink: /conferences/
             {% endif %}
             {% endif %}{% endfor %}
     </div>
+    {% endfor %}
     {% endfor %}
     {% endfor %}
 </div>
