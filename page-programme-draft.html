@@ -29,7 +29,7 @@ permalink: /programme-draft/
               <th class="hour">{{ slot.hour }}</th>
               {% for talk in slot.content %}
               <td{% if talk.duration %} rowspan="2"{% endif %}{% if talk.fill %} colspan="{{ talk.fill }}"{% endif %} class="{% if talk.highlight %} highlight{% endif %}{% if talk.hide-on-home %} dim{% endif %}">
-                  <!-- 
+                  <!--
                   {% if talk.room %}
                   <span class="room">{{ talk.room }}</span>
                   {% endif %}
@@ -49,9 +49,6 @@ permalink: /programme-draft/
                   {% for speaker in speakers %}
                   <a class="speaker" href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>{% if forloop.last == false %}, {% endif %}
                   {% endfor %}
-                  {% endif %}
-                  {% if talk.company %}
-                  <span class="company">{{ talk.company }}</span>
                   {% endif %}
                   {% if talk.extra %}
                   <p class="extra">{{ talk.extra }}</p>
