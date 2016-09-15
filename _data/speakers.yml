@@ -19,9 +19,6 @@
 - name: Guillaume Wallet
   bio: " Software Craftsman, freelance depuis 2 ans après 10 ans en ESN"
   photo: " https://www.gravatar.com/avatar/af22c5952fd5e43d12016def954cf503?s=200 "
-- name: Jean-Philippe Douet
-  bio: " Consultant/coach Lean chez Operae Partners avec 24 ans en SSII"
-  photo: " https://pbs.twimg.com/profile_images/417725654302339072/mdjxmWoI_400x400.jpeg "
 - name: François Xavier VENDE
   bio: " François Xavier est architecte OPS chez OCTO Technology. Il a eu l’occasion de développer une expertise sur les sujets d’intégration logiciel, de mettre en place des plateformes d’intégration continue et d’être le lien entre les équipes de développement et les équipes d’exploitation avec un objectif : « automatiser pour pouvoir livrer le produit aussi souvent que possible ». Il intervient en tant que coach « DevOps » et/ou architecte technique au sein de projets agiles."
   photo: " http://bit.ly/29U1Tvd "
@@ -31,9 +28,6 @@
 - name: Nicolas Umiastowski
   bio: " Je suis coach agile chez SQLI, actuellement en mission chez un grand compte du domaine alimentaire, dan la partie e-commerce. J'ai expérimenté le Mob Programming lors de ma mission de coaching chez Amadeus IT Group à Sophia-ntipolis, et le NoEstimates actuellement sur un projet Kanban."
   photo: " https://pbs.twimg.com/profile_images/576121434361102336/uGU-3A5f_400x400.jpeg "
-- name: Alban Dalle
-  bio: " Coach Agile et Manager de la tribu Scaling Agile @ OCTO Technology"
-  photo: " https://www.linkedin.com/in/albandalle?trk=hp-identity-name "
 - name: Olivier Lemaitre
   bio: " Olivier travaille comme ingénieur logiciel indépendant. Il est passionné par l'innovation, la programmation et l'architecture logicielle. Membre de Nord Agile, il essaie d'apporter une vision différente de l'informatique aux entreprises pour lesquelles il travaille."
   photo: " https://pbs.twimg.com/profile_images/463619775852081152/gSNRVYgp.png "
@@ -63,10 +57,7 @@
   photo: " http://static8.viadeo-static.com/CWWD0INZvK9P3Qd-WUP39R0NGrA=/140x185/smart/member/002590v6ec3if1z?ts=1400014002000 "
 - name: Marine Fromentin
   bio: " Consultante facilitatrice et membre du Pôle d'innovation chez Norsys. J'accompagne, en interne, les collaborateurs Norsys à tendre vers notre ambition de haut de gamme mais également nos clients afin de les conseillers dans leurs projets de transformation. C'est par l'animation de sessions de travail via des techniques innovantes s'appuyant sur l'intelligence collective que je permets à mes interlocuteurs d’exprimer leurs idées!"
-  photo: " https://www.linkedin.com/in/marine-fromentin-483858120?authType=NAME_SEARCH&authToken=Ea-c&locale=fr_FR&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A503754147%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1472575149212%2Ctas%3Amar "
-- name: Marine Fromentin
-  bio: " Consultante facilitatrice et membre du Pôle d'innovation chez Norsys. J'accompagne, en interne, les collaborateurs Norsys à tendre vers notre ambition de haut de gamme mais également nos clients afin de les conseillers dans leurs projets de transformation. C'est par l'animation de sessions de travail via des techniques innovantes s'appuyant sur l'intelligence collective que je permets à mes interlocuteurs d’exprimer leurs idées!"
-  photo: " https://www.linkedin.com/in/marine-fromentin-483858120?authType=NAME_SEARCH&authToken=Ea-c&locale=fr_FR&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A503754147%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1472575149212%2Ctas%3Amar "
+  photo: " https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfPAAAAJDBkZWNjYjE4LWNmMmQtNDBlNi04NjQ4LWMwNzk3OTlhODdjZQ.jpg "
 - name: Nicolas Kalmanovitz
   bio: " Agile Coach & mindset hacker @OctoTechnology, formerly Agile transformation director @meetic. I'm an agile evangelist and a kanban-maniac for ever startup minded. I advise executives on transformation strategy, coach people and organizations through their continuous improvement journey and promote the arising of a permanent innovation culture."
   photo: " https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/005/055/299/182a587.jpg "
@@ -80,14 +71,11 @@
   bio: " Maintenant Scrum Master, Coach Agile"
   photo: " tweeter @stphtsk "
 - name: Djim BA
-  bio: ""
+  bio: "Coachs agile chez AXA"
   photo: " https://media.licdn.com/media/p/1/000/284/1e5/00c11d3.jpg "
 - name: Mehdi BALZA
   bio: " Coachs agile chez AXA"
   photo: " https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/005/012/2d8/3d49dd7.jpg "
-- name: Nicolas Kalmanovitz
-  bio: " Agile Coach & mindset hacker @OctoTechnology, formerly Agile transformation director @meetic. I'm an agile evangelist and a kanban-maniac for ever startup minded. I advise executives on transformation strategy, coach people and organizations through their continuous improvement journey and promote the arising of a permanent innovation culture."
-  photo: " https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/005/055/299/182a587.jpg "
 - name: Antoine Peze
   bio: " Antoine est UX designer chez OCTO. Chaque jour il cherche à observer les utilisateurs pour comprendre leurs habitudes et identifier le process dans lequel ils évoluent. Cette étape clé lui permet ensuite de designer des interfaces pertinentes, en accord avec l’équipe, qu’il va ensuite tester auprès des usagers."
   photo: " http://antoinepeze.com/images/antoine-peze.png "
@@ -96,7 +84,7 @@
   photo: " https://avatars0.githubusercontent.com/u/159559?v=3&s=460 "
 - name: Jean-Claude Grosjean
   bio: " Jean-Claude GROSJEAN est coach Agile Indépendant et Coach Professionnel (Certifié HEC). Il est également formateur et facilitateur, et vient de créer son propre cabinet de coaching aprés avoir exercé son activité pendant plus d'une dizaine d'années dans le Conseil IT. Jean-Claude est aussi l'auteur du blog qualitystreet.fr, blog consacré au coaching, à la facilitation et à l'innovation managériale."
-  photo: " https://twitter.com/jcQualitystreet "
+  photo: " https://pbs.twimg.com/profile_images/772474419847520257/wmi3tim__400x400.jpg "
 - name: Julien HATZIG
   bio: " Tech Leader chez AXA, je suis sensibilisé aux bonnes pratiques de développement comme le TDD, le clean code, la code review. J’anime des sessions de code au sein du Webcenter d’AXA et lors de meetups dans le but de partager, d’échanger et d’enrichir ces pratiques avec des développeurs de tout profils désirant partager leur propre expérience du code."
   photo: " https://pbs.twimg.com/profile_images/646680455782211584/es2hD16f.jpg "
@@ -108,12 +96,9 @@
   photo: " https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAATtAAAAJDQ1Y2U0ZGMzLWZjNWUtNGMzMy05MGM5LTUxNGQ4YmM0MTAwMw.jpg "
 - name: Pablo Pernot
   bio: " agent provocateur, mentoring agile"
-  photo: " https://twitter.com/benextcompany/status/743372629831196672 "
+  photo: " https://pbs.twimg.com/media/ClD9drqXEAAUdMD.jpg "
 - name: Dragos Dreptate
   bio: " Agile & Lean Coach, Organisational Change Alchemist"
-  photo: " "
-- name: Géraldine Legris
-  bio: " Coach agile"
   photo: " "
 - name: GHIAR Nawel
   bio: " chef de projet test chez Axa"
@@ -122,9 +107,6 @@
   bio: ""
   photo: " "
 - name: Euratechnologies
-  bio: ""
-  photo: " "
-- name: Michel Goldenberg
   bio: ""
   photo: " "
 - name: Claire Morin
@@ -154,3 +136,21 @@
 - name: Marie-Christine PESSIOT
   bio: " Since that and for over 7 years, I have been actively supporting Agile approaches. I mainly act as an Agile Consultant, trainer and facilitator for leaders and organizations who wish to integrate this type of posture and approach. Far more interesting is that every of my assertions shall be supported by concrete examples taken from my daily life so that should be acceptable for all participants and each one shall be able to reach an informed opinion. In the beginning of 2015 I created the 'Club Agile Provence' in the south east of France as a platform for contacts between leaders and managers who can reflect together during workshops about their Agile approaches and practices : https://www.facebook.com/clubagileprovence/ I am also a member of the Rotary Club of Avignon-Chateauneuf du Pape and work for Rotary professionnal actions. I am a 56 years old woman who begin my professionnal life in Paris as controller for great US and GB groups (Rockwell US, Colas GB). Then I installed a management control system in a french group with 17 companies who had no structure to evaluate activity. In 1999 I got through an Lbo with a little B to B regional company (25 employees) in the south of France. Then I developped the business and gave it to a more important group in 2008. That taught me the importance of a well managed team working in an Agile way for the benefit of all. It was my first practical and hands-on experience of Agility."
   photo: " "  
+- name: Allan Kelly
+  bio: "Allan Kelly helps companies and teams make software in a better way. He works with developers, managers, analysts and everyone else to make the making better. Usually this goes by the name of Agile or Lean but ultimately its about making work practices and processes better. He mostly works with software intensive companies and companies whose very business depends on software.
+        When he is not with clients he writes far too much. He is the author of three books: “Xanpan - team centric Agile Software Development”, “Business Patterns for Software Developers” and “Changing Software Development: Learning to be Agile”; the originator of Retrospective Dialogue Sheets and a regular conference speaker. More about on his website and on Twitter as @allankellynet."
+  photo: "https://pbs.twimg.com/profile_images/378800000491825391/260c981f668cd1bb627b2a5e976c2676_400x400.jpeg"  
+- name: Youmna Ovazza
+  bio: "Fondatrice de Teen-Code, stages et ateliers d'initiation à la programmation pour ados.
+        Ex- Chief Digital Officer d'un groupe international de communication (Altavia) pendant 4 ans.
+        Experte en marketing et stratégie numériques, auteur de l'ebook “Comment construire une stratégie digitale ?” (2011)
+        "
+  photo: "https://pbs.twimg.com/profile_images/378800000446082877/16762cb1c3a67422c782ea71cd71067b_400x400.jpeg"    
+- name: Vasco Duarte
+  bio: "I want to transform product development organizations into product business organizations. I do that by focusing the work of the product development teams on the end-to-end life-cycle of their products. From Concept to Cash and Back!
+        Currently a Managing Partner at Oikosofy. Product Manager, Scrum Master, Project Manager, Director, Agile Coach are only some of the roles that I've taken in software development organizations. Having worked in the software industry since 1997, and Agile practitioner since 2004. I've worked in small, medium and large software organizations as an Agile Coach or leader in agile adoption at those organizations.
+        I was one of the leaders and catalysts of Agile methods and Agile culture adoption at Avira, Nokia and F-Secure.
+        You can read more from me at my blog:http://SoftwareDevelopmentToday.com
+        You can join me on twitter: @duarte_vasco
+        "
+  photo: "http://gravatar.com/avatar/82cfce1f6f52be4883d73ea224327519/?s=120&d=mm"      
