@@ -123,7 +123,7 @@
                         Nous vous conterons l'histoire d'un produit d'infrastructure avec son why, sa roadmap, ses epics et ses user stories.
                         Nous vous plongerons dans le quotidien d'une équipe OPS avec ses rituels et ses pratiques de développement.
                         Nous vous décrirons ce qu'est une plateforme d'intégration continue OPS et comment on teste une infrastructure en continu."
-            speaker: François Xavier VENDE
+            speaker: François Xavier VENDE, Mathieu Herbert
             company: octo
             room: Conférence 3
       - hour: 12h30

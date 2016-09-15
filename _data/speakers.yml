@@ -19,6 +19,9 @@
 - name: François Xavier VENDE
   bio: " François Xavier est architecte OPS chez OCTO Technology. Il a eu l’occasion de développer une expertise sur les sujets d’intégration logiciel, de mettre en place des plateformes d’intégration continue et d’être le lien entre les équipes de développement et les équipes d’exploitation avec un objectif : « automatiser pour pouvoir livrer le produit aussi souvent que possible ». Il intervient en tant que coach « DevOps » et/ou architecte technique au sein de projets agiles."
   photo: " http://bit.ly/29U1Tvd "
+- name: Mathieu Herbert
+  bio: "Mathieu est architecte Cloud chez OCTO Technology. Il a développé des compétences autour de l’intégration des systèmes Cloud et de l’automatisation. Il intervient pour accompagner des équipes dans la migration de leurs actifs sur des infrastructures cloud (Public / Privé) en agile."
+  photo: "/img/speakers/mhe_photo.jpg"
 - name: Samuel Retiere
   bio: " https://www.linkedin.com/in/samuel-retiere-7438981b"
   photo: "/img/speakers/male200.png"
