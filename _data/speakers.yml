@@ -1,4 +1,4 @@
-- name: Bruno BOUCARD
+- name: Bruno Boucard
   bio: " Avec une expérience de plus 30 ans dans le développement, dont la majorité dans la finance de marché, je suis actuellement coach agile spécialisé sur le software craftsmanship. Je pratique et j’enseigne quotidiennement les valeurs et pratiques crafts depuis plusieurs années. Je suis aussi co-fondateur la société 42 skillz (http://www.42skillz.io/)."
   photo: " https://pbs.twimg.com/profile_images/576808473343582208/3s3g8VMM_400x400.jpeg "
 - name: Ismaël Hery
@@ -82,7 +82,7 @@
 - name: Jean-Claude Grosjean
   bio: " Jean-Claude GROSJEAN est coach Agile Indépendant et Coach Professionnel (Certifié HEC). Il est également formateur et facilitateur, et vient de créer son propre cabinet de coaching aprés avoir exercé son activité pendant plus d'une dizaine d'années dans le Conseil IT. Jean-Claude est aussi l'auteur du blog qualitystreet.fr, blog consacré au coaching, à la facilitation et à l'innovation managériale."
   photo: " https://pbs.twimg.com/profile_images/772474419847520257/wmi3tim__400x400.jpg "
-- name: Julien HATZIG
+- name: Julien Hatzig
   bio: " Tech Leader chez AXA, je suis sensibilisé aux bonnes pratiques de développement comme le TDD, le clean code, la code review. J’anime des sessions de code au sein du Webcenter d’AXA et lors de meetups dans le but de partager, d’échanger et d’enrichir ces pratiques avec des développeurs de tout profils désirant partager leur propre expérience du code."
   photo: " https://pbs.twimg.com/profile_images/646680455782211584/es2hD16f.jpg "
 - name: Nicolas TONDEUR
@@ -96,34 +96,37 @@
   photo: " https://pbs.twimg.com/media/ClD9drqXEAAUdMD.jpg "
 - name: Dragos Dreptate
   bio: " Agile & Lean Coach, Organisational Change Alchemist"
-  photo: " "
+  photo: " https://pbs.twimg.com/media/ClD9drqXEAAUdMD.jpg"
+- name: Geraldine Legris
+  bio: " Coach Agile"
+  photo: " https://pbs.twimg.com/media/ClD9drqXEAAUdMD.jpg"
 - name: Nawel GHIAR
   bio: " chef de projet test chez Axa"
-  photo: " http://fr.viadeo.com/fr/profile/nawel.ghiar "
+  photo: "/img/speakers/female200.png"
 - name: Cyril Martraire
   bio: ""
-  photo: " "
+  photo: "/img/speakers/cyrille-martraire.jpg"
 - name: Euratechnologies
   bio: ""
-  photo: " "
+  photo: "/img/speakers/euratechnologies.png"
 - name: Claire Morin
   bio: " Agile Native, je suis rentrée dans le bain des méthodes agiles depuis ma première expérience professionnelle. J'ai une approche concrète et pure du Product Ownership mêlant des influences Lean Startup et Design Thinking à une maîtrise profonde des principes de l'agilité. Mon parcours (associant formation en physique fondamentale et passion pour la psychologie cognitive, sociale ) me permet d'avoir une vision associant démarche expérimentale et accent mis sur la prise en compte des facteurs humains. Grâce à ces influences diverse ma pratique du Product Ownership allie rigueur et créativité, et s'adapte particulièrement aux projets innovants ."
-  photo: " "
+  photo: "/img/speakers/female200.png"
 - name: David Vandersarren
-  bio: " scrumaster équipe CRM"
-  photo: " https://drive.google.com/open?id=0B81eE1n1DK2JMFpwN0JuWS1rOFk "
+  bio: " scrumaster équipe CRM, Decathlon"
+  photo: "/img/speakers/male200.png"
 - name: Stéphanie Tallon
-  bio: " scrumaster équipe E-Merchandising"
-  photo: " https://drive.google.com/open?id=0B81eE1n1DK2JdUVTZ0pzR2VSOFU "
-- name: Aurélien MORVANT
+  bio: " scrumaster équipe E-Merchandising, Decathlon"
+  photo: "/img/speakers/female200.png"
+- name: Aurélien Morvant
   bio: " Aurélien est un Agent du changement. Coach il ne sait pas dire s'il en est un. Est-ce grave ? Il ne pense pas. Il a la chance d'être un spectateur privilégié de très grandes transformations de ces dernières années. Bon spectateur et surtout acteur de ces transformations. Quand il était petit il disait 'je voulais être ingénieur chez Lego' ... Il y est presque. C'est un support qu'il utilise au quotidien mais pas que ! la facilitation, les interactions humaines, l’agilité, les serious games et la facilitation graphique font partis de sa trousse à outils. Sinon il a un avantage concurrentiel incomparable ... il est breton. Sa dernière passion est exercée tous les week-ends lorsque il aide les plus motivés à sauter à l’élastique du haut d’un pont (une certaine forme de gestion du changement).? Enfin, il a créé KoKan en 2016 pour accompagner qui le souhaite dans sa gestion du changement. Et vous ? quel sera votre premier petit pas vers un monde meilleur ?"
-  photo: " https://lh5.googleusercontent.com/sWkgLcrbYBfnGpjy3cInEm9frVBzdq9BnCelGIAXwpdjsgyObAUJpkCUotb67js55DymEiCSUAJ7d8g=w1920-h970 "
-- name: Thomas PIERRAIN
+  photo: "/img/speakers/Aurelien-Morvant.jpeg"
+- name: Thomas Pierrain
   bio: " 'Pragmatic architect' travaillant sur des problématique réactives et 'low latency' à la SG CIB depuis plus de 10 ans maintenant (et après 7 ans passées à apprendre son métier les pieds dans le web), Thomas est ultra-curieux de nature. Agile de père en fils depuis 1905... et obsédé par l'identification des use cases (vs. approches 'solution'), il adore aussi prouver régulièrement au boulot qu'une approche DDD est parfaitement compatible avec l'espace dit 'low latency'. Speaker, Brown Bag Luncher, Craftsman accro aux coding dojos et meetups de toute sorte (DDD, Software Craftsmanship, XP & Alt.NET), Thomas est aussi le créateur de la librairie open source NFluent (un pendant .NET à Fest-assert/AssertJ)."
   photo: " https://pbs.twimg.com/profile_images/745726209674346500/6_GJ3Vbv_400x400.jpg "
 - name: Olivier Durnez
   bio: " Ingénieur Telecom Nancy, je suis chef de projet sénior au sein de la DSI de la branche SNCF RESEAU (Maintenance, ingénierie et travaux sur le réseau ferré français). Ma mission consiste à piloter la conception de logiciels informatique déployés nationalement pour les directions métiers en m'appuyant sur les départements de la DSI et ses fournisseurs. Je pratique l'agilité au quotidien, mon rôle actuel s'apparente à celui de 'product manager' ou PO délégué. Le contexte en évolution de la DSI me permet d'innover et expérimenter en amélioration continue."
-  photo: " https://fr.linkedin.com/in/olivierdurnez "
+  photo: "/img/speakers/olivier-durnez.jpg"
 - name: Antonio LOPEZ
   bio: " I'm an agile agitator at Decathlon Spain. Since more than 5 years building other ways of working to foster participation, share responsibility, improve productivity and innovate while we have fun! I use all the weapons I can to fight uncertainty and to improve our ability to adapt. Agile and lean frameworks, Lean Startup, Design thinking or Facilitaton techniques. And in this process me and many others colleagues we're building innovative projects trying to 'do the right thing right', while we try to provoke some changes on how we collaborate to build them."
   photo: " https://pbs.twimg.com/profile_images/500294398262128641/mdHPTp2W.jpeg "
@@ -132,7 +135,7 @@
   photo: " https://pbs.twimg.com/profile_images/696768402401140736/R6dK7uZY.jpg "
 - name: Marie-Christine PESSIOT
   bio: " Since that and for over 7 years, I have been actively supporting Agile approaches. I mainly act as an Agile Consultant, trainer and facilitator for leaders and organizations who wish to integrate this type of posture and approach. Far more interesting is that every of my assertions shall be supported by concrete examples taken from my daily life so that should be acceptable for all participants and each one shall be able to reach an informed opinion. In the beginning of 2015 I created the 'Club Agile Provence' in the south east of France as a platform for contacts between leaders and managers who can reflect together during workshops about their Agile approaches and practices : https://www.facebook.com/clubagileprovence/ I am also a member of the Rotary Club of Avignon-Chateauneuf du Pape and work for Rotary professionnal actions. I am a 56 years old woman who begin my professionnal life in Paris as controller for great US and GB groups (Rockwell US, Colas GB). Then I installed a management control system in a french group with 17 companies who had no structure to evaluate activity. In 1999 I got through an Lbo with a little B to B regional company (25 employees) in the south of France. Then I developped the business and gave it to a more important group in 2008. That taught me the importance of a well managed team working in an Agile way for the benefit of all. It was my first practical and hands-on experience of Agility."
-  photo: " "
+  photo: "/img/speakers/female200.png"
 - name: Allan Kelly
   bio: "Allan Kelly helps companies and teams make software in a better way. He works with developers, managers, analysts and everyone else to make the making better. Usually this goes by the name of Agile or Lean but ultimately its about making work practices and processes better. He mostly works with software intensive companies and companies whose very business depends on software.
         When he is not with clients he writes far too much. He is the author of three books: “Xanpan - team centric Agile Software Development”, “Business Patterns for Software Developers” and “Changing Software Development: Learning to be Agile”; the originator of Retrospective Dialogue Sheets and a regular conference speaker. More about on his website and on Twitter as @allankellynet."

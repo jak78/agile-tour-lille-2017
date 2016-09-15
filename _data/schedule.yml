@@ -83,7 +83,7 @@
                           15 min : Présentation holacratie. Description de Gotham City et des attentes des citoyens, et des premiers cercles.
                           1h20 : 4 tours de 15/20 minutes : cercles (triage, gouvernance), prise de décision, réforme de la gouvernance, changement de rôles, ponctués d’événements et de surprises. À chaque round de gothamocratie un enseignement de holacratie : les liens, les cercles, la constitution, les rôles, les tensions, etc.
                           10min : debrief : Holacratie dans la vraie vie, chez beNext ? chez CARMA/GrDF ?"
-            speaker: Pablo Pernot, Dragos Dreptate
+            speaker: Pablo Pernot, Dragos Dreptate, Geraldine Legris
             duration: 2
             room: Atelier A
           - subject: "DevOps : rangez vos kleenex, sortez vos k'nex !"
@@ -141,28 +141,9 @@
           room: Auditorium
       - hour: 15h00
         content:
-          - subject: "Forum ouvert : Venez proposer votre sujet !"
+          - label: "Forum ouvert : Venez proposer votre sujet !"
             fill: 7
-      - hour: 15h30
-        content:
-          - subject: "Forum ouvert : Venez proposer votre sujet !"
-            fill: 7
-      - hour: 16h00
-        content:
-          - subject: "Forum ouvert : Venez proposer votre sujet !"
-            fill: 7
-      - hour: 16h30
-        content:
-          - subject: "Forum ouvert : Venez proposer votre sujet !"
-            fill: 7
-      - hour: 17h00
-        content:
-          - subject: "Forum ouvert : Venez proposer votre sujet !"
-            fill: 7
-      - hour: 17h30
-        content:
-          - subject: "Forum ouvert : Venez proposer votre sujet !"
-            fill: 7
+            bigheight: true
       - hour: 18h00
         special: 1
         content:
@@ -308,7 +289,7 @@
           - subject: "DDD : et si on reprenait l'histoire par le bon bout ? Tout simplement."
             description: "Introduit en 2003 par Eric Evans via son 'Blue Book', le Domain Driven Design (DDD) a reçu depuis un gros succès d'estime au sein de diverses communautés. A l'inverse, on ne peut pas dire qu'il se soit largement imposé sur le terrain ni dans nos projets. Comment expliquer un tel échec dans sa diffusion ? Est-ce le DDD en lui même qui est difficile, ou tout simplement la façon dont il est présenté qui le rends indigeste ?
                         A travers nos propres histoires de mises en oeuvre plus ou moins réussies, nous tâcherons de revisiter le DDD avec une approche beaucoup plus accessible. Nous nous attacherons notamment à vous montrer tout ce que le DDD peut vous apporter au quotidien pour réussir vos projets."
-            speaker: Thomas PIERRAIN, Jeremie GRODZISKI
+            speaker: Thomas Pierrain, Jeremie GRODZISKI
             room: Auditorium
           - subject: "Engagez-vous qu'ils disaient !"
             description: "Surprise en lisant la doctrine militaire du Général Yakovleff. Le fonctionnement de la hiérarchie, les types de commandements et la prise de risque sont à l'opposé des nos préjugés. Profitons de cette découverte, pour réflechir à nos organisations d'entreprises."
@@ -325,8 +306,11 @@
             speaker: Jérôme Guenver
             room: Conférence 2
           - subject: "Lightning Talks"
-            description: ""
-            speaker: XX, YY
+            description: "<ul>
+            <li><strong>Talk 1</strong> : Mon processus de design en tant que Product Owner sans UX designer (Anael Ichane)</li>
+            <li><strong>Talk 2</strong> : Ce que la revue de code m'a apporté (Julien Hatzig)</li>
+            </ul>"
+            speaker: Anael Ichane, Julien Hatzig
             room: Conférence 3
           - subject: "Le théatre au service du travail collectif"
             description: "Déjà que le jeu en entreprise, ça fait brouillon... Mais alors le théatre!
@@ -341,7 +325,7 @@
                         Mais attention : faire un jeu pour dire d'avoir joué ? Aucun intérêt !
                         Comme tout outil puissant, le jeu a ses risques et ses dérives qu'il faut savoir apprendre à maîtriser.
                         Venez découvrir par la pratique en quoi un jeu bien pensé, bien conçu, bien choisi et bien amené permet de catalyser  l'intelligence collective et de libérer le potentiel de chacun d'entre nous. "
-            speaker: Thomas Shakeshaft , Gautier Gaspard
+            speaker: Thomas Shakeshaft, Gautier Gaspard
             company: norsys
             highlight: 1
             room: Atelier B
@@ -403,7 +387,7 @@
             description: "Décathlon a lancé en 2015 le programme « CUBE » de transformation omnicanal sur ces 20 pays.
                         En terme d’organisation, les challenges de ce programme sont de faire collaborer les 200 acteurs métiers et informatiques,  et de livrer et déployer régulièrement les versions successives de ce nouveau système d’information omnicanal.
                         Nous proposons donc un retour d'expérience sur notre passage de scrum à nexus+ pour encore renforcer notre agilité à cette échelle."
-            speaker: David Vandersarren, Stéphanie Tallon, Thomas CHARLE
+            speaker: David Vandersarren, Stéphanie Tallon, Thomas Charle
             room: Auditorium
           - subject: "Activités de tests dans les projets agiles chez AXA"
             description: "Axa France services a adopté l’agilité pour le développement de ses applications web et mobiles.  Dans ce cadre, les équipes de qualification ont adapté leurs activités de tests :
