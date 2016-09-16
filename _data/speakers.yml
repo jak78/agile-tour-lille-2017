@@ -23,7 +23,7 @@
   bio: "Mathieu est architecte Cloud chez OCTO Technology. Il a développé des compétences autour de l’intégration des systèmes Cloud et de l’automatisation. Il intervient pour accompagner des équipes dans la migration de leurs actifs sur des infrastructures cloud (Public / Privé) en agile."
   photo: "/img/speakers/mhe_photo.jpg"
 - name: Samuel Retiere
-  bio: " https://www.linkedin.com/in/samuel-retiere-7438981b"
+  bio: '<a href="https://www.linkedin.com/in/samuel-retiere-7438981b" target="_blank">https://www.linkedin.com/in/samuel-retiere-7438981b</a>'
   photo: "/img/speakers/male200.png"
 - name: Nicolas Umiastowski
   bio: " Je suis coach agile chez SQLI, actuellement en mission chez un grand compte du domaine alimentaire, dan la partie e-commerce. J'ai expérimenté le Mob Programming lors de ma mission de coaching chez Amadeus IT Group à Sophia-Antipolis, et le NoEstimates actuellement sur un projet Kanban."
