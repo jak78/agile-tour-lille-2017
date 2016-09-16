@@ -412,7 +412,7 @@
       - hour: 18h00
         special: 1
         content:
-          - label: Agilistes autour d'un verre
+          - label: Agilistes autour d'un verre (et plus si affinités)
             image: 2818268935_5d06ed7b4a_m_d.jpg
             room: Atrium
             extra: <span><i class="fa fa-beer"></i> Bières<sup>*</sup> et <span><i class="fa fa-comment"></i> échanges.
