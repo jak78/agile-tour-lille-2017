@@ -325,7 +325,6 @@
                         Venez découvrir par la pratique en quoi un jeu bien pensé, bien conçu, bien choisi et bien amené permet de catalyser  l'intelligence collective et de libérer le potentiel de chacun d'entre nous. "
             speaker: Thomas Shakeshaft, Gautier Gaspard
             company: norsys
-            highlight: 1
             room: Atelier B
       - hour: 16h15
         content:
@@ -363,7 +362,6 @@
                         Je me propose de raconter le mob programming tel que ses pionniers le décrivent, et comment je l'ai vécu avec une équipe chez Amadeus IT Group, et de donner ma compréhension de  #noestimates, et comment je le vis avec une équipe chez Carrefour, et de comprendre pourquoi et comment cela peut tous nous intéresser.
                         Ce qui est contre-intuitif ne doit pas être rejeté d'un revers de la main car c'est bien souvent ce qui nous permet d'éclairer de nous horizons."
             speaker: Nicolas Umiastowski
-            highlight: 1
             room: Conférence 3
           - subject: "User research game : learn how to validate your hypothesis !"
             description: "Je vous propose d’apprendre à reconnaître les hypothèses sur lesquelles une idée de produit se base lors de cet atelier. Souvent elles paraissent tellement évidentes qu’on oublie qu’elles sont là ! Chaque équipe aura son idée produit concurrente, elle devra trouver quelles sont les hypothèses sur lesquelles son produit se base, et comment elle peut les valider (ou les invalider) au plus vite."
@@ -407,7 +405,6 @@
           - subject: "Miracles of Agility on organizations"
             description: "Every organisation have to evolve specifically toward ever greater Agility as there is no standard recipe. How to operate an Agile transition in a credible manner? How to change mindset in an organization? How were new cultural adjustments and internal process to progressively change? What are the key elements shared by organizations that have successfully weathered the change? And what are the potential pitfalls and problems that they can experience during this transformation? Synergies on all levels can be derived from Agile transformation for the well-being and benefit of all. After having been involved as controller in international groups, I discovered the strength of unlimited potential created by enthusiasm of the staff in my own little company during 10 years. Today I work in favour of win-win organizations where every employee is more responsible with his things and feel better as proactive force. In return, that would make the organization more intelligent and more efficient. Many forward thinking senior executives see this impending change as a clear opportunity to become more competitive as result of having a broader reach and lower costs. That brings also a new dynamic and more well-being for everyone. In this session we will focus on the different ways of working in this direction and case studies from organizations that are getting it right."
             speaker: Marie-Christine PESSIOT
-            highlight: 1
             room: Conférence 3
       - hour: 18h00
         special: 1
