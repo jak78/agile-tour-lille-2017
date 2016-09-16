@@ -97,10 +97,11 @@
             room: Atelier B
       - hour: 11h45
         content:
-          - subject: "Quand l'intelligence collective se met au service de l'agilité"
-            description: "Vous êtes-vous déjà posé la question : comment diffuser (polliniser) largement une culture agile au sein de votre organisation ? On parle souvent de pollinisation de l’agilité pour l’adoption en douceur sur la durée de l’agilité de proche en proche.
-                          Certains proposent par exemple (1) une manière de polliniser en douceur l’agilité dans les organisations en utilisant les codes des Forums Ouverts. Créer une « Rupture Douce » pour permettre de faire évoluer la culture d’une organisation et cela de manière pérenne est un véritable enjeu. Il existe d’autres pratiques, formats permettant d’impulser de l’intelligence collective pour la mettre au service de l’agilité. Dans cette session, au travers de retours d’expérience, nous vous partagerons comment l’utilisation de nouvelles pratiques collaboratives permet à tous les niveaux d’une organisation de mieux travailler ensemble en s’appuyant entre autre sur l’intelligence collective et ainsi de diffuser une culture agile."
-            speaker: Aurélien Morvant
+          - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
+            description: "Un retour d'expérience depuis ça fait 4 ans pour la transformation agile avec des équipes non-IT chez Décathlon Espagne parmi les 12.000 collaborateurs.
+                         L'idée c'est de presenter une vision générale de l'ensemble de différentes lignes de transformation : Depuis les premières conversations et le développement des rétrospectives jusqu'au travail actif pour escalader une structure de facilitation, en passant par favoriser l'auto-organisation à travers des opens espaces ou le besoin de l'expérimentation avec des cadres comme lean startup."
+            speaker: Antonio LOPEZ
+            company: Decathlon
             room: Auditorium
           - subject: Une CoP Agile qui marche
             description: "Comment Créer une Communauté de Pratiques Agile (PO; ScrumMaster, Management) efficace dans l'Entreprise?
@@ -108,12 +109,6 @@
                           Voici quelques clés pour que cela marche!"
             speaker: Jean-Claude Grosjean
             room: Conférence 1
-          - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
-            description: "Un retour d'expérience depuis ça fait 4 ans pour la transformation agile avec des équipes non-IT chez Décathlon Espagne parmi les 12.000 collaborateurs.
-                         L'idée c'est de presenter une vision générale de l'ensemble de différentes lignes de transformation : Depuis les premières conversations et le développement des rétrospectives jusqu'au travail actif pour escalader une structure de facilitation, en passant par favoriser l'auto-organisation à travers des opens espaces ou le besoin de l'expérimentation avec des cadres comme lean startup."
-            speaker: Antonio LOPEZ
-            company: Decathlon
-            room: Conférence 2
           - subject: "Du craft chez les OPS"
             description: "En 2016, on peut instancier un SI from scratch avec du code.
                         La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
@@ -125,6 +120,9 @@
                         Nous vous décrirons ce qu'est une plateforme d'intégration continue OPS et comment on teste une infrastructure en continu."
             speaker: François Xavier VENDE, Mathieu Herbert
             company: octo
+            room: Conférence 2
+          - label: ""
+            description: ""
             room: Conférence 3
       - hour: 12h30
         special: 1
