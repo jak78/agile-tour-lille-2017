@@ -86,13 +86,13 @@
             speaker: Pablo Pernot, Dragos Dreptate, Geraldine Legris
             duration: 2
             room: Atelier A
-          - subject: "DevOps : rangez vos kleenex, sortez vos k'nex !"
-            description: "Le but du jeu est de construire un pont en répondant aux différentes fonctionnalités proposées.
-                        Vous serez séparé en 2 équipes de 4 personnes : équipe dev qui devra produire un maximum de fonctionnalités tandis que l'équipe ops se chargera de maintenir et de faire évoluer le socle.
-                        Comment rendre complémentaires des objectifs opposés en apparence ?
-                        Les équipes expérimenterons différents mode de collaborations en fonction des itérations parcourues."
-            speaker: Yan Matagne, Antoine Stalin
-            company: Norsys
+          - subject: "Initiation au sketchnoting"
+            description: "Le sketchnoting est une discipline, regroupée au sein des techniques dites de 'Facilitation graphique'.
+                        L'objectif de celle-ci est de traduire en pensée visuelle des concepts, processus, idées, conversations, .. par la prise de notes individuelle.
+                        Vous ne savez pas dessinez ? Pas de panique, ce n'est pas un prérequis pour débuter.
+                        Venez découvrir les principes, bases et les utilisations possibles pour votre quotidien.
+                        Munis de feuilles et crayons, vous vous lancerez dans cette pratique, et chercherez à développer votre propre style."
+            speaker: Benoit Hermant
             duration: 2
             room: Atelier B
       - hour: 11h45
@@ -353,13 +353,25 @@
           - subject: "#NoEstimates et Mob Programming : contre-intuitif et particulièrement efficace"
             description: "Hunter Industries est une boite tout à fait classique qui commercialise des systèmes d'irrigation, en Californie. Et pourtant, en son sein, une équipe de développement jusque là totalement waterfall, s'est transformée en agile, et a maturé 2 pratiques : #NoEstimates et le Mob Programming. Celles-ci font souvent se dresser les cheveux sur la tête des managers qui en entendent parler. #NoEstimates notamment divise le petit monde de l'Agilité.... une bonne raison pour regarder ça de plus près. Quels sont ces fous, comment font-ils, et surtout... ça marche ?
                         Nous verrons que l'agilité n'en finit pas d'évoluer, et que certaines organisations qui souhaitent mener une transition Agile, n'ont même pas conscience de cette évolution. L'idée n'est pas de mettre toutes les équipes en Mob Programming, et sans estimations, mais plutôt de se donner les moyens de choisir ce qui peut marcher le mieux dans un contexte donné.
-                        Dans un mode complètement Lean Startup,dans les cas où le périmètre est 100% évoluti
-                        lorsque les équipes métier et IT ont construit une relation de confiance et bien le terrain est peut être propice à tenter de ne plus faire d'estimations.
+                        </br>
+                        Dans un mode complètement Lean Startup,
+                        </br>
+                        dans les cas où le périmètre est 100% évolutif
+                        </br>
+                        lorsque les équipes métier et IT ont construit une relation de confiance
+                        </br>
+                        et bien le terrain est peut être propice à tenter de ne plus faire d'estimations.
+                        </br>
                         Dans le cas où un transfert ou une acquisition ou un transfert de compétences sont nécessaires dans l'équipe de développement
+                        </br>
                         ou bien que des bonnes pratiques de programmation sont à mettre en place et partager
+                        </br>
                         et bien le mob programming - à un rythme et sur des durées plus ou moins longues - peut vraiment s'avérer un booster.
+                        </br>
                         Il est important de suivre ces récents développement de l'agilité, de comprendre pourquoi et comment certaines équipes en sont arrivées là, et d'en tirer des leçons pour ses propres équipes.
-                        Je me propose de raconter le mob programming tel que ses pionniers le décrivent, et comment je l'ai vécu avec une équipe chez Amadeus IT Group, et de donner ma compréhension de  #noestimates, et comment je le vis avec une équipe chez Carrefour, et de comprendre pourquoi et comment cela peut tous nous intéresser.
+                        </br>
+                        Je me propose de raconter le mob programming tel que ses pionniers le décrivent, et comment je l'ai vécu avec une équipe chez un leader des réservations aériennes, et de donner ma compréhension de  #noestimates, et comment je le vis avec une équipe chez un leader de la grand distribution, et de comprendre pourquoi et comment cela peut tous nous intéresser. 
+                        </br>
                         Ce qui est contre-intuitif ne doit pas être rejeté d'un revers de la main car c'est bien souvent ce qui nous permet d'éclairer de nous horizons."
             speaker: Nicolas Umiastowski
             room: Conférence 3
@@ -368,15 +380,15 @@
             speaker: Claire Morin
             duration: 2
             room: Atelier A
-          - subject: "Initiation au sketchnoting"
-            description: "Le sketchnoting est une discipline, regroupée au sein des techniques dites de 'Facilitation graphique'.
-                        L'objectif de celle-ci est de traduire en pensée visuelle des concepts, processus, idées, conversations, .. par la prise de notes individuelle.
-                        Vous ne savez pas dessinez ? Pas de panique, ce n'est pas un prérequis pour débuter.
-                        Venez découvrir les principes, bases et les utilisations possibles pour votre quotidien.
-                        Munis de feuilles et crayons, vous vous lancerez dans cette pratique, et chercherez à développer votre propre style."
-            speaker: Benoit Hermant
+          - subject: "DevOps : rangez vos kleenex, sortez vos k'nex !"
+            description: "Le but du jeu est de construire un pont en répondant aux différentes fonctionnalités proposées.
+                        Vous serez séparé en 2 équipes de 4 personnes : équipe dev qui devra produire un maximum de fonctionnalités tandis que l'équipe ops se chargera de maintenir et de faire évoluer le socle.
+                        Comment rendre complémentaires des objectifs opposés en apparence ?
+                        Les équipes expérimenterons différents mode de collaborations en fonction des itérations parcourues."
+            speaker: Yan Matagne, Antoine Stalin
+            company: Norsys
             duration: 2
-            room: Atelier B
+            room: Atelier B            
       - hour: 17h15
         content:
           - subject: "Devenir agile à 200 personnes"
