@@ -139,7 +139,7 @@
           room: Auditorium
       - hour: 15h00
         content:
-          - label: "Forum ouvert : venez proposer votre sujet !<br><a href='/forum-ouvert'>Qu'est-ce qu'un forum ouvert et pourquoi y irai-je ?</a>"
+          - label: "Forum ouvert : venez proposer votre sujet !<br><a href='/forum-ouvert'>Qu'est-ce qu'un forum ouvert et pourquoi y irais-je ?</a>"
             fill: 7
             bigheight: true
       - hour: 18h00
