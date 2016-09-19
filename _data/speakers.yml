@@ -117,10 +117,13 @@
   photo: "/img/speakers/female200.png"
 - name: David Vandersarren
   bio: " scrumaster équipe CRM, Decathlon"
-  photo: "/img/speakers/male200.png"
+  photo: "/img/speakers/David.png"
 - name: Stéphanie Tallon
   bio: " scrumaster équipe E-Merchandising, Decathlon"
-  photo: "/img/speakers/female200.png"
+  photo: "/img/speakers/Stephanie-Tallon.png"
+- name: Thomas Charle
+  bio: "Decathlon"
+  photo: "/img/speakers/Thomas-Charle.png"
 - name: Thomas Pierrain
   bio: " 'Pragmatic architect' travaillant sur des problématique réactives et 'low latency' à la SG CIB depuis plus de 10 ans maintenant (et après 7 ans passées à apprendre son métier les pieds dans le web), Thomas est ultra-curieux de nature. Agile de père en fils depuis 1905... et obsédé par l'identification des use cases (vs. approches 'solution'), il adore aussi prouver régulièrement au boulot qu'une approche DDD est parfaitement compatible avec l'espace dit 'low latency'. Speaker, Brown Bag Luncher, Craftsman accro aux coding dojos et meetups de toute sorte (DDD, Software Craftsmanship, XP & Alt.NET), Thomas est aussi le créateur de la librairie open source NFluent (un pendant .NET à Fest-assert/AssertJ)."
   photo: " https://pbs.twimg.com/profile_images/745726209674346500/6_GJ3Vbv_400x400.jpg "
