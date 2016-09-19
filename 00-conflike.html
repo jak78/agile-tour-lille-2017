@@ -102,6 +102,17 @@ permalink: /conflike/
   }
 </script>
 
+<script type="text/javascript">
+  function toggleDayDisplay(dayID) {
+    day_div = document.getElementById(dayID)
+    if (day_div.style.display == "block") {
+      day_div.style.display = "none"
+    } else {
+      day_div.style.display = "block"
+    }
+  }
+</script>
+
 <div class="container">
   <div class="row">    
       <div id="demo-12-col" class="col-xs-12">
@@ -110,77 +121,26 @@ permalink: /conflike/
   </div>
   
   <div><span>UserID= </span><span id="userid">?</span></div>
-  
-  <div class="row">
-     <!-- 13 Octobre -->
-     <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#13_octobre" style="padding:10px;text-align:center;background-color:orange;text-decoration:none">JEUDI 13 Octobre</a>
-     </div>  
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#13_octobre_08h15" style="padding:10px;text-align:center;background-color:yellow;text-decoration:none">MATIN</a>
-     </div>
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#13_octobre_09h30" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">9h30</a>
-     </div>       
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#13_octobre_10h45" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">10h45</a>
-     </div> 
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#13_octobre_11h45" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">11h45</a>
-     </div>
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#13_octobre_14h00" style="padding:10px;text-align:center;background-color:yellow;text-decoration:none">APRES-MIDI</a>
-      </div>
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#13_octobre_14h00" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">14h00</a>
-     </div> 
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#13_octobre_15h00" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">15h00</a>
-     </div>
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#13_octobre_16h15" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">16h15</a>
-     </div>  
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#13_octobre_17h15" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">17h15</a>
-     </div> 
-     <!-- 14 Octobre -->
-     <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#14_octobre" style="padding:10px;text-align:center;background-color:orange;text-decoration:none">VENDREDI 14 Octobre</a>
-     </div>  
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#14_octobre_09h30" style="padding:10px;text-align:center;background-color:yellow;text-decoration:none">MATIN</a>
-     </div>
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#14_octobre_10h45" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">10h45</a>
-     </div> 
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#14_octobre_11h45" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">11h45</a>
-     </div>
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#14_octobre_14h00" style="padding:10px;text-align:center;background-color:yellow;text-decoration:none">APRES-MIDI</a>
-      </div>
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#14_octobre_14h00" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">14h00</a>
-     </div> 
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#14_octobre_15h00" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">15h00</a>
-     </div>
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#14_octobre_16h15" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">16h15</a>
-     </div>  
-      <div id="demo-12-col" class="col-xs-12" style="margin:1px">
-          <a class="col-xs-12" href="/conflike/#14_octobre_17h15" style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">17h15</a>
-     </div>       
-  </div>
-  
-  </br>
-  
 
+  <div class="row">  
   {% for day in site.data.schedule %}
-  <div class="row">
-    <div id="{{ day.date | replace:' ','_' }}" style="text-align:center">{{ day.date }}</div>
+    <div id="" class="col-xs-12" style="margin:1px" onclick="toggleDayDisplay('{{ day.date | replace:' ','_' }}')">
+      <a class="col-xs-12" 
+         href="/conflike/#{{ day.date | replace:' ','_' }}" 
+         style="padding:10px;text-align:center;background-color:orange;text-decoration:none">
+         {{ day.date }} 
+      </a>
+    </div>
+    <div id="{{ day.date | replace:' ','_' }}" style="display:none">
     {% for part in day.schedule %}
       {% for slot in part %}
+        <div id="{{ day.date | replace:' ','_' }}_{{ slot.hour }}" class="col-xs-12" style="margin:1px">
+            <a class="col-xs-12" 
+               href="/conflike/#{{ day.date | replace:' ','_' }}_{{ slot.hour }}" 
+               style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">
+              {{ day.date }} - {{ slot.hour  }}
+            </a>
+        </div>
         {% for talk in slot.content %}
           <div class="col-xs-12" id="{{ day.date | replace:' ','_' }}_{{ slot.hour }}" style="margin:1px">
             <div class="col-xs-2" style="text-align:center;">
@@ -212,9 +172,9 @@ permalink: /conflike/
       {% endfor %}
     {% endfor %}
     </div>
-  {% endfor %}
+  {% endfor %} 
   </div>
-
+  
   {% for day in site.data.schedule %}
     <div id="{{ day.date | replace:' ','_' }}">{{ day.date }}</div>
     {% for part in day.schedule %}
