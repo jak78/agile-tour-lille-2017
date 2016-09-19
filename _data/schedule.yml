@@ -139,7 +139,7 @@
           room: Auditorium
       - hour: 15h00
         content:
-          - label: "Forum ouvert : venez proposer votre sujet !"
+          - label: "Forum ouvert : venez proposer votre sujet !<br><a href='/forum-ouvert'>Qu'est-ce qu'un forum ouvert et pourquoi y irai-je ?</a>"
             fill: 7
             bigheight: true
       - hour: 18h00
@@ -370,7 +370,7 @@
                         </br>
                         Il est important de suivre ces récents développement de l'agilité, de comprendre pourquoi et comment certaines équipes en sont arrivées là, et d'en tirer des leçons pour ses propres équipes.
                         </br>
-                        Je me propose de raconter le mob programming tel que ses pionniers le décrivent, et comment je l'ai vécu avec une équipe chez un leader des réservations aériennes, et de donner ma compréhension de  #noestimates, et comment je le vis avec une équipe chez un leader de la grand distribution, et de comprendre pourquoi et comment cela peut tous nous intéresser. 
+                        Je me propose de raconter le mob programming tel que ses pionniers le décrivent, et comment je l'ai vécu avec une équipe chez un leader des réservations aériennes, et de donner ma compréhension de  #noestimates, et comment je le vis avec une équipe chez un leader de la grand distribution, et de comprendre pourquoi et comment cela peut tous nous intéresser.
                         </br>
                         Ce qui est contre-intuitif ne doit pas être rejeté d'un revers de la main car c'est bien souvent ce qui nous permet d'éclairer de nous horizons."
             speaker: Nicolas Umiastowski
@@ -388,7 +388,7 @@
             speaker: Yan Matagne, Antoine Stalin
             company: Norsys
             duration: 2
-            room: Atelier B            
+            room: Atelier B
       - hour: 17h15
         content:
           - subject: "Devenir agile à 200 personnes"
