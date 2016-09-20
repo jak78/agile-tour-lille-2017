@@ -16,6 +16,9 @@
 - name: Guillaume Wallet
   bio: " Software Craftsman, freelance depuis 2 ans après 10 ans en ESN"
   photo: " https://www.gravatar.com/avatar/af22c5952fd5e43d12016def954cf503?s=200 "
+- name: Laurent Delvaux
+  bio: "Diplômé de Telecom Nancy, Laurent débute sa carrière en 2001 et devient un expert des technologies Open-Source. Passionné par le partage des connaissances, il se consacre pleinement à la formation de 2004 à 2006. Après avoir couvert la France et l’Europe durant 2 ans pour partager sa passion technique, il co-crée Zenika en 2006 avec la volonté de créer la société d’experts dans laquelle il rêvait de travailler. Après des projets internationaux entre Londres et Paris, il se spécialise dans l’Agilité puis met en place et commercialise une gamme complète de services Agile allant de la formation au coaching en passant par de nouveaux types de contractualisation."
+  photo: "/img/speakers/Laurent-Delvaux.jpg"
 - name: François Xavier VENDE
   bio: " François Xavier est architecte OPS chez OCTO Technology. Il a eu l’occasion de développer une expertise sur les sujets d’intégration logiciel, de mettre en place des plateformes d’intégration continue et d’être le lien entre les équipes de développement et les équipes d’exploitation avec un objectif : « automatiser pour pouvoir livrer le produit aussi souvent que possible ». Il intervient en tant que coach « DevOps » et/ou architecte technique au sein de projets agiles."
   photo: " http://bit.ly/29U1Tvd "
