@@ -73,6 +73,9 @@
 - name: Stephane Thanasack
   bio: " Maintenant Scrum Master, Coach Agile"
   photo: "/img/speakers/stphtsk.jpeg"
+- name: Cédric Pourbaix
+  bio: "Consultant expérimenté, Cédric possède une grande capacité à se concentrer sur l’essentiel : ce qui a le plus de valeur ajoutée pour le client final. Spécialiste des approches agiles, c’est un animateur efficace de réunions et un grand facilitateur dans la prise de décisions des projets complexes. Adepte de KISS (Keep it simple, stupid !), il manie l’art de la métaphore pour simplifier ce qui est complexe et excelle dans la traduction des besoins en scénarios."
+  photo: "/img/speakers/cedric_pourbaix.jpg"
 - name: Djim BA
   bio: "Coachs agile chez AXA"
   photo: " https://media.licdn.com/media/p/1/000/284/1e5/00c11d3.jpg "
@@ -109,8 +112,13 @@
 - name: Nawel GHIAR
   bio: " chef de projet test chez Axa"
   photo: "/img/speakers/female200.png"
-- name: Cyril Martraire
-  bio: ""
+- name: Cyrille Martraire
+  bio:
+    Cyrille est co-fondateur et directeur technique d'Arolla, une société spécialisée sur les pratiques de développement regroupées sous la bannière "Software Craftsmanship".
+    Il développe des logiciels avec passion dans des startups et banques depuis 1999.
+    Aujourd’hui il aide ses clients sur des projets avec une forte implication dans l'analyse métier, ou en accompagnement sur des pratiques pour des équipes qui veulent progresser.
+    Passionné de design sous tous ses aspects (Clean Code, TDD, BDD, DDD, architecture),
+    il a aussi fondé la communauté Software Craftsmanship Paris et intervient fréquemment comme orateur dans des conférences en Europe et parfois au-délà.
   photo: "/img/speakers/cyrille-martraire.jpg"
 - name: Euratechnologies
   bio: ""

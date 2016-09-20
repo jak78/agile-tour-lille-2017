@@ -36,9 +36,9 @@
             room: Atrium
       - hour: 10h45
         content:
-          - subject: "Remplaçons le mot projet par le mot stratégie…"
+          - subject: "Remplaçons le mot projet par le mot stratégie..."
             speaker: Cédric Pourbaix
-            description: ???
+            description: ''
             company: EFIDEV
             room: Atrium
           - subject: Un logiciel qui fonctionne est un logiciel que l'utilisateur a plaisir à utiliser.
@@ -229,9 +229,9 @@
             les organisations agile que cela permet de mettre en place. Le but est de donner une vision d'ensemble et de voir comment les concepts coulissent entre eux dans la vraie vie. Je me propose de donner des axes de réflexion à la question : quel alignement pour mes équipes ?"
             speaker: Samuel Retiere
             room: Auditorium
-          - subject: "Living Documentation : et si la documentation pouvait être aussi fun que le code ?"
+          - subject: "Living Documentation: et si la documentation pouvait être aussi fun que le code ?"
             description: ''
-            speaker: Cyril Martraire
+            speaker: Cyrille Martraire
             room: Conférence 1
           - subject: "Legacy Club"
             description: "Code non maintenable, bugs à répétition, corrections chronophages, moral dans les chaussettes... Pas étonnant que la plupart d’entre nous préfèrent travailler sur des projets où tout est à (re)construire (Greenfield) plutôt que sur du code Legacy (Brownfield). Il faut dire que le Legacy sur lequel on a perdu le contrôle est plus que pénible. C’est épuisant, voire décourageant.
