@@ -9,9 +9,8 @@ permalink: /conferenciers/
     {% assign speakers = site.data.speakers | sort:"name" %}
     {% for speaker in speakers %}
     <a name="{{ speaker.name }}"></a>
-    <div class="col-md-6 speaker">
-        <!--img src="{{speaker.photo | prepend: "/img/speakers/" | prepend: site.baseurl }}" alt="{{speaker.name}}"/-->
-        <img src="{{ speaker.photo }}" alt="{{speaker.name}}">
+    <div class="col-md-6 speaker" id="{{ speaker.name }}">
+        <img src="{{ speaker.photo }}" alt="{{ speaker.name }}">
         <h2>{{ speaker.name }}</h2>
         <p>{{ speaker.bio | markdownify }}</p>
         {% for part in site.data.schedule %}

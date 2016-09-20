@@ -1,5 +1,6 @@
 .speakers .speaker {
-  padding-top: 70px;
+  padding-top: 50px;
+  margin-top: 20px;
   h2 {
     font-size: $base-font-size + 4;
     font-weight: bold;
@@ -12,5 +13,8 @@
     -moz-border-radius: 150px;
     max-width: 120px;
     max-heights: 120px;
+  }
+  &:target {
+    background-color: #fcf8e3;
   }
 }

@@ -6,7 +6,7 @@ permalink: /conferences/
 
 <div class="container talks">
     {% for day in site.data.schedule %}
-    {% for part in day.schedule %}    
+    {% for part in day.schedule %}
     {% for slot in part %}
     <div id="slot-{{slot.hour }}" class="conference-slot">
         <div class="slot row">
