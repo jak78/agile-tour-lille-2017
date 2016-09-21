@@ -36,9 +36,13 @@
             room: Atrium
       - hour: 10h45
         content:
-          - subject: "Remplaçons le mot projet par le mot stratégie..."
+          - subject: "Remplaçons le mot projet par le mot stratégie !"
             speaker: Cédric Pourbaix
-            description: ''
+            description: "
+              Nous remarquons que deux concepts sont difficiles à appréhender lorsque nous invitons une équipe à travailler de manière agile : prioriser par la valeur et découper le projet en incréments utilisables. 
+              Peut-on rendre ces concepts plus concrets et plus facile à aborder ?
+              Je vous propose de remplacer le mot “Projet” par le mot “Stratégie” et de voir ce qui se passe. 
+              De la posture du PO au plan de livraison, en passant par le backlog et les estimations, nous allons revisiter tous les aspects d’un projet... euh, d’une stratégie !"
             company: EFIDEV
             room: Atrium
           - subject: Un logiciel qui fonctionne est un logiciel que l'utilisateur a plaisir à utiliser.
