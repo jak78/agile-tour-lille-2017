@@ -37,13 +37,11 @@ permalink: /sponsors/
   <div class="row">
     {% assign sponsors = site.data.sponsors.gold %}
     {% for sponsor in sponsors %}
-    <div class="col-md-4 col-xs-6 sponsor">
+    <div class="sponsor">
       <a href="{{ sponsor.url }}" target="_blank">
         <img src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
       </a>
     </div>
     {% endfor %}
   </div>
-  <h1>Sponsors 2015</h1>
-  <p><a href="http://2015.agiletour-lille.org/sponsors">Voir les sponsors de l'édition précédente.</a></p>
 </div>

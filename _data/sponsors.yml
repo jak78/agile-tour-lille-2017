@@ -28,3 +28,9 @@ gold:
  - name: AXA
    url: http://www.axa.fr
    logo: logo_axa.png
+ - name: Norsys
+   url: http://www.norsys.fr
+   logo: logo_norsys.jpg
+ - name: Proxiad
+   url: http://www.proxiad.fr
+   logo: logo_proxiad.jpeg
