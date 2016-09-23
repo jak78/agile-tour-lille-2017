@@ -36,13 +36,9 @@
             room: Atrium
       - hour: 10h45
         content:
-          - subject: "Remplaçons le mot projet par le mot stratégie !"
+          - subject: "Remplaçons le mot projet par le mot stratégie..."
             speaker: Cédric Pourbaix
-            description: "
-              Nous remarquons que deux concepts sont difficiles à appréhender lorsque nous invitons une équipe à travailler de manière agile : prioriser par la valeur et découper le projet en incréments utilisables.
-              Peut-on rendre ces concepts plus concrets et plus facile à aborder ?
-              Je vous propose de remplacer le mot “Projet” par le mot “Stratégie” et de voir ce qui se passe.
-              De la posture du PO au plan de livraison, en passant par le backlog et les estimations, nous allons revisiter tous les aspects d’un projet... euh, d’une stratégie !"
+            description: ''
             company: EFIDEV
             room: Atrium
           - subject: Un logiciel qui fonctionne est un logiciel que l'utilisateur a plaisir à utiliser.
@@ -64,16 +60,11 @@
             speaker: Djim BA, Mehdi BALZA
             company: AXA
             room: Conférence 2
-          - subject: "Transition agile 4 real @meetic"
-            description: "De la petite graine scrum à l’IT au jardin de l’agilité à l’échelle, nous vous proposons de partager notre histoire ou comment depuis 5 ans, nous nous appuyons sur les individus et leurs interactions pour dé-siloter l’organisation et réinventer l’expérience utilisateur, l’architecture technique et la culture d’entreprise de meetic. Au programme, réalisations, succès mais aussi obstacles et pistes d’amélioration… bref un retour de la vraie vie sans langue de bois.
-                        Si vous souhaitez savoir comment accélérer une transformation complète sans hypothéquer
-                        le business mais aussi comment monter des équipes plateformes co-localisant métier,
-                        design et dev; transformer des équipes OPS et des équipes composants traditionnellement
-                        peu favorables au changement; comment réinventer l'expérience utilisateur tout en
-                        réinventant la stack technique; comment assurer l'acculturation agile dans un milieu
-                        waterfall;  comment synchroniser toute l'entreprise tous les trimestres de manière agile ... et faire de toute résistance une opportunité de changement... cette session est faite pour vous. Nous partagerons également les risques et problèmes que nous n'avions pas anticipés et les défis que meetic doit maintenant relever"
-            speaker: Nicolas Kalmanovitz
-            room: Conférence 3
+          - subject: "Transformation d'un programme en Agile Distribué : : lessons learned !"
+            description: "Le recit de la transformation d'un programme d un leader de l energie, d un modele cycle v classique vers un modele agile distribue lille paris (130 ETP). Un apercu du perimetre, du dispositif, de la transition organisationnelle et technique, des challenges rencontrés ainsi que des solutions apportées au travers de Scrum et d'un mix de pratiques connues  ( TDD, XP ...) "
+            speaker: Stephane Thanasack
+            company: capgemini
+            room: Conférence 3          
           - subject: "Gothamocratie, quand Gotham City adopte l'holacratie"
             description: "L'atelier se base sur une trame chronologique d’événements qui arrivent à la ville de Gotham et pour lesquels les participants doivent réagir, s'adapter, prendre des décisions. La dynamique est créée avec un jeu de cartes : rôles, actions, projets, évènements, surprises, etc.
                           La gestion d'une ville comme Gotham pose plusieurs questions :
@@ -144,7 +135,7 @@
           room: Auditorium
       - hour: 15h00
         content:
-          - label: "Forum ouvert : venez vivre l'expérience la plus riche qui soit dans une conférence&nbsp;!<br><a href='/forum-ouvert'>Qu'est-ce qu'un forum ouvert et pourquoi y irais-je ?</a>"
+          - label: "Forum ouvert : venez proposer votre sujet !<br><a href='/forum-ouvert'>Qu'est-ce qu'un forum ouvert et pourquoi y irais-je ?</a>"
             fill: 7
             bigheight: true
       - hour: 18h00
@@ -414,10 +405,15 @@
             speaker: Nawel GHIAR
             company: axa
             room: Conférence 1
-          - subject: "Transformation d'un programme en Agile Distribué : : lessons learned !"
-            description: "Le recit de la transformation d'un programme d un leader de l energie, d un modele cycle v classique vers un modele agile distribue lille paris (130 ETP). Un apercu du perimetre, du dispositif, de la transition organisationnelle et technique, des challenges rencontrés ainsi que des solutions apportées au travers de Scrum et d'un mix de pratiques connues  ( TDD, XP ...) "
-            speaker: Stephane Thanasack
-            company: capgemini
+          - subject: "Transition agile 4 real @meetic"
+            description: "De la petite graine scrum à l’IT au jardin de l’agilité à l’échelle, nous vous proposons de partager notre histoire ou comment depuis 5 ans, nous nous appuyons sur les individus et leurs interactions pour dé-siloter l’organisation et réinventer l’expérience utilisateur, l’architecture technique et la culture d’entreprise de meetic. Au programme, réalisations, succès mais aussi obstacles et pistes d’amélioration… bref un retour de la vraie vie sans langue de bois.
+                        Si vous souhaitez savoir comment accélérer une transformation complète sans hypothéquer
+                        le business mais aussi comment monter des équipes plateformes co-localisant métier,
+                        design et dev; transformer des équipes OPS et des équipes composants traditionnellement
+                        peu favorables au changement; comment réinventer l'expérience utilisateur tout en
+                        réinventant la stack technique; comment assurer l'acculturation agile dans un milieu
+                        waterfall;  comment synchroniser toute l'entreprise tous les trimestres de manière agile ... et faire de toute résistance une opportunité de changement... cette session est faite pour vous. Nous partagerons également les risques et problèmes que nous n'avions pas anticipés et les défis que meetic doit maintenant relever"
+            speaker: Nicolas Kalmanovitz
             room: Conférence 2
           - subject: "Miracles of Agility on organizations"
             description: "Every organisation have to evolve specifically toward ever greater Agility as there is no standard recipe. How to operate an Agile transition in a credible manner? How to change mindset in an organization? How were new cultural adjustments and internal process to progressively change? What are the key elements shared by organizations that have successfully weathered the change? And what are the potential pitfalls and problems that they can experience during this transformation? Synergies on all levels can be derived from Agile transformation for the well-being and benefit of all. After having been involved as controller in international groups, I discovered the strength of unlimited potential created by enthusiasm of the staff in my own little company during 10 years. Today I work in favour of win-win organizations where every employee is more responsible with his things and feel better as proactive force. In return, that would make the organization more intelligent and more efficient. Many forward thinking senior executives see this impending change as a clear opportunity to become more competitive as result of having a broader reach and lower costs. That brings also a new dynamic and more well-being for everyone. In this session we will focus on the different ways of working in this direction and case studies from organizations that are getting it right."
