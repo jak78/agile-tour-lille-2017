@@ -254,7 +254,7 @@ permalink: /conflike/
                 </br>
                 <div>Votre commentaire :</div>
                 <div class="form-group">
-                  <textarea class="form-control" rows="5" id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/comment" onkeypress="save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')"></textarea>
+                  <textarea class="form-control" rows="5" id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/comment" onkeydown="save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')"></textarea>
                 </div>
               </div>
             {% endfor %}
