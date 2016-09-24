@@ -58,24 +58,38 @@ permalink: /conflike/
     if (comment == "") comment = "-"; //Attribute can not be empty with DynamoDB
     return comment;
   }
+  function getConfTime(confID) {
+    var conftime = document.getElementById(confID + '/conftime').innerHTML;
+    if (conftime == "") conftime = "-"; //Attribute can not be empty with DynamoDB
+    return conftime;
+  }  
   function getConfName(confID) {
     var confname = document.getElementById(confID + '/confname').innerHTML;
     if (confname == "") confname = "-"; //Attribute can not be empty with DynamoDB
     return confname;
+  }
+  function getConfSpeakers(confID) {
+    var confspeakers = document.getElementById(confID + '/confspeakers').innerHTML;
+    if (confspeakers == "") confspeakers = "-"; //Attribute can not be empty with DynamoDB
+    return confspeakers;
   }  
  
   function save(confID) {
     var checkStatus = getCheckStatus(confID);
+    var conftime = getConfTime(confID);
     var confname = getConfName(confID);
+    var confspeakers = getConfSpeakers(confID);
     var vote = getVote(confID);
     var comment = getComment(confID);
 
     var api_id = '3gwmfohd5g';
     var url = 'https://'+ api_id +'.execute-api.eu-west-1.amazonaws.com/prod/ConfLike?userid=' + userID;
     var data = '{ \
-      "ConfID"  : { "S": "' + confID + '" }, \
-      "ConfName": { "S": "' + confname + '" }, \
       "UserID"  : { "S": "' + userID + '" }, \
+      "ConfID"  : { "S": "' + confID + '" }, \
+      "ConfTime": { "S": "' + conftime + '" }, \
+      "ConfName": { "S": "' + confname + '" }, \
+      "ConfSpeakers": { "S": "' + confspeakers + '" }, \
       "Vote"    : { "S": "' + vote + '"}, \
       "Comment" : { "S": "' + comment.replace(/\n/g, "\\n") + '"}, \
       "Checked" : { "BOOL": "' + checkStatus + '" \
@@ -195,7 +209,7 @@ permalink: /conflike/
                 </a>
             </div>
             {% for talk in slot.content %}
-              {% assign confID = slotID | append:'-' | append:talk.room %}
+              {% assign confID = talk.conf_id %}
               <div class="col-xs-12" style="margin:1px">
                 <div class="col-xs-2" style="text-align:center;">
                   <label>
@@ -231,16 +245,16 @@ permalink: /conflike/
           {% for slot in part %}
             {% assign slotID = day.date | replace:' ','_' | append:'_' | append:slot.hour %}
             {% for talk in slot.content %}
-              {% assign confID = slotID | append:'-' | append:talk.room %}
+              {% assign confID = talk.conf_id %}
               <div style="border-color:blue; border-width:3px; border-style:dotted" id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}" >
                 <div style="text-align:center">
-                  <div class="alert alert-success">{{ day.date }} / {{slot.hour}} / {{ talk.room }}</div>
+                  <div id="{{ confID }}/conftime" class="alert alert-success">{{ day.date }} / {{slot.hour}} / {{ talk.room }}</div>
                 </div>    
                 <div style="text-align:center">
                   <div id="{{ confID }}/confname" class="alert alert-success">{{ talk.label }}{{ talk.subject }}</div>
                 </div>
                 <div style="text-align:center">
-                  <div class="alert alert-success">{{ talk.speaker }}</div>
+                  <div id="{{ confID }}/confspeakers" class="alert alert-success">{{ talk.speaker }}</div>
                 </div>    
                 <div style="text-align:center">
                   <div class="alert alert-info">Qu'avez vous pensé de cette conférence ?</div>
