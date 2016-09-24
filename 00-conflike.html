@@ -22,7 +22,7 @@ permalink: /conflike/
       userID = localStorage.userID;
     }
     
-    url_id_paramater=window.location.search.substring(1).replace('&','');
+    url_id_paramater=window.location.search.substring(1).replace('&','').replace('id=','');
     if (url_id_paramater != '' && url_id_paramater != undefined) {
       userID = url_id_paramater;
     }
@@ -150,8 +150,8 @@ permalink: /conflike/
     <div>
       Elle est Inutile si vous faites votre sélection sur mobile le jour J
     </div>    
-    <div>
-      <span>http://2016.agiletour-lille.org/conflike</span><span>?</span><span id="userid">?</span>
+    <div style="color:blue">
+      <span>http://2016.agiletour-lille.org/conflike</span><span>?</span><span>id=</span><span id="userid">?</span>
     </div>
   </div>
 
