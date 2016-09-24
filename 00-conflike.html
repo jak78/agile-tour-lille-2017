@@ -71,7 +71,14 @@ permalink: /conflike/
 
     var api_id = '3gwmfohd5g';
     var url = 'https://'+ api_id +'.execute-api.eu-west-1.amazonaws.com/prod/ConfLike?userid=' + userID;
-    var data = '{"ConfID": { "S": "' + confID + '" }, "ConfName": { "S": "' + confname + '" }, "UserID": { "S": "' + userID + '" }, "Vote": { "S":"' + vote + '"}, "Comment": { "S": "' + comment + '" }, "Checked": { "BOOL": "' + checkStatus + '" }}';
+    var data = '{ \
+      "ConfID"  : { "S": "' + confID + '" }, \
+      "ConfName": { "S": "' + confname + '" }, \
+      "UserID"  : { "S": "' + userID + '" }, \
+      "Vote"    : { "S": "' + vote + '"}, \
+      "Comment" : { "S": "' + comment.replace(/\n/g, "\\n") + '"}, \
+      "Checked" : { "BOOL": "' + checkStatus + '" \
+    }}';
 
     var request = $.ajax({
       url: url,
@@ -81,6 +88,7 @@ permalink: /conflike/
     });
  
     request.done(function( msg ) {
+      // alert(JSON.stringify(msg, null, 2));
     });
      
     request.fail(function( jqXHR, textStatus ) {
@@ -246,11 +254,7 @@ permalink: /conflike/
                 </br>
                 <div>Votre commentaire :</div>
                 <div class="form-group">
-                  <textarea class="form-control" rows="5" id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/comment"></textarea>
-                  </br>
-                  <div style="text-align:right">
-                    <button type="submit" class="btn btn-default" onclick="save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')">Envoyez Votre Commentaire</button>          
-                  </div>
+                  <textarea class="form-control" rows="5" id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/comment" onkeypress="save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')"></textarea>
                 </div>
               </div>
             {% endfor %}
