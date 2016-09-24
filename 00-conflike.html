@@ -186,18 +186,20 @@ permalink: /conflike/
       <div class="row"> 
         {% for part in day.schedule %}
           {% for slot in part %}
-            <div id="{{ day.date | replace:' ','_' }}_{{ slot.hour }}" class="col-xs-12" style="margin:1px">
+            {% assign slotID = day.date | replace:' ','_' | append:'_' | append:slot.hour %}
+            <div id="{{ slotID }}" class="col-xs-12" style="margin:1px">
                 <a class="col-xs-12" 
-                   href="/conflike/#{{ day.date | replace:' ','_' }}_{{ slot.hour }}" 
+                   href="/conflike/#{{ slotID }}" 
                    style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">
                   {{ day.date }} - {{ slot.hour  }}
                 </a>
             </div>
             {% for talk in slot.content %}
-              <div class="col-xs-12" id="{{ day.date | replace:' ','_' }}_{{ slot.hour }}" style="margin:1px">
+              {% assign confID = slotID | append:'-' | append:talk.room %}
+              <div class="col-xs-12" style="margin:1px">
                 <div class="col-xs-2" style="text-align:center;">
                   <label>
-                    <input type="checkbox" id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/check" name="" value="" onchange="save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')">                
+                    <input type="checkbox" id="{{ confID }}/check" name="" value="" onchange="save('{{ confID }}')">                
                     {{ day.date| replace:'13 octobre', 'Jeudi'| replace:'14 octobre', 'Vendredi' }}
                     </br>
                     {{ slot.hour }}
@@ -206,7 +208,7 @@ permalink: /conflike/
                 <!--<span>{{ slot.special}}</span>-->
                 <div class="col-xs-3">
                   </br>
-                  {{ talk.room }}
+                  {{ talk.room }} - {{ talk.slot_id }} - {{ confID }}
                 </div>
                 <a class="col-xs-7" href="/conflike/#{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}" style="text-align:center;background-color:lightgrey;text-decoration:none">
                     </br>
@@ -227,13 +229,15 @@ permalink: /conflike/
       <div class="row"> 
         {% for part in day.schedule %}
           {% for slot in part %}
+            {% assign slotID = day.date | replace:' ','_' | append:'_' | append:slot.hour %}
             {% for talk in slot.content %}
+              {% assign confID = slotID | append:'-' | append:talk.room %}
               <div style="border-color:blue; border-width:3px; border-style:dotted" id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}" >
                 <div style="text-align:center">
                   <div class="alert alert-success">{{ day.date }} / {{slot.hour}} / {{ talk.room }}</div>
                 </div>    
                 <div style="text-align:center">
-                  <div id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/confname" class="alert alert-success">{{ talk.label }}{{ talk.subject }}</div>
+                  <div id="{{ confID }}/confname" class="alert alert-success">{{ talk.label }}{{ talk.subject }}</div>
                 </div>
                 <div style="text-align:center">
                   <div class="alert alert-success">{{ talk.speaker }}</div>
@@ -243,26 +247,26 @@ permalink: /conflike/
                 </div>
                 
                 <span>Votre Note: </span>
-                <span id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/vote" style="visibility:visible">0</span>
-                <span id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/vote/label" style="visibility:visible">(Pas de note pour le moment)</span>
+                <span id="{{ confID }}/vote" style="visibility:visible">0</span>
+                <span id="{{ confID }}/vote/label" style="visibility:visible">(Pas de note pour le moment)</span>
                 <div class="btn-group btn-group-justified">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-primary" id="not_great" onclick="setVote('-2', '{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}');save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')">
+                    <button type="button" class="btn btn-primary" id="not_great" onclick="setVote('-2', '{{ confID }}');save('{{ confID }}')">
                       Pas Super
                     </button>
                   </div>
                   <div class="btn-group">
-                    <button type="button" class="btn btn-primary" id="so_so" onclick="setVote('-1', '{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}');save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')">
+                    <button type="button" class="btn btn-primary" id="so_so" onclick="setVote('-1', '{{ confID }}');save('{{ confID }}')">
                       Moyen
                     </button>
                   </div>
                   <div class="btn-group">
-                    <button type="button" class="btn btn-primary" id="good" onclick="setVote('+1', '{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}');save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')">
+                    <button type="button" class="btn btn-primary" id="good" onclick="setVote('+1', '{{ confID }}');save('{{ confID }}')">
                       Bien
                     </button>
                   </div>
                   <div class="btn-group">
-                    <button type="button" class="btn btn-primary" id="very_good" onclick="setVote('+2', '{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}');save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')">
+                    <button type="button" class="btn btn-primary" id="very_good" onclick="setVote('+2', '{{ confID }}');save('{{ confID }}')">
                       Très bien
                     </button>
                   </div>
@@ -270,7 +274,7 @@ permalink: /conflike/
                 </br>
                 <div>Votre commentaire :</div>
                 <div class="form-group">
-                  <textarea class="form-control" rows="5" id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/comment" onkeyup="save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')"></textarea>
+                  <textarea class="form-control" rows="5" id="{{ confID }}/comment" onkeyup="save('{{ confID }}')"></textarea>
                 </div>
               </div>
             {% endfor %}
