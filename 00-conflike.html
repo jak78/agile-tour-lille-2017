@@ -16,12 +16,18 @@ permalink: /conflike/
   }
   
   function initializeUserID() { //called on page load (see layout file)
+    userID = UniqueUserID(); // Global Variable do not touch
+
     if (localStorage.userID != '' && localStorage.userID != undefined) {
       userID = localStorage.userID;
-    } else {
-      userID = UniqueUserID();
-      localStorage.userID = userID;
     }
+    
+    url_id_paramater=window.location.search.substring(1).replace('&','');
+    if (url_id_paramater != '' && url_id_paramater != undefined) {
+      userID = url_id_paramater;
+    }
+    
+    localStorage.userID = userID;
     document.getElementById('userid').innerHTML=userID;
   }
 </script>
