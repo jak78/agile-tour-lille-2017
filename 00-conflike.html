@@ -224,7 +224,7 @@ permalink: /conflike/
                   </br>
                   {{ talk.room }}
                 </div>
-                <a class="col-xs-7" href="/conflike/#{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}" style="text-align:center;background-color:lightgrey;text-decoration:none">
+                <a class="col-xs-7" href="/conflike/#{{ confID }}" style="text-align:center;background-color:lightgrey;text-decoration:none">
                     </br>
                     {{ talk.label }}
                     {{ talk.subject }}
@@ -246,7 +246,7 @@ permalink: /conflike/
             {% assign slotID = day.date | replace:' ','_' | append:'_' | append:slot.hour %}
             {% for talk in slot.content %}
               {% assign confID = talk.conf_id %}
-              <div style="border-color:blue; border-width:3px; border-style:dotted" id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}" >
+              <div style="border-color:blue; border-width:3px; border-style:dotted" id="{{ confID }}" >
                 <div style="text-align:center">
                   <div id="{{ confID }}/conftime" class="alert alert-success">{{ day.date }} / {{slot.hour}} / {{ talk.room }}</div>
                 </div>    
