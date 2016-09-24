@@ -57,15 +57,21 @@ permalink: /conflike/
     if (comment == "") comment = "-"; //Attribute can not be empty with DynamoDB
     return comment;
   }
+  function getConfName(confID) {
+    var confname = document.getElementById(confID + '/confname').innerHTML;
+    if (confname == "") confname = "-"; //Attribute can not be empty with DynamoDB
+    return confname;
+  }  
  
   function save(confID) {
     var checkStatus = getCheckStatus(confID);
+    var confname = getConfName(confID);
     var vote = getVote(confID);
     var comment = getComment(confID);
 
     var api_id = '3gwmfohd5g';
     var url = 'https://'+ api_id +'.execute-api.eu-west-1.amazonaws.com/prod/ConfLike?userid=' + userID;
-    var data = '{"ConfID": { "S": "' + confID + '" }, "UserID": { "S": "' + userID + '" }, "Vote": { "S":"' + vote + '"}, "Comment": { "S": "' + comment + '" }, "Checked": { "BOOL": "' + checkStatus + '" }}';
+    var data = '{"ConfID": { "S": "' + confID + '" }, "ConfName": { "S": "' + confname + '" }, "UserID": { "S": "' + userID + '" }, "Vote": { "S":"' + vote + '"}, "Comment": { "S": "' + comment + '" }, "Checked": { "BOOL": "' + checkStatus + '" }}';
 
     var request = $.ajax({
       url: url,
@@ -167,10 +173,10 @@ permalink: /conflike/
               <div class="col-xs-12" id="{{ day.date | replace:' ','_' }}_{{ slot.hour }}" style="margin:1px">
                 <div class="col-xs-2" style="text-align:center;">
                   <label>
-                  <input type="checkbox" id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/check" name="" value="" onchange="save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')">                
-                  {{ day.date| replace:'13 octobre', 'Jeudi'| replace:'14 octobre', 'Vendredi' }}
-                  </br>
-                  {{ slot.hour }}
+                    <input type="checkbox" id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/check" name="" value="" onchange="save('{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}')">                
+                    {{ day.date| replace:'13 octobre', 'Jeudi'| replace:'14 octobre', 'Vendredi' }}
+                    </br>
+                    {{ slot.hour }}
                   </label>
                 </div>
                 <!--<span>{{ slot.special}}</span>-->
@@ -178,7 +184,7 @@ permalink: /conflike/
                   </br>
                   {{ talk.room }}
                 </div>
-                <a class="col-xs-7" href="/conflike/#{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}"style="text-align:center;background-color:lightgrey;text-decoration:none">
+                <a class="col-xs-7" href="/conflike/#{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}" style="text-align:center;background-color:lightgrey;text-decoration:none">
                     </br>
                     {{ talk.label }}
                     {{ talk.subject }}
@@ -203,7 +209,7 @@ permalink: /conflike/
                   <div class="alert alert-success">{{ day.date }} / {{slot.hour}} / {{ talk.room }}</div>
                 </div>    
                 <div style="text-align:center">
-                  <div class="alert alert-success">{{ talk.label }}{{ talk.subject }}</div>
+                  <div id="{{ day.date | replace:' ','_' }}_{{slot.hour}}-{{ talk.room }}/confname" class="alert alert-success">{{ talk.label }}{{ talk.subject }}</div>
                 </div>
                 <div style="text-align:center">
                   <div class="alert alert-success">{{ talk.speaker }}</div>
