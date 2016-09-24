@@ -103,7 +103,8 @@ permalink: /conflike/
     });
  
     request.done(function( msg ) {
-      // alert(JSON.stringify(msg, null, 2));
+      msg = JSON.stringify(msg, null, 2);
+      if (msg != '{}' ) alert(msg);
     });
      
     request.fail(function( jqXHR, textStatus ) {
@@ -185,7 +186,8 @@ permalink: /conflike/
     </div>
   </div>
 
- 
+  {% assign appUsage = "description" | append:"-" %} <!-- appUsage = "description-" or "vote-" -->
+
   {% for day in site.data.schedule %}
     <div class="row">
     <div id="" class="col-xs-12" style="margin:1px" onclick="toggleDayDisplay('{{ day.date | replace:' ','_' }}')">
@@ -213,7 +215,7 @@ permalink: /conflike/
               <div class="col-xs-12" style="margin:1px">
                 <div class="col-xs-2" style="text-align:center;">
                   <label>
-                    <input type="checkbox" id="{{ confID }}/check" name="" value="" onchange="save('{{ confID }}')">                
+                    <input type="checkbox" id="{{ confID }}/check" name="" value="" onchange="save('{{ confID }}')">
                     {{ day.date| replace:'13 octobre', 'Jeudi'| replace:'14 octobre', 'Vendredi' }}
                     </br>
                     {{ slot.hour }}
@@ -224,7 +226,7 @@ permalink: /conflike/
                   </br>
                   {{ talk.room }}
                 </div>
-                <a class="col-xs-7" href="/conflike/#{{ confID }}" style="text-align:center;background-color:lightgrey;text-decoration:none">
+                <a class="col-xs-7" href="/conflike/#{{ appUsage }}{{ confID }}" style="text-align:center;background-color:lightgrey;text-decoration:none">
                     </br>
                     {{ talk.label }}
                     {{ talk.subject }}
@@ -240,18 +242,20 @@ permalink: /conflike/
           {% endfor %}
         {% endfor %}
       </div>
-      <div class="row"> 
+      <div class="row" style="display:none"> 
         {% for part in day.schedule %}
           {% for slot in part %}
             {% assign slotID = day.date | replace:' ','_' | append:'_' | append:slot.hour %}
             {% for talk in slot.content %}
               {% assign confID = talk.conf_id %}
-              <div style="border-color:blue; border-width:3px; border-style:dotted" id="{{ confID }}" >
+              <div style="border-color:blue; border-width:3px; border-style:dotted" id="vote-{{ confID }}" >
                 <div style="text-align:center">
                   <div id="{{ confID }}/conftime" class="alert alert-success">{{ day.date }} / {{slot.hour}} / {{ talk.room }}</div>
                 </div>    
                 <div style="text-align:center">
-                  <div id="{{ confID }}/confname" class="alert alert-success">{{ talk.label }}{{ talk.subject }}</div>
+                  <a href="/conflike/#description-{{ confID }}" style="text-decoration:none">
+                    <div id="{{ confID }}/confname" class="alert alert-success">{{ talk.label }}{{ talk.subject }}</div>
+                  </a>
                 </div>
                 <div style="text-align:center">
                   <div id="{{ confID }}/confspeakers" class="alert alert-success">{{ talk.speaker }}</div>
@@ -292,6 +296,70 @@ permalink: /conflike/
                 </div>
               </div>
             {% endfor %}
+          {% endfor %}
+        {% endfor %}
+      </div>
+      <div style="display:block">
+        {% for part in day.schedule %}
+          {% for slot in part %}
+            <div id="slot-{{slot.hour }}" class="conference-slot">
+            {% for talk in slot.content %}
+              {% if talk.hide-on-home != 1 %}
+                {% assign confID = talk.conf_id %}
+                {% if talk.speaker %}
+                  <a name="{{ talk.subject }}"></a>
+                  <div id="description-{{ confID }}" class="talk">
+                    <h2>
+                      <!--<input type="checkbox" id="{{ confID }}/check" name="" value="" onchange="save('{{ confID }}')"> -->
+                      {{ talk.subject }}
+                    </h2>
+                    <div class="speakers">
+                      {% if talk.image %}
+                        <img src="{{talk.image| prepend: "/img/" | prepend: site.baseurl}}" alt="{{talk.subject}}" width="80" height="80"/>
+                      {% else %}
+                        {% if talk.speaker %}
+                          {% assign speakers = talk.speaker | split: ", " %}
+                          {% for speaker in site.data.speakers %}
+                            {% if talk.speaker contains speaker.name %}
+                              <!--<a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker.name | uri_escape }}">-->
+                              <img src="{{ speaker.photo }}" alt="{{speaker.name}}" width="80" height="80"/>
+                              </a>
+                            {% endif %}
+                          {% endfor %}
+                        {% endif %}
+                      {% endif %}
+                    </div>
+                    {% if talk.speaker %}
+                    <div>
+                        <span class="info">
+                            <span class="speaker">par
+                                {% for speaker in speakers %}
+                                  <!--<a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>-->
+                                  <span style="color:blue">{{ speaker }}</span>
+                                  {% if forloop.last == false %}, {% endif %}
+                                {% endfor %}
+                              </span>
+                                {% endif %}
+                              <span class="room">
+                                {% if talk.room %}, 
+                                  {{ talk.room }}
+                                {%else%}, 
+                                  {{ site.data.rooms[forloop.index0] }}
+                                {% endif %} 
+                                à 
+                                {{slot.hour }}
+                              </span>
+                        </span>
+                    </div>
+                    <p class="description">{{ talk.description }}</p>
+                    {% if talk.extra %}
+                    <p class="extra">{{ talk.extra }}</p>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </div>
           {% endfor %}
         {% endfor %}
       </div>
