@@ -28,7 +28,8 @@ permalink: /conflike/
     }
     
     localStorage.userID = userID;
-    document.getElementById('userid').innerHTML=userID;
+    userURL = "http://2016.agiletour-lille.org/conflike?id="+ userID
+    document.getElementById('userURL').innerHTML=userURL;
   }
 </script>
 
@@ -150,9 +151,7 @@ permalink: /conflike/
     <div>
       Elle est Inutile si vous faites votre sélection sur mobile le jour J
     </div>    
-    <div style="color:blue">
-      <span>http://2016.agiletour-lille.org/conflike</span><span>?</span><span>id=</span><span id="userid">?</span>
-    </div>
+    <div id="userURL" style="color:blue">?</div>
   </div>
 
  
