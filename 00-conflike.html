@@ -285,7 +285,7 @@ permalink: /conflike/
                         <!-- -------------------------- -->
                         <div style="text-align: center">
                           {% assign speakers = talk.speaker | split: ", " %}
-                          <div style="font-size:1.5em" class="speaker">
+                          <div style="font-size:1.5em">
                             {% for speaker in speakers %}
                               <!--<a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>-->
                               <span id="{{ confID }}/confspeakers" style="color:blue">{{ speaker }}</span> 
@@ -297,7 +297,7 @@ permalink: /conflike/
                           {% else %} 
                             {% if talk.speaker %} 
                               {% assign speakers = talk.speaker | split: ", " %} 
-                              <div style="text-align:center; display:block">
+                              <div class="conflike-speaker-image">
                               {% for speaker in site.data.speakers %}
                                 {% if talk.speaker contains speaker.name %}
                                     <img src="{{ speaker.photo }}" alt="{{speaker.name}}" width="80" height="80" />
@@ -327,7 +327,7 @@ permalink: /conflike/
                       <!-- -------------------------- -->
                       <!-- FEEDBACK                   -->
                       <!-- -------------------------- -->                          
-                      <div style="margin:1px;">
+                      <div class="conflike-feedback">
                         <div style="text-align:center;background-color:lightgrey;text-decoration:none; padding:10px" onclick="toggleDayDisplay('feedback-{{ confID }}')">
                           <a href="/conflike/#{{ confID }}" style="text-decoration:none">Donnez votre FeedBack >></a>
                         </div>
