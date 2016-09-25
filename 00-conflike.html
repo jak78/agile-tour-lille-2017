@@ -56,27 +56,29 @@ permalink: /conflike/
   function getComment(confID) {
     var comment = document.getElementById(confID + '/comment').value;
     if (comment == "") comment = "-"; //Attribute can not be empty with DynamoDB
-    return comment;
+    return comment.replace(/\n/g, "\\n");
   }
   function getConfTime(confID) {
     var conftime = document.getElementById(confID + '/conftime').innerHTML;
     if (conftime == "") conftime = "-"; //Attribute can not be empty with DynamoDB
-    return conftime;
+    return conftime.replace(/\n/g, "").trim();
   }  
   function getConfRoom(confID) {
     var confroom = document.getElementById(confID + '/confroom').innerHTML;
     if (confroom == "") confroom = "-"; //Attribute can not be empty with DynamoDB
-    return confroom;
+    return confroom.replace(/\n/g, "").trim();
   }  
   function getConfName(confID) {
     var confname = document.getElementById(confID + '/confname').innerHTML;
     if (confname == "") confname = "-"; //Attribute can not be empty with DynamoDB
-    return confname;
+    return confname.trim();
   }
   function getConfSpeakers(confID) {
-    var confspeakers = document.getElementById(confID + '/confspeakers').innerHTML;
+    var confspeakersElement = document.getElementById(confID + '/confspeakers');
+    if (confspeakersElement == null) return "-"; //Happens when there is no speaker ('Accueil' for exemple)
+    var confspeakers = confspeakersElement.innerHTML;
     if (confspeakers == "") confspeakers = "-"; //Attribute can not be empty with DynamoDB
-    return confspeakers;
+    return confspeakers.replace(/\n/g, "").trim();
   }  
  
   function save(confID) {
@@ -98,10 +100,10 @@ permalink: /conflike/
       "ConfName": { "S": "' + confname + '" }, \
       "ConfSpeakers": { "S": "' + confspeakers + '" }, \
       "Vote"    : { "S": "' + vote + '"}, \
-      "Comment" : { "S": "' + comment.replace(/\n/g, "\\n") + '"}, \
+      "Comment" : { "S": "' + comment + '"}, \
       "Checked" : { "BOOL": "' + checkStatus + '" \
     }}';
-    
+
     var request = $.ajax({
       url: url,
       method: "POST",
@@ -231,74 +233,86 @@ permalink: /conflike/
               <div id="slot-{{slot.hour }}" class="conference-slot" >
                 <div id="banner-{{ slotID }}"  style="margin:1px">
                   <div style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">
-                   <a href="/conflike/#banner-{{ slotID }}">
+                   <a href="/conflike/#banner-{{ slotID }}" style="text-decoration:none">
                      {{ day.date }} - {{ slot.hour  }}
                    </a>
                   </div>
                 </div>
                 {% for talk in slot.content %}
+                  {% assign confID = talk.conf_id %} 
                   <!-- -------------------------- -->
                   <!--  TALK                      -->
                   <!-- -------------------------- -->
-                    <div  style="padding:2px; margin:2px; border-color:black; border-width:1px; border-style:dotted; ">
+                    <div id="{{ confID }}" style="padding:2px; margin:2px; border-color:black; border-width:1px; border-style:dotted; ">
                       {% assign slotDay = day.date| replace:'13 octobre', 'Jeudi'| replace:'14 octobre', 'Vendredi' %}
-                      {% assign confID = talk.conf_id %}                      
                       <!-- -------------------------- -->
-                      <!--  TALK SUBJECT              -->
+                      <!-- SUBJECT                    -->
                       <!-- -------------------------- -->  
                       <div style="margin:1px; text-align: center">
-                          <div style="font-size:1.3em;" id="{{ confID }}" class="talk">
+                          <div style="font-size:1.3em;" class="talk">
                             <div>
                               <label id="{{ confID }}/checklabel" style="background-color:white">
-                                  <input type="checkbox" id="{{ confID }}/check" name="" value=""  onchange="toggleCheckLabelColor('{{ confID }}'); save('{{ confID }}')"> 
-                                {{ talk.subject }}{{ talk.label }}
+                                <input type="checkbox" id="{{ confID }}/check" name="" value=""  onchange="toggleCheckLabelColor('{{ confID }}'); save('{{ confID }}')"> 
+                                <span id="{{ confID }}/confname">{{ talk.subject }}{{ talk.label }}</span>
                               </label>
                             </div>
                         </div>
                       </div>
                       <!-- ---------------------------------- -->
-                      <!--  TALK DAY, HOUR, ROOM              -->
+                      <!-- DAY, HOUR, ROOM                    -->
                       <!-- ---------------------------------- -->                      
                       <div style="margin:1px;">                      
                           <div class="info" style="font-size:1.3em; text-align: center">
                             <div class="room">
-                              {{ slotDay }}
-                              {{slot.hour }} /
-                              {% if talk.room %} 
-                                {{ talk.room }}
-                              {%else%}
-                                {{ site.data.rooms[forloop.index0] }}
-                              {% endif %} 
+                              <span id="{{ confID }}/conftime">
+                                {{ slotDay }} {{slot.hour }}
+                              </span>
+                              /
+                              <span id="{{ confID }}/confroom">
+                                {% if talk.room %} 
+                                  {{ talk.room }}
+                                {%else%}
+                                  {{ site.data.rooms[forloop.index0] }}
+                                {% endif %} 
+                              </span>
                             </div> 
                           </div>
                           
                       </div>
                       {% if talk.speaker %}                             
                         <!-- -------------------------- -->
-                        <!--  TALK SPEAKER(S)           -->
+                        <!-- SPEAKER(S)                 -->
                         <!-- -------------------------- -->
                         <div style="text-align: center">
                           {% assign speakers = talk.speaker | split: ", " %}
                           <div style="font-size:1.5em" class="speaker">
                             {% for speaker in speakers %}
                               <!--<a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>-->
-                              <span style="color:blue">{{ speaker }}</span> {% if forloop.last == false %}, {% endif %} 
+                              <span id="{{ confID }}/confspeakers" style="color:blue">{{ speaker }}</span> 
+                              {% if forloop.last == false %}, {% endif %} 
                             {% endfor %}
-                          </div>                              
+                          </div>
                           {% if talk.image %}
-                          <img src="{{talk.image| prepend: " /img/ " | prepend: site.baseurl}}" alt="{{talk.subject}}" width="80" height="80" /> {% else %} {% if talk.speaker %} {% assign speakers = talk.speaker | split: ", " %} {% for speaker in site.data.speakers %}
-                          {% if talk.speaker contains speaker.name %}
-                          <a href="{{ " /conferenciers/ " | prepend: site.baseurl }}#{{speaker.name | uri_escape }}">
-                            <img src="{{ speaker.photo }}" alt="{{speaker.name}}" width="80" height="80" />
-                          </a>
-                          {% endif %} {% endfor %} {% endif %} {% endif %}
+                            <img src="{{talk.image| prepend: " /img/ " | prepend: site.baseurl}}" alt="{{talk.subject}}" width="80" height="80" /> 
+                          {% else %} 
+                            {% if talk.speaker %} 
+                              {% assign speakers = talk.speaker | split: ", " %} 
+                              <div style="text-align:center; display:block">
+                              {% for speaker in site.data.speakers %}
+                                {% if talk.speaker contains speaker.name %}
+                                    <img src="{{ speaker.photo }}" alt="{{speaker.name}}" width="80" height="80" />
+                                {% endif %} 
+                              {% endfor %}
+                              </div>
+                            {% endif %} 
+                          {% endif %}
                         </div>                        
                         <!-- -------------------------- -->
-                        <!--  TALK DESCRIPTION          -->
+                        <!-- DESCRIPTION                -->
                         <!-- -------------------------- -->                      
                         <div style="margin:1px;">
                           <div style="text-align:center;background-color:lightgrey;text-decoration:none; padding:10px;" onclick="toggleDayDisplay('detail-{{ confID }}')">
-                            Détail >>
+                            <a href="/conflike/#{{ confID }}">Détail >></a>
                           </div>
                           <div id="detail-{{ confID }}" style="padding:5px; border-color:black; border-width:3px; border-style:dotted; display:none">
                             <p class="description">
@@ -311,28 +325,13 @@ permalink: /conflike/
                         </div>
                       {% endif %}                             
                       <!-- -------------------------- -->
-                      <!--  TALK FEEDBACK             -->
+                      <!-- FEEDBACK                   -->
                       <!-- -------------------------- -->                          
                       <div style="margin:1px;">
                         <div style="text-align:center;background-color:lightgrey;text-decoration:none; padding:10px" onclick="toggleDayDisplay('feedback-{{ confID }}')">
-                          Donnez votre FeedBack >>
+                          <a href="/conflike/#{{ confID }}" style="text-decoration:none">Donnez votre FeedBack >></a>
                         </div>
                         <div style="border-color:blue; border-width:3px; border-style:dotted; display:none" id="feedback-{{ confID }}">
-                          <div style="text-align:center">
-                            <div class="alert alert-success"><span id="{{ confID }}/conftime">{{ day.date }} / {{slot.hour}}</span> / <span id="{{ confID }}/confroom"> {{ talk.room }} </span></div>
-                          </div>
-                          <div style="text-align:center">
-                            <a href="/conflike/#description-{{ confID }}" style="text-decoration:none">
-                              <div id="{{ confID }}/confname" class="alert alert-success">{{ talk.label }}{{ talk.subject }}</div>
-                            </a>
-                          </div>
-                          <div style="text-align:center">
-                            <div id="{{ confID }}/confspeakers" class="alert alert-success">{{ talk.speaker }}</div>
-                          </div>
-                          <div style="text-align:center">
-                            <div class="alert alert-info">Qu'avez vous pensé de cette conférence ?</div>
-                          </div>
-                    
                           <span>Votre Note: </span>
                           <span id="{{ confID }}/vote" style="visibility:visible">0</span>
                           <span id="{{ confID }}/vote/label" style="visibility:visible">(Pas de note pour le moment)</span>
