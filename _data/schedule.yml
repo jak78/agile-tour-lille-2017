@@ -326,6 +326,13 @@
             speaker: Thomas Shakeshaft, Gautier Gaspard
             company: norsys
             room: Atelier B
+      - hour: 15h45
+        special: 1
+        content:
+          - label: Pause (30 minutes)
+            fill: 7
+            hide-on-home: 1
+            room: Atrium            
       - hour: 16h15
         content:
           - subject: "Les Feature Teams, du rêve à la réalité"
