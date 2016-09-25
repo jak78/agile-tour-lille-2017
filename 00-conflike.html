@@ -56,29 +56,29 @@ permalink: /conflike/
   function getComment(confID) {
     var comment = document.getElementById(confID + '/comment').value;
     if (comment == "") comment = "-"; //Attribute can not be empty with DynamoDB
-    return comment.replace(/\n/g, "\\n");
+    return comment.replace(/\\/g, "\\\\").replace(/"/g, "\\\"").replace(/\n/g, "\\n");
   }
   function getConfTime(confID) {
     var conftime = document.getElementById(confID + '/conftime').innerHTML;
     if (conftime == "") conftime = "-"; //Attribute can not be empty with DynamoDB
-    return conftime.replace(/\n/g, "").trim();
+    return conftime.replace(/\\/g, "\\\\").replace(/"/g, "\\\"").replace(/\n/g, "").trim();
   }  
   function getConfRoom(confID) {
     var confroom = document.getElementById(confID + '/confroom').innerHTML;
     if (confroom == "") confroom = "-"; //Attribute can not be empty with DynamoDB
-    return confroom.replace(/\n/g, "").trim();
+    return confroom.replace(/\\/g, "\\\\").replace(/"/g, "\\\"").replace(/\n/g, "").trim();
   }  
   function getConfName(confID) {
     var confname = document.getElementById(confID + '/confname').innerHTML;
     if (confname == "") confname = "-"; //Attribute can not be empty with DynamoDB
-    return confname.trim();
+    return confname.replace(/\\/g, "\\\\").replace(/"/g, "\\\"").trim();
   }
   function getConfSpeakers(confID) {
     var confspeakersElement = document.getElementById(confID + '/confspeakers');
     if (confspeakersElement == null) return "-"; //Happens when there is no speaker ('Accueil' for exemple)
     var confspeakers = confspeakersElement.innerHTML;
     if (confspeakers == "") confspeakers = "-"; //Attribute can not be empty with DynamoDB
-    return confspeakers.replace(/\n/g, "").trim();
+    return confspeakers.replace(/\\/g, "\\\\").replace(/"/g, "\\\"").replace(/\n/g, "").trim();
   }  
  
   function save(confID) {
