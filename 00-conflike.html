@@ -244,61 +244,60 @@ permalink: /conflike/
                 {% for talk in slot.content %}
                   <!-- -------------------------- -->
                   <!--  TALK                      -->
-                  <!-- -------------------------- -->              
-                  {% if talk.hide-on-home != 1 %}
-                    {% assign confID = talk.conf_id %}
-                    {% if talk.speaker %}
-                      <div class="col-xs-12" style="padding:2px; margin:2px; border-color:black; border-width:1px; border-style:dotted; ">
-                        <!-- -------------------------- -->
-                        <!--  TALK SUBJECT              -->
-                        <!-- -------------------------- -->  
-                        <div style="margin:1px; text-align: center">
-                            <div id="{{ confID }}" class="talk">
-                              <h3>
-                                <label id="{{ confID }}/checklabel" style="background-color:white">
+                  <!-- -------------------------- -->
+                    <div class="col-xs-12" style="padding:2px; margin:2px; border-color:black; border-width:1px; border-style:dotted; ">
+                      {% assign slotDay = day.date| replace:'13 octobre', 'Jeudi'| replace:'14 octobre', 'Vendredi' %}
+                      {% assign confID = talk.conf_id %}                      
+                      <!-- -------------------------- -->
+                      <!--  TALK SUBJECT              -->
+                      <!-- -------------------------- -->  
+                      <div style="margin:1px; text-align: center">
+                          <div style="font-size:1.3em;" id="{{ confID }}" class="talk">
+                            <div>
+                              <label id="{{ confID }}/checklabel" style="background-color:white">
                                   <input type="checkbox" id="{{ confID }}/check" name="" value=""  onchange="toggleCheckLabelColor('{{ confID }}'); save('{{ confID }}')"> 
-                                  {{ talk.subject }}
-                                </label>
-                              </h3>
+                                {{ talk.subject }}{{ talk.label }}
+                              </label>
+                            </div>
+                        </div>
+                      </div>
+                      <!-- ---------------------------------- -->
+                      <!--  TALK DAY, HOUR, ROOM              -->
+                      <!-- ---------------------------------- -->                      
+                      <div style="margin:1px;">                      
+                          <div class="info" style="font-size:1.3em; text-align: center">
+                            <div class="room">
+                              {{ slotDay }}
+                              {{slot.hour }} /
+                              {% if talk.room %} 
+                                {{ talk.room }}
+                              {%else%}
+                                {{ site.data.rooms[forloop.index0] }}
+                              {% endif %} 
+                            </div> 
                           </div>
-                        </div>
-                        <!-- ---------------------------------- -->
-                        <!--  TALK DAY, HOUR, ROOM and SPEAKERS -->
-                        <!-- ---------------------------------- -->                      
-                        <div style="margin:1px;">                      
-                            <div class="info" style="font-size:1.5em; text-align: center">
-                              <div class="room">
-                                {{ day.date| replace:'13 octobre', 'Jeudi'| replace:'14 octobre', 'Vendredi' }}
-                                {{slot.hour }} /
-                                {% if talk.room %} 
-                                  {{ talk.room }}
-                                {%else%}
-                                  {{ site.data.rooms[forloop.index0] }}
-                                {% endif %} 
-                              </div> 
-                              {% if talk.speaker %} 
-                                {% assign speakers = talk.speaker | split: ", " %}
-                                <div class="speaker">
-                                  {% for speaker in speakers %}
-                                    <!--<a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>-->
-                                    <span style="color:blue">{{ speaker }}</span> {% if forloop.last == false %}, {% endif %} 
-                                  {% endfor %}
-                                </div>
-                              {% endif %}
-                            </div>
-                            <!-- -------------------------- -->
-                            <!--  TALK SPEAKER(S)           -->
-                            <!-- -------------------------- -->
-                            <div style="text-align: center" class="speakers">
-                              {% if talk.image %}
-                              <img src="{{talk.image| prepend: " /img/ " | prepend: site.baseurl}}" alt="{{talk.subject}}" width="80" height="80" /> {% else %} {% if talk.speaker %} {% assign speakers = talk.speaker | split: ", " %} {% for speaker in site.data.speakers %}
-                              {% if talk.speaker contains speaker.name %}
-                              <a href="{{ " /conferenciers/ " | prepend: site.baseurl }}#{{speaker.name | uri_escape }}">
-                                <img src="{{ speaker.photo }}" alt="{{speaker.name}}" width="80" height="80" />
-                              </a>
-                              {% endif %} {% endfor %} {% endif %} {% endif %}
-                            </div>
-                        </div>
+                          
+                      </div>
+                      {% if talk.speaker %}                             
+                        <!-- -------------------------- -->
+                        <!--  TALK SPEAKER(S)           -->
+                        <!-- -------------------------- -->
+                        <div style="text-align: center">
+                          {% assign speakers = talk.speaker | split: ", " %}
+                          <div style="font-size:1.5em" class="speaker">
+                            {% for speaker in speakers %}
+                              <!--<a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>-->
+                              <span style="color:blue">{{ speaker }}</span> {% if forloop.last == false %}, {% endif %} 
+                            {% endfor %}
+                          </div>                              
+                          {% if talk.image %}
+                          <img src="{{talk.image| prepend: " /img/ " | prepend: site.baseurl}}" alt="{{talk.subject}}" width="80" height="80" /> {% else %} {% if talk.speaker %} {% assign speakers = talk.speaker | split: ", " %} {% for speaker in site.data.speakers %}
+                          {% if talk.speaker contains speaker.name %}
+                          <a href="{{ " /conferenciers/ " | prepend: site.baseurl }}#{{speaker.name | uri_escape }}">
+                            <img src="{{ speaker.photo }}" alt="{{speaker.name}}" width="80" height="80" />
+                          </a>
+                          {% endif %} {% endfor %} {% endif %} {% endif %}
+                        </div>                        
                         <!-- -------------------------- -->
                         <!--  TALK DESCRIPTION          -->
                         <!-- -------------------------- -->                      
@@ -315,92 +314,63 @@ permalink: /conflike/
                             {% endif %}
                           </div>
                         </div>
-                        <!-- -------------------------- -->
-                        <!--  TALK FEEDBACK             -->
-                        <!-- -------------------------- -->                          
-                        <div style="margin:1px;">
-                          <div style="text-align:center;background-color:lightgrey;text-decoration:none; padding:10px" onclick="toggleDayDisplay('feedback-{{ confID }}')">
-                            Donnez votre FeedBack >>
+                      {% endif %}                             
+                      <!-- -------------------------- -->
+                      <!--  TALK FEEDBACK             -->
+                      <!-- -------------------------- -->                          
+                      <div style="margin:1px;">
+                        <div style="text-align:center;background-color:lightgrey;text-decoration:none; padding:10px" onclick="toggleDayDisplay('feedback-{{ confID }}')">
+                          Donnez votre FeedBack >>
+                        </div>
+                        <div style="border-color:blue; border-width:3px; border-style:dotted; display:none" id="feedback-{{ confID }}">
+                          <div style="text-align:center">
+                            <div class="alert alert-success"><span id="{{ confID }}/conftime">{{ day.date }} / {{slot.hour}}</span> / <span id="{{ confID }}/confroom"> {{ talk.room }} </span></div>
                           </div>
-                          <div style="border-color:blue; border-width:3px; border-style:dotted; display:none" id="feedback-{{ confID }}">
-                            <div style="text-align:center">
-                              <div class="alert alert-success"><span id="{{ confID }}/conftime">{{ day.date }} / {{slot.hour}}</span> / <span id="{{ confID }}/confroom"> {{ talk.room }} </span></div>
+                          <div style="text-align:center">
+                            <a href="/conflike/#description-{{ confID }}" style="text-decoration:none">
+                              <div id="{{ confID }}/confname" class="alert alert-success">{{ talk.label }}{{ talk.subject }}</div>
+                            </a>
+                          </div>
+                          <div style="text-align:center">
+                            <div id="{{ confID }}/confspeakers" class="alert alert-success">{{ talk.speaker }}</div>
+                          </div>
+                          <div style="text-align:center">
+                            <div class="alert alert-info">Qu'avez vous pensé de cette conférence ?</div>
+                          </div>
+                    
+                          <span>Votre Note: </span>
+                          <span id="{{ confID }}/vote" style="visibility:visible">0</span>
+                          <span id="{{ confID }}/vote/label" style="visibility:visible">(Pas de note pour le moment)</span>
+                          <div class="btn-group btn-group-justified">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-primary" id="not_great" onclick="setVote('-2', '{{ confID }}');save('{{ confID }}')">
+                                            Pas Super
+                                          </button>
                             </div>
-                            <div style="text-align:center">
-                              <a href="/conflike/#description-{{ confID }}" style="text-decoration:none">
-                                <div id="{{ confID }}/confname" class="alert alert-success">{{ talk.label }}{{ talk.subject }}</div>
-                              </a>
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-primary" id="so_so" onclick="setVote('-1', '{{ confID }}');save('{{ confID }}')">
+                                            Moyen
+                                          </button>
                             </div>
-                            <div style="text-align:center">
-                              <div id="{{ confID }}/confspeakers" class="alert alert-success">{{ talk.speaker }}</div>
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-primary" id="good" onclick="setVote('+1', '{{ confID }}');save('{{ confID }}')">
+                                            Bien
+                                          </button>
                             </div>
-                            <div style="text-align:center">
-                              <div class="alert alert-info">Qu'avez vous pensé de cette conférence ?</div>
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-primary" id="very_good" onclick="setVote('+2', '{{ confID }}');save('{{ confID }}')">
+                                            Très bien
+                                          </button>
                             </div>
-                      
-                            <span>Votre Note: </span>
-                            <span id="{{ confID }}/vote" style="visibility:visible">0</span>
-                            <span id="{{ confID }}/vote/label" style="visibility:visible">(Pas de note pour le moment)</span>
-                            <div class="btn-group btn-group-justified">
-                              <div class="btn-group">
-                                <button type="button" class="btn btn-primary" id="not_great" onclick="setVote('-2', '{{ confID }}');save('{{ confID }}')">
-                                              Pas Super
-                                            </button>
-                              </div>
-                              <div class="btn-group">
-                                <button type="button" class="btn btn-primary" id="so_so" onclick="setVote('-1', '{{ confID }}');save('{{ confID }}')">
-                                              Moyen
-                                            </button>
-                              </div>
-                              <div class="btn-group">
-                                <button type="button" class="btn btn-primary" id="good" onclick="setVote('+1', '{{ confID }}');save('{{ confID }}')">
-                                              Bien
-                                            </button>
-                              </div>
-                              <div class="btn-group">
-                                <button type="button" class="btn btn-primary" id="very_good" onclick="setVote('+2', '{{ confID }}');save('{{ confID }}')">
-                                              Très bien
-                                            </button>
-                              </div>
-                            </div>
-                            </br>
-                            <div>Votre commentaire :</div>
-                            <div class="form-group">
-                              <textarea class="form-control" rows="5" id="{{ confID }}/comment" onkeyup="save('{{ confID }}')"></textarea>
-                            </div>
+                          </div>
+                          </br>
+                          <div>Votre commentaire :</div>
+                          <div class="form-group">
+                            <textarea class="form-control" rows="5" id="{{ confID }}/comment" onkeyup="save('{{ confID }}')"></textarea>
                           </div>
                         </div>
                       </div>
-                    {% else %}
-                      <div class="col-xs-12" style="margin:1px">
-                        <div class="col-xs-2" style="text-align:center;">
-                          <label>
-                            {{ day.date| replace:'13 octobre', 'Jeudi'| replace:'14 octobre', 'Vendredi' }}
-                            </br>
-                            {{ slot.hour }}
-                          </label>
-                        </div>
-                        <!--<span>{{ slot.special}}</span>-->
-                        <div class="col-xs-3">
-                          </br>
-                          {{ talk.room }}
-                        </div>
-                        <a class="col-xs-7" href="/conflike/#{{ confID }}" style="text-align:center;background-color:lightgrey;text-decoration:none">
-                          </br>
-                          {{ talk.label }} {{ talk.subject }}
-                          </br>
-                          {% if talk.speaker != nil %} ({{ talk.speaker }})
-                          </br>
-                          {% endif %}
-                          </br>
-                        </a>
-                      </div>
-                    {% endif %}
-                  {% else %}
-                    <div class="col-xs-12" style="margin:1px">
-                      {{ talk.label }}
                     </div>
-                  {% endif %}              
                 {% endfor %}
               </div>
             </div>
