@@ -235,7 +235,11 @@
             speaker: Samuel Retiere
             conf_id: '29'            
           - subject: "Living Documentation: et si la documentation pouvait être aussi fun que le code ?"
-            description: ''
+            description: "Et si la documentation pouvait être aussi fun qu'écrire du code ? Ca vous parait insensé, tant ce sujet est ennuyeux, mais ce n'est pas une fatalité !
+                        </br>
+                        Comment documenter votre compréhension du métier ? Comment documenter votre design ? Le tout sans écrire de doc ? Dans ce talk rythmé nous montrerons des techniques concrètes pour tout cela et plus, qui vous donneront envie de vous y mettre.
+                        </br>
+                        Et au-delà des recettes, nous verrons comment la démarche Living Documentation est aussi une opportunité d'améliorer votre code, votre design et vos processus !"
             speaker: Cyrille Martraire
             conf_id: '30'            
           - subject: "Legacy Club"
