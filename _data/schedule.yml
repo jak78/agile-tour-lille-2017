@@ -7,20 +7,20 @@
           - label: Accueil
             fill: 7
             room: Atrium
-            conf_id: '01'            
+            conf_id: '01'
       - hour: 08h45
         special: 1
         content:
           - label: Lancement de la conférence et pitch des sessions de la matinée
             fill: 7
-            conf_id: '02'            
+            conf_id: '02'
       - hour: 09h30
         content:
           - subject: "No estimates: Predicting Without Estimates & 10 New Principles for Software Development"
             speaker: Vasco Duarte
             description:
             fill: 7
-            conf_id: '03'            
+            conf_id: '03'
             highlight: 1
             description: "We are learning better ways to develop software by doing it and helping others do it.
                         </br>
@@ -35,7 +35,7 @@
             fill: 7
             hide-on-home: 1
             room: Atrium
-            conf_id: '04'            
+            conf_id: '04'
       - hour: 10h45
         content:
           - subject: "Remplaçons le mot projet par le mot stratégie !"
@@ -46,7 +46,7 @@
               Je vous propose de remplacer le mot “Projet” par le mot “Stratégie” et de voir ce qui se passe.
               De la posture du PO au plan de livraison, en passant par le backlog et les estimations, nous allons revisiter tous les aspects d’un projet... euh, d’une stratégie !"
             company: EFIDEV
-            conf_id: '05'            
+            conf_id: '05'
           - subject: Un logiciel qui fonctionne est un logiciel que l'utilisateur a plaisir à utiliser.
             description: "Avez vous déjà observé un utilisateur employer votre application dans son quotidien ?
                          L’imaginez vous en faire une démonstration devant d’autres ? L’imaginez vous devenir l’ambassadeur de votre logiciel ?
@@ -59,18 +59,18 @@
                          Joie, colère, tristesse, peur, nous croyons à la nécessité d’observer les émotions de nos utilisateurs afin de les modéliser pour les transformer en fonctionnalités au sein de nos applications. Nous souhaitons vous partager la manière dont nous traitons ce sujet et comment nous l’intégrons dans notre travail à chaque itération."
             speaker: Antoine Peze, Fabien Arcellier
             company: OCTO
-            conf_id: '06'            
+            conf_id: '06'
           - subject: "5 ans pour passer du Cycle en V aux Feature Teams."
             description: "Dans ce talk nous vous raconterons comment nous transformons 2000 personnes, comment nos département deviennent des tribus, comment nous arrêtons de parler de projets pour parler de produits et comment nous (re)découvrons nos utilisateurs.
                           #RH #organisation #rôles #agile #FeatureTeams #users #budget #Scrumban"
             speaker: Djim BA, Mehdi BALZA
             company: AXA
-            conf_id: '07'            
+            conf_id: '07'
           - subject: "Transformation d'un programme en Agile Distribué : : lessons learned !"
             description: "Le recit de la transformation d'un programme d un leader de l energie, d un modele cycle v classique vers un modele agile distribue lille paris (130 ETP). Un apercu du perimetre, du dispositif, de la transition organisationnelle et technique, des challenges rencontrés ainsi que des solutions apportées au travers de Scrum et d'un mix de pratiques connues  ( TDD, XP ...) "
             speaker: Stephane Thanasack
             company: capgemini
-            conf_id: '08'            
+            conf_id: '08'
           - subject: "Gothamocratie, quand Gotham City adopte l'holacratie"
             description: "L'atelier se base sur une trame chronologique d’événements qui arrivent à la ville de Gotham et pour lesquels les participants doivent réagir, s'adapter, prendre des décisions. La dynamique est créée avec un jeu de cartes : rôles, actions, projets, évènements, surprises, etc.
                           La gestion d'une ville comme Gotham pose plusieurs questions :
@@ -86,7 +86,7 @@
                           10min : debrief : Holacratie dans la vraie vie, chez beNext ? chez CARMA/GrDF ?"
             speaker: Pablo Pernot, Dragos Dreptate, Geraldine Legris
             duration: 2
-            conf_id: '09'            
+            conf_id: '09'
           - subject: "Initiation au sketchnoting"
             description: "Le sketchnoting est une discipline, regroupée au sein des techniques dites de 'Facilitation graphique'.
                         L'objectif de celle-ci est de traduire en pensée visuelle des concepts, processus, idées, conversations, .. par la prise de notes individuelle.
@@ -95,7 +95,7 @@
                         Munis de feuilles et crayons, vous vous lancerez dans cette pratique, et chercherez à développer votre propre style."
             speaker: Benoit Hermant
             duration: 2
-            conf_id: '10'            
+            conf_id: '10'
       - hour: 11h45
         content:
           - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
@@ -103,13 +103,13 @@
                          L'idée c'est de presenter une vision générale de l'ensemble de différentes lignes de transformation : Depuis les premières conversations et le développement des rétrospectives jusqu'au travail actif pour escalader une structure de facilitation, en passant par favoriser l'auto-organisation à travers des opens espaces ou le besoin de l'expérimentation avec des cadres comme lean startup."
             speaker: Antonio LOPEZ
             company: Decathlon
-            conf_id: '11'            
+            conf_id: '11'
           - subject: Une CoP Agile qui marche
             description: "Comment Créer une Communauté de Pratiques Agile (PO; ScrumMaster, Management) efficace dans l'Entreprise?
                           Guilde, Communauté des POs, Tribu, Cercle des SM… peu importe le nom, elle est l'ingrédient essentiel d'une transformation agile réussie.
                           Voici quelques clés pour que cela marche!"
             speaker: Jean-Claude Grosjean
-            conf_id: '12'            
+            conf_id: '12'
           - subject: "Du craft chez les OPS"
             description: "En 2016, on peut instancier un SI from scratch avec du code.
                         La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
@@ -121,38 +121,38 @@
                         Nous vous décrirons ce qu'est une plateforme d'intégration continue OPS et comment on teste une infrastructure en continu."
             speaker: François Xavier VENDE, Mathieu Herbert
             company: octo
-            conf_id: '13'            
+            conf_id: '13'
           - subject: "Où en est le contrat Agile en 2016 ?"
             description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
             speaker: "Laurent Delvaux"
-            conf_id: '14'            
+            conf_id: '14'
       - hour: 12h30
         special: 1
         content:
           - label: Déjeuner
             fill: 7
             room: Atrium
-            conf_id: '15'            
+            conf_id: '15'
     -
       - hour: 14h00
         special: 1
         content:
         - label: Préparation forum ouvert
           fill: 7
-          conf_id: '16'          
+          conf_id: '16'
       - hour: 15h00
         content:
           - label: "Forum ouvert : venez vivre l'expérience la plus riche qui soit dans une conférence&nbsp;!<br><a href='/forum-ouvert'>Qu'est-ce qu'un forum ouvert et pourquoi y irais-je ?</a>"
             fill: 7
             bigheight: true
-            conf_id: '17'            
+            conf_id: '17'
       - hour: 18h00
         special: 1
         content:
           - label: Agilistes autour d'un verre (et plus si affinités)
             image: 2818268935_5d06ed7b4a_m_d.jpg
             room: Atrium
-            conf_id: '18'            
+            conf_id: '18'
             extra: <span><i class="fa fa-beer"></i> Bières<sup>*</sup> et <span><i class="fa fa-comment"></i> échanges.
             highlight: 1
             fill: 7
@@ -165,13 +165,13 @@
           - label: Accueil
             fill: 7
             room: Atrium
-            conf_id: '19'            
+            conf_id: '19'
       - hour: 08h45
         special: 1
         content:
           - label: Lancement de la conférence et pitch des sessions de la matinée
             fill: 7
-            conf_id: '20'            
+            conf_id: '20'
       - hour: 09h30
         content:
           - subject: "L’éducation numérique, la seule véritable transformation digitale ?"
@@ -182,7 +182,7 @@
                         </br>
                         A l'heure où l'éducation devient un marché et où l'enseignement du code rentre à l'école, peut-on s'inspirer de l'expérience de transformation digitale en entreprise pour développer une autre approche de l'éducation numérique ? Peut-elle se faire sans les professionnels du numérique et les développeurs de métier ?"
             fill: 7
-            conf_id: '21'            
+            conf_id: '21'
             highlight: 1
     -
       - hour: 10h15
@@ -192,7 +192,7 @@
             fill: 7
             hide-on-home: 1
             room: Atrium
-            conf_id: '22'            
+            conf_id: '22'
       - hour: 10h45
         content:
           - subject: "La vraie raison pour laquelle vous allez perdre votre job au profit d’un indien ou d’un robot (indice : ce n’est pas du tout ce que vous croyez)."
@@ -202,30 +202,32 @@
                         Vous avez tort.
                         Vous trompez encore plus si vous regardez du côté de la croissance des capacités des robots. Regardons plutôt du côté de la baisse des capacités des humains."
             speaker: Ismaël Hery
-            conf_id: '23'            
+            conf_id: '23'
           - subject: Développeur, Concepteur, Architecte en milieu Agile. Qu'est ce qui change ? Et pourquoi ?
             description: Quel rôle pour le développeur, le concepteur ou encore l’architecte dans un environnement “Agile” ? Sont-ils tous encore nécessaires ? Peut-être pas. Ce qui est sûr ce que ces rôles doivent évoluer. Et c'est en nous appuyant sur les textes fondateurs de Jack Reeves et Martin Fowler ainsi que des modèles d’organisation comme celui d’Amazon ou Spotify que nous allons essayer de comprendre cette évolution et en expliquer les raisons.
             speaker: Olivier Lemaitre
-            conf_id: '24'            
+            conf_id: '24'
           - subject: Créer une startup
             description: ???
-            conf_id: '25'            
+            conf_id: '25'
           - subject: Qui a volé l'orange ?
             description: "La culture dominante de gestion de projet s’appuie notamment sur des engagements pris, de la contractualisation, les contrôles qui aboutissent souvent à la recherche d’un fautif en cas de problème. Ce modèle est-il le seul ? Est-il le plus efficient ? A l’issue de cette présentation vous aurez une grille de lecture très simple à mettre en œuvre mais très puissante afin d’améliorer le fonctionnement de votre organisation."
             speaker: Frédéric Leguédois
-            conf_id: '26'            
+            conf_id: '26'
           - subject: Samouraï Pizza Game
             description: "Comment allier assurance qualité et agilité? A quel moment doivent intervenir les testeurs pour garantir un fonctionnement agile ainsi que le respect des attendus fonctionnels et qualitatifs? Autour de pizzas, possiblement déguisés en samouraïs (pas la sauce), nos deux intervenants vous montrerons, par un jeu agile, qu'il est important de bien appréhender le sujet du test et que testeurs et programmeurs ne sont pas des frères ennemis.
                         Attention, rencontre avec des pandas possible."
             speaker: Nicolas TONDEUR, Matthieu SALIKHOV
             duration: 2
-            conf_id: '27'            
+            conf_id: '27'
           - subject: Build your retro
             description: "La rétrospective est considérée par la plupart des agilistes comme LE rituel incontournable, le moteur de l'amélioration continue. Mais en l'exécutant toujours de manière identique ou presque, la lassitude peut vite s'installer et l'efficacité diminuer. En repartant des bases et des étapes clés d'une rétro efficace, cet atelier vous permettra de vous exercer à composer un plan de rétrospective original à partir d'une palette d'activités."
             speaker: Alban Dalle
             company: OCTO
             duration: 2
-            conf_id: '28'            
+            conf_id: '28'
+            room: Atelier B
+            bring_your_pc: true
       - hour: 11h45
         content:
           - subject: "Unscaling Agile : Beyond budget & process"
@@ -233,20 +235,20 @@
             Dans cette session, je propose donc de regarder comment s'organiser pour garder vitesse et flexibilité quelle que soit la taille en appliquant les principes du Beyond Budgeting. Cela parlera donc de décorrélation du budget, des objectifs et de l'allocation de ressources pour finir sur
             les organisations agile que cela permet de mettre en place. Le but est de donner une vision d'ensemble et de voir comment les concepts coulissent entre eux dans la vraie vie. Je me propose de donner des axes de réflexion à la question : quel alignement pour mes équipes ?"
             speaker: Samuel Retiere
-            conf_id: '29'            
-          - subject: "Living Documentation: et si la documentation pouvait être aussi fun que le code ?"
+            conf_id: '29'
+          - subject: "Living Documentation : Et si faire de la doc était aussi fun que de faire du code ?"
             description: "Et si la documentation pouvait être aussi fun qu'écrire du code ? Ca vous parait insensé, tant ce sujet est ennuyeux, mais ce n'est pas une fatalité !
                         </br>
                         Comment documenter votre compréhension du métier ? Comment documenter votre design ? Le tout sans écrire de doc ? Dans ce talk rythmé nous montrerons des techniques concrètes pour tout cela et plus, qui vous donneront envie de vous y mettre.
                         </br>
                         Et au-delà des recettes, nous verrons comment la démarche Living Documentation est aussi une opportunité d'améliorer votre code, votre design et vos processus !"
             speaker: Cyrille Martraire
-            conf_id: '30'            
+            conf_id: '30'
           - subject: "Legacy Club"
             description: "Code non maintenable, bugs à répétition, corrections chronophages, moral dans les chaussettes... Pas étonnant que la plupart d’entre nous préfèrent travailler sur des projets où tout est à (re)construire (Greenfield) plutôt que sur du code Legacy (Brownfield). Il faut dire que le Legacy sur lequel on a perdu le contrôle est plus que pénible. C’est épuisant, voire décourageant.
             Et si nous nous trompions ? Et si – munis de quelques techniques de refactoring et de communication- nous pouvions inverser les choses et reprendre le contrôle… Le temps d’une session avec des bouts de live-coding, venez découvrir les trucs et astuces des gens qui préfèrent reprendre le contrôle plutôt que de subir. Voir qui préfèrent les opportunités cachées du Legacy aux pages blanches des projets Greenfield. Vous aussi, rejoignez le Legacy Club !"
             speaker: Bruno Boucard, Thomas Pierrain
-            conf_id: '31'            
+            conf_id: '31'
           - subject: "Industrialiser le pilotage d'un projet agile"
             description: "Responsable d'un projet stratégique de la DSI SNCF Réseau réalisé en mode agile depuis 4 ans (en 2016 : 3,6 M€, 40 personnes, 3 features team), je ferais un retour d'expérience sur notre organisation et le pilotage : quels indicateurs, quel mode de fonctionnement, comment arbitrer la commande selon son plan de charge et son budget, avoir recours à des centres de service, TMA, TRA,..
                         La séance sera principalement axé sur l'industrialisation du fonctionnement du projet et les pratiques utilisées; SCRUM, kanban, Visual Management, Lissage de plan de charge,... L'objectif est de s'appuyer sur des exemples concrets qui pourront servir à l'audience.
@@ -265,21 +267,21 @@
                         </br>
                         - Collaboration et délégation"
             speaker: Olivier Durnez
-            conf_id: '32'            
+            conf_id: '32'
       - hour: 12h30
         special: 1
         content:
           - label: Déjeuner
             fill: 7
             room: Atrium
-            conf_id: '33'            
+            conf_id: '33'
     -
       - hour: 13h45
         special: 1
         content:
         - label: Teasing Speakers Après Midi
           fill: 7
-          conf_id: '34'          
+          conf_id: '34'
       - hour: 14h00
         content:
           - subject: Software Development is Upside Down
@@ -292,7 +294,7 @@
                         </br>
                         In this presentation Allan Kelly will look at half a dozen ways in which standard management thinking needs to be reversed if software is to be successfully developed."
             fill: 7
-            conf_id: '35'            
+            conf_id: '35'
             highlight: 1
       - hour: 15h00
         content:
@@ -300,11 +302,11 @@
             description: "Introduit en 2003 par Eric Evans via son 'Blue Book', le Domain Driven Design (DDD) a reçu depuis un gros succès d'estime au sein de diverses communautés. A l'inverse, on ne peut pas dire qu'il se soit largement imposé sur le terrain ni dans nos projets. Comment expliquer un tel échec dans sa diffusion ? Est-ce le DDD en lui même qui est difficile, ou tout simplement la façon dont il est présenté qui le rends indigeste ?
                         A travers nos propres histoires de mises en oeuvre plus ou moins réussies, nous tâcherons de revisiter le DDD avec une approche beaucoup plus accessible. Nous nous attacherons notamment à vous montrer tout ce que le DDD peut vous apporter au quotidien pour réussir vos projets."
             speaker: Thomas Pierrain, Jeremie GRODZISKI
-            conf_id: '36'            
+            conf_id: '36'
           - subject: "Engagez-vous qu'ils disaient !"
             description: "Surprise en lisant la doctrine militaire du Général Yakovleff. Le fonctionnement de la hiérarchie, les types de commandements et la prise de risque sont à l'opposé des nos préjugés. Profitons de cette découverte, pour réflechir à nos organisations d'entreprises."
             speaker: Olivier Albiez, Thomas Clavier
-            conf_id: '37'            
+            conf_id: '37'
           - subject: "Motivation 3.0 : Sens, Autonomie et Maîtrise"
             description: "Pourquoi ?
                         Les méthodes traditionnelles de management et de motivation qui reposent sur la politique de 'la carotte et du baton' sont un échec. Malgré cela, on continu de les utiliser au détriment de la créativité, de la performance et de la productivité.
@@ -314,14 +316,14 @@
                         Vous aurez des exemples concrets de mise en place de la Motivation 3.0 basée sur le sens, l'autonomie et la maitrise.
             La motivation dans le contexte professionnel c'est bien, mais d'une manière générale, c'est mieux : vous aurez les clés pour savoir ce qui vous motive et comment motiver votre entourage."
             speaker: Jérôme Guenver
-            conf_id: '38'            
+            conf_id: '38'
           - subject: "Lightning Talks"
             description: "<ul>
             <li><strong>Talk 1</strong> : Mon processus de design en tant que Product Owner sans UX designer (Anael Ichane)</li>
             <li><strong>Talk 2</strong> : Ce que la revue de code m'a apporté (Julien Hatzig)</li>
             </ul>"
             speaker: Anael Ichane, Julien Hatzig
-            conf_id: '39'            
+            conf_id: '39'
           - subject: "Le théatre au service du travail collectif"
             description: "Déjà que le jeu en entreprise, ça fait brouillon... Mais alors le théatre!
                         Et Pourtant...
@@ -329,7 +331,7 @@
                         conditions les participants à votre session de travail afin de libérer leur esprit collectif et constructif tout en restant à l'écoute!"
             speaker: Marine Fromentin, Christophe Porchet
             company: norsys
-            conf_id: '40'            
+            conf_id: '40'
           - subject: "Gamification : Jouer ce n'est pas (seulement) gagner"
             description: "La ludification (ou gamification) du travail a le vent en poupe. Rien d'étonnant à ce phénomène : qui s'opposerait à plus de fun dans son quotidien professionnel ? Qui peut nier l'efficacité de l'apprentissage par le jeu que nous expérimentons tous depuis nos premières semaines de vie.
                         Mais attention : faire un jeu pour dire d'avoir joué ? Aucun intérêt !
@@ -337,15 +339,15 @@
                         Venez découvrir par la pratique en quoi un jeu bien pensé, bien conçu, bien choisi et bien amené permet de catalyser  l'intelligence collective et de libérer le potentiel de chacun d'entre nous. "
             speaker: Thomas Shakeshaft, Gautier Gaspard
             company: norsys
-            conf_id: '41'            
+            conf_id: '41'
       - hour: 15h45
         special: 1
         content:
           - label: Pause (30 minutes)
             fill: 7
             hide-on-home: 1
-            room: Atrium 
-            conf_id: '42'            
+            room: Atrium
+            conf_id: '42'
       - hour: 16h15
         content:
           - subject: "Les Feature Teams, du rêve à la réalité"
@@ -355,12 +357,12 @@
                         En focus, l’impact de cette approche sur les individus et comment elle se traduit par plus d’engagement et de collaboration."
             speaker: Basile du Plessis
             company: octo
-            conf_id: '43'            
+            conf_id: '43'
           - subject: "Ça ne coûte pas plus cher de bien tester!"
             description: "Le test d'une application avant son déploiement / sa livraison et un effort qui doit être maîtriser autant que possible. Voici quelques recettes faciles d'automatisation permettant de réduire l'effort de test manuel. La présentation sera illustrée avec des outils du monde Java, … et d'ailleurs, tout en mettant l'accent sur la démarche afin d'offrir un point de départ à la sortie de la session.
             De certains concepts de base à la mise en place technique, cette présentation s'adresse à tout type de public, développeur ou pas."
             speaker: Guillaume Wallet
-            conf_id: '44'            
+            conf_id: '44'
           - subject: "J'anime une rétrospective productive"
             description: "La rétrospective est un exercice important dans la démarche agile, elle permet la mise en œuvre de la boucle d'amélioration continue.
                         Cette cérémonie est souvent mal comprise, mal animée, ce qui génère de la frustration pour l'équipe, des actions peu intéressantes et un abandon à plus ou moins court terme.
@@ -369,7 +371,7 @@
                         Cette session propose de revenir sur les bases de la facilitation de rétrospective. Elle permettra aussi de faire un tour d'horizon de quelques serious games à mettre en œuvre."
             speaker: Maxime Bonnet
             company: cgi
-            conf_id: '45'            
+            conf_id: '45'
           - subject: "#NoEstimates et Mob Programming : contre-intuitif et particulièrement efficace"
             description: "Hunter Industries est une boite tout à fait classique qui commercialise des systèmes d'irrigation, en Californie. Et pourtant, en son sein, une équipe de développement jusque là totalement waterfall, s'est transformée en agile, et a maturé 2 pratiques : #NoEstimates et le Mob Programming. Celles-ci font souvent se dresser les cheveux sur la tête des managers qui en entendent parler. #NoEstimates notamment divise le petit monde de l'Agilité.... une bonne raison pour regarder ça de plus près. Quels sont ces fous, comment font-ils, et surtout... ça marche ?
                         Nous verrons que l'agilité n'en finit pas d'évoluer, et que certaines organisations qui souhaitent mener une transition Agile, n'ont même pas conscience de cette évolution. L'idée n'est pas de mettre toutes les équipes en Mob Programming, et sans estimations, mais plutôt de se donner les moyens de choisir ce qui peut marcher le mieux dans un contexte donné.
@@ -394,7 +396,7 @@
                         </br>
                         Ce qui est contre-intuitif ne doit pas être rejeté d'un revers de la main car c'est bien souvent ce qui nous permet d'éclairer de nous horizons."
             speaker: Nicolas Umiastowski
-            conf_id: '46'            
+            conf_id: '46'
           - subject: "User research game : learn how to validate your hypothesis !"
             description: "Je vous propose d’apprendre à reconnaître les hypothèses sur lesquelles une idée de produit se base lors de cet atelier. Souvent elles paraissent tellement évidentes qu’on oublie qu’elles sont là ! Chaque équipe aura son idée produit concurrente, elle devra trouver quelles sont les hypothèses sur lesquelles son produit se base, et comment elle peut les valider (ou les invalider) au plus vite."
             speaker: Claire Morin
@@ -408,7 +410,7 @@
             speaker: Yan Matagne, Antoine Stalin
             company: Norsys
             duration: 2
-            conf_id: '48'            
+            conf_id: '48'
       - hour: 17h15
         content:
           - subject: "Devenir agile à 200 personnes"
@@ -416,7 +418,7 @@
                         En terme d’organisation, les challenges de ce programme sont de faire collaborer les 200 acteurs métiers et informatiques,  et de livrer et déployer régulièrement les versions successives de ce nouveau système d’information omnicanal.
                         Nous proposons donc un retour d'expérience sur notre passage de scrum à nexus+ pour encore renforcer notre agilité à cette échelle."
             speaker: David Vandersarren, Stéphanie Tallon, Thomas Charle
-            conf_id: '49'            
+            conf_id: '49'
           - subject: "Activités de tests dans les projets agiles chez AXA"
             description: "Axa France services a adopté l’agilité pour le développement de ses applications web et mobiles.  Dans ce cadre, les équipes de qualification ont adapté leurs activités de tests :
                         </br>
@@ -428,7 +430,7 @@
             "
             speaker: Nawel GHIAR
             company: axa
-            conf_id: '50'            
+            conf_id: '50'
           - subject: "Transition agile 4 real @meetic"
             description: "De la petite graine scrum à l’IT au jardin de l’agilité à l’échelle, nous vous proposons de partager notre histoire ou comment depuis 5 ans, nous nous appuyons sur les individus et leurs interactions pour dé-siloter l’organisation et réinventer l’expérience utilisateur, l’architecture technique et la culture d’entreprise de meetic. Au programme, réalisations, succès mais aussi obstacles et pistes d’amélioration… bref un retour de la vraie vie sans langue de bois.
                         Si vous souhaitez savoir comment accélérer une transformation complète sans hypothéquer
@@ -438,11 +440,11 @@
                         réinventant la stack technique; comment assurer l'acculturation agile dans un milieu
                         waterfall;  comment synchroniser toute l'entreprise tous les trimestres de manière agile ... et faire de toute résistance une opportunité de changement... cette session est faite pour vous. Nous partagerons également les risques et problèmes que nous n'avions pas anticipés et les défis que meetic doit maintenant relever"
             speaker: Nicolas Kalmanovitz
-            conf_id: '51'             
+            conf_id: '51'
           - subject: "Miracles of Agility on organizations"
             description: "Every organisation have to evolve specifically toward ever greater Agility as there is no standard recipe. How to operate an Agile transition in a credible manner? How to change mindset in an organization? How were new cultural adjustments and internal process to progressively change? What are the key elements shared by organizations that have successfully weathered the change? And what are the potential pitfalls and problems that they can experience during this transformation? Synergies on all levels can be derived from Agile transformation for the well-being and benefit of all. After having been involved as controller in international groups, I discovered the strength of unlimited potential created by enthusiasm of the staff in my own little company during 10 years. Today I work in favour of win-win organizations where every employee is more responsible with his things and feel better as proactive force. In return, that would make the organization more intelligent and more efficient. Many forward thinking senior executives see this impending change as a clear opportunity to become more competitive as result of having a broader reach and lower costs. That brings also a new dynamic and more well-being for everyone. In this session we will focus on the different ways of working in this direction and case studies from organizations that are getting it right."
             speaker: Marie-Christine PESSIOT
-            conf_id: '52'            
+            conf_id: '52'
       - hour: 18h00
         special: 1
         content:
@@ -452,4 +454,4 @@
             extra: <span><i class="fa fa-beer"></i> Bières<sup>*</sup> et <span><i class="fa fa-comment"></i> échanges.
             highlight: 1
             fill: 7
-            conf_id: '53'            
+            conf_id: '53'
