@@ -7,7 +7,8 @@ permalink: /programme/
   <h1>Programme de l'édition {{ site.data.event.date.year }}</h1>
   <div class="row">
       <div class="col-md-12 col-xs-12">
-          <p><i>Le programme est susceptible de changer légèrement en fonction de contraintes de dernière minute.</i></p>
+          Le programme est susceptible de changer légèrement en fonction de contraintes de dernière minute.<br>
+          Il est conseillé d'amener votre PC/Mac aux conférences signalées par le picto <i class="fa fa-laptop"></i>.
       </div>
   </div>
   {% for day in site.data.schedule %}
@@ -32,11 +33,6 @@ permalink: /programme/
                 class="{% if talk.highlight %} highlight{% endif %}{% if talk.hide-on-home %} dim{% endif %}{% if talk.bigheight %} big-height {% endif %}"
                 {% if talk.fill %} colspan="{{ talk.fill }}"{% endif %}
                 >
-                  <!--
-                  {% if talk.room %}
-                  <span class="room">{{ talk.room }}</span>
-                  {% endif %}
-                  -->
                   {% if talk.bring_your_pc %}
                   <p class="picto"><i class="fa fa-laptop"></i></p>
                   {% endif %}
