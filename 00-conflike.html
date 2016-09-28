@@ -79,9 +79,19 @@ permalink: /conflike/
     var confspeakers = confspeakersElement.innerHTML;
     if (confspeakers == "") confspeakers = "-"; //Attribute can not be empty with DynamoDB
     return confspeakers.replace(/\\/g, "\\\\").replace(/"/g, "\\\"").replace(/\n/g, "").trim();
-  }  
+  } 
+  function getTimeStamp(){
+    var d = new Date();
+    return  d.getFullYear() + "/" + 
+            ("0"+(d.getMonth()+1)).slice(-2) + "/" + 
+            ("0"+d.getDate()).slice(-2)  + "-" + 
+            ("0"+d.getHours()).slice(-2) + ":" + 
+            ("0"+d.getMinutes()).slice(-2) + ":" + 
+            ("0"+d.getSeconds()).slice(-2);
+  }
  
   function save(confID) {
+    var timestamp = getTimeStamp();
     var checkStatus = getCheckStatus(confID);
     var conftime = getConfTime(confID);
     var confroom = getConfRoom(confID);
@@ -93,6 +103,7 @@ permalink: /conflike/
     var api_id = '3gwmfohd5g';
     var url = 'https://'+ api_id +'.execute-api.eu-west-1.amazonaws.com/prod/ConfLike?userid=' + userID;
     var data = '{ \
+      "TimeStamp" : { "S": "' + timestamp + '" }, \
       "UserID"  : { "S": "' + userID + '" }, \
       "ConfID"  : { "S": "' + confID + '" }, \
       "ConfTime": { "S": "' + conftime + '" }, \
@@ -189,7 +200,7 @@ permalink: /conflike/
       </br>
       1) Avant le jour J, pour faire votre pré-sélection (et nous aider du même coup à répartir les flux)
       </br>
-      2) Le jour J, pour donnez un feedback sur les conférences et ateliers auxquels vous aurez assisté
+      2) Le jour J, pour donner un feedback sur les conférences et ateliers auxquels vous aurez assisté
       </br>
       </br>
       <div style="text-align:center"><b>IMPORTANT</b></div>
