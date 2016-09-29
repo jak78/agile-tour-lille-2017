@@ -1,14 +1,83 @@
-.conflike-speaker-image {
-  text-align: center;
-  display:block;
+.conflike-title {
+  font-size:24px;
+  padding:15px;
+  text-align:center;
+  background-color:lightgrey;
+  text-decoration:none
 }
 
-.conflike-feedback {
+.conflike-introduction {
+  padding:3%; 
+  text-align: left; 
+  border-width:2px; 
+  border-color:black; 
+  border-style:dotted
+}
+
+.conflike-day-banner {
   margin:1px;
-  display:block;
+  padding:10px;
+  text-align:center;
+  background-color:orange;
+  text-decoration:none; 
+}
+
+.conflike-hour-banner {
+  padding:10px;
+  text-align:center;
+  background-color:lightgreen;
+  text-decoration:none;
+}
+
+.conflike-session {
+  padding:2px; 
+  margin:2px;
+  background-color: white;
+  border-color:black; 
+  border-width:1px; 
+  border-style:dotted;
+}
+
+.conflike-speaker-image {
+  display:none;  
+  text-align: center;
 }
 
 .conflike-description {
+  display:block;  
   margin:1px;
-  display:block;
+}
+
+.conflike-description-banner {
+  text-align:center;
+  background-color:lightgrey;
+  text-decoration:none; 
+  padding:10px;
+}
+
+.conflike-description-text {
+  padding:5px; 
+  border-color:black; 
+  border-width:5px; 
+  border-style:dotted; 
+  display:none
+}
+
+.conflike-feedback {
+  display:block;  
+  margin:1px;
+}
+
+.conflike-feedback-banner {
+  text-align:center;
+  background-color:lightgrey;
+  text-decoration:none; 
+  padding:10px
+}
+
+.conflike-feedback-content {
+  border-color:blue; 
+  border-width:0px; 
+  border-style:dotted; 
+  display:none
 }

@@ -187,14 +187,14 @@ permalink: /conflike/
   <!-- ------------------------------- -->
    
       <div >
-          <div  style="font-size:24px;padding:15px;text-align:center;background-color:lightgrey;text-decoration:none">AGILE TOUR LILLE 2016</div>
+          <div class="conflike-title">AGILE TOUR LILLE 2016</div>
       </div>
 
  
   <!-- -------------------------- -->
   <!--  INTRODUCTION              -->
   <!-- -------------------------- -->
-  <div style="padding:3%; text-align: left; border-width:2px; border-color:black; border-style:dotted">
+  <div class="conflike-introduction">
     <div>
       Cette application vous servira : 
       </br>
@@ -232,7 +232,7 @@ permalink: /conflike/
       <!-- -------------------------- -->
       <!--  DAY                       -->
       <!-- -------------------------- -->
-      <div id="banner-{{ day.date | replace:' ','_' }}" style="margin:1px;padding:10px;text-align:center;background-color:orange;text-decoration:none" onclick="toggleDayDisplay('{{ day.date | replace:' ','_' }}')">
+      <div id="banner-{{ day.date | replace:' ','_' }}" class="conflike-day-banner" onclick="toggleDayDisplay('{{ day.date | replace:' ','_' }}')">
            <a href="/conflike/#banner-{{ day.date | replace:' ','_' }}" style="text-decoration:none">{{ day.date }} >></a>
       </div>
       <div id="{{ day.date | replace:' ','_' }}" style="display:none">
@@ -245,7 +245,7 @@ permalink: /conflike/
             <div style="border-color:white; border-width:2px; border-style:dotted;">
               <div id="slot-{{slot.hour }}" class="conference-slot" >
                 <div id="banner-{{ slotID }}"  style="margin:1px">
-                  <div style="padding:10px;text-align:center;background-color:lightgreen;text-decoration:none">
+                  <div class="conflike-hour-banner">
                    <a href="/conflike/#banner-{{ slotID }}" style="text-decoration:none">
                      {{ day.date }} - {{ slot.hour  }}
                    </a>
@@ -256,7 +256,7 @@ permalink: /conflike/
                   <!-- -------------------------- -->
                   <!--  TALK                      -->
                   <!-- -------------------------- -->
-                    <div id="{{ confID }}" style="padding:2px; margin:2px; border-color:black; border-width:1px; border-style:dotted; ">
+                    <div id="{{ confID }}" class="conflike-session">
                       {% assign slotDay = day.date| replace:'13 octobre', 'Jeudi'| replace:'14 octobre', 'Vendredi' %}
                       <!-- -------------------------- -->
                       <!-- SUBJECT                    -->
@@ -324,10 +324,10 @@ permalink: /conflike/
                         <!-- DESCRIPTION                -->
                         <!-- -------------------------- -->                      
                         <div class="conflike-description">
-                          <div style="text-align:center;background-color:lightgrey;text-decoration:none; padding:10px;" onclick="toggleDayDisplay('detail-{{ confID }}')">
+                          <div class="conflike-description-banner" onclick="toggleDayDisplay('detail-{{ confID }}')">
                             <a href="/conflike/#{{ confID }}">Description >></a>
                           </div>
-                          <div id="detail-{{ confID }}" style="padding:5px; border-color:black; border-width:3px; border-style:dotted; display:none">
+                          <div class="conflike-description-text" id="detail-{{ confID }}">
                             <p class="description">
                               {{ talk.description }}
                             </p>
@@ -341,10 +341,10 @@ permalink: /conflike/
                       <!-- FEEDBACK                   -->
                       <!-- -------------------------- -->                          
                       <div class="conflike-feedback">
-                        <div style="text-align:center;background-color:lightgrey;text-decoration:none; padding:10px" onclick="toggleDayDisplay('feedback-{{ confID }}')">
+                        <div class="conflike-feedback-banner" onclick="toggleDayDisplay('feedback-{{ confID }}')">
                           <a href="/conflike/#{{ confID }}" style="text-decoration:none">Donnez votre FeedBack >></a>
                         </div>
-                        <div style="border-color:blue; border-width:3px; border-style:dotted; display:none" id="feedback-{{ confID }}">
+                        <div class="conflike-feedback-content" id="feedback-{{ confID }}">
                           <span>Votre Note: </span>
                           <span id="{{ confID }}/vote" style="visibility:visible">0</span>
                           <span id="{{ confID }}/vote/label" style="visibility:visible">(Pas de note pour le moment)</span>
