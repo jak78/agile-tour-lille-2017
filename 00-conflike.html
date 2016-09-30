@@ -236,16 +236,18 @@ permalink: /conflike/
            <a href="/conflike/#banner-{{ day.date | replace:' ','_' }}" style="text-decoration:none">{{ day.date }} >></a>
       </div>
       <div id="{{ day.date | replace:' ','_' }}" style="display:none">
+        {% assign odd_slot = true %}        
         {% for part in day.schedule %}
           {% for slot in part %}
-             {% assign slotID = day.date | replace:' ','_' | append:'_' | append:slot.hour %}
+            {% if odd_slot %} {% assign odd_slot = false %} {% else %} {% assign odd_slot = true %} {% endif %}
+            {% assign slotID = day.date | replace:' ','_' | append:'_' | append:slot.hour %}
             <!-- -------------------------- -->
             <!--  DAY SLOT                  -->
             <!-- -------------------------- -->          
             <div style="border-color:white; border-width:2px; border-style:dotted;">
               <div id="slot-{{slot.hour }}" class="conference-slot" >
                 <div id="banner-{{ slotID }}"  style="margin:1px">
-                  <div class="conflike-hour-banner">
+                  <div class="conflike-hour-banner {% if odd_slot %} odd-slot {% else %} even-slot {% endif %}">
                    <a href="/conflike/#banner-{{ slotID }}" style="text-decoration:none">
                      {{ day.date }} - {{ slot.hour  }}
                    </a>
