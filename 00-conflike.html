@@ -264,17 +264,17 @@ permalink: /conflike/
                       <!-- DAY, HOUR, ROOM                    -->
                       <!-- ---------------------------------- -->
                       <div class="row">
-                        <div id="{{ confID }}/conftime" class="col-xs-6 conflike-day-hour {% if odd_slot %} odd-slot-day-hour {% else %} even-slot-day-hour {% endif %}">
+                        <div id="{{ confID }}/conftime" class="col-xs-7 conflike-day-hour {% if odd_slot %} odd-slot-day-hour {% else %} even-slot-day-hour {% endif %}">
                           {{slot.hour }} ({{ slotDay }})
                         </div>
-                        <div id="{{ confID }}/confroom" class="col-xs-6 conflike-room">
+                        <div id="{{ confID }}/confroom" class="col-xs-5 conflike-room">
                           {% if talk.room %} 
                             {{ talk.room }}
                           {%else%}
                             {{ site.data.rooms[forloop.index0] }}
                           {% endif %} 
                         </div>
-                      </div>
+                        </div>
                       <!-- -------------------------- -->
                       <!-- SUBJECT                    -->
                       <!-- -------------------------- -->  
