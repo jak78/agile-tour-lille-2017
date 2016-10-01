@@ -249,8 +249,8 @@ permalink: /conflike/
             <!-- -------------------------- -->          
             <div class="conflike-day-slot {% if odd_slot %} odd-slot-left-border {% else %} even-slot-left-border {% endif %}">
               <div id="slot-{{slot.hour }}">
-                <div id="banner-{{ slotID }}" onclick="href(this.id)" class="conflike-day-slot-banner {% if odd_slot %} odd-slot {% else %} even-slot {% endif %}">
-                   {{ day.date }} - {{ slot.hour  }}
+                <div id="banner-{{ slotID }}" class="conflike-day-slot-banner {% if odd_slot %} odd-slot {% else %} even-slot {% endif %}" onclick="href(this.id)">
+                   {{ slot.hour  }}
                 </div>
                 {% for talk in slot.content %}
                   {% assign confID = talk.conf_id %} 
