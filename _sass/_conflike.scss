@@ -33,8 +33,9 @@
   border-color:black; 
   border-width:2px; 
   border-style:dotted;
+  border-bottom-width:5px;   
+  border-bottom-style:solid;  
   border-left-width:5px;  
-  border-left-color:red;  
   border-left-style:solid;
 }
 
@@ -65,7 +66,7 @@
 }
 
 .conflike-speaker-image {
-  display:block;  
+  display:none;  
   text-align: center;
 }
 
@@ -118,8 +119,10 @@
 
 .odd-left-border {
   border-left-color:lightblue;
+  border-bottom-color:lightblue;
 }
 
 .even-left-border {
   border-left-color:lightgreen;
+  border-bottom-color:lightgreen;
 }
