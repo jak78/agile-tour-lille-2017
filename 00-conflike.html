@@ -276,12 +276,10 @@ permalink: /conflike/
                       <!-- -------------------------- -->
                       <!-- SUBJECT                    -->
                       <!-- -------------------------- -->  
-                      <div class="conflike-subject">
-                          <label id="{{ confID }}/checklabel" style="background-color:white">
-                            <input type="checkbox" id="{{ confID }}/check" onchange="toggleCheckLabelColor('{{ confID }}'); save('{{ confID }}')"> 
-                            <span id="{{ confID }}/confname">{{ talk.subject }}{{ talk.label }}</span>
-                          </label>
-                      </div>                      
+                      <label id="{{ confID }}/checklabel" class="conflike-subject">
+                        <input type="checkbox" id="{{ confID }}/check" onchange="toggleCheckLabelColor('{{ confID }}'); save('{{ confID }}')"> 
+                        <span id="{{ confID }}/confname">{{ talk.subject }}{{ talk.label }}</span>
+                      </label>
 
                       {% if talk.speaker %}                             
                         <!-- -------------------------- -->
