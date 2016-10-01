@@ -160,7 +160,10 @@ permalink: /conflike/
 </script>
 
 <script type="text/javascript">
-  function toggleDayDisplay(dayID) {
+  function href(confID){
+    location.href = "/conflike/#"+confID; 
+  }
+  function toggleDisplay(dayID) {
     day_div = document.getElementById(dayID)
     if (day_div.style.display == "block") {
       day_div.style.display = "none"
@@ -232,8 +235,8 @@ permalink: /conflike/
       <!-- -------------------------- -->
       <!--  DAY                       -->
       <!-- -------------------------- -->
-      <div id="banner-{{ day.date | replace:' ','_' }}" class="conflike-day-banner" onclick="toggleDayDisplay('{{ day.date | replace:' ','_' }}')">
-           <a href="/conflike/#banner-{{ day.date | replace:' ','_' }}" style="text-decoration:none">{{ day.date }} >></a>
+      <div id="banner-{{ day.date | replace:' ','_' }}" class="conflike-day-banner" onclick="toggleDisplay('{{ day.date | replace:' ','_' }}'); href(this.id)">
+           {{ day.date }} >>
       </div>
       <div id="{{ day.date | replace:' ','_' }}" style="display:none">
         {% assign odd_slot = true %}        
@@ -246,12 +249,8 @@ permalink: /conflike/
             <!-- -------------------------- -->          
             <div class="conflike-day-slot {% if odd_slot %} odd-slot-left-border {% else %} even-slot-left-border {% endif %}">
               <div id="slot-{{slot.hour }}">
-                <div id="banner-{{ slotID }}"  style="margin:1px">
-                  <div class="conflike-day-slot-banner {% if odd_slot %} odd-slot {% else %} even-slot {% endif %}">
-                   <a href="/conflike/#banner-{{ slotID }}" style="text-decoration:none">
-                     {{ day.date }} - {{ slot.hour  }}
-                   </a>
-                  </div>
+                <div id="banner-{{ slotID }}" onclick="href(this.id)" class="conflike-day-slot-banner {% if odd_slot %} odd-slot {% else %} even-slot {% endif %}">
+                   {{ day.date }} - {{ slot.hour  }}
                 </div>
                 {% for talk in slot.content %}
                   {% assign confID = talk.conf_id %} 
@@ -315,8 +314,8 @@ permalink: /conflike/
                         <!-- DESCRIPTION                -->
                         <!-- -------------------------- -->                      
                         <div class="conflike-description">
-                          <div class="conflike-description-banner" onclick="toggleDayDisplay('detail-{{ confID }}')">
-                            <a href="/conflike/#{{ confID }}">Description >></a>
+                          <div class="conflike-description-banner" onclick="toggleDisplay('detail-{{ confID }}');href('{{ confID }}')">
+                            Description >>
                           </div>
                           <div class="conflike-description-text" id="detail-{{ confID }}">
                             <p class="description">
@@ -332,8 +331,8 @@ permalink: /conflike/
                       <!-- FEEDBACK                   -->
                       <!-- -------------------------- -->                          
                       <div class="conflike-feedback">
-                        <div class="conflike-feedback-banner" onclick="toggleDayDisplay('feedback-{{ confID }}')">
-                          <a href="/conflike/#{{ confID }}" style="text-decoration:none">Donnez votre FeedBack >></a>
+                        <div class="conflike-feedback-banner" onclick="toggleDisplay('feedback-{{ confID }}');href('{{ confID }}')">
+                          Donnez votre FeedBack >>
                         </div>
                         <div class="conflike-feedback-content" id="feedback-{{ confID }}">
                           <span>Votre Note: </span>
@@ -352,6 +351,7 @@ permalink: /conflike/
                             </div>
                             <div class="btn-group">
                               <button type="button" class="btn btn-primary" id="good" onclick="setVote('+1', '{{ confID }}');save('{{ confID }}')">
+                   
                                             Bien
                                           </button>
                             </div>
