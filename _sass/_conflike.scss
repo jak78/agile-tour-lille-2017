@@ -48,9 +48,25 @@
   margin:1px;
 }
 
+.conflike-day-slot-area {
+  display:none;
+  border-color:black; 
+  border-width:0px; 
+  border-style:dotted;
+  border-top-width:2px;   
+  border-top-style:solid;  
+  border-bottom-width:2px;   
+  border-bottom-style:solid;  
+  border-left-width:2px;  
+  border-left-style:solid;  
+  border-left-color:orange;
+  border-bottom-color:orange;
+  border-top-color:orange;  
+}
+
 .conflike-day-slot {
   border-color:black; 
-  border-width:2px; 
+  border-width:0px; 
   border-style:dotted;
   border-top-width:5px;   
   border-top-style:solid;  
@@ -64,9 +80,15 @@
   padding:2px; 
   margin:2px;
   background-color: white;
-  border-color:black; 
-  border-width:1px; 
+  border-color:grey; 
+  border-width:0px; 
   border-style:dotted;
+  border-top-width:1px;  
+  border-top-style:dotted;  
+  border-top-color:black; 
+  border-bottom-width:1px;  
+  border-bottom-style:dotted;  
+  border-bottom-color:black;   
 }
 
 .conflike-day-hour {
@@ -108,8 +130,8 @@
 
 .conflike-description-text {
   padding:5px; 
-  border-color:black; 
-  border-width:5px; 
+  border-color:blue; 
+  border-width:2px; 
   border-style:dotted; 
   display:none
 }

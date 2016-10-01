@@ -238,7 +238,7 @@ permalink: /conflike/
       <div id="banner-{{ day.date | replace:' ','_' }}" class="conflike-day-banner" onclick="toggleDisplay('{{ day.date | replace:' ','_' }}'); href(this.id)">
            {{ day.date }} >>
       </div>
-      <div id="{{ day.date | replace:' ','_' }}" style="display:none">
+      <div id="{{ day.date | replace:' ','_' }}" class="conflike-day-slot-area">
         {% assign odd_slot = true %}        
         {% for part in day.schedule %}
           {% for slot in part %}
