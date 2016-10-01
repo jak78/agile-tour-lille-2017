@@ -244,7 +244,7 @@ permalink: /conflike/
             <!-- -------------------------- -->
             <!--  DAY SLOT                  -->
             <!-- -------------------------- -->          
-            <div class="conflike-day-slot {% if odd_slot %} odd-left-border {% else %} even-left-border {% endif %}">
+            <div class="conflike-day-slot {% if odd_slot %} odd-slot-left-border {% else %} even-slot-left-border {% endif %}">
               <div id="slot-{{slot.hour }}">
                 <div id="banner-{{ slotID }}"  style="margin:1px">
                   <div class="conflike-day-slot-banner {% if odd_slot %} odd-slot {% else %} even-slot {% endif %}">
@@ -264,7 +264,7 @@ permalink: /conflike/
                       <!-- DAY, HOUR, ROOM                    -->
                       <!-- ---------------------------------- -->
                       <div class="row">
-                        <div id="{{ confID }}/conftime" class="col-xs-6 conflike-day-hour">
+                        <div id="{{ confID }}/conftime" class="col-xs-6 conflike-day-hour {% if odd_slot %} odd-slot-day-hour {% else %} even-slot-day-hour {% endif %}">
                           {{slot.hour }} ({{ slotDay }})
                         </div>
                         <div id="{{ confID }}/confroom" class="col-xs-6 conflike-room">

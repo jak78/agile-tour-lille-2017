@@ -23,6 +23,7 @@
 }
 
 .conflike-day-slot-banner {
+  display:block;
   padding:10px;
   text-align:center;
   background-color:lightgreen;
@@ -33,6 +34,8 @@
   border-color:black; 
   border-width:2px; 
   border-style:dotted;
+  border-top-width:5px;   
+  border-top-style:solid;  
   border-bottom-width:5px;   
   border-bottom-style:solid;  
   border-left-width:5px;  
@@ -49,8 +52,11 @@
 }
 
 .conflike-day-hour {
-  font-size:1.3em;
+  font-size:1.5em;
   text-align:left;
+  font-weight: bold;  
+  font-family:"Courier New";  
+  color:lightblue;
 }
 
 .conflike-room {
@@ -117,12 +123,22 @@
   background:lightgreen;
 }
 
-.odd-left-border {
-  border-left-color:lightblue;
-  border-bottom-color:lightblue;
+.odd-slot-day-hour {
+  color:lightblue;
 }
 
-.even-left-border {
+.even-slot-day-hour {
+  color:lightgreen;
+}
+
+.odd-slot-left-border {
+  border-left-color:lightblue;
+  border-bottom-color:lightblue;
+  border-top-color:lightblue;
+}
+
+.even-slot-left-border {
   border-left-color:lightgreen;
   border-bottom-color:lightgreen;
+  border-top-color:lightgreen;
 }
