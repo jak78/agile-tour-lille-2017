@@ -260,6 +260,19 @@ permalink: /conflike/
                   <!-- -------------------------- -->
                     <div id="{{ confID }}" class="conflike-session">
                       {% assign slotDay = day.date| replace:'13 octobre', 'Jeudi'| replace:'14 octobre', 'Vendredi' %}
+                      <!-- ---------------------------------- -->
+                      <!-- DAY, HOUR, ROOM                    -->
+                      <!-- ---------------------------------- -->                      
+                      <div id="{{ confID }}/conftime" class="conflike-day-hour">
+                        {{slot.hour }} ({{ slotDay }})
+                      </div>
+                      <div id="{{ confID }}/confroom" class="conflike-room">
+                        {% if talk.room %} 
+                          {{ talk.room }}
+                        {%else%}
+                          {{ site.data.rooms[forloop.index0] }}
+                        {% endif %} 
+                      </div>
                       <!-- -------------------------- -->
                       <!-- SUBJECT                    -->
                       <!-- -------------------------- -->  
@@ -268,23 +281,7 @@ permalink: /conflike/
                             <input type="checkbox" id="{{ confID }}/check" onchange="toggleCheckLabelColor('{{ confID }}'); save('{{ confID }}')"> 
                             <span id="{{ confID }}/confname">{{ talk.subject }}{{ talk.label }}</span>
                           </label>
-                      </div>
-                      <!-- ---------------------------------- -->
-                      <!-- DAY, HOUR, ROOM                    -->
-                      <!-- ---------------------------------- -->                      
-                      <div class="conflike-day-hour-room">
-                        <span id="{{ confID }}/conftime">
-                          {{ slotDay }} {{slot.hour }}
-                        </span>
-                        /
-                        <span id="{{ confID }}/confroom">
-                          {% if talk.room %} 
-                            {{ talk.room }}
-                          {%else%}
-                            {{ site.data.rooms[forloop.index0] }}
-                          {% endif %} 
-                        </span>
-                      </div>
+                      </div>                      
 
                       {% if talk.speaker %}                             
                         <!-- -------------------------- -->

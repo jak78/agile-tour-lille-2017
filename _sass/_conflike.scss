@@ -38,16 +38,22 @@
   border-style:dotted;
 }
 
-.conflike-subject {
-  font-size:1.1em; 
-  margin:1px; 
-  text-align:center;
-}
-
-.conflike-day-hour-room {
+.conflike-day-hour {
   margin:1px;
   font-size:1.3em;
-  text-align:center
+  text-align:left;
+}
+
+.conflike-room {
+  margin:1px;
+  font-size:1.3em;
+  text-align:left;
+}
+
+.conflike-subject {
+  font-size:1.3em; 
+  margin:1px; 
+  text-align:center;
 }
 
 .conflike-speaker-image {
