@@ -244,10 +244,10 @@ permalink: /conflike/
             <!-- -------------------------- -->
             <!--  DAY SLOT                  -->
             <!-- -------------------------- -->          
-            <div style="border-color:white; border-width:2px; border-style:dotted;">
-              <div id="slot-{{slot.hour }}" class="conference-slot" >
+            <div class="conflike-day-slot {% if odd_slot %} odd-left-border {% else %} even-left-border {% endif %}">
+              <div id="slot-{{slot.hour }}">
                 <div id="banner-{{ slotID }}"  style="margin:1px">
-                  <div class="conflike-hour-banner {% if odd_slot %} odd-slot {% else %} even-slot {% endif %}">
+                  <div class="conflike-day-slot-banner {% if odd_slot %} odd-slot {% else %} even-slot {% endif %}">
                    <a href="/conflike/#banner-{{ slotID }}" style="text-decoration:none">
                      {{ day.date }} - {{ slot.hour  }}
                    </a>
@@ -258,7 +258,7 @@ permalink: /conflike/
                   <!-- -------------------------- -->
                   <!--  TALK                      -->
                   <!-- -------------------------- -->
-                    <div id="{{ confID }}" class="conflike-session">
+                    <div id="{{ confID }}" class="conflike-talk">
                       {% assign slotDay = day.date| replace:'13 octobre', 'Jeudi'| replace:'14 octobre', 'Vendredi' %}
                       <!-- ---------------------------------- -->
                       <!-- DAY, HOUR, ROOM                    -->

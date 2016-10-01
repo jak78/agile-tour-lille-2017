@@ -22,14 +22,23 @@
   text-decoration:none; 
 }
 
-.conflike-hour-banner {
+.conflike-day-slot-banner {
   padding:10px;
   text-align:center;
   background-color:lightgreen;
   text-decoration:none;
 }
 
-.conflike-session {
+.conflike-day-slot {
+  border-color:black; 
+  border-width:2px; 
+  border-style:dotted;
+  border-left-width:5px;  
+  border-left-color:red;  
+  border-left-style:solid;
+}
+
+.conflike-talk {
   padding:2px; 
   margin:2px;
   background-color: white;
@@ -106,4 +115,12 @@
 
 .even-slot {
   background:lightgreen;
+}
+
+.odd-left-border {
+  border-left-color:lightblue;
+}
+
+.even-left-border {
+  border-left-color:lightgreen;
 }
