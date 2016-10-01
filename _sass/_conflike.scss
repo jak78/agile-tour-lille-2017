@@ -32,37 +32,34 @@
 }
 
 .conflike-day-banner {
+  font-size:1.5em;
   margin:1px;
   padding:10px;
-  text-align:center;
+  text-align:left;
   background-color:orange;
   text-decoration:none; 
 }
 
-.conflike-day-slot-banner {
-  display:block;
-  padding:10px;
-  text-align:left;
-  background-color:lightgreen;
-  text-decoration:none;
-  margin:1px;
-  font-size:1.5em;
-}
-
-.conflike-day-slot-area {
+.conflike-day-area {
   display:none;
   border-color:black; 
   border-width:0px; 
   border-style:dotted;
-  border-top-width:2px;   
+  border-top-width:3px;   
   border-top-style:solid;  
-  border-bottom-width:2px;   
+  border-bottom-width:3px;   
   border-bottom-style:solid;  
-  border-left-width:2px;  
+  border-left-width:3px;  
   border-left-style:solid;  
-  border-left-color:orange;
-  border-bottom-color:orange;
-  border-top-color:orange;  
+}
+
+.conflike-day-slot-banner {
+  text-align:left; 
+  font-size:1.5em;  
+  display:block;
+  padding:10px;
+  background-color:lightgreen;
+  margin:1px;
 }
 
 .conflike-day-slot {
@@ -156,6 +153,26 @@
   border-width:2px; 
   border-style:dotted; 
   display:none
+}
+
+.odd-day {
+  background:orange;
+}
+
+.even-day {
+  background:yellow;
+}
+
+.odd-day-area {
+  border-left-color:orange;
+  border-bottom-color:orange;
+  border-top-color:orange;
+}
+
+.even-day-area {
+  border-left-color:yellow;
+  border-bottom-color:yellow;
+  border-top-color:yellow;  
 }
 
 .odd-slot {

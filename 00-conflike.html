@@ -231,14 +231,17 @@ permalink: /conflike/
     </div>
   </div>
 
+  {% assign odd_day = true %}
   {% for day in site.data.schedule %}
+      {% if odd_day %} {% assign odd_day = false %} {% else %} {% assign odd_day = true %} {% endif %}
+      {% if day.date contains "13" %} {% assign day_number = false %} {% else %} {% assign odd_day = true %} {% endif %}
       <!-- -------------------------- -->
       <!--  DAY                       -->
       <!-- -------------------------- -->
-      <div id="banner-{{ day.date | replace:' ','_' }}" class="conflike-day-banner" onclick="toggleDisplay('{{ day.date | replace:' ','_' }}'); href(this.id)">
+      <div id="banner-{{ day.date | replace:' ','_' }}" class="conflike-day-banner {% if odd_day %} odd-day {% else %} even-day  {% endif %}" onclick="toggleDisplay('{{ day.date | replace:' ','_' }}'); href(this.id)">
            {{ day.date }} >>
       </div>
-      <div id="{{ day.date | replace:' ','_' }}" class="conflike-day-slot-area">
+      <div id="{{ day.date | replace:' ','_' }}" class="conflike-day-area {% if odd_day %} odd-day-area {% else %} even-day-area {% endif %}" >
         {% assign odd_slot = true %}        
         {% for part in day.schedule %}
           {% for slot in part %}
