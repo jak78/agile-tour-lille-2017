@@ -48,15 +48,13 @@
 }
 
 .conflike-day-hour {
-  margin:1px;
   font-size:1.3em;
   text-align:left;
 }
 
 .conflike-room {
-  margin:1px;
   font-size:1.3em;
-  text-align:left;
+  text-align:right;
 }
 
 .conflike-subject {
@@ -67,7 +65,7 @@
 }
 
 .conflike-speaker-image {
-  display:none;  
+  display:block;  
   text-align: center;
 }
 

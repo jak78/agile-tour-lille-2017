@@ -262,16 +262,18 @@ permalink: /conflike/
                       {% assign slotDay = day.date| replace:'13 octobre', 'Jeudi'| replace:'14 octobre', 'Vendredi' %}
                       <!-- ---------------------------------- -->
                       <!-- DAY, HOUR, ROOM                    -->
-                      <!-- ---------------------------------- -->                      
-                      <div id="{{ confID }}/conftime" class="conflike-day-hour">
-                        {{slot.hour }} ({{ slotDay }})
-                      </div>
-                      <div id="{{ confID }}/confroom" class="conflike-room">
-                        {% if talk.room %} 
-                          {{ talk.room }}
-                        {%else%}
-                          {{ site.data.rooms[forloop.index0] }}
-                        {% endif %} 
+                      <!-- ---------------------------------- -->
+                      <div class="row">
+                        <div id="{{ confID }}/conftime" class="col-xs-6 conflike-day-hour">
+                          {{slot.hour }} ({{ slotDay }})
+                        </div>
+                        <div id="{{ confID }}/confroom" class="col-xs-6 conflike-room">
+                          {% if talk.room %} 
+                            {{ talk.room }}
+                          {%else%}
+                            {{ site.data.rooms[forloop.index0] }}
+                          {% endif %} 
+                        </div>
                       </div>
                       <!-- -------------------------- -->
                       <!-- SUBJECT                    -->
