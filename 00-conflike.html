@@ -36,8 +36,8 @@ permalink: /conflike/
 <script type="text/javascript">
   function setVote(value, confID){
     document.getElementById(confID + '/vote').innerHTML=value;
-    var labels= {"-2": "Pas Super", "-1": "Moyen", "+1": "Bien", "+2": "Très bien", "0": "Pas de note pour le moment"};
-    document.getElementById(confID + '/vote/label').innerHTML='(' + labels[value] + ')';
+    var labels= {"-2": "(Pas Super)", "-1": "(Moyen)", "+1": "(Bien)", "+2": "(Très bien)", "0": "(Pas de note pour le moment)"};
+    document.getElementById(confID + '/vote/label').innerHTML=labels[value] ;
     
     // => this part has to be refactored
     // 1rst : actvice selected button
@@ -396,9 +396,11 @@ permalink: /conflike/
                           Donnez votre FeedBack >>
                         </div>
                         <div class="conflike-feedback-content" id="feedback-{{ confID }}">
-                          <span>Votre Note: </span>
-                          <span id="{{ confID }}/vote" style="visibility:visible">0</span>
+                          <div style="padding-bottom:10px">
+                          <span>Votre Note : </span>
+                          <span id="{{ confID }}/vote" style="display:none">0</span>
                           <span id="{{ confID }}/vote/label" style="visibility:visible">(Pas de note pour le moment)</span>
+                          </div>
                           <div class="btn-group btn-group-justified">
                             <div class="btn-group">
                               <button type="button" class="btn btn-primary" id="{{ confID }}/vote/not_great" onclick="setVote('-2', '{{ confID }}');save('{{ confID }}')">
