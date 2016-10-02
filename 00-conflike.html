@@ -132,6 +132,28 @@ permalink: /conflike/
     });    
   }
   
+  function showSelectedTalks(selectionMenu, dayID) { 
+    talks=document.querySelector("#"+ dayID).querySelectorAll(".conflike-talk");
+    for(var i = 0; i < talks.length; i++) {
+      var talk=talks[i];
+      var selectedTalk = talk.querySelector(".conflike-subject").querySelector("input").checked
+      if (selectionMenu.getAttribute("myselection") == "no") {
+        if (! selectedTalk) {
+          talk.style.display = "none";
+        }
+      } else {
+        talk.style.display = "block";
+      }
+    }
+    if (selectionMenu.getAttribute("myselection") == "no") {
+      selectionMenu.setAttribute("myselection", "yes");
+      selectionMenu.innerHTML = "Voir tout le programme";
+    } else {
+      selectionMenu.setAttribute("myselection", "no");
+      selectionMenu.innerHTML = "Voir ma Sélection";
+    }
+  }
+  
   function update() { //called on page load (see layout file)
     var api_id = '3gwmfohd5g'; 
     var url = 'https://'+ api_id +'.execute-api.eu-west-1.amazonaws.com/prod/ConfLike?userid=' + userID;
@@ -216,13 +238,13 @@ permalink: /conflike/
     </div>
     </br>
     <div id="userURL" style="color:blue">?</div>
-    </br>
-      En cliquant dessus dans votre email,
       vous retrouverez votre pré-sélection sur tous les appareils où vous avez accès à votre boîte.    
     </br>
     </br>
     <div>
       Remarques :
+    </br>
+      En cliquant dessus dans votre email,
       </br>
       Cette application est en version bêta
       </br>
@@ -235,18 +257,22 @@ permalink: /conflike/
   {% for day in site.data.schedule %}
       {% if odd_day %} {% assign odd_day = false %} {% else %} {% assign odd_day = true %} {% endif %}
       {% if day.date contains "13" %} {% assign day_number = false %} {% else %} {% assign odd_day = true %} {% endif %}
+      {% assign dayID = day.date | replace:' ','_' | prepend: 'x' %}
       <!-- -------------------------- -->
       <!--  DAY                       -->
       <!-- -------------------------- -->
-      <div id="banner-{{ day.date | replace:' ','_' }}" class="conflike-day-banner {% if odd_day %} odd-day {% else %} even-day  {% endif %}" onclick="toggleDisplay('{{ day.date | replace:' ','_' }}'); href(this.id)">
+      <div id="banner-{{ dayID }}" class="conflike-day-banner {% if odd_day %} odd-day {% else %} even-day  {% endif %}" onclick="toggleDisplay('{{ dayID }}'); href(this.id)">
            {{ day.date }} >>
       </div>
-      <div id="{{ day.date | replace:' ','_' }}" class="conflike-day-area {% if odd_day %} odd-day-area {% else %} even-day-area {% endif %}" >
+      <div id="{{ dayID }}" class="conflike-day-area {% if odd_day %} odd-day-area {% else %} even-day-area {% endif %}" >
+        <button class="conflike-day-filter" myselection="no" onclick="showSelectedTalks(this, '{{ dayID }}')">
+          Voir ma Sélection
+        </button>        
         {% assign odd_slot = true %}        
         {% for part in day.schedule %}
           {% for slot in part %}
             {% if odd_slot %} {% assign odd_slot = false %} {% else %} {% assign odd_slot = true %} {% endif %}
-            {% assign slotID = day.date | replace:' ','_' | append:'_' | append:slot.hour %}
+            {% assign slotID = dayID | append:'_' | append:slot.hour %}
             <!-- -------------------------- -->
             <!--  DAY SLOT                  -->
             <!-- -------------------------- -->          
