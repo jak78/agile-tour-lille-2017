@@ -39,37 +39,15 @@ permalink: /conflike/
     var labels= {"-2": "(Pas Super)", "-1": "(Moyen)", "+1": "(Bien)", "+2": "(Très bien)", "0": "(Pas de note pour le moment)"};
     document.getElementById(confID + '/vote/label').innerHTML=labels[value] ;
     
-    // => this part has to be refactored
-    // 1rst : actvice selected button
-    // 2nd : make inactive not selected buttons
-    var vote_types = ["not_great", "so_so", "good", "very_good"];
-    for (var i in vote_types) {
-      vote_type = vote_types[i];
-      class_name = document.getElementById(confID + "/vote/" + "not_great").className;
-      if (value == "-2") {
-        document.getElementById(confID + "/vote/" + "not_great").className = class_name + " active";
+    var vote_types = {"-2": "not_great", "-1": "so_so", "+1": "good", "+2": "very_good"};
+    Object.keys(vote_types).forEach(function (voteValue) {
+      class_name = document.getElementById(confID + "/vote/" + vote_types[voteValue]).className;
+      if (value == voteValue) {
+        document.getElementById(confID + "/vote/" + vote_types[voteValue]).className = class_name + " active";
       } else {
-        document.getElementById(confID + "/vote/"+ "not_great").className = class_name.replace("active","");
+        document.getElementById(confID + "/vote/"+ vote_types[voteValue]).className = class_name.replace("active","");
       }
-      class_name = document.getElementById(confID + "/vote/" + "so_so").className;
-      if (value == "-1") {
-        document.getElementById(confID + "/vote/" + "so_so").className = class_name + " active";
-      } else {
-        document.getElementById(confID + "/vote/"+ "so_so").className = class_name.replace("active","");
-      }  
-      class_name = document.getElementById(confID + "/vote/" + "good").className;
-      if (value == "+1") {
-        document.getElementById(confID + "/vote/" + "good").className = class_name + " active";
-      } else {
-        document.getElementById(confID + "/vote/"+ "good").className = class_name.replace("active","");
-      }
-      class_name = document.getElementById(confID + "/vote/" + "very_good").className;
-      if (value == "+2") {
-        document.getElementById(confID + "/vote/" + "very_good").className = class_name + " active";
-      } else {
-        document.getElementById(confID + "/vote/"+ "very_good").className = class_name.replace("active","");
-      }      
-    }
+    })
   }
   function setComment(value, confID){
     document.getElementById(confID + '/comment').value=value;
