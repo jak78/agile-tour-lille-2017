@@ -32,11 +32,43 @@
 }
 
 .conflike-day-banner {
-  font-size:1.5em;
+  font-size:2em;
   margin:1px;
-  padding:10px;
+  padding:30px;
   text-align:left;
-  text-decoration:none; 
+}
+
+.conflike-day-area {
+  display:none;
+  border-color:black; 
+  border-width:0px; 
+  border-style:dotted;
+  border-top-width:5px;   
+  border-top-style:solid;  
+  border-bottom-width:5px;   
+  border-bottom-style:solid;  
+  border-left-width:5px;  
+  border-left-style:solid;  
+}
+
+.odd-day {
+  background:khaki;
+}
+
+.odd-day-area {
+  border-left-color:khaki;
+  border-bottom-color:khaki;
+  border-top-color:khaki;
+}
+
+.even-day {
+  background:burlywood;
+}
+
+.even-day-area {
+  border-left-color:burlywood;
+  border-bottom-color:burlywood;
+  border-top-color:burlywood;  
 }
 
 .conflike-day-filter {
@@ -47,31 +79,24 @@
   color:white;
 }
 
-.conflike-day-area {
-  display:none;
-  border-color:black; 
-  border-width:0px; 
-  border-style:dotted;
-  border-top-width:3px;   
-  border-top-style:solid;  
-  border-bottom-width:3px;   
-  border-bottom-style:solid;  
-  border-left-width:3px;  
-  border-left-style:solid;  
-}
-
-
-
 .conflike-day-slot-banner {
   text-align:left; 
   font-size:1.5em;  
   display:block;
   padding:10px;
-  background-color:lightgreen;
   margin:1px;
 }
 
+.odd-slot {
+  background:lightblue;
+}
+
+.even-slot {
+  background:lightgreen;
+}
+
 .conflike-day-slot {
+  margin:1px;
   border-color:black; 
   border-width:0px; 
   border-style:dotted;
@@ -103,8 +128,15 @@
   font-size:1.5em;
   text-align:left;
   font-weight: bold;  
-  font-family:"Courier New";  
-  color:lightblue;
+  font-family:"Courier New";
+}
+
+.odd-slot-day-hour {
+  color:blue;
+}
+
+.even-slot-day-hour {
+  color:limegreen;
 }
 
 .conflike-room {
@@ -117,6 +149,11 @@
   margin:1px; 
   text-align:left;
   width:100%;
+}
+
+.conflike-speaker-name {
+  color:magenta;
+  font-size:1.5em  
 }
 
 .conflike-speaker-image {
@@ -164,41 +201,13 @@
   display:none;
 }
 
-.odd-day {
-  background:orange;
-}
 
-.even-day {
-  background:yellow;
-}
 
-.odd-day-area {
-  border-left-color:orange;
-  border-bottom-color:orange;
-  border-top-color:orange;
-}
 
-.even-day-area {
-  border-left-color:yellow;
-  border-bottom-color:yellow;
-  border-top-color:yellow;  
-}
 
-.odd-slot {
-  background:lightblue;
-}
 
-.even-slot {
-  background:lightgreen;
-}
 
-.odd-slot-day-hour {
-  color:lightblue;
-}
 
-.even-slot-day-hour {
-  color:lightgreen;
-}
 
 .odd-slot-left-border {
   border-left-color:lightblue;
