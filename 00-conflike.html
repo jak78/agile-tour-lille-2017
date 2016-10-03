@@ -134,34 +134,12 @@ permalink: /conflike/
  
     request.done(function( msg ) {
       msg = JSON.stringify(msg, null, 2);
-      if (msg != '{}' ) alert(msg);
+      if (msg != '{}' ) alert("save done with error :\n" + msg + "\n" + data);
     });
      
     request.fail(function( jqXHR, textStatus ) {
-      alert( "failed:\n" + JSON.stringify(jqXHR, null, 2));
+      alert("save failed :\n" + JSON.stringify(jqXHR, null, 2) + "\n\n" + url + "\n\n" + data);
     });    
-  }
-  
-  function showSelectedTalks(selectionMenu, dayID) { 
-    talks=document.querySelector("#"+ dayID).querySelectorAll(".conflike-talk");
-    for(var i = 0; i < talks.length; i++) {
-      var talk=talks[i];
-      var selectedTalk = talk.querySelector(".conflike-subject").querySelector("input").checked
-      if (selectionMenu.getAttribute("myselection") == "no") {
-        if (! selectedTalk) {
-          talk.style.display = "none";
-        }
-      } else {
-        talk.style.display = "block";
-      }
-    }
-    if (selectionMenu.getAttribute("myselection") == "no") {
-      selectionMenu.setAttribute("myselection", "yes");
-      selectionMenu.innerHTML = "Voir tout le programme";
-    } else {
-      selectionMenu.setAttribute("myselection", "no");
-      selectionMenu.innerHTML = "Voir ma Sélection";
-    }
   }
   
   function update() { //called on page load (see layout file)
@@ -186,9 +164,31 @@ permalink: /conflike/
     });
 
     request.fail(function( jqXHR, textStatus ) {
-      alert( "failed:\n" + JSON.stringify(jqXHR, null, 2));
+      alert("update failed :\n" + JSON.stringify(jqXHR, null, 2) + "\n\n" + url + "\n\n");
     });  
   }
+  
+  function showSelectedTalks(selectionMenu, dayID) { 
+    talks=document.querySelector("#"+ dayID).querySelectorAll(".conflike-talk");
+    for(var i = 0; i < talks.length; i++) {
+      var talk=talks[i];
+      var selectedTalk = talk.querySelector(".conflike-subject").querySelector("input").checked
+      if (selectionMenu.getAttribute("myselection") == "no") {
+        if (! selectedTalk) {
+          talk.style.display = "none";
+        }
+      } else {
+        talk.style.display = "block";
+      }
+    }
+    if (selectionMenu.getAttribute("myselection") == "no") {
+      selectionMenu.setAttribute("myselection", "yes");
+      selectionMenu.innerHTML = "Voir tout le programme";
+    } else {
+      selectionMenu.setAttribute("myselection", "no");
+      selectionMenu.innerHTML = "Voir ma Sélection";
+    }
+  }  
 </script>
 
 <script type="text/javascript">
