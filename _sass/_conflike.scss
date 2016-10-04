@@ -25,10 +25,15 @@
 
 .conflike-introduction {
   padding:3%; 
-  text-align: left; 
   border-width:2px; 
   border-color:black; 
   border-style:dotted
+}
+
+.conflike-introduction-content {
+  padding:3%; 
+  text-align: justify; 
+  font-size:1.4em;
 }
 
 .conflike-day-banner {
