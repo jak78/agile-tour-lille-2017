@@ -142,6 +142,10 @@ permalink: /conflike/
     });    
   }
   
+  function logConnexion() {
+    save('00');
+  }
+  
   function update() { //called on page load (see layout file)
     var api_id = '3gwmfohd5g'; 
     var url = 'https://'+ api_id +'.execute-api.eu-west-1.amazonaws.com/prod/ConfLike?userid=' + userID;
@@ -262,6 +266,22 @@ permalink: /conflike/
       </br>
     </div>
   </div>
+  
+  <!-- -------------------------- -->
+  <!-- connection information     -->
+  <!-- Avoid having another table -->
+  <!-- or another save function   -->
+  <!-- -------------------------- -->
+  <div style="display:none">
+    <input type="checkbox" id='00/check'>
+    <div id='00/vote'>0</div>
+    <textarea id='00/comment'></textarea>
+    <div id='00/confname'>Lattest connecion</div>
+    <div id='00/conftime'></div>
+    <div id='00/confroom'></div>
+    <div id='00/confspeakers'></div>
+  </div>
+
 
   {% assign odd_day = true %}
   {% for day in site.data.schedule %}
