@@ -317,7 +317,9 @@ permalink: /conflike/
                       <!-- SUBJECT                    -->
                       <!-- -------------------------- -->  
                       <label id="{{ confID }}/checklabel" class="conflike-subject">
+                        {% unless '04 22 42 01 02 15 19 20 33' contains confID %}
                         <input type="checkbox" id="{{ confID }}/check" onchange="toggleCheckLabelColor('{{ confID }}'); save('{{ confID }}')"> 
+                        {% endunless %}
                         <span id="{{ confID }}/confname">{{ talk.subject }}{{ talk.label }}</span>
                       </label>
 
@@ -368,7 +370,8 @@ permalink: /conflike/
                       {% endif %}                             
                       <!-- -------------------------- -->
                       <!-- FEEDBACK                   -->
-                      <!-- -------------------------- -->                          
+                      <!-- -------------------------- -->  
+                      {% unless '04 22 42' contains confID %}
                       <div class="conflike-feedback">
                         <div class="conflike-feedback-banner" onclick="toggleDisplay('feedback-{{ confID }}')">
                           Donnez votre FeedBack >>
@@ -409,6 +412,7 @@ permalink: /conflike/
                           </div>
                         </div>
                       </div>
+                      {% endunless %}
                     </div>
                 {% endfor %}
               </div>
