@@ -34,3 +34,9 @@ gold:
  - name: Proxiad
    url: http://www.proxiad.fr
    logo: logo_proxiad.jpeg
+ - name: CGI
+   url: http://www.cgi.fr
+   logo: logo_cgi.jpg
+ - name: Davidson
+   url: http://www.davidson.fr
+   logo: logo_davidson.png

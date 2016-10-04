@@ -71,7 +71,11 @@
   bio: " Basile est Coach Agile, il accompagne les entreprises dans les transformations Agile depuis plus de 6 ans. Sa vision de l’Agilité est pragmatique et orientée vers l’atteinte d’objectifs. Adepte de la conduite du changement il sait accompagner les organisations dans la découverte d’une Agilité pérenne, efficace et adaptée à leur contexte. De par son expérience dans le management d’équipes et la technique, il sait accompagner avec pertinence et crédibilité les managers d’équipes Agile. Ses expériences récentes sur des projets d’envergure (+60 personnes) lui ont permis d’éprouver avec succès sa pratique de l’Agilité à l’échelle. Basile est un speaker reconnu de la communauté Agile (Lean Kanban France, Kanban Day, French Kanban UG, Meetup Agile Change Management), ses conférences sont pour lui des occasions de partage et d’apprentissage autour des pratiques Agile et des retours d’expériences."
   photo: " https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAdrAAAAJGMxYjdkYjRiLTA0OWUtNGM4YS04N2Q1LWNiYjcwOWZiMzIzMw.jpg "
 - name: Stephane Thanasack
-  bio: " Maintenant Scrum Master, Coach Agile"
+  bio: "Il aura fallu un peu moins de 10 ans d'expériences en projet de type cycle V, pour que j'évolue enfin vers des projets Agile.
+Cette mutation se fera au sein d'un programme d'envergure ( 150 personnes) en pleine transformation agile, en distribué et en mode Scrum of Scrum.
+Grâce à la valeur de mes expériences précédentes, ainsi que de ma certification PSM fraîchement acquise, j'ai pu faciliter le quotidien de plusieurs équipes à maturité variable.
+Désormais Coach Agile, mon travail consiste à accompagner les Scrum Masters et Teams dans leur quotidien ainsi que le pilotage dans leurs interactions avec les équipes.
+Par ailleurs fondateur et organiseur du Club Agile Lille et de son meet up associé, je suis un fier membre de <a href='http://www.happymelly.com/members/#/392' target='_blank'>'Happy Melly'</a>"
   photo: "/img/speakers/stphtsk.jpeg"
 - name: Cédric Pourbaix
   bio: "Consultant expérimenté, Cédric possède une grande capacité à se concentrer sur l’essentiel : ce qui a le plus de valeur ajoutée pour le client final. Spécialiste des approches agiles, c’est un animateur efficace de réunions et un grand facilitateur dans la prise de décisions des projets complexes. Adepte de KISS (Keep it simple, stupid !), il manie l’art de la métaphore pour simplifier ce qui est complexe et excelle dans la traduction des besoins en scénarios."
@@ -113,11 +117,11 @@
   bio: " chef de projet test chez Axa"
   photo: "/img/speakers/female200.png"
 - name: Cyrille Martraire
-  bio: "Depuis 1999 Cyrille développe des logiciels avec passion dans des startups et banques, et est co-fondateur et directeur technique d'Arolla, une société spécialisée en développement logiciel. 
-  Toujours accro au développement, il consacre une grande partie de son énergie chez des clients dans la finance de marché, en coaching, training ou en prenant intégralement en charge des projets en équipe, 
+  bio: "Depuis 1999 Cyrille développe des logiciels avec passion dans des startups et banques, et est co-fondateur et directeur technique d'Arolla, une société spécialisée en développement logiciel.
+  Toujours accro au développement, il consacre une grande partie de son énergie chez des clients dans la finance de marché, en coaching, training ou en prenant intégralement en charge des projets en équipe,
   les mains dans le code et avec une forte implication dans l'analyse métier.
   </br>
-  Passionné de design sous tous ses aspects (Clean Code, TDD, BDD, DDD, architecture), il a aussi fondé la communauté Software Craftsmanship Paris."  
+  Passionné de design sous tous ses aspects (Clean Code, TDD, BDD, DDD, architecture), il a aussi fondé la communauté Software Craftsmanship Paris."
   photo: "/img/speakers/cyrille-martraire.jpg"
 - name: Euratechnologies
   bio: ""
