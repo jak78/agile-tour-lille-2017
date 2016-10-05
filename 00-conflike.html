@@ -34,6 +34,7 @@ permalink: /conflike/
 </script>
 
 <script type="text/javascript">
+  // SET Functions
   function setVote(value, confID){
     document.getElementById(confID + '/vote').innerHTML=value;
     var labels= {"-2": "(Pas Super)", "-1": "(Moyen)", "+1": "(Bien)", "+2": "(Très bien)", "0": "(Pas de note pour le moment)"};
@@ -54,7 +55,9 @@ permalink: /conflike/
   }  
   function setCheckStatus(value, confID) {
     document.getElementById(confID + '/check').checked = value;
-  }  
+  } 
+  
+  // GET Functions
   function getVote(confID) {
     var vote = document.getElementById(confID + '/vote').innerHTML;
     return vote;
@@ -142,8 +145,36 @@ permalink: /conflike/
     });    
   }
   
-  function logConnexion() {
-    save('00');
+  function logConnexion() { //called on page load (see layout file)
+    var api_id = '3gwmfohd5g';
+    var url = 'https://'+ api_id +'.execute-api.eu-west-1.amazonaws.com/prod/ConfLike?userid=' + userID;
+    var data = '{ "TimeStamp" : { "S": "' + getTimeStamp() + '" }, \
+      "UserID"  : { "S": "' + userID + '" }, \
+      "ConfID"  : { "S": "LOG" }, \
+      "ConfTime": { "S": "-" }, \
+      "ConfRoom": { "S": "-" }, \
+      "ConfName": { "S": "Lattest Logging" }, \
+      "ConfSpeakers": { "S": "-" }, \
+      "Vote"    : { "S": "-"}, \
+      "Comment" : { "S": "-"}, \
+      "Checked" : { "BOOL": false \
+    }}';
+
+    var request = $.ajax({
+      url: url,
+      method: "POST",
+      contentType: "application/json",  
+      data: data
+    });
+ 
+    request.done(function( msg ) {
+      msg = JSON.stringify(msg, null, 2);
+      if (msg != '{}' ) alert("save done with error :\n" + msg + "\n" + data);
+    });
+     
+    request.fail(function( jqXHR, textStatus ) {
+      alert("save failed :\n" + JSON.stringify(jqXHR, null, 2) + "\n\n" + url + "\n\n" + data);
+    });
   }
   
   function update() { //called on page load (see layout file)
@@ -159,6 +190,7 @@ permalink: /conflike/
       var items = response.Items;
       for(var i = 0; i < items.length; i++) {
         var item=items[i];
+        if (item.ConfID.S == 'LOG') { continue; }  // do not update latest connection (I should create another table for this, to do later)     
         var confID=item.ConfID.S;
         setVote(item.Vote.S, confID);
         setComment(item.Comment.S, confID);
@@ -190,7 +222,7 @@ permalink: /conflike/
       selectionMenu.innerHTML = "Voir tout le programme";
     } else {
       selectionMenu.setAttribute("myselection", "no");
-      selectionMenu.innerHTML = "Voir ma Sélection";
+      selectionMenu.innerHTML = "Voir mes Sélections";
     }
   }  
 </script>
@@ -262,21 +294,6 @@ permalink: /conflike/
       </div>
     </div>
   </div>
-  
-  <!-- -------------------------- -->
-  <!-- connection information     -->
-  <!-- Avoid having another table -->
-  <!-- or another save function   -->
-  <!-- -------------------------- -->
-  <div style="display:none">
-    <input type="checkbox" id='00/check'>
-    <div id='00/vote'>0</div>
-    <textarea id='00/comment'></textarea>
-    <div id='00/confname'>Lattest connecion</div>
-    <div id='00/conftime'></div>
-    <div id='00/confroom'></div>
-    <div id='00/confspeakers'></div>
-  </div>
 
 
   {% assign odd_day = true %}
@@ -292,7 +309,7 @@ permalink: /conflike/
       </div>
       <div id="{{ dayID }}" class="conflike-day-area {% if odd_day %} odd-day-area {% else %} even-day-area {% endif %}" >
         <button class="conflike-day-filter" myselection="no" onclick="showSelectedTalks(this, '{{ dayID }}')">
-          Voir ma Sélection
+          Voir mes Sélections
         </button>        
         {% assign odd_slot = true %}        
         {% for part in day.schedule %}
@@ -333,9 +350,8 @@ permalink: /conflike/
                       <!-- SUBJECT                    -->
                       <!-- -------------------------- -->  
                       <label id="{{ confID }}/checklabel" class="conflike-subject">
-                        {% unless '04 22 42 01 02 15 19 20 33' contains confID %}
-                        <input type="checkbox" id="{{ confID }}/check" onchange="toggleCheckLabelColor('{{ confID }}'); save('{{ confID }}')"> 
-                        {% endunless %}
+                        {% assign nonSelectableSessions = '04 22 42 01 02 15 19 20 33' %}
+                        <input type="checkbox" {% if nonSelectableSessions contains confID %} style="display:none" {% endif %} id="{{ confID }}/check" onchange="toggleCheckLabelColor('{{ confID }}'); save('{{ confID }}')"> 
                         <span id="{{ confID }}/confname">{{ talk.subject }}{{ talk.label }}</span>
                       </label>
 
@@ -386,8 +402,9 @@ permalink: /conflike/
                       {% endif %}                             
                       <!-- -------------------------- -->
                       <!-- FEEDBACK                   -->
-                      <!-- -------------------------- -->  
-                      {% unless '04 22 42' contains confID %}
+                      <!-- -------------------------- -->
+                      {% assign nonFeedbackableSessions = '04 22 42' %}
+                      {% unless nonFeedbackableSessions contains confID %}
                       <div class="conflike-feedback">
                         <div class="conflike-feedback-banner" onclick="toggleDisplay('feedback-{{ confID }}')">
                           Donnez votre FeedBack >>
