@@ -21,7 +21,7 @@
   photo: "/img/speakers/Laurent-Delvaux.jpg"
 - name: François Xavier VENDE
   bio: " François Xavier est architecte OPS chez OCTO Technology. Il a eu l’occasion de développer une expertise sur les sujets d’intégration logiciel, de mettre en place des plateformes d’intégration continue et d’être le lien entre les équipes de développement et les équipes d’exploitation avec un objectif : « automatiser pour pouvoir livrer le produit aussi souvent que possible ». Il intervient en tant que coach « DevOps » et/ou architecte technique au sein de projets agiles."
-  photo: " http://bit.ly/29U1Tvd "
+  photo: "/img/speakers/CINE7297.jpg"
 - name: Mathieu Herbert
   bio: "Mathieu est architecte Cloud chez OCTO Technology. Il a développé des compétences autour de l’intégration des systèmes Cloud et de l’automatisation. Il intervient pour accompagner des équipes dans la migration de leurs actifs sur des infrastructures cloud (Public / Privé) en agile."
   photo: "/img/speakers/mhe_photo.jpg"
@@ -109,10 +109,10 @@ Par ailleurs fondateur et organiseur du Club Agile Lille et de son meet up assoc
   photo: "/img/speakers/ClD9drqXEAAUdMD.jpg "
 - name: Dragos Dreptate
   bio: " Agile & Lean Coach, Organisational Change Alchemist"
-  photo: " https://pbs.twimg.com/media/ClD9drqXEAAUdMD.jpg"
+  photo: "/img/speakers/ClD9drqXEAAUdMD.jpg"
 - name: Geraldine Legris
   bio: " Coach Agile"
-  photo: " https://pbs.twimg.com/media/ClD9drqXEAAUdMD.jpg"
+  photo: "/img/speakers/ClD9drqXEAAUdMD.jpg"
 - name: Nawel GHIAR
   bio: " chef de projet test chez Axa"
   photo: "/img/speakers/female200.png"
