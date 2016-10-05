@@ -42,6 +42,18 @@
   .company::after {
     content: ']';
   }
+  
+  .schedule-cell {
+    position: relative;
+    padding-bottom: 30px;
+  }
+  .level {
+    position: absolute;
+    bottom: 0;
+    left:   0;
+    padding: 5px;
+    font-size: 0.9em;
+  }
 
   th.hour {
     border-top: none !important;
