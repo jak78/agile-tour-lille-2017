@@ -226,11 +226,26 @@
             description: ???
             level: 0
             conf_id: '25'
-          - subject: Qui a volé l'orange ?
-            description: "La culture dominante de gestion de projet s’appuie notamment sur des engagements pris, de la contractualisation, les contrôles qui aboutissent souvent à la recherche d’un fautif en cas de problème. Ce modèle est-il le seul ? Est-il le plus efficient ? A l’issue de cette présentation vous aurez une grille de lecture très simple à mettre en œuvre mais très puissante afin d’améliorer le fonctionnement de votre organisation."
-            speaker: Frédéric Leguédois
-            level: 0
-            conf_id: '26'
+          - subject: "Industrialiser le pilotage d'un projet agile"
+            description: "Responsable d'un projet stratégique de la DSI SNCF Réseau réalisé en mode agile depuis 4 ans (en 2016 : 3,6 M€, 40 personnes, 3 features team), je ferais un retour d'expérience sur notre organisation et le pilotage : quels indicateurs, quel mode de fonctionnement, comment arbitrer la commande selon son plan de charge et son budget, avoir recours à des centres de service, TMA, TRA,..
+                        La séance sera principalement axé sur l'industrialisation du fonctionnement du projet et les pratiques utilisées; SCRUM, kanban, Visual Management, Lissage de plan de charge,... L'objectif est de s'appuyer sur des exemples concrets qui pourront servir à l'audience.
+                        </br>
+                        Thèmes abordés :
+                        </br>
+                        - Emergence du besoin et mieux préparer la phase de conception
+                        </br>
+                        - Pilotage de plan de charge et gestion de la commande client
+                        </br>
+                        - Fonctionnement en mode chaine de production
+                        </br>
+                        - Animation d'équipes fonctionnelles
+                        </br>
+                        - Indicateurs et engagement de vélocité (centre de service)
+                        </br>
+                        - Collaboration et délégation"
+            speaker: Olivier Durnez
+            level: 2
+            conf_id: '32'
           - subject: Samouraï Pizza Game
             description: "Comment allier assurance qualité et agilité? A quel moment doivent intervenir les testeurs pour garantir un fonctionnement agile ainsi que le respect des attendus fonctionnels et qualitatifs? Autour de pizzas, possiblement déguisés en samouraïs (pas la sauce), nos deux intervenants vous montrerons, par un jeu agile, qu'il est important de bien appréhender le sujet du test et que testeurs et programmeurs ne sont pas des frères ennemis.
                         Attention, rencontre avec des pandas possible."
@@ -271,26 +286,11 @@
             speaker: Bruno Boucard, Thomas Pierrain
             level: 0
             conf_id: '31'
-          - subject: "Industrialiser le pilotage d'un projet agile"
-            description: "Responsable d'un projet stratégique de la DSI SNCF Réseau réalisé en mode agile depuis 4 ans (en 2016 : 3,6 M€, 40 personnes, 3 features team), je ferais un retour d'expérience sur notre organisation et le pilotage : quels indicateurs, quel mode de fonctionnement, comment arbitrer la commande selon son plan de charge et son budget, avoir recours à des centres de service, TMA, TRA,..
-                        La séance sera principalement axé sur l'industrialisation du fonctionnement du projet et les pratiques utilisées; SCRUM, kanban, Visual Management, Lissage de plan de charge,... L'objectif est de s'appuyer sur des exemples concrets qui pourront servir à l'audience.
-                        </br>
-                        Thèmes abordés :
-                        </br>
-                        - Emergence du besoin et mieux préparer la phase de conception
-                        </br>
-                        - Pilotage de plan de charge et gestion de la commande client
-                        </br>
-                        - Fonctionnement en mode chaine de production
-                        </br>
-                        - Animation d'équipes fonctionnelles
-                        </br>
-                        - Indicateurs et engagement de vélocité (centre de service)
-                        </br>
-                        - Collaboration et délégation"
-            speaker: Olivier Durnez
-            level: 2
-            conf_id: '32'
+          - subject: Qui a volé l'orange ?
+            description: "La culture dominante de gestion de projet s’appuie notamment sur des engagements pris, de la contractualisation, les contrôles qui aboutissent souvent à la recherche d’un fautif en cas de problème. Ce modèle est-il le seul ? Est-il le plus efficient ? A l’issue de cette présentation vous aurez une grille de lecture très simple à mettre en œuvre mais très puissante afin d’améliorer le fonctionnement de votre organisation."
+            speaker: Frédéric Leguédois
+            level: 0
+            conf_id: '26'
       - hour: 12h30
         special: 1
         content:
