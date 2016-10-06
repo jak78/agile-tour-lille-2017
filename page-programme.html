@@ -30,9 +30,10 @@ permalink: /programme/
               {% for talk in slot.content %}
               <td
                 {% if talk.duration %} rowspan="2"{% endif %}
-                class="schedule-cell {% if talk.highlight %} highlight{% endif %}{% if talk.hide-on-home %} dim{% endif %}{% if talk.bigheight %} big-height {% endif %}"
+                class="{% if talk.highlight %} highlight{% endif %}{% if talk.hide-on-home %} dim{% endif %}{% if talk.bigheight %} big-height {% endif %}"
                 {% if talk.fill %} colspan="{{ talk.fill }}"{% endif %}
                 >
+                <div class="schedule-cell">
                   {% if talk.bring_your_pc %}
                   <p class="picto"><i class="fa fa-laptop"></i></p>
                   {% endif %}
@@ -63,6 +64,7 @@ permalink: /programme/
                     <span class="bg-warning">Expérimenté</span>
                     {% endif %}
                   </div>
+                </div>
               </td>
               {% endfor %}
           </tr>
