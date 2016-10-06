@@ -148,7 +148,7 @@
       - hour: 14h00
         special: 1
         content:
-        - label: Préparation forum ouvert
+        - label: Lancement du forum ouvert
           fill: 7
           conf_id: '16'
       - hour: 15h00

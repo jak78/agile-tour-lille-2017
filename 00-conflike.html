@@ -359,7 +359,7 @@ permalink: /conflike/
                       <!-- SUBJECT                    -->
                       <!-- -------------------------- -->  
                       <label id="{{ confID }}/checklabel" class="conflike-subject">
-                        {% assign nonSelectableSessions = '04 22 42 01 02 15 19 20 33' %}
+                        {% assign nonSelectableSessions = '01 02 04 22 42 15 16 18 19 20 33 53' %}
                         <input type="checkbox" class="conflike-subject-checkbox" {% if nonSelectableSessions contains confID %} style="display:none" {% endif %} id="{{ confID }}/check" onchange="toggleCheckLabelColor('{{ confID }}'); save('{{ confID }}')"> 
                         <span style="margin-left:10px" id="{{ confID }}/confname">{{ talk.subject }}{{ talk.label }}</span>
                       </label>
