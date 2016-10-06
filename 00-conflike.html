@@ -137,11 +137,15 @@ permalink: /conflike/
  
     request.done(function( msg ) {
       msg = JSON.stringify(msg, null, 2);
-      if (msg != '{}' ) alert("save done with error :\n" + msg + "\n" + data);
+      if (msg != '{}' ) {
+        // alert("save done with error :\n" + msg + "\n" + data);
+        alert("(SE)\nL'application n'est pas encore prête pour les coupures réseau, si vous êtes dans le train, le métro, ... vous aurez certainement ce message. \n\nPréférez un lieu où le réseau est stable");
+      }
     });
      
     request.fail(function( jqXHR, textStatus ) {
-      alert("save failed :\n" + JSON.stringify(jqXHR, null, 2) + "\n\n" + url + "\n\n" + data);
+      // alert("save failed :\n" + JSON.stringify(jqXHR, null, 2) + "\n\n" + url + "\n\n" + data);
+      alert("(S)\nL'application n'est pas encore prête pour les coupures réseau, si vous êtes dans le train, le métro, ... vous aurez certainement ce message. \n\nPréférez un lieu où le réseau est stable");
     });    
   }
   
@@ -169,11 +173,15 @@ permalink: /conflike/
  
     request.done(function( msg ) {
       msg = JSON.stringify(msg, null, 2);
-      if (msg != '{}' ) alert("save done with error :\n" + msg + "\n" + data);
+      if (msg != '{}' ) {
+        // alert("save done with error :\n" + msg + "\n" + data);
+        alert("(LE)\nL'application n'est pas encore prête pour les coupures réseau, si vous êtes dans le train, le métro, ... vous aurez certainement ce message. \n\nPréférez un lieu où le réseau est stable");
+      }
     });
      
     request.fail(function( jqXHR, textStatus ) {
-      alert("save failed :\n" + JSON.stringify(jqXHR, null, 2) + "\n\n" + url + "\n\n" + data);
+      // alert("save failed :\n" + JSON.stringify(jqXHR, null, 2) + "\n\n" + url + "\n\n" + data);
+      alert("(L)\nL'application n'est pas encore prête pour les coupures réseau, si vous êtes dans le train, le métro, ... vous aurez certainement ce message. \n\nPréférez un lieu où le réseau est stable");
     });
   }
   
@@ -200,7 +208,8 @@ permalink: /conflike/
     });
 
     request.fail(function( jqXHR, textStatus ) {
-      alert("update failed :\n" + JSON.stringify(jqXHR, null, 2) + "\n\n" + url + "\n\n");
+      // alert("update failed :\n" + JSON.stringify(jqXHR, null, 2) + "\n\n" + url + "\n\n");
+      alert("(U)\nL'application n'est pas encore prête pour les coupures réseau, si vous êtes dans le train, le métro, ... vous aurez certainement ce message. \n\nPréférez un lieu où le réseau est stable");
     });  
   }
   
@@ -267,7 +276,7 @@ permalink: /conflike/
   <!-- -------------------------- -->
   <div class="conflike-introduction">
     <div class="conflike-introduction-content">
-      Cette application est en version bêta. Elle est aussi totalement anonyme.
+      Cette application est en <b>version bêta</b>. Elle est aussi totalement anonyme.
       </br>
       </br>
       Elle vous servira : 
