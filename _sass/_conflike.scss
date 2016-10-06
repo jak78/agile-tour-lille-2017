@@ -27,7 +27,8 @@
   padding:3%; 
   border-width:2px; 
   border-color:black; 
-  border-style:dotted
+  border-style:dotted;
+  border-radius: 16px;
 }
 
 .conflike-introduction-content {
@@ -41,10 +42,13 @@
   margin:1px;
   padding:30px;
   text-align:left;
+  border-radius: 16px;  
 }
 
 .conflike-day-area {
   display:none;
+  margin-top:5px;
+  margin-bottom:5px;  
   border-color:black; 
   border-width:0px; 
   border-style:dotted;
@@ -54,26 +58,27 @@
   border-bottom-style:solid;  
   border-left-width:5px;  
   border-left-style:solid;  
+  border-radius: 16px;   
 }
 
 .odd-day {
-  background:khaki;
+  background:plum;
 }
 
 .odd-day-area {
-  border-left-color:khaki;
-  border-bottom-color:khaki;
-  border-top-color:khaki;
+  border-left-color:plum;
+  border-bottom-color:plum;
+  border-top-color:plum;
 }
 
 .even-day {
-  background:burlywood;
+  background:gold;
 }
 
 .even-day-area {
-  border-left-color:burlywood;
-  border-bottom-color:burlywood;
-  border-top-color:burlywood;  
+  border-left-color:gold;
+  border-bottom-color:gold;
+  border-top-color:gold;  
 }
 
 .conflike-day-filter {
@@ -82,14 +87,16 @@
   padding:10px;  
   background-color:black;
   color:white;
+  border-radius: 16px;  
 }
 
 .conflike-day-slot-banner {
   text-align:left; 
   font-size:1.5em;  
   display:block;
-  padding:10px;
+  padding:5px;
   margin:1px;
+  border-radius: 16px;  
 }
 
 .odd-slot {
@@ -101,7 +108,8 @@
 }
 
 .conflike-day-slot {
-  margin:1px;
+  margin-left:5px;
+  margin-top:10px;
   border-color:black; 
   border-width:0px; 
   border-style:dotted;
@@ -111,6 +119,7 @@
   border-bottom-style:solid;  
   border-left-width:5px;  
   border-left-style:solid;
+  border-radius: 16px;  
 }
 
 .conflike-talk {
@@ -127,6 +136,8 @@
   border-bottom-style:dotted;  
   border-bottom-color:black;
   display:block;
+  border-radius:16px;
+  border-radius:16px;  
 }
 
 .conflike-day-hour {
@@ -145,14 +156,14 @@
 }
 
 .conflike-room {
-  font-size:1.3em;
+  font-size:1.5em;
   text-align:right;
 }
 
 .conflike-subject {
   font-size:1.5em; 
   margin:1px; 
-  text-align:left;
+  text-align:center;
   width:100%;
 }
 
@@ -174,13 +185,15 @@
 .conflike-description {
   display:block;  
   margin:1px;
+  font-size:1.3em;
 }
 
 .conflike-description-banner {
   text-align:center;
   background-color:lightgrey;
-  padding:10px;
-  font-size:1.3em;
+  padding:5px;
+  font-size:1.4em;
+  border-radius:16px;  
 }
 
 .conflike-description-text {
@@ -192,7 +205,7 @@
 }
 
 .conflike-feedback {
-  display:block;  
+  display:none;  
   margin:1px;
 }
 
@@ -200,7 +213,8 @@
   text-align:center;
   background-color:lightgrey;
   padding:10px;
-  font-size:1.3em;  
+  font-size:1.5em;
+  border-radius:16px;  
 }
 
 .conflike-feedback-content {
