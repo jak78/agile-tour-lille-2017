@@ -238,7 +238,7 @@
             duration: 2
             level: 0
             conf_id: '27'
-          - subject: Build your retro
+          - subject: Évitez la lassitude, créez vos propres formats de rétrospective
             description: "La rétrospective est considérée par la plupart des agilistes comme LE rituel incontournable, le moteur de l'amélioration continue. Mais en l'exécutant toujours de manière identique ou presque, la lassitude peut vite s'installer et l'efficacité diminuer. En repartant des bases et des étapes clés d'une rétro efficace, cet atelier vous permettra de vous exercer à composer un plan de rétrospective original à partir d'une palette d'activités."
             speaker: Alban Dalle
             company: OCTO
