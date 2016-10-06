@@ -452,7 +452,7 @@
             description: "Décathlon a lancé en 2015 le programme « CUBE » de transformation omnicanal sur ces 20 pays.
                         En terme d’organisation, les challenges de ce programme sont de faire collaborer les 200 acteurs métiers et informatiques,  et de livrer et déployer régulièrement les versions successives de ce nouveau système d’information omnicanal.
                         Nous proposons donc un retour d'expérience sur notre passage de scrum à nexus+ pour encore renforcer notre agilité à cette échelle."
-            speaker: David Vandersarren, Stéphanie Tallon, Thomas Charle
+            speaker: David Vandersarren, Benoit Jaillet
             level: 0
             conf_id: '49'
           - subject: "Activités de tests dans les projets agiles chez AXA"
