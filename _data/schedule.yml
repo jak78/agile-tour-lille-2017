@@ -221,11 +221,13 @@
             description: Quel rôle pour le développeur, le concepteur ou encore l’architecte dans un environnement “Agile” ? Sont-ils tous encore nécessaires ? Peut-être pas. Ce qui est sûr ce que ces rôles doivent évoluer. Et c'est en nous appuyant sur les textes fondateurs de Jack Reeves et Martin Fowler ainsi que des modèles d’organisation comme celui d’Amazon ou Spotify que nous allons essayer de comprendre cette évolution et en expliquer les raisons.
             speaker: Olivier Lemaitre
             level: 0
-            conf_id: '24'            
-          - subject: Créer une startup
-            description: ???
+            conf_id: '24'  
+          - subject: "Legacy Club"
+            description: "Code non maintenable, bugs à répétition, corrections chronophages, moral dans les chaussettes... Pas étonnant que la plupart d’entre nous préfèrent travailler sur des projets où tout est à (re)construire (Greenfield) plutôt que sur du code Legacy (Brownfield). Il faut dire que le Legacy sur lequel on a perdu le contrôle est plus que pénible. C’est épuisant, voire décourageant.
+            Et si nous nous trompions ? Et si – munis de quelques techniques de refactoring et de communication- nous pouvions inverser les choses et reprendre le contrôle… Le temps d’une session avec des bouts de live-coding, venez découvrir les trucs et astuces des gens qui préfèrent reprendre le contrôle plutôt que de subir. Voir qui préfèrent les opportunités cachées du Legacy aux pages blanches des projets Greenfield. Vous aussi, rejoignez le Legacy Club !"
+            speaker: Bruno Boucard, Thomas Pierrain
             level: 0
-            conf_id: '25'
+            conf_id: '31'            
           - subject: Qui a volé l'orange ?
             description: "La culture dominante de gestion de projet s’appuie notamment sur des engagements pris, de la contractualisation, les contrôles qui aboutissent souvent à la recherche d’un fautif en cas de problème. Ce modèle est-il le seul ? Est-il le plus efficient ? A l’issue de cette présentation vous aurez une grille de lecture très simple à mettre en œuvre mais très puissante afin d’améliorer le fonctionnement de votre organisation."
             speaker: Frédéric Leguédois
@@ -285,12 +287,10 @@
             speaker: Samuel Retiere
             level: 2
             conf_id: '29'
-          - subject: "Legacy Club"
-            description: "Code non maintenable, bugs à répétition, corrections chronophages, moral dans les chaussettes... Pas étonnant que la plupart d’entre nous préfèrent travailler sur des projets où tout est à (re)construire (Greenfield) plutôt que sur du code Legacy (Brownfield). Il faut dire que le Legacy sur lequel on a perdu le contrôle est plus que pénible. C’est épuisant, voire décourageant.
-            Et si nous nous trompions ? Et si – munis de quelques techniques de refactoring et de communication- nous pouvions inverser les choses et reprendre le contrôle… Le temps d’une session avec des bouts de live-coding, venez découvrir les trucs et astuces des gens qui préfèrent reprendre le contrôle plutôt que de subir. Voir qui préfèrent les opportunités cachées du Legacy aux pages blanches des projets Greenfield. Vous aussi, rejoignez le Legacy Club !"
-            speaker: Bruno Boucard, Thomas Pierrain
+          - subject: Créer une startup
+            description: ???
             level: 0
-            conf_id: '31'
+            conf_id: '25'            
       - hour: 12h30
         special: 1
         content:
