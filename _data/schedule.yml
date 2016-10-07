@@ -417,7 +417,7 @@
             conf_id: '51'
           - subject: "User research game : learn how to validate your hypothesis !"
             description: "Je vous propose d’apprendre à reconnaître les hypothèses sur lesquelles une idée de produit se base lors de cet atelier. Souvent elles paraissent tellement évidentes qu’on oublie qu’elles sont là ! Chaque équipe aura son idée produit concurrente, elle devra trouver quelles sont les hypothèses sur lesquelles son produit se base, et comment elle peut les valider (ou les invalider) au plus vite."
-            speaker: Claire Morin
+            speaker: Claire Morin, Nicolas Vérité
             level: 0
             duration: 2
             conf_id: '47'
