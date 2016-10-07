@@ -49,6 +49,13 @@
             company: EFIDEV
             level: 0
             conf_id: '05'
+          - subject: "5 ans pour passer du Cycle en V aux Feature Teams."
+            description: "Dans ce talk nous vous raconterons comment nous transformons 2000 personnes, comment nos département deviennent des tribus, comment nous arrêtons de parler de projets pour parler de produits et comment nous (re)découvrons nos utilisateurs.
+                          #RH #organisation #rôles #agile #FeatureTeams #users #budget #Scrumban"
+            speaker: Djim BA, Mehdi BALZA
+            company: AXA
+            level: 0
+            conf_id: '07'            
           - subject: Un logiciel qui fonctionne est un logiciel que l'utilisateur a plaisir à utiliser.
             description: "Avez vous déjà observé un utilisateur employer votre application dans son quotidien ?
                          L’imaginez vous en faire une démonstration devant d’autres ? L’imaginez vous devenir l’ambassadeur de votre logiciel ?
@@ -63,13 +70,6 @@
             level: 0
             company: OCTO
             conf_id: '06'
-          - subject: "5 ans pour passer du Cycle en V aux Feature Teams."
-            description: "Dans ce talk nous vous raconterons comment nous transformons 2000 personnes, comment nos département deviennent des tribus, comment nous arrêtons de parler de projets pour parler de produits et comment nous (re)découvrons nos utilisateurs.
-                          #RH #organisation #rôles #agile #FeatureTeams #users #budget #Scrumban"
-            speaker: Djim BA, Mehdi BALZA
-            company: AXA
-            level: 0
-            conf_id: '07'
           - subject: "Transformation d'un programme en Agile Distribué : : lessons learned !"
             description: "Le recit de la transformation d'un programme d un leader de l energie, d un modele cycle v classique vers un modele agile distribue lille paris (130 ETP). Un apercu du perimetre, du dispositif, de la transition organisationnelle et technique, des challenges rencontrés ainsi que des solutions apportées au travers de Scrum et d'un mix de pratiques connues  ( TDD, XP ...) "
             speaker: Stephane Thanasack
