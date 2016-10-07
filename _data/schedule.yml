@@ -249,6 +249,26 @@
             bring_your_pc: true
       - hour: 11h45
         content:
+          - subject: "Industrialiser le pilotage d'un projet agile"
+            description: "Responsable d'un projet stratégique de la DSI SNCF Réseau réalisé en mode agile depuis 4 ans (en 2016 : 3,6 M€, 40 personnes, 3 features team), je ferais un retour d'expérience sur notre organisation et le pilotage : quels indicateurs, quel mode de fonctionnement, comment arbitrer la commande selon son plan de charge et son budget, avoir recours à des centres de service, TMA, TRA,..
+                        La séance sera principalement axé sur l'industrialisation du fonctionnement du projet et les pratiques utilisées; SCRUM, kanban, Visual Management, Lissage de plan de charge,... L'objectif est de s'appuyer sur des exemples concrets qui pourront servir à l'audience.
+                        </br>
+                        Thèmes abordés :
+                        </br>
+                        - Emergence du besoin et mieux préparer la phase de conception
+                        </br>
+                        - Pilotage de plan de charge et gestion de la commande client
+                        </br>
+                        - Fonctionnement en mode chaine de production
+                        </br>
+                        - Animation d'équipes fonctionnelles
+                        </br>
+                        - Indicateurs et engagement de vélocité (centre de service)
+                        </br>
+                        - Collaboration et délégation"
+            speaker: Olivier Durnez
+            level: 2
+            conf_id: '32'        
           - subject: "Living Documentation : et si faire de la doc était aussi fun que de faire du code ?"
             description: "Et si la documentation pouvait être aussi fun qu'écrire du code ? Ca vous parait insensé, tant ce sujet est ennuyeux, mais ce n'est pas une fatalité !
                         </br>
@@ -271,26 +291,6 @@
             speaker: Bruno Boucard, Thomas Pierrain
             level: 0
             conf_id: '31'
-          - subject: "Industrialiser le pilotage d'un projet agile"
-            description: "Responsable d'un projet stratégique de la DSI SNCF Réseau réalisé en mode agile depuis 4 ans (en 2016 : 3,6 M€, 40 personnes, 3 features team), je ferais un retour d'expérience sur notre organisation et le pilotage : quels indicateurs, quel mode de fonctionnement, comment arbitrer la commande selon son plan de charge et son budget, avoir recours à des centres de service, TMA, TRA,..
-                        La séance sera principalement axé sur l'industrialisation du fonctionnement du projet et les pratiques utilisées; SCRUM, kanban, Visual Management, Lissage de plan de charge,... L'objectif est de s'appuyer sur des exemples concrets qui pourront servir à l'audience.
-                        </br>
-                        Thèmes abordés :
-                        </br>
-                        - Emergence du besoin et mieux préparer la phase de conception
-                        </br>
-                        - Pilotage de plan de charge et gestion de la commande client
-                        </br>
-                        - Fonctionnement en mode chaine de production
-                        </br>
-                        - Animation d'équipes fonctionnelles
-                        </br>
-                        - Indicateurs et engagement de vélocité (centre de service)
-                        </br>
-                        - Collaboration et délégation"
-            speaker: Olivier Durnez
-            level: 2
-            conf_id: '32'            
       - hour: 12h30
         special: 1
         content:
