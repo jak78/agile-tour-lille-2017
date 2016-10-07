@@ -112,6 +112,11 @@
             company: Decathlon
             level: 0
             conf_id: '11'
+          - subject: "Où en est le contrat Agile en 2016 ?"
+            description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
+            speaker: "Laurent Delvaux"
+            level: 0
+            conf_id: '14'            
           - subject: Une CoP Agile qui marche
             description: "Comment Créer une Communauté de Pratiques Agile (PO; ScrumMaster, Management) efficace dans l'Entreprise?
                           Guilde, Communauté des POs, Tribu, Cercle des SM… peu importe le nom, elle est l'ingrédient essentiel d'une transformation agile réussie.
@@ -132,11 +137,6 @@
             company: octo
             level: 1
             conf_id: '13'
-          - subject: "Où en est le contrat Agile en 2016 ?"
-            description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
-            speaker: "Laurent Delvaux"
-            level: 0
-            conf_id: '14'
       - hour: 12h30
         special: 1
         content:
