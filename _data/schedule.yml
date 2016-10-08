@@ -246,7 +246,6 @@
             company: OCTO
             duration: 2
             conf_id: '28'
-            room: Atelier B
             level: 2
             bring_your_pc: true
       - hour: 11h45

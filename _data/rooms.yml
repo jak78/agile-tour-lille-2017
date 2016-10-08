@@ -1,6 +1,6 @@
 - Auditorium
 - Conférence 1
 - Conférence 2
-- Conférence 3
-- Atelier A
-- Atelier B
+- Conférence 3 <div style="font-size:0.8em">(en Réunion 2)</div> 
+- Atelier A <div style="font-size:0.8em">(en Réunion 3)</div>
+- Atelier B <div style="font-size:0.8em">(en Réunion 4)</div>
