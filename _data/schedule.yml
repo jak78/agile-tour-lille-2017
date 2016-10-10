@@ -4,14 +4,14 @@
       - hour: 08h00
         special: 1
         content:
-          - label: Accueil
+          - label: "Accueil : retrait des badges, petit-déjeuner et début des discussions :)"
             fill: 7
             room: Atrium
             conf_id: '01'
       - hour: 08h45
         special: 1
         content:
-          - label: Lancement de la conférence et pitch des sessions de la matinée
+          - label: Lancement de la conférence et pitch des sessions de la matinée (Auditorium)
             fill: 7
             conf_id: '02'
       - hour: 09h30
@@ -32,7 +32,7 @@
       - hour: 10h15
         special: 1
         content:
-          - label: Pause (30 minutes)
+          - label: Pause Café (30 minutes) - Atrium 
             fill: 7
             hide-on-home: 1
             room: Atrium
@@ -140,7 +140,7 @@
       - hour: 12h30
         special: 1
         content:
-          - label: Déjeuner
+          - label: Déjeuner (Atrium)
             fill: 7
             room: Atrium
             conf_id: '15'
@@ -148,7 +148,7 @@
       - hour: 14h00
         special: 1
         content:
-        - label: Lancement du forum ouvert
+        - label: Lancement du forum ouvert (Auditorium)
           fill: 7
           conf_id: '16'
       - hour: 15h00
@@ -161,7 +161,7 @@
       - hour: 18h00
         special: 1
         content:
-          - label: Agilistes autour d'un verre (et plus si affinités)
+          - label: Agilistes autour d'un verre (et plus si affinités) - Atrium
             image: 2818268935_5d06ed7b4a_m_d.jpg
             room: Atrium
             conf_id: '18'
@@ -174,14 +174,14 @@
       - hour: 08h00
         special: 1
         content:
-          - label: Accueil
+          - label: "Accueil : retrait des badges, petit-déjeuner et début des discussions :)"
             fill: 7
             room: Atrium
             conf_id: '19'
       - hour: 08h45
         special: 1
         content:
-          - label: Lancement de la conférence et pitch des sessions de la matinée
+          - label: Lancement de la conférence et pitch des sessions de la matinée (Auditorium)
             fill: 7
             conf_id: '20'
       - hour: 09h30
@@ -201,7 +201,7 @@
       - hour: 10h15
         special: 1
         content:
-          - label: Pause (30 minutes)
+          - label: Pause Café (30 minutes) - Atrium
             fill: 7
             hide-on-home: 1
             room: Atrium
@@ -293,7 +293,7 @@
       - hour: 12h30
         special: 1
         content:
-          - label: Déjeuner
+          - label: Déjeuner (Atrium)
             fill: 7
             room: Atrium
             conf_id: '33'
@@ -371,7 +371,7 @@
       - hour: 15h45
         special: 1
         content:
-          - label: Pause (30 minutes)
+          - label: Pause Café (30 minutes) - Atrium
             fill: 7
             hide-on-home: 1
             room: Atrium
@@ -486,7 +486,7 @@
       - hour: 18h00
         special: 1
         content:
-          - label: Agilistes autour d'un verre (et plus si affinités)
+          - label: Agilistes autour d'un verre (et plus si affinités) - Atrium
             image: 2818268935_5d06ed7b4a_m_d.jpg
             room: Atrium
             extra: <span><i class="fa fa-beer"></i> Bières<sup>*</sup> et <span><i class="fa fa-comment"></i> échanges.
