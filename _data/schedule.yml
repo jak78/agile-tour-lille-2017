@@ -286,8 +286,9 @@
             speaker: Samuel Retiere
             level: 2
             conf_id: '29'
-          - subject: "Créer une startup / Entreprendre à Euratechnologies"
-            description: ???
+          - subject: "Entreprendre en mode agile et bénéficier de l’effet écosystème"
+            description: ""
+            speaker: Samuel Tapin, Mickaël Deraed            
             level: 0
             conf_id: '25'            
       - hour: 12h30
