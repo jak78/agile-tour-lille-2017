@@ -5,13 +5,13 @@
 - title: S'inscrire
   url: https://www.billetweb.fr/agile-tour-2016
   target: _blank
-  visible: 1
+  visible: 0
 - title: Soumettre un talk
   url: /cfp
   visible: 0
 - title: Programme
   url: /programme
-  visible: 1
+  visible: 0
 - title: Speakers
   url: /conferenciers
   visible: 0
@@ -20,7 +20,7 @@
   visible: 0
 - title: Accès
   url: /acces
-  visible: 1
+  visible: 0
 - title: Sponsors
   url: /sponsors
   visible: 1
