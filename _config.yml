@@ -3,12 +3,11 @@ title: Agile Tour Lille 2017
 email: agiletour@nord-agile.org
 description: > # this means to ignore newlines until "baseurl:"
   L'édition de l'Agile Tour 2017 à Lille réunit des conférences de qualité dans un cadre unique.
-  Inscrivez-vous !
 gems:
   - jekyll-sitemap
 
 baseurl: '' # the subpath of your site, e.g. /blog/
-url: 'http://2016.agiletour-lille.org'
+url: 'http://2017.agiletour-lille.org'
 twitter_username: NordAgile
 github_username:  jak78
 
