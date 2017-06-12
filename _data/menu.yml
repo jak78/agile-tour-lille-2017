@@ -21,9 +21,12 @@
 - title: Accès
   url: /acces
   visible: 0
+- title: Devenir sponsor
+  url: /devenir-sponsor
+  visible: 0
 - title: Sponsors
   url: /sponsors
-  visible: 1
+  visible: 0
 - title: Orga
   url: /organisateurs
   visible: 1
