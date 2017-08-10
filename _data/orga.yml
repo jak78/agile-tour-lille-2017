@@ -6,9 +6,10 @@
   photo: Lucie-Pruvost.jpg
 - name: Nelson Dufossé
   photo: nelson_dufosse.png
-  bio: Nelson, coach agile chez Xebia, aimant avoir les mains dans le cambouis. J'aime particulièrement être sur le terrain et proche du produit. Mon quotidien s'articule entre aider les équipes techniques et accompagner les clients dans la structuration de leur besoin. 
-  Après 4 ans chez Orange en tant que chef de projet et reponsable de produits pour le domaine de l'événementiel. J'ai eu l'occasion de travailler sur les produits de billetterie et de contrôle d'accès pour les plus gros événements de ces 4 dernières années. Aujourd'hui, j'accompagne principalement des produits Big Data incluants des sujets Data Science ainsi que des programmes d'agilité à l'echelle. 
-  Participant depuis 2012 aux événements <a href="http://www.nord-agile.org">Nord-Agile</a>, depuis 2012 je co-organise l'agile tour chaque année. 
+  bio:
+    Nelson, coach agile chez Xebia, aimant avoir les mains dans le cambouis. J'aime particulièrement être sur le terrain et proche du produit. Mon quotidien s'articule entre aider les équipes techniques et accompagner les clients dans la structuration de leur besoin. 
+    Après 4 ans chez Orange en tant que chef de projet et reponsable de produits pour le domaine de l'événementiel. J'ai eu l'occasion de travailler sur les produits de billetterie et de contrôle d'accès pour les plus gros événements de ces 4 dernières années. Aujourd'hui, j'accompagne principalement des produits Big Data incluants des sujets Data Science ainsi que des programmes d'agilité à l'echelle. 
+    Participant depuis 2012 aux événements <a href="http://www.nord-agile.org">Nord-Agile</a>, depuis 2012 je co-organise l'agile tour chaque année. 
 - name: Fabien Goguillon
   photo: fabien_goguillon.jpg
   bio:
