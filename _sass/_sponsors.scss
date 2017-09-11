@@ -8,13 +8,13 @@
   display: inline;
   img {
     padding-bottom: 10px;
-    max-width: 150px;
-    max-height: 150px;
-  }
-
-  img.platinum {
-    max-width: 250px;
-    max-height: 250px;
+    &.standard {
+      max-width: 150px;
+      max-height: 150px;
+    }
+    &.wide {
+      width: 250px;
+    }
   }
   .name {
     display:block;

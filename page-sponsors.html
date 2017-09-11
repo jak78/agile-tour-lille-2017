@@ -12,12 +12,9 @@ permalink: /sponsors/
     {% for sponsor in sponsors %}
     <div class="sponsor">
       <a href="{{ sponsor.url }}" target="_blank">
-        <img src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}" alt="{{sponsor.name}}"/>
+        <img src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}" alt="{{sponsor.name}}" class="{{sponsor.imgclass}}"/>
       </a>
     </div>
     {% endfor %}
-  </div>
-  <div class="row">
-    <h1>1 autre sponsor bientôt annoncé</h1>
   </div>
 </div>
