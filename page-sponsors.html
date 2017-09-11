@@ -1,41 +1,14 @@
 ---
 layout: default
-title: Sponsors 2016
+title: Sponsors 2017
 permalink: /sponsors/
 ---
 <div class="container">
   <div class="row">
-    <h1>Sponsors 2016</h1>
+    <h1>Sponsors 2017</h1>
   </div>
   <div class="row">
-    <div class="col-md-6 col-xs-6 ">
-      <h2>Platinium</h2>
-      {% assign sponsors = site.data.sponsors.platinium | sort:"name" %}
-      {% for sponsor in sponsors %}
-      <div class="col-md-6 col-xs-12 sponsor">
-        <a href="{{ sponsor.url }}" target="_blank">
-          <img class="platinum" src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}"
-               alt="{{sponsor.name}}"/>
-        </a>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="col-md-6 col-xs-6 ">
-      <h2>Partenaire</h2>
-      {% assign sponsors = site.data.sponsors.partner | sort:"name" %}
-      {% for sponsor in sponsors %}
-      <div class="col-md-6 col-xs-12 sponsor">
-        <a href="{{ sponsor.url }}" target="_blank">
-          <img class="platinum" src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}"
-               alt="{{sponsor.name}}"/>
-        </a>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-  <h2>Gold</h2>
-  <div class="row">
-    {% assign sponsors = site.data.sponsors.gold %}
+    {% assign sponsors = site.data.sponsors %}
     {% for sponsor in sponsors %}
     <div class="sponsor">
       <a href="{{ sponsor.url }}" target="_blank">
