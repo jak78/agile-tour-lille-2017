@@ -54,10 +54,16 @@ $on-laptop:        800px;
 
 .navbar-brand {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: #000;
+  .small-brand {
+    font-size: 15px;
+  }
 }
 
 .nav.navbar-nav.navbar-right, h1, h2, h3 {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.nav.navbar-nav {
+  font-size: 13px;
 }
