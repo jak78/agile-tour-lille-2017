@@ -11,7 +11,7 @@
   visible: 1
 - title: Programme
   url: /programme
-  visible: 0
+  visible: 1
 - title: Speakers
   url: /conferenciers
   visible: 0
