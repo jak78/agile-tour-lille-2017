@@ -26,7 +26,7 @@
   visible: 0
 - title: Sponsors
   url: /sponsors
-  visible: 0
+  visible: 1
 - title: Orga
   url: /organisateurs
   visible: 1
