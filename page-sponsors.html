@@ -8,13 +8,19 @@ permalink: /sponsors/
     <h1>Sponsors 2017</h1>
   </div>
   <div class="row">
-    {% assign sponsors = site.data.sponsors %}
-    {% for sponsor in sponsors %}
-    <div class="sponsor">
-      <a href="{{ sponsor.url }}" target="_blank">
-        <img src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}" alt="{{sponsor.name}}" class="{{sponsor.imgclass}}"/>
-      </a>
+    <div class="col-md-6">
+      {% assign sponsors = site.data.sponsors %}
+      {% for sponsor in sponsors %}
+      <div class="sponsor">
+        <a href="{{ sponsor.url }}" target="_blank">
+          <img src="{{ sponsor.logo | prepend: '/img/sponsors/' | prepend: site.baseurl }}" alt="{{sponsor.name}}" class="{{sponsor.imgclass}}"/>
+        </a>
+      </div>
+      {% assign cut = forloop.length | divided_by:2 %}
+      {% if forloop.index == cut %}
+    </div><div class="col-md-6">
+      {% endif %}
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </div>
