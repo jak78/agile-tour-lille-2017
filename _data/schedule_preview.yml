@@ -1,0 +1,68 @@
+- name: Corinne Alexandre
+  bio: Corinne Alexandre est en charge de la roadmap des projets digitaux à La Redoute. Vers un état d'esprit plus agile des équipes et des organisations.
+  title: Retour d'expérience d'un projet agile à La Redoute
+  description: "Après 6 mois de fonctionnement agile, les premiers résultats sont exceptionnels : tant au niveau business que sur le plan humain.
+               <ol>
+               <li>Comment tout a commencé                          </li>
+               <li>Comment s'est organisée l'équipe                 </li>
+               <li>Quelles difficultés avons-nous rencontrées       </li>
+               <li>Quels résultats et quels facteurs clés de succès </li>
+               </ol>
+               Conclusion : au regard de cette expérience, l'enjeu est désormais de pérenniser ce fonctionnement. "
+  photo: /img/speakers/CorinneAlexandre.jpg
+  show: 1
+- name: Laurent Bossavit
+  bio: Laurent Bossavit est agiliste depuis l'époque où ça ne s'appelait pas encore agile, développeur depuis l'époque où l'Internet s'appelait encore Minitel, et membre de la communauté des Startups d'État chez beta.gouv.fr. Il aime l'escalade en salle, le café, lire Bruno Latour et jouer au Go (mais pas en même temps).
+  title: "L'enfance perpétuelle: survivre dans une industrie qui croit toujours au Père Noël"
+  description: La survie de l'humanité, nous dit-on, tient dans la capacité d'innovation toujours plus grande des programmeurs, les "nouveaux faiseurs de rois". 
+               L'agilité, nous dit-on aussi, c'est "accueillir le changement". Et nous avons tellement envie, tellement besoin d'y croire ! 
+               A tel point que nous sommes prêts à fermer les yeux sur les erreurs 503 et les NullPointerException que nous rencontrons tous les jours en tant qu'usagers, 
+               ou pire que nous acceptions comme développeurs parce qu'il faut bien avancer sur la prochaine user story.
+               <br>Sans prétendre à un discours de la méthode, cette session vous donnera des pistes concrètes et des techniques immédiatement applicables pour ne pas vous noyer dans le tourbillon de l'appel à l'innovation et du changement; pour retrouver vos racines et vous y arrimer.
+  photo: /img/speakers/LaurentBossavit.png
+  show: 1
+- name: Frédéric Leguédois
+  bio: Frédéric Leguédois est un agiliste évangeliste, libriste, voire polémiste ;-) Conférencier iconoclaste. Garanti zéro certification.
+  title: Comment planter son projet sans se faire choper ?
+  description: "Sous la forme d’un one man show, en se basant sur un retour d’expérience, il s’agit d’illustrer deux principes de l’agilité :
+               
+                   La méthode la plus simple et la plus efficace pour transmettre de l’information à l’équipe de développement et à l’intérieur de celle-ci est le dialogue en face à face.
+               
+                   La simplicité – c’est-à-dire l’art de minimiser la quantité de travail inutile – est essentielle.
+               
+               Bien que le retour d’expérience soit basé sur un projet de développement logiciel, il est facilement transposable à d’autres métiers et ne comporte aucun jargon."
+  photo: https://pbs.twimg.com/profile_images/879784230393442305/y6VvMcCH_400x400.jpg
+  show: 0
+- name: Ben Linders
+  bio: "Ben Linders is an Independent Consultant in Agile, Lean, Quality and Continuous Improvement, based in The Netherlands. 
+        Author of Getting Value out of Agile Retrospectives, Waardevolle Agile Retrospectives, What Drives Quality and Continuous Improvement. 
+        As an adviser, coach and trainer he helps organizations with deploying effective software development and management practices. 
+        He focuses on continuous improvement, collaboration and communication, and professional development, to deliver business value to customers. 
+        Ben is an active member of networks on Agile, Lean and Quality, and a well know speaker and author. 
+        He shares his experiences in a bilingual blog (Dutch and English), as an editor for Culture and Methods at InfoQ and as an expert in communities like Computable, Quora, DZone, and TechTarget. 
+        Follow him on twitter: @BenLinders."
+  title: Playing the Agile Self-Assessment Game 
+  description: "There isn't a standard route to become agile, you have to find your own way. 
+                Methods and frameworks don't tell you how to increase your agility. The Agile Self-Assessment Game is an 'agile map' 
+                that inspires you with ideas and suggestions on where to go next on your agile journey. 
+                Come play the Agile Self-Assessment Game in teams to discover how agile you are and what you can do to increase your agility." 
+  photo: /img/speakers/BenLinders-Square-150x150.jpg
+  show: 0
+- name: Christophe Thibaut
+  bio: Christophe Thibaut est développeur, consultant, coach agile et facilitateur chez OCTO Technology
+  title: 3 idées qui changent tout
+  description: "Nous sommes en train de changer profondément la façon dont nous développons du logiciel. 
+                Avant que ce changement ne commence - il y a environ 20 ans - dans la plupart des entreprises, le travail de développement était organisé en phases, réparti sur des équipes spécialisées, et reposait presqu’exclusivement sur l’écrit. 
+                Lorsque que le changement sera achevé - dans 20 ans peut-être ? - le développement de logiciel sera organisé bien différemment : en cycles courts, sans distinction de phases, il impliquera des équipes multi-compétentes travaillant en cohésion. 
+                La conversation sera le moyen principal de transmission des idées, et tout ce qui doit être écrit le sera sous forme de code ou de tests. 
+                Ce qui caractérise principalement ce changement, c’est l’adoption de boucles de retour d’information toujours plus courtes et toujours plus fréquentes. 
+                Dans l’entreprise, ce changement rencontre des obstacles culturels nombreux et robustes. Il est pourtant inéluctable, pour trois raisons :
+                <ul>
+                <li>le développement de logiciel est indispensable à la stratégie d’innovation des entreprises ;</li>              
+                <li>la complexité de cette activité impose un modèle de collaboration qui rend caduque la séparation classique entre conception et réalisation ;</li>              
+                <li>nous aspirons tous à faire un travail intéressant et épanouissant, plutôt que de produire aveuglément du code défectueux ou inutile.</li>
+                </ul>              
+                Pour se convaincre de la présence de ce changement autour de vous, il suffit d’observer l’évolution des pratiques sur le terrain. Dans cette keynote, je vous invite à considérer les trois idées majeures qui sous-tendent cette évolution. En quoi ces idées font avancer le métier du développement, comment elles sont fréquemment altérées afin de préserver l’ancien modèle, et comment les encourager afin d’accélérer la transformation du métier de développeur."
+  photo: /img/speakers/Christophe-Thibaut.jpg
+  show: 0
+  

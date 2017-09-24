@@ -1,0 +1,35 @@
+.schedule_previews .schedule_preview {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  max-width: 1024px;
+  clear: both;
+  h2 {
+    font-size: $base-font-size + 4;
+    font-weight: bold;
+    &.title {
+      margin-top: 2em;
+      font-size: $base-font-size + 3;
+    }
+  }
+  .details {
+    clear: both;
+  }
+  .description, .bio {
+    padding-top: 1em;
+  }
+  .bio {
+    font-style: italic;
+  }
+  img {
+    float: left;
+    margin-right: 10px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    max-width: 120px;
+    max-heights: 120px;
+  }
+  &:target {
+    background-color: #fcf8e3;
+  }
+}

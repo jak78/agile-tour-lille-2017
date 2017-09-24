@@ -4,9 +4,27 @@ title: Programme
 permalink: /programme/
 ---
 <div class="container">
-  <h1>Programme de l'édition {{ site.data.event.date.year }}</h1>
-  <p>Le programme est en cours d'élaboration. Nous allons bientôt annoncer quelques speakers.</p>
+  <h1>Le programme de l'édition {{ site.data.event.date.year }} est en cours d'élaboration</h1>
+  <p>Nous pouvons cependant déjà <strong>vous en dévoiler une partie</strong>&nbsp;:</p>
+  <div class="row schedule_previews">
+    {% assign speakers = site.data.schedule_preview %}
+    {% for speaker in speakers %}
+    {% if speaker.show == 1 %}
+    <a name="{{ speaker.name }}"></a>
+    <div class="schedule_preview" id="{{ speaker.name }}">
+      <img src="{{ speaker.photo }}" alt="{{ speaker.name }}">
+      <h3 class="name">{{ speaker.name }}</h3>
+      <h2 class="title">{{ speaker.title }}</h2>
+      <div class="details">
+        <div class="description">{{ speaker.description }}</div>
+        <div class="bio">{{ speaker.bio }}</div>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  <p>Vous pouvez surveiller cette page ou <a href="https://twitter.com/NordAgile">nous suivre sur Twitter</a> pour être tenu.e au courant des prochaines annonces sur le programme.</p>
   <p>Nous vous proposons de consulter le <a href="http://2016.agiletour-lille.org/programme">programme de l'an
     dernier</a> pour vous faire une idée du type de contenu que l'on peut trouver à l'Agile Tour Lille.</p>
-  <p>Et vous pouvez également nous <a href="/cfp">proposer un sujet d'atelier ou de conférence</a></p>
+  <p>Et vous pouvez également toujours <a href="/cfp">proposer un sujet d'atelier ou de conférence</a></p>
 </div>
