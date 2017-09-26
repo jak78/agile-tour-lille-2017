@@ -49,20 +49,34 @@
   photo: /img/speakers/BenLinders-Square-150x150.jpg
   show: 0
 - name: Christophe Thibaut
-  bio: Christophe Thibaut est développeur, consultant, coach agile et facilitateur chez OCTO Technology
+  bio: "Christophe Thibaut est Consultant Senior chez OCTO. Fort de plus de 25 ans d'expérience en développement et direction de projets, 
+  en consulting et en coaching, il conseille les grands comptes sur la mise en oeuvre de démarches permettant de livrer plus vite 
+  de meilleurs logiciels. Son expertise s'appuie sur un apprentissage en continu des méthodes et des modèles. 
+  C'est également un facilitateur, un observateur attentif, pratiquant l'écoute active. 
+  <br>      
+  Communiquant reconnu au sein de la communauté agile, coach agile depuis 2001, Christophe intervient régulièrement dans les conférences Agile France, 
+  Software Practice Advancement, XP Days, ainsi qu'à l'USI. Il est un des cofondateur du dojo de programmation. 
+  Au sein d'OCTO, Christophe diffuse les pratiques de développement telles que TDD ainsi que la philosophie du management de projet agile. 
+  Il forme des coaches agiles ainsi que des leaders techniques, et contribue, en facilitant de nombreux ateliers, à la vision partagée de l'entreprise."
   title: 3 idées qui changent tout
-  description: "Nous sommes en train de changer profondément la façon dont nous développons du logiciel. 
-                Avant que ce changement ne commence - il y a environ 20 ans - dans la plupart des entreprises, le travail de développement était organisé en phases, réparti sur des équipes spécialisées, et reposait presqu’exclusivement sur l’écrit. 
-                Lorsque que le changement sera achevé - dans 20 ans peut-être ? - le développement de logiciel sera organisé bien différemment : en cycles courts, sans distinction de phases, il impliquera des équipes multi-compétentes travaillant en cohésion. 
+  description: "<p>Nous sommes en train de changer profondément la façon dont nous développons du logiciel.</p> 
+                <p>Avant que ce changement ne commence - il y a environ 20 ans - dans la plupart des entreprises, le travail de développement était organisé en phases, réparti sur des équipes spécialisées, et reposait presqu’exclusivement sur l’écrit. 
+                </p>
+                <p>Lorsque que le changement sera achevé - dans 20 ans peut-être ? - le développement de logiciel sera organisé bien différemment : en cycles courts, sans distinction de phases, il impliquera des équipes multi-compétentes travaillant en cohésion. 
                 La conversation sera le moyen principal de transmission des idées, et tout ce qui doit être écrit le sera sous forme de code ou de tests. 
-                Ce qui caractérise principalement ce changement, c’est l’adoption de boucles de retour d’information toujours plus courtes et toujours plus fréquentes. 
-                Dans l’entreprise, ce changement rencontre des obstacles culturels nombreux et robustes. Il est pourtant inéluctable, pour trois raisons :
+                </p>
+                <p>Ce qui caractérise principalement ce changement, c’est l’adoption de boucles de retour d’information toujours plus courtes et toujours plus fréquentes. 
+                </p>
+                <p>Dans l’entreprise, ce changement rencontre des obstacles culturels nombreux et robustes. Il est pourtant inéluctable, pour trois raisons :</p>
                 <ul>
                 <li>le développement de logiciel est indispensable à la stratégie d’innovation des entreprises ;</li>              
                 <li>la complexité de cette activité impose un modèle de collaboration qui rend caduque la séparation classique entre conception et réalisation ;</li>              
                 <li>nous aspirons tous à faire un travail intéressant et épanouissant, plutôt que de produire aveuglément du code défectueux ou inutile.</li>
                 </ul>              
-                Pour se convaincre de la présence de ce changement autour de vous, il suffit d’observer l’évolution des pratiques sur le terrain. Dans cette keynote, je vous invite à considérer les trois idées majeures qui sous-tendent cette évolution. En quoi ces idées font avancer le métier du développement, comment elles sont fréquemment altérées afin de préserver l’ancien modèle, et comment les encourager afin d’accélérer la transformation du métier de développeur."
+                <p>Pour se convaincre de la présence de ce changement autour de vous, il suffit d’observer l’évolution des pratiques sur le terrain. 
+                Dans cette keynote, je vous invite à considérer les trois idées majeures qui sous-tendent cette évolution. 
+                En quoi ces idées font avancer le métier du développement, comment elles sont fréquemment altérées afin de préserver l’ancien modèle, 
+                et comment les encourager afin d’accélérer la transformation du métier de développeur.</p>"
   photo: /img/speakers/Christophe-Thibaut.jpg
   show: 0
   
