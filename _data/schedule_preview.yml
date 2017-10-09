@@ -21,6 +21,31 @@
                <br>Sans prétendre à un discours de la méthode, cette session vous donnera des pistes concrètes et des techniques immédiatement applicables pour ne pas vous noyer dans le tourbillon de l'appel à l'innovation et du changement; pour retrouver vos racines et vous y arrimer.
   photo: /img/speakers/LaurentBossavit.png
   show: 1
+- name: Marie-Pia Ignace
+  bio: 
+       <p>Co-fondatrice et PDG d’Operae Partners</p>
+       <p>Co-fondatrice et Présidente de l’Institut Lean France</p>
+       <p>Membre du comité de direction du Lean Global Network</p>
+       
+       Polytechnicienne, entrepreneuse, Marie-Pia Ignace est la pionnière et la
+       principale spécialiste en Europe du management Lean dans le secteur des
+       services et dans l’informatique.
+       Elle dirige Operae Partners, un cabinet de conseil qu&#39;elle a créé en 2007 et dont
+       le cœur de métier est d’accompagner des équipes informatiques de grandes DSI
+       dans leur transformation.
+       Promotrice du Lean dans l’hexagone depuis 10 ans, Marie-Pia a cofondé l&#39;Institut
+       Lean France qui est l’association de référence pour tous les praticiens du Lean
+       management. Elle préside l’Institut depuis 2012 et est également membre du
+       bureau du Lean Global Network.
+       Marie-Pia est co-auteure du livre « La Pratique du lean management dans l&#39;IT -
+       Agilité et Amélioration continue ». Elle est à l’initiative du Lean IT Summit, la
+       conférence internationale de référence sur le Lean en informatique dans laquelle
+       des experts de l’Agile comme Jeff Sutherland et Kent Beck rencontrent ceux du
+       Lean.
+  title: Le lean IT, ou comment tourner vraiment la page du taylorisme
+  description: Avec sa double obsession du client et du succès de l'équipe, le lean a alimenté 15 ans de réflexions de grands penseurs de l'agile, de Mary Poppendieck à Jez Humble. Cette intervention sera l'occasion de découvrir le LeanIT dans toute son orthodoxie et la nature de ses liens avec l'Agilité.
+  photo: /img/speakers/MariePiaIgnace.png
+  show: 1
 - name: Frédéric Leguédois
   bio: Frédéric Leguédois est un agiliste évangeliste, libriste, voire polémiste ;-) Conférencier iconoclaste. Garanti zéro certification.
   title: Comment planter son projet sans se faire choper ?
