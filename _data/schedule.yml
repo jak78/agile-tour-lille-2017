@@ -7,20 +7,17 @@
           - label: "Accueil : retrait des badges, café et début des discussions :)"
             fill: 5
             room: Atrium
-            conf_id: '01'
       - hour: 08h45
         special: 1
         content:
           - label: Lancement de la conférence et pitch des sessions de la matinée (Auditorium)
             fill: 5
-            conf_id: '02'
       - hour: 09h30
         content:
           - subject: "No estimates: Predicting Without Estimates & 10 New Principles for Software Development"
             speaker: Vasco Duarte
             description:
             fill: 5
-            conf_id: '03'
             highlight: 1
             level: 0
             description: "We are learning better ways to develop software by doing it and helping others do it.
@@ -36,19 +33,16 @@
             speaker: Antonio LOPEZ
             company: Decathlon
             level: 0
-            conf_id: '11'
           - subject: "Où en est le contrat Agile en 2016 ?"
             description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
             speaker: "Laurent Delvaux"
             level: 0
-            conf_id: '14'            
           - subject: Une CoP Agile qui marche
             description: "Comment Créer une Communauté de Pratiques Agile (PO; ScrumMaster, Management) efficace dans l'Entreprise?
                           Guilde, Communauté des POs, Tribu, Cercle des SM… peu importe le nom, elle est l'ingrédient essentiel d'une transformation agile réussie.
                           Voici quelques clés pour que cela marche!"
             speaker: Jean-Claude Grosjean
             level: 1
-            conf_id: '12'
           - subject: "Du craft chez les OPS"
             description: "En 2016, on peut instancier un SI from scratch avec du code.
                         La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
@@ -61,7 +55,6 @@
             speaker: François Xavier VENDE, Mathieu Herbert
             company: octo
             level: 1
-            conf_id: '13'
           - subject: "Du craft chez les OPS"
             description: "En 2016, on peut instancier un SI from scratch avec du code.
                         La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
@@ -74,7 +67,6 @@
             speaker: François Xavier VENDE, Mathieu Herbert
             company: octo
             level: 1
-            conf_id: '13'
       - hour: 11h30
         content:
           - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
@@ -83,19 +75,16 @@
             speaker: Antonio LOPEZ
             company: Decathlon
             level: 0
-            conf_id: '11'
           - subject: "Où en est le contrat Agile en 2016 ?"
             description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
             speaker: "Laurent Delvaux"
             level: 0
-            conf_id: '14'            
           - subject: Une CoP Agile qui marche
             description: "Comment Créer une Communauté de Pratiques Agile (PO; ScrumMaster, Management) efficace dans l'Entreprise?
                           Guilde, Communauté des POs, Tribu, Cercle des SM… peu importe le nom, elle est l'ingrédient essentiel d'une transformation agile réussie.
                           Voici quelques clés pour que cela marche!"
             speaker: Jean-Claude Grosjean
             level: 1
-            conf_id: '12'
           - subject: "Du craft chez les OPS"
             description: "En 2016, on peut instancier un SI from scratch avec du code.
                         La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
@@ -108,7 +97,6 @@
             speaker: François Xavier VENDE, Mathieu Herbert
             company: octo
             level: 1
-            conf_id: '13'
           - subject: "Du craft chez les OPS"
             description: "En 2016, on peut instancier un SI from scratch avec du code.
                         La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
@@ -121,14 +109,12 @@
             speaker: François Xavier VENDE, Mathieu Herbert
             company: octo
             level: 1
-            conf_id: '13'
       - hour: 12h30
         special: 1
         content:
           - label: Déjeuner (Atrium)
             fill: 5
             room: Atrium
-            conf_id: '15'
     -
       - hour: 13h30
         special: 1
@@ -136,14 +122,12 @@
           - subject: "Keynote"
             speaker: Intervenant mystère
             fill: 5
-            conf_id: '21'
             highlight: 1
             level: 0
       - hour: 14h30
         content:
           - label: "Pitch sessions de l'après-midi"
             fill: 5
-            conf_id: '17'
       - hour: 15h00
         content:
           - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
@@ -152,19 +136,16 @@
             speaker: Antonio LOPEZ
             company: Decathlon
             level: 0
-            conf_id: '11'
           - subject: "Où en est le contrat Agile en 2016 ?"
             description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
             speaker: "Laurent Delvaux"
             level: 0
-            conf_id: '14'            
           - subject: Une CoP Agile qui marche
             description: "Comment Créer une Communauté de Pratiques Agile (PO; ScrumMaster, Management) efficace dans l'Entreprise?
                           Guilde, Communauté des POs, Tribu, Cercle des SM… peu importe le nom, elle est l'ingrédient essentiel d'une transformation agile réussie.
                           Voici quelques clés pour que cela marche!"
             speaker: Jean-Claude Grosjean
             level: 1
-            conf_id: '12'
           - subject: "Du craft chez les OPS"
             description: "En 2016, on peut instancier un SI from scratch avec du code.
                         La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
@@ -177,7 +158,6 @@
             speaker: François Xavier VENDE, Mathieu Herbert
             company: octo
             level: 1
-            conf_id: '13'
           - subject: "Du craft chez les OPS"
             description: "En 2016, on peut instancier un SI from scratch avec du code.
                         La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
@@ -190,7 +170,6 @@
             speaker: François Xavier VENDE, Mathieu Herbert
             company: octo
             level: 1
-            conf_id: '13'
       - hour: 15h45
         content:
           - label: "Pause café"
@@ -203,19 +182,16 @@
             speaker: Antonio LOPEZ
             company: Decathlon
             level: 0
-            conf_id: '11'
           - subject: "Où en est le contrat Agile en 2016 ?"
             description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
             speaker: "Laurent Delvaux"
             level: 0
-            conf_id: '14'            
           - subject: Une CoP Agile qui marche
             description: "Comment Créer une Communauté de Pratiques Agile (PO; ScrumMaster, Management) efficace dans l'Entreprise?
                           Guilde, Communauté des POs, Tribu, Cercle des SM… peu importe le nom, elle est l'ingrédient essentiel d'une transformation agile réussie.
                           Voici quelques clés pour que cela marche!"
             speaker: Jean-Claude Grosjean
             level: 1
-            conf_id: '12'
           - subject: "Du craft chez les OPS"
             description: "En 2016, on peut instancier un SI from scratch avec du code.
                         La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
@@ -228,7 +204,6 @@
             speaker: François Xavier VENDE, Mathieu Herbert
             company: octo
             level: 1
-            conf_id: '13'
           - subject: "Du craft chez les OPS"
             description: "En 2016, on peut instancier un SI from scratch avec du code.
                         La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
@@ -241,7 +216,6 @@
             speaker: François Xavier VENDE, Mathieu Herbert
             company: octo
             level: 1
-            conf_id: '13'
       - hour: 17h15
         content:
           - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
@@ -250,19 +224,16 @@
             speaker: Antonio LOPEZ
             company: Decathlon
             level: 0
-            conf_id: '11'
           - subject: "Où en est le contrat Agile en 2016 ?"
             description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
             speaker: "Laurent Delvaux"
             level: 0
-            conf_id: '14'            
           - subject: Une CoP Agile qui marche
             description: "Comment Créer une Communauté de Pratiques Agile (PO; ScrumMaster, Management) efficace dans l'Entreprise?
                           Guilde, Communauté des POs, Tribu, Cercle des SM… peu importe le nom, elle est l'ingrédient essentiel d'une transformation agile réussie.
                           Voici quelques clés pour que cela marche!"
             speaker: Jean-Claude Grosjean
             level: 1
-            conf_id: '12'
           - subject: "Du craft chez les OPS"
             description: "En 2016, on peut instancier un SI from scratch avec du code.
                         La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
@@ -275,7 +246,6 @@
             speaker: François Xavier VENDE, Mathieu Herbert
             company: octo
             level: 1
-            conf_id: '13'
           - subject: "Du craft chez les OPS"
             description: "En 2016, on peut instancier un SI from scratch avec du code.
                         La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
@@ -288,14 +258,12 @@
             speaker: François Xavier VENDE, Mathieu Herbert
             company: octo
             level: 1
-            conf_id: '13'
       - hour: 18h00
         special: 1
         content:
           - label: Agilistes autour d'un verre (et plus si affinités) - Atrium
             image: 2818268935_5d06ed7b4a_m_d.jpg
             room: Atrium
-            conf_id: '18'
             extra: <span><i class="fa fa-beer"></i> Bières<sup>*</sup> et <span><i class="fa fa-comment"></i> échanges.
             highlight: 1
             fill: 5
@@ -308,7 +276,6 @@
           - label: "Accueil : retrait des badges, café et début des discussions :)"
             fill: 5
             room: Atrium
-            conf_id: '19'
       - hour: 09h30
         content:
           - subject: "L’éducation numérique, la seule véritable transformation digitale ?"
@@ -319,7 +286,6 @@
                         </br>
                         A l'heure où l'éducation devient un marché et où l'enseignement du code rentre à l'école, peut-on s'inspirer de l'expérience de transformation digitale en entreprise pour développer une autre approche de l'éducation numérique ? Peut-elle se faire sans les professionnels du numérique et les développeurs de métier ?"
             fill: 5
-            conf_id: '21'
             highlight: 1
             level: 0
       - hour: 10h30
@@ -327,13 +293,11 @@
         content:
           - label: Pitch des sessions de la journée (Auditorium)
             fill: 5
-            conf_id: '20'
       - hour: 10h45
         special: 1
         content:
           - label: Lancement du forum ouvert
             fill: 5
-            conf_id: '20'
       - hour: 11h30
         content:
           - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
@@ -342,12 +306,10 @@
             speaker: Antonio LOPEZ
             company: Decathlon
             level: 0
-            conf_id: '11'
           - subject: "Où en est le contrat Agile en 2016 ?"
             description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
             speaker: "Laurent Delvaux"
             level: 0
-            conf_id: '14'            
           - label: Forum ouvert
             fill: 3
     -
@@ -357,7 +319,6 @@
           - label: Déjeuner (Atrium)
             fill: 5
             room: Atrium
-            conf_id: '33'
       - hour: 14h00
         content:
           - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
@@ -366,12 +327,10 @@
             speaker: Antonio LOPEZ
             company: Decathlon
             level: 0
-            conf_id: '11'
           - subject: "Où en est le contrat Agile en 2016 ?"
             description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
             speaker: "Laurent Delvaux"
             level: 0
-            conf_id: '14'            
           - label: Forum ouvert
             fill: 3
       - hour: 15h00
@@ -382,12 +341,10 @@
             speaker: Antonio LOPEZ
             company: Decathlon
             level: 0
-            conf_id: '11'
           - subject: "Où en est le contrat Agile en 2016 ?"
             description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
             speaker: "Laurent Delvaux"
             level: 0
-            conf_id: '14'            
           - label: Forum ouvert
             fill: 3
       - hour: 15h45
@@ -397,7 +354,6 @@
             fill: 5
             hide-on-home: 1
             room: Atrium
-            conf_id: '42'
       - hour: 16h15
         content:
           - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
@@ -406,12 +362,10 @@
             speaker: Antonio LOPEZ
             company: Decathlon
             level: 0
-            conf_id: '11'
           - subject: "Où en est le contrat Agile en 2016 ?"
             description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
             speaker: "Laurent Delvaux"
             level: 0
-            conf_id: '14'            
           - label: Forum ouvert
             fill: 3
       - hour: 17h00
@@ -423,4 +377,3 @@
             extra: <span><i class="fa fa-beer"></i> Bières<sup>*</sup> et <span><i class="fa fa-comment"></i> échanges.
             highlight: 1
             fill: 5
-            conf_id: '53'
