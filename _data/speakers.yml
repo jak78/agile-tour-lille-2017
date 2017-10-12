@@ -1,7 +1,7 @@
 - name: Damien BEAUFILS
   bio: >
        Damien est développeur depuis une dizaine d'années et membre de la tribu Software Craftsmanship chez OCTO Technology. 
-       Convaincu qu'un logiciel bien conçu est nécessaire en plus d'un logiciel fonctionnel, il intervient en tant que Tech Lead chez ses clients, ou en tant que formateur sur les pratiques telles que Test Driven Development."
+       Convaincu qu'un logiciel bien conçu est nécessaire en plus d'un logiciel fonctionnel, il intervient en tant que Tech Lead chez ses clients, ou en tant que formateur sur les pratiques telles que Test Driven Development.
   photo: https://lh3.googleusercontent.com/-bnAXk8JcPik/AAAAAAAAAAI/AAAAAAAABWg/xaaDd33RWrM/photo.jpg
 - name: Matthieu Salikhov
   bio: Coach, Scrum Master, et si possible pas PO. Je suis tombé dans l'agilité quand j'étais tout petit (En informatique) et j'y suis resté. Je travaille pour Zenika, je participe à la vie de Nord Agile et j'aime le sucre!
@@ -9,7 +9,7 @@
 - name: Corinne ALEXANDRE
   bio: >
        En charge de la roadmap des projets digitaux à La Redoute. 
-       Vers un état d'esprit plus agile des équipes et des organisations."
+       Vers un état d'esprit plus agile des équipes et des organisations.
   photo: /img/speakers/CorinneAlexandre.jpg
 - name: Frédéric Leguédois
   bio: Agiliste évangeliste, libriste, voire polémiste ;-) Conférencier iconoclaste. Garanti zéro certification.
@@ -19,7 +19,7 @@
        J'essaye d'être un agent du changement. Coach je ne sais pas dire si j'en suis un. Est-ce grave ? en fait non ! 
        Ma trousse à outils c'est la facilitation, les interactions humaines, l’agilité, les serious games et la facilitation graphique
        Ma dernière passion est exercée tous les week-ends lorsque j'aide les plus motivés à sauter à l’élastique du haut d’un pont
-       Et vous ? quel sera votre premier petit pas vers votre monde meilleur ?"
+       Et vous ? quel sera votre premier petit pas vers votre monde meilleur ?
   photo: https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAASyAAAAJDQwZDllYjMyLTQ3ZWQtNDNjZC05ZjA1LTdhNTI1ZmEwYWRhYg.jpg
 - name: Yann Gensollen
   bio: >
@@ -35,7 +35,7 @@
 - name: Bruno BOUCARD
   bio: >
        Bruno Boucard est coach agile, software craftsman, formateur sur les pratiques XP. Il possède une vaste expérience de programmation depuis la programmation système et noyau sur serveur Unix à la programmation parallèle sur CPU et GPU sur Windows. Aujourd’hui il pratique un coaching craftsmanship afin d'émanciper les développeurs à travers les pratiques XP comme TDD, BDD et de solides connaissances en refactoring de code legacy. Cependant, il aime enseigner le DDD, une fois les techniques de bases maîtrisées.
-  photo: "https://secure.gravatar.com/avatar/61f07c096d20b46d5c861ebf008c21ee"
+  photo: https://secure.gravatar.com/avatar/61f07c096d20b46d5c861ebf008c21ee
 - name: Arnaud Huon
   bio: >
        13 ans d'XP
@@ -47,7 +47,7 @@
 - name: Laurent NYFFELS
   bio: >
        Après avoir successivement occupé les postes de Développeur, Architecte & Consultant Formateur sur les technologies de Microsoft / .NET, j'ai rejoint AXA France en 2011 pour participer à la construction du Web Center de Lille, entité en charge des développements Web & Mobile.
-       Mes principales activités ont consisté à mettre en place la méthode SCRUM, la plateforme d’intégration continue TFS et les choix d’architecture fonctionnels et techniques du Delivery. Actuellement, ma mission consiste à déployer l’échelle de la DSI les pratiques devops au sein des différentes Feature teams."
+       Mes principales activités ont consisté à mettre en place la méthode SCRUM, la plateforme d’intégration continue TFS et les choix d’architecture fonctionnels et techniques du Delivery. Actuellement, ma mission consiste à déployer l’échelle de la DSI les pratiques devops au sein des différentes Feature teams.
   photo: /img/speakers/LaurentNyffels.png
 - name:  Julien Hatzig
   bio: Software Engineer / Tech Leader chez Axa depuis 5 ans, je suis passionné par l'agile et les pratiques de développements. Membre de la communauté Software Craftsmanship j'aime participer et animer des dojos afin de m'améliorer et de découvrir de nouvelles pratiques.
@@ -107,3 +107,29 @@
        Elle préside l’Institut depuis 2012 et est également membre du bureau du Lean Global Network.
        Marie-Pia est co-auteure du livre « La Pratique du lean management dans l&#39;IT - Agilité et Amélioration continue ». Elle est à l’initiative du Lean IT Summit, la conférence internationale de référence sur le Lean en informatique dans laquelle des experts de l’Agile comme Jeff Sutherland et Kent Beck rencontrent ceux du Lean.
   photo: /img/speakers/MariePiaIgnace.png
+- name: Clotilde Desquilbet
+  bio: >
+       Diplômée du cursus sur les Systèmes d'Information de l'ECE PARIS en 2014, Clotilde a rejoint OCTO Technology en 2016 et fait partie aujourd'hui de la tribu Software Craftsmanship.
+       Suite à son intégration chez OCTO Technology, Clotilde a suivi le programme d'OCTO Skool. Ce parcours de formation a suscité en elle un profond intérêt pour les pratiques de qualité des développements, notamment TDD, pair programing et revues de code, qui permettent de limiter les régressions et favorisent la maintenabilité du code.
+       Voulant approfondir les méthodes permettant d'avoir des pratiques communes et une propriété collective du code au sein d'une équipe de développement, Clotilde a rejoint la tribu CRAFT à la suite d'OCTO Skool. Cette tribu lui permet de partager ses expériences et transmettre ses connaissances, aussi bien à OCTO que chez ses clients.
+  photo: /img/speakers/ClotildeDesquilbet.jpg
+- name: Emmanuel Lehmann
+  bio: >
+       Ancien développeur puis manager, Emmanuel est maintenant coach DevOps chez AXA France spécialisé dans la méthode BDD.
+  photo: https://pbs.twimg.com/profile_images/672883242786254848/zpM_cMOy_400x400.jpg
+- name: Benard Klymowicz
+  bio: >
+       Scrum Master et Dev Web, j'accompagne des équipes aussi bien sur la partie technique que sur les étapes de l'agilité. Passionné de course, représentant Davidson, j'aime maintenir mes équipes sur un rythme régulier .
+  photo: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkkAAAAJDUyMTE3OWEyLTcxYjktNGQ1My1hOTBhLTUxZjBiZDkzMGZkYw.jpg
+- name: Christophe Porchet
+  bio: >
+       Du développement à la transformation des entreprises en passant par de l'AMOA et les démarches processus, je suis très curieux et toujours à la recherche de nouveautés. Mes sujets actuels : animer des projets et des groupes de travail de façon ludique : c'est tellement plus sympa et efficace de bosser en s'amusant !
+  photo: /img/speakers/ChristophePorchet.jpg
+- name: Tomas Rodriguez
+  bio: >
+       Issu du monde Java, Tomas a découvert la beauté et la simplicité de la programmation fonctionnelle à travers Scala, langage qu'il pratique depuis plus d'un an. Depuis il s'intéresse aux Systèmes Distribuées, Architectures Réactives, Microservices et Big Data.
+  photo: https://media.licdn.com/media/AAEAAQAAAAAAAAjkAAAAJGM5YWIwZDlhLTNkYjUtNDg2ZS05YWNkLTgyZTAxNGQ2Y2E4ZA.jpg
+- name: Thomas Pierrain
+  bio: >
+       Co-organisateur de la communauté DDD Paris (dont la taille ne fait que grandir depuis un an), co-fondateur de la société 42skillz, Thomas est un eXtreme Programmer et architecte technique obsédé par les usages (vs. les approches orientée-solution classiques). Il aime utiliser le DDD et le TDD pour booster son efficacité au travail. Ambassadeur du modèle d'architecture hexagonale depuis des années (talks, blog posts,...), Thomas a tout récemment live-codé au cote d'Alistair Cockburn sur ce sujet.
+  photo: /img/speakers/ThomasPierrain.jpg
