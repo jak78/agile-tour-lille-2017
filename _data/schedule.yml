@@ -155,9 +155,13 @@
           - subject: ""
             description: ""
             speaker: ""
-          - subject: "Coding goûter : du code, des enfants, des parents et un goûter !"
-            description: "Céleste, 11 ans et Thomas, son papa viennent vous parler des coding goûter. Cette session vous permettra de découvrir l'état d'esprit qui habite ce merveilleux moment de complicité entre parents et enfants. Ce que nous y faisons, comment nous le faisons, et surtout pourquoi nous le faisons. Parents, à travers les regards croisés d'une fille et de son papa, venez trouvez les clés pour construire un événement similaire avec vos enfants. Enfants, venez découvrir comment d'autres enfants apprennent à leurs parents à coder."
-            speaker: Thomas Clavier, Céleste Clavier
+          - subject: "La zemblanité ou comment rater avec détermination"
+            description: >
+                         Avez-vous déjà entendu parlé de la sérendipité ? Vous savez le fait de découvrir par hasard des choses extraordinaires ! Et bien, je vous propose de vous parler de la zemblanité, son exact opposé.
+                         De la capacité à organiser avec soin et attention nos échecs, à l’énergie que nous mettons pour être certain de ne pas réussir, je vous propose une heure de découverte et d’échange au cœur de ce qui nous semble impossible … et qui pourtant est si fréquent !
+                         
+                         Venez découvrir les meilleures techniques pour rater vos projets à coup sûr.
+            speaker: "Olivier Albiez"
             level: 0
           - subject: "Playing the Agile Self-Assessment Game"
             description: "There isn't a standard route to become agile, you have to find your own way. 
@@ -249,13 +253,9 @@
         content:
           - subject: "Lighting talks"
             description: "TODO"
-          - subject: "La zemblanité ou comment rater avec détermination"
-            description: >
-                         Avez-vous déjà entendu parlé de la sérendipité ? Vous savez le fait de découvrir par hasard des choses extraordinaires ! Et bien, je vous propose de vous parler de la zemblanité, son exact opposé.
-                         De la capacité à organiser avec soin et attention nos échecs, à l’énergie que nous mettons pour être certain de ne pas réussir, je vous propose une heure de découverte et d’échange au cœur de ce qui nous semble impossible … et qui pourtant est si fréquent !
-                         
-                         Venez découvrir les meilleures techniques pour rater vos projets à coup sûr.
-            speaker: "Olivier Albiez"
+          - subject: "Coding goûter : du code, des enfants, des parents et un goûter !"
+            description: "Céleste, 11 ans et Thomas, son papa viennent vous parler des coding goûter. Cette session vous permettra de découvrir l'état d'esprit qui habite ce merveilleux moment de complicité entre parents et enfants. Ce que nous y faisons, comment nous le faisons, et surtout pourquoi nous le faisons. Parents, à travers les regards croisés d'une fille et de son papa, venez trouvez les clés pour construire un événement similaire avec vos enfants. Enfants, venez découvrir comment d'autres enfants apprennent à leurs parents à coder."
+            speaker: Thomas Clavier, Céleste Clavier
             level: 0
           - label: Forum ouvert
             fill: 3
