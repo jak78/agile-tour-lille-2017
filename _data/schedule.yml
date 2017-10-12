@@ -288,6 +288,7 @@
             level: 0
           - label: Forum ouvert
             fill: 3
+            duration: 2
       - hour: 15h00
         content:
           - subject: "Talk choisi par le public"
@@ -299,8 +300,6 @@
                          Nous vous proposons une réflexion sur ce que nous lions à la rémunération, ainsi qu’une présentation d’une solution de rémunération plus juste répondant aux aspirations de l’entreprise et de l’individu libéré.
             speaker: Olivier Albiez
             level: 0
-          - label: Forum ouvert
-            fill: 3
       - hour: 15h45
         special: 1
         content:
