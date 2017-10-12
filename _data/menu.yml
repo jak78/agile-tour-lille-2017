@@ -13,7 +13,7 @@
   url: /programme
   visible: 1
 - title: Speakers
-  url: /conferenciers
+  url: /speakers
   visible: 0
 - title: Talks
   url: /conferences

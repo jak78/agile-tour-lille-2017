@@ -14,101 +14,82 @@
             fill: 5
       - hour: 09h30
         content:
-          - subject: "No estimates: Predicting Without Estimates & 10 New Principles for Software Development"
-            speaker: Vasco Duarte
-            description:
+          - subject: "L'enfance perpétuelle: survivre dans une industrie qui croit toujours au Père Noël"
+            speaker: Laurent Bossavit
             fill: 5
             highlight: 1
-            level: 0
-            description: "We are learning better ways to develop software by doing it and helping others do it.
-                        </br>
-                        What would software development look like without estimates? Is it even possible to run a software project without estimating?
-                        </br>
-                        In this talk we review some of the main ideas behind NoEstimates and describe 10 principles for software development that support the view that Software can be successfully delivered, on time, and on budget without using the tools of estimation. There are many things that look different in a world without estimates, and in this talk we review some of those differences."
+            description: >
+                         La survie de l'humanité, nous dit-on, tient dans la capacité d'innovation toujours plus grande des programmeurs, les "nouveaux faiseurs de rois". 
+                         L'agilité, nous dit-on aussi, c'est "accueillir le changement". Et nous avons tellement envie, tellement besoin d'y croire ! 
+                         A tel point que nous sommes prêts à fermer les yeux sur les erreurs 503 et les NullPointerException que nous rencontrons tous les jours en tant qu'usagers, 
+                         ou pire que nous acceptions comme développeurs parce qu'il faut bien avancer sur la prochaine user story.
+                         <br>Sans prétendre à un discours de la méthode, cette session vous donnera des pistes concrètes et des techniques immédiatement applicables pour ne pas vous noyer dans le tourbillon de l'appel à l'innovation et du changement; pour retrouver vos racines et vous y arrimer.
       - hour: 10h30
         content:
-          - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
-            description: "Un retour d'expérience depuis ça fait 4 ans pour la transformation agile avec des équipes non-IT chez Décathlon Espagne parmi les 12.000 collaborateurs.
-                         L'idée c'est de presenter une vision générale de l'ensemble de différentes lignes de transformation : Depuis les premières conversations et le développement des rétrospectives jusqu'au travail actif pour escalader une structure de facilitation, en passant par favoriser l'auto-organisation à travers des opens espaces ou le besoin de l'expérimentation avec des cadres comme lean startup."
-            speaker: Antonio LOPEZ
-            company: Decathlon
+          - subject: Le lean IT, ou comment tourner vraiment la page du taylorisme
+            description: "Avec sa double obsession du client et du succès de l'équipe, le lean a alimenté 15 ans de réflexions de grands penseurs de l'agile, de Mary Poppendieck à Jez Humble. Cette intervention sera l'occasion de découvrir le LeanIT dans toute son orthodoxie et la nature de ses liens avec l'Agilité."
+            speaker: Marie-Pia Ignace
             level: 0
-          - subject: "Où en est le contrat Agile en 2016 ?"
-            description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
-            speaker: "Laurent Delvaux"
+          - subject: "Parce-qu'on ne change pas une culture comme on change une roue de voiture"
+            description: "Transition agile, paradoxes et boucle infinie... La conduite du changement repose aujourd’hui principalement sur les base du management de projet : objectifs, feuille de route, planning, moyens, suivi, pilotage et s’y ajoute bien sûr le traitement des résistances. Ce modèle fonctionne à peu près s’il faut changer de machine de production mais génère des déceptions lorsque le changement est d’une nature plus subtile ; lorsqu’il met en jeu l’humain, l’organisation du travail, la culture, les capacités comportementales, les croyances… Cette intervention se base sur des expériences de vie et sur un ouvrage de Paul Watzlawick, psycho-sociologue, fondateur de l’école de PaloAlto. Elle nous permettra de découvrir nos paradoxes, d’en rire et de comprendre que le changement n’est pas un « livrable » comme les autres. Peut-être que nous pourrons en tirer quelques principes d’impulsion du changement…"
+            speaker: François Salazar
             level: 0
-          - subject: Une CoP Agile qui marche
-            description: "Comment Créer une Communauté de Pratiques Agile (PO; ScrumMaster, Management) efficace dans l'Entreprise?
-                          Guilde, Communauté des POs, Tribu, Cercle des SM… peu importe le nom, elle est l'ingrédient essentiel d'une transformation agile réussie.
-                          Voici quelques clés pour que cela marche!"
-            speaker: Jean-Claude Grosjean
-            level: 1
-          - subject: "Du craft chez les OPS"
-            description: "En 2016, on peut instancier un SI from scratch avec du code.
-                        La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
-                        Par ailleurs les besoins des utilisateurs de l'infrastructure (aka les Dev) emmène à repenser des services d'infrastructure classiques tel que le Monitoring ou le Backup en mode 'as a Service'.
-                        Or comme chacun sait : Dev + Service = Produit
-                        Et quelle meilleure manière de faire un produit que de le faire en agile avec des pratiques de qualité ?
-                        Nous vous conterons l'histoire d'un produit d'infrastructure avec son why, sa roadmap, ses epics et ses user stories.
-                        Nous vous plongerons dans le quotidien d'une équipe OPS avec ses rituels et ses pratiques de développement.
-                        Nous vous décrirons ce qu'est une plateforme d'intégration continue OPS et comment on teste une infrastructure en continu."
-            speaker: François Xavier VENDE, Mathieu Herbert
-            company: octo
-            level: 1
-          - subject: "Du craft chez les OPS"
-            description: "En 2016, on peut instancier un SI from scratch avec du code.
-                        La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
-                        Par ailleurs les besoins des utilisateurs de l'infrastructure (aka les Dev) emmène à repenser des services d'infrastructure classiques tel que le Monitoring ou le Backup en mode 'as a Service'.
-                        Or comme chacun sait : Dev + Service = Produit
-                        Et quelle meilleure manière de faire un produit que de le faire en agile avec des pratiques de qualité ?
-                        Nous vous conterons l'histoire d'un produit d'infrastructure avec son why, sa roadmap, ses epics et ses user stories.
-                        Nous vous plongerons dans le quotidien d'une équipe OPS avec ses rituels et ses pratiques de développement.
-                        Nous vous décrirons ce qu'est une plateforme d'intégration continue OPS et comment on teste une infrastructure en continu."
-            speaker: François Xavier VENDE, Mathieu Herbert
-            company: octo
-            level: 1
+          - subject: Comment être Tech Lead dans une pizza team XXL sans finir sous l'eau ?
+            description: >
+                         Être Tech Lead, c'est être au service de l'équipe en étant à la fois formateur, facilitateur, expert et coach. Mais quand l'équipe projet est composée de 15 personnes, dont 10 développeur·euse·s, comment remplir ce rôle tout en continuant à prendre le temps de développer avec l'équipe, et ce sans finir sous l'eau ?<br>
+                         Dans cette conférence, je vous partagerai un retour d'expérience dans lequel je présenterai les pratiques et mesures qui ont été mises en place pour améliorer la propriété collective du code, la qualité du produit mais également l'autonomie de cette équipe de développement.
+            speaker: Damien Beaufils
+            level: 2
+          - subject: Epic Legacy Code Challenge
+            description: "Vous venez d'être embauchés chez Paladin Inventories Company. Elle gagne beaucoup d'argent avec son logiciel. Mais le gobelin qui l'a écrit s'est fait dévorer par un dragon. Vous ne comprenez rien au code. Et bien sûr il n'y a pas de tests automatisés.<br>
+                         
+                         Le problème : une horde de trolls se rue vers vous avec plein de nouvelles demandes pour ce logiciel, qui est maintenant le vôtre...<br>
+                         
+                         Cette situation vous dit quelquechose ?<br>
+                         
+                         Et si on se mettait dans cette situation, en équipes et en compétition ?<br> 
+                         
+                         Qui sera alors l'équipe la plus à même de faire évoluer le code legacy, tout en continuant à gagner de l'argent ?<br>
+                         
+                         Venez relever le challenge, avec votre PC de développement !<br>
+                         
+                         <em>Pré-requis : avoir déjà installé NodeJS en version récente sur votre PC.</em>
+                         "
+            speaker: Julien Jakubowski, Clotilde Desquilbet
+            level: 2
+            duration: 2
+          - subject: "Sensibilisation au Software Craftsmanship : Lego® à la rescousse"
+            description: "Cet atelier va vous permettre de découvrir quelques bonnes pratiques du génie logiciel en s’amusant : TDD, Clean Code, Refactoring, Dette Technique et Integration Continue sont au programme ! Pas la peine de savoir coder ! L’usage de briques Lego® offre l’opportunité à tous (développeurs ou non) de manipuler ces concepts.
+                         Chers gens du métier, manager ou curieux, venez découvrir le mode de fonctionnement d’un développeur. Chers développeurs, venez pratiquer l’eXtreme LegoBuilding avec le framework LegoUnit !"
+            speaker: Thomas Clavier
+            level: 0
+            duration: 2
       - hour: 11h30
         content:
-          - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
-            description: "Un retour d'expérience depuis ça fait 4 ans pour la transformation agile avec des équipes non-IT chez Décathlon Espagne parmi les 12.000 collaborateurs.
-                         L'idée c'est de presenter une vision générale de l'ensemble de différentes lignes de transformation : Depuis les premières conversations et le développement des rétrospectives jusqu'au travail actif pour escalader une structure de facilitation, en passant par favoriser l'auto-organisation à travers des opens espaces ou le besoin de l'expérimentation avec des cadres comme lean startup."
-            speaker: Antonio LOPEZ
-            company: Decathlon
+          - subject: "L'agilité à l'échelle oui et pour quoi ?"
+            description: "<p>Le monde agile nous dit l'agilité se caractérise par des équipes de 9 personnes maximum. 
+                         Mince, chez moi, j'ai 50 développeurs ... ca veut dire que pour moi, il n'y a pas d'issue</p>
+                         
+                         <p>Alors, depuis quelques temps (mois ou années suivant les cas), tout le monde parle de l'agilité à l'échelle. 
+                         Ca cela me satisfait car j'ai 60 personnes directement concernées et 200 autres que je pourrais impliquer très rapidement.</p>
+                         
+                         <p>Cependant qu'est ce qu'on appelle l'agilité à l'échelle ? 
+                         Nous vous proposons lors de ce talk d'échanger sur :</p>
+                         <ul> 
+                           <li>pourquoi en sommes nous arrivés à ces questions</li> 
+                           <li>ce qui fait que cela marche</li> 
+                           <li>les plus beaux échecs rencontrés en entreprise</li>
+                         </ul>
+                         "
+            speaker: Aurélien Morvant
             level: 0
-          - subject: "Où en est le contrat Agile en 2016 ?"
-            description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
-            speaker: "Laurent Delvaux"
-            level: 0
-          - subject: Une CoP Agile qui marche
-            description: "Comment Créer une Communauté de Pratiques Agile (PO; ScrumMaster, Management) efficace dans l'Entreprise?
-                          Guilde, Communauté des POs, Tribu, Cercle des SM… peu importe le nom, elle est l'ingrédient essentiel d'une transformation agile réussie.
-                          Voici quelques clés pour que cela marche!"
-            speaker: Jean-Claude Grosjean
+          - subject: "Comment nous avons réussi un projet Big Data dans une grande banque"
+            description: "<p>Un projet Big Data ce n'est pas facile, mais ça l'ai encore moins quand il s'agit d'un géant comme la BNP !</p>
+                         
+                         <p>Venez découvrir comment nous avons fait pour réussir notre projet Big Data et l'implémentation d'une application qui tourne aujourd'hui en production avec des vrais utilisateurs en à peine quelques mois ! Vous découvrirez les challenges techniques, humains, culturels et organisationnels auxquels l'équipe a dû faire face. Nous vous partagerons également comment nous avons réussi à les surmonter !</p>"
+            speaker: Nelson Dufossé, Tomas Rodriguez
             level: 1
-          - subject: "Du craft chez les OPS"
-            description: "En 2016, on peut instancier un SI from scratch avec du code.
-                        La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
-                        Par ailleurs les besoins des utilisateurs de l'infrastructure (aka les Dev) emmène à repenser des services d'infrastructure classiques tel que le Monitoring ou le Backup en mode 'as a Service'.
-                        Or comme chacun sait : Dev + Service = Produit
-                        Et quelle meilleure manière de faire un produit que de le faire en agile avec des pratiques de qualité ?
-                        Nous vous conterons l'histoire d'un produit d'infrastructure avec son why, sa roadmap, ses epics et ses user stories.
-                        Nous vous plongerons dans le quotidien d'une équipe OPS avec ses rituels et ses pratiques de développement.
-                        Nous vous décrirons ce qu'est une plateforme d'intégration continue OPS et comment on teste une infrastructure en continu."
-            speaker: François Xavier VENDE, Mathieu Herbert
-            company: octo
-            level: 1
-          - subject: "Du craft chez les OPS"
-            description: "En 2016, on peut instancier un SI from scratch avec du code.
-                        La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
-                        Par ailleurs les besoins des utilisateurs de l'infrastructure (aka les Dev) emmène à repenser des services d'infrastructure classiques tel que le Monitoring ou le Backup en mode 'as a Service'.
-                        Or comme chacun sait : Dev + Service = Produit
-                        Et quelle meilleure manière de faire un produit que de le faire en agile avec des pratiques de qualité ?
-                        Nous vous conterons l'histoire d'un produit d'infrastructure avec son why, sa roadmap, ses epics et ses user stories.
-                        Nous vous plongerons dans le quotidien d'une équipe OPS avec ses rituels et ses pratiques de développement.
-                        Nous vous décrirons ce qu'est une plateforme d'intégration continue OPS et comment on teste une infrastructure en continu."
-            speaker: François Xavier VENDE, Mathieu Herbert
-            company: octo
-            level: 1
+          - subject: ""
       - hour: 12h30
         special: 1
         content:
@@ -119,7 +100,7 @@
       - hour: 13h30
         special: 1
         content:
-          - subject: "Keynote"
+          - subject: "Keynote de l'après-midi"
             speaker: Intervenant mystère
             fill: 5
             highlight: 1
@@ -130,134 +111,87 @@
             fill: 5
       - hour: 15h00
         content:
-          - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
-            description: "Un retour d'expérience depuis ça fait 4 ans pour la transformation agile avec des équipes non-IT chez Décathlon Espagne parmi les 12.000 collaborateurs.
-                         L'idée c'est de presenter une vision générale de l'ensemble de différentes lignes de transformation : Depuis les premières conversations et le développement des rétrospectives jusqu'au travail actif pour escalader une structure de facilitation, en passant par favoriser l'auto-organisation à travers des opens espaces ou le besoin de l'expérimentation avec des cadres comme lean startup."
-            speaker: Antonio LOPEZ
-            company: Decathlon
+          - subject: "Le Lean sans respect c'est comme s'allonger nu sur une plage sans crème et sans parasol, ça fait très mal et c'est dangereux !"
+            description: >
+                         On parle beaucoup de Lean Management et surtout en mal (presse, TV...) or nombre de personne ne savent pas réellement ce que recouvre le Lean issu de Toyota : un système de production (le Toyota Production Système) ET un système de management (le Toyota Way). Beaucoup pensent qu'en appliquant seulement les outils (le TPS) ils font du Lean ; c'est une erreur ! Ils font du taylorisme et du cost-cutting. Cette session vise à montrer comment le vrai Lean (TPS + Toyota Way) respecte les personnes (autonomie, compétences, bien-être au travail). De plus, nous verrons ce que veut dire en Lean "respecter les personnes".
+            speaker: Jean-Philippe DOUET
             level: 0
-          - subject: "Où en est le contrat Agile en 2016 ?"
-            description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
-            speaker: "Laurent Delvaux"
+          - subject: "Du DDD dans mon Legacy ! (live-coding)"
+            description: >
+                         Prenons une application legacy on ne peut plus classique : code procédural du mur au plafond, code métier complétement anémique et étouffé par de la tuyauterie technique... Du classique quoi... ;-) Notre mission pour cette session de pure live-coding sera d'identifier et d'extraire les concepts du domaine en pleins milieu de ce bordel, pour pouvoir y ajouter une nouvelle fonctionnalité désespérément demandée par notre métier depuis des mois. Bien sûr, ce sera l'occasion d'utiliser et d'expliquer en chemin quelques patterns du DDD.
+            speaker: "Thomas Pierrain"
             level: 0
-          - subject: Une CoP Agile qui marche
-            description: "Comment Créer une Communauté de Pratiques Agile (PO; ScrumMaster, Management) efficace dans l'Entreprise?
-                          Guilde, Communauté des POs, Tribu, Cercle des SM… peu importe le nom, elle est l'ingrédient essentiel d'une transformation agile réussie.
-                          Voici quelques clés pour que cela marche!"
-            speaker: Jean-Claude Grosjean
-            level: 1
-          - subject: "Du craft chez les OPS"
-            description: "En 2016, on peut instancier un SI from scratch avec du code.
-                        La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
-                        Par ailleurs les besoins des utilisateurs de l'infrastructure (aka les Dev) emmène à repenser des services d'infrastructure classiques tel que le Monitoring ou le Backup en mode 'as a Service'.
-                        Or comme chacun sait : Dev + Service = Produit
-                        Et quelle meilleure manière de faire un produit que de le faire en agile avec des pratiques de qualité ?
-                        Nous vous conterons l'histoire d'un produit d'infrastructure avec son why, sa roadmap, ses epics et ses user stories.
-                        Nous vous plongerons dans le quotidien d'une équipe OPS avec ses rituels et ses pratiques de développement.
-                        Nous vous décrirons ce qu'est une plateforme d'intégration continue OPS et comment on teste une infrastructure en continu."
-            speaker: François Xavier VENDE, Mathieu Herbert
-            company: octo
-            level: 1
-          - subject: "Du craft chez les OPS"
-            description: "En 2016, on peut instancier un SI from scratch avec du code.
-                        La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
-                        Par ailleurs les besoins des utilisateurs de l'infrastructure (aka les Dev) emmène à repenser des services d'infrastructure classiques tel que le Monitoring ou le Backup en mode 'as a Service'.
-                        Or comme chacun sait : Dev + Service = Produit
-                        Et quelle meilleure manière de faire un produit que de le faire en agile avec des pratiques de qualité ?
-                        Nous vous conterons l'histoire d'un produit d'infrastructure avec son why, sa roadmap, ses epics et ses user stories.
-                        Nous vous plongerons dans le quotidien d'une équipe OPS avec ses rituels et ses pratiques de développement.
-                        Nous vous décrirons ce qu'est une plateforme d'intégration continue OPS et comment on teste une infrastructure en continu."
-            speaker: François Xavier VENDE, Mathieu Herbert
-            company: octo
-            level: 1
+          - subject: Mon premier train SAFe
+            description: >
+                         Je viens partager avec vous une mise en place de SAFe sous la forme d'une rétrospective. Au bout de 20 mois, qu'a apporté ce framework aux équipes ? Que faut-il éviter ? Comment s'améliorer ? Is it SAFe or not?
+            speaker: Johan Bonneau
+            level: 0
+          - subject: "L'estimachien"
+            description: "Comment présenter le Planning Poker à des gens qui ne l'ont jamais vu et sans parler d'informatique. Un atelier qui explique comment ça fonctionne, la complexité, le rôle du PO, l'intérêt du Planning Poker et pourquoi des équipes n'arrivent pas aux même estimations. 
+                         Le Must? Tellement facile que c'est ré-utilisable dès que vous sortez."
+            speaker: Matthieu Salikhov
+            level: 0
+          - subject: "Everyone is a Product Manager (Yes, even you!)"
+            description: >
+                         What is a Product Manager? And how am I one, even if it is not my job title? This hands-on workshop will delve into the 101 of Product Management and product vision creation and expand it to the world of development, marketing and beyond.
+                         
+                         Why? As everyone can benefit from having a vision of what they should do, constant measured feedback and the ability to say no (nicely)!
+                         
+                         Working as a Product Manager and training others for 7 years has indelibly changed my work and personal life for the better. I will share what I have learned and walk you through your own “product” exercises.
+            speaker: Sheila SUAREZ DE FLORES
+            level: 0
       - hour: 15h45
         content:
           - label: "Pause café"
             fill: 5
       - hour: 16h15
         content:
-          - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
-            description: "Un retour d'expérience depuis ça fait 4 ans pour la transformation agile avec des équipes non-IT chez Décathlon Espagne parmi les 12.000 collaborateurs.
-                         L'idée c'est de presenter une vision générale de l'ensemble de différentes lignes de transformation : Depuis les premières conversations et le développement des rétrospectives jusqu'au travail actif pour escalader une structure de facilitation, en passant par favoriser l'auto-organisation à travers des opens espaces ou le besoin de l'expérimentation avec des cadres comme lean startup."
-            speaker: Antonio LOPEZ
-            company: Decathlon
+          - subject: "Mise en place de DevOps chez AXA France"
+            description: "
+                         L’objectif de cette session est de faire part de nos premières expériences sur la mise en place du software Craftsmanship et de DevOps en profitant de l’Agilité « At Scale » via la généralisation de l’organisation en Feature Teams.
+                         "
+            speaker: Laurent Nyffels
             level: 0
-          - subject: "Où en est le contrat Agile en 2016 ?"
-            description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
-            speaker: "Laurent Delvaux"
+          - subject: ""
+            description: ""
+            speaker: ""
+          - subject: "Coding goûter : du code, des enfants, des parents et un goûter !"
+            description: "Céleste, 11 ans et Thomas, son papa viennent vous parler des coding goûter. Cette session vous permettra de découvrir l'état d'esprit qui habite ce merveilleux moment de complicité entre parents et enfants. Ce que nous y faisons, comment nous le faisons, et surtout pourquoi nous le faisons. Parents, à travers les regards croisés d'une fille et de son papa, venez trouvez les clés pour construire un événement similaire avec vos enfants. Enfants, venez découvrir comment d'autres enfants apprennent à leurs parents à coder."
+            speaker: Thomas Clavier, Céleste Clavier
             level: 0
-          - subject: Une CoP Agile qui marche
-            description: "Comment Créer une Communauté de Pratiques Agile (PO; ScrumMaster, Management) efficace dans l'Entreprise?
-                          Guilde, Communauté des POs, Tribu, Cercle des SM… peu importe le nom, elle est l'ingrédient essentiel d'une transformation agile réussie.
-                          Voici quelques clés pour que cela marche!"
-            speaker: Jean-Claude Grosjean
-            level: 1
-          - subject: "Du craft chez les OPS"
-            description: "En 2016, on peut instancier un SI from scratch avec du code.
-                        La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
-                        Par ailleurs les besoins des utilisateurs de l'infrastructure (aka les Dev) emmène à repenser des services d'infrastructure classiques tel que le Monitoring ou le Backup en mode 'as a Service'.
-                        Or comme chacun sait : Dev + Service = Produit
-                        Et quelle meilleure manière de faire un produit que de le faire en agile avec des pratiques de qualité ?
-                        Nous vous conterons l'histoire d'un produit d'infrastructure avec son why, sa roadmap, ses epics et ses user stories.
-                        Nous vous plongerons dans le quotidien d'une équipe OPS avec ses rituels et ses pratiques de développement.
-                        Nous vous décrirons ce qu'est une plateforme d'intégration continue OPS et comment on teste une infrastructure en continu."
-            speaker: François Xavier VENDE, Mathieu Herbert
-            company: octo
-            level: 1
-          - subject: "Du craft chez les OPS"
-            description: "En 2016, on peut instancier un SI from scratch avec du code.
-                        La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
-                        Par ailleurs les besoins des utilisateurs de l'infrastructure (aka les Dev) emmène à repenser des services d'infrastructure classiques tel que le Monitoring ou le Backup en mode 'as a Service'.
-                        Or comme chacun sait : Dev + Service = Produit
-                        Et quelle meilleure manière de faire un produit que de le faire en agile avec des pratiques de qualité ?
-                        Nous vous conterons l'histoire d'un produit d'infrastructure avec son why, sa roadmap, ses epics et ses user stories.
-                        Nous vous plongerons dans le quotidien d'une équipe OPS avec ses rituels et ses pratiques de développement.
-                        Nous vous décrirons ce qu'est une plateforme d'intégration continue OPS et comment on teste une infrastructure en continu."
-            speaker: François Xavier VENDE, Mathieu Herbert
-            company: octo
-            level: 1
+          - subject: "Playing the Agile Self-Assessment Game"
+            description: "There isn't a standard route to become agile, you have to find your own way. 
+                          Methods and frameworks don't tell you how to increase your agility. The Agile Self-Assessment Game is an 'agile map' 
+                          that inspires you with ideas and suggestions on where to go next on your agile journey. 
+                          Come play the Agile Self-Assessment Game in teams to discover how agile you are and what you can do to increase your agility." 
+            speaker: Ben Linders
+            level: 0
+            duration: 2
+          - subject: "Travailler votre posture de Leader Hôte avec le Host Leadership"
+            description: "Nous vous  invitons à découvrir la posture de l'hôte leader, formalisée par Mark Mc Kergow qui revisite la notion de leadership à travers une métaphore complète : Quand vous invitez des personnes, chez vous, à un événement ou tout simplement à une réunion, comment préparez-vous votre invitation? Quels messages faites-vous passer? Comment faites-vous participer vos invités?
+                         Cette nouvelle session pratique vous permettra de vous mettre dans la position de l'hôte et d'échanger sur vos pratiques."
+            speaker: Aurélien Morvant
+            level: 0
+            duration: 2
       - hour: 17h15
         content:
-          - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
-            description: "Un retour d'expérience depuis ça fait 4 ans pour la transformation agile avec des équipes non-IT chez Décathlon Espagne parmi les 12.000 collaborateurs.
-                         L'idée c'est de presenter une vision générale de l'ensemble de différentes lignes de transformation : Depuis les premières conversations et le développement des rétrospectives jusqu'au travail actif pour escalader une structure de facilitation, en passant par favoriser l'auto-organisation à travers des opens espaces ou le besoin de l'expérimentation avec des cadres comme lean startup."
-            speaker: Antonio LOPEZ
-            company: Decathlon
+          - subject: "Recruter des développeurs : la fin de la quête du graal ?"
+            description: >
+                         Le Graal est une métaphore parfois employée par les recruteurs pour qualifier le ""super développeur"", le ""mouton à 5 pattes"" qui connait toutes les technos trendies et qui a le bonheur d'avoir des velléités salariales plutôt faibles. Comme dans le mythe arthurien, cette quête peut sembler vaine. 
+                         Et si, le véritable Graal du recrutement IT ne se trouvait pas mais se construisait? Cette présentation me permettra de partager avec vous ma vision de la manière dont chaque entreprise pourrait réaliser sa quête du graal : par un recrutement intelligent et une réflexion sur l'intégration et la progression de ses salariés
+            speaker: Arnaud Huon
             level: 0
-          - subject: "Où en est le contrat Agile en 2016 ?"
-            description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
-            speaker: "Laurent Delvaux"
+          - subject: "Pratiques de développement : mon plan d'entrainment"
+            description: "On se lance tous parfois des défis un peu fou, comme courir et finir son premier marathon. Vous souhaitez mettre en place les pratiques de développement au sein de votre équipe, venez suivre un exemple de plan d'entrainement."
+            speaker: Julien Hatzig
             level: 0
-          - subject: Une CoP Agile qui marche
-            description: "Comment Créer une Communauté de Pratiques Agile (PO; ScrumMaster, Management) efficace dans l'Entreprise?
-                          Guilde, Communauté des POs, Tribu, Cercle des SM… peu importe le nom, elle est l'ingrédient essentiel d'une transformation agile réussie.
-                          Voici quelques clés pour que cela marche!"
-            speaker: Jean-Claude Grosjean
-            level: 1
-          - subject: "Du craft chez les OPS"
-            description: "En 2016, on peut instancier un SI from scratch avec du code.
-                        La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
-                        Par ailleurs les besoins des utilisateurs de l'infrastructure (aka les Dev) emmène à repenser des services d'infrastructure classiques tel que le Monitoring ou le Backup en mode 'as a Service'.
-                        Or comme chacun sait : Dev + Service = Produit
-                        Et quelle meilleure manière de faire un produit que de le faire en agile avec des pratiques de qualité ?
-                        Nous vous conterons l'histoire d'un produit d'infrastructure avec son why, sa roadmap, ses epics et ses user stories.
-                        Nous vous plongerons dans le quotidien d'une équipe OPS avec ses rituels et ses pratiques de développement.
-                        Nous vous décrirons ce qu'est une plateforme d'intégration continue OPS et comment on teste une infrastructure en continu."
-            speaker: François Xavier VENDE, Mathieu Herbert
-            company: octo
-            level: 1
-          - subject: "Du craft chez les OPS"
-            description: "En 2016, on peut instancier un SI from scratch avec du code.
-                        La maturité des outils d'infrastructure nous permet d'importer des pratiques issues du monde du développement.
-                        Par ailleurs les besoins des utilisateurs de l'infrastructure (aka les Dev) emmène à repenser des services d'infrastructure classiques tel que le Monitoring ou le Backup en mode 'as a Service'.
-                        Or comme chacun sait : Dev + Service = Produit
-                        Et quelle meilleure manière de faire un produit que de le faire en agile avec des pratiques de qualité ?
-                        Nous vous conterons l'histoire d'un produit d'infrastructure avec son why, sa roadmap, ses epics et ses user stories.
-                        Nous vous plongerons dans le quotidien d'une équipe OPS avec ses rituels et ses pratiques de développement.
-                        Nous vous décrirons ce qu'est une plateforme d'intégration continue OPS et comment on teste une infrastructure en continu."
-            speaker: François Xavier VENDE, Mathieu Herbert
-            company: octo
-            level: 1
+          - subject: Comment lancer un projet agile en 5 jours chrono
+            description: >
+                         Parce que pour beaucoup, l'agilité, c'est ""on démarre tout de suite"", l'initialisation d'un projet agile est un sujet peu documenté. Praticiens agiles débutants et confirmés luttent pour trouver une recette simple permettant de passer d'un brief succinct à un backlog prêt au développement. 
+                         J'aborderai des notions telles que la mise au format agile de l'expression des besoins du client, l'approche user-centric, le vocabulaire du projet, mais également une mise en perspective du projet dans son contexte de marché.
+                         Venez faire le plein de conseils pratiques issus de l'expérience dans une session participative et ludique.
+            speaker: Yann Gensollen
+            level: 0
       - hour: 18h00
         special: 1
         content:
@@ -278,13 +212,26 @@
             room: Atrium
       - hour: 09h30
         content:
-          - subject: "L’éducation numérique, la seule véritable transformation digitale ?"
-            speaker: Youmna Ovazza
-            description: "La confrontation difficile des adultes à la transformation digitale dans l'entreprise et dans la société alimente les fantasmes sur les jeunes et leur rapport au numérique.
-                        </br>
-                        Les enjeux économiques et sociaux associés au numérique sont d'importance et pourtant la France peine à développer des approches enthousiasmantes sur le sujet notamment en matière d'éducation.
-                        </br>
-                        A l'heure où l'éducation devient un marché et où l'enseignement du code rentre à l'école, peut-on s'inspirer de l'expérience de transformation digitale en entreprise pour développer une autre approche de l'éducation numérique ? Peut-elle se faire sans les professionnels du numérique et les développeurs de métier ?"
+          - subject: "3 idées qui changent tout"
+            speaker: Christophe Thibaut
+            description: "<p>Nous sommes en train de changer profondément la façon dont nous développons du logiciel.</p> 
+                          <p>Avant que ce changement ne commence - il y a environ 20 ans - dans la plupart des entreprises, le travail de développement était organisé en phases, réparti sur des équipes spécialisées, et reposait presqu’exclusivement sur l’écrit. 
+                          </p>
+                          <p>Lorsque que le changement sera achevé - dans 20 ans peut-être ? - le développement de logiciel sera organisé bien différemment : en cycles courts, sans distinction de phases, il impliquera des équipes multi-compétentes travaillant en cohésion. 
+                          La conversation sera le moyen principal de transmission des idées, et tout ce qui doit être écrit le sera sous forme de code ou de tests. 
+                          </p>
+                          <p>Ce qui caractérise principalement ce changement, c’est l’adoption de boucles de retour d’information toujours plus courtes et toujours plus fréquentes. 
+                          </p>
+                          <p>Dans l’entreprise, ce changement rencontre des obstacles culturels nombreux et robustes. Il est pourtant inéluctable, pour trois raisons :</p>
+                          <ul>
+                          <li>le développement de logiciel est indispensable à la stratégie d’innovation des entreprises ;</li>              
+                          <li>la complexité de cette activité impose un modèle de collaboration qui rend caduque la séparation classique entre conception et réalisation ;</li>              
+                          <li>nous aspirons tous à faire un travail intéressant et épanouissant, plutôt que de produire aveuglément du code défectueux ou inutile.</li>
+                          </ul>              
+                          <p>Pour se convaincre de la présence de ce changement autour de vous, il suffit d’observer l’évolution des pratiques sur le terrain. 
+                          Dans cette keynote, je vous invite à considérer les trois idées majeures qui sous-tendent cette évolution. 
+                          En quoi ces idées font avancer le métier du développement, comment elles sont fréquemment altérées afin de préserver l’ancien modèle, 
+                          et comment les encourager afin d’accélérer la transformation du métier de développeur.</p>"
             fill: 5
             highlight: 1
             level: 0
@@ -300,15 +247,15 @@
             fill: 5
       - hour: 11h30
         content:
-          - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
-            description: "Un retour d'expérience depuis ça fait 4 ans pour la transformation agile avec des équipes non-IT chez Décathlon Espagne parmi les 12.000 collaborateurs.
-                         L'idée c'est de presenter une vision générale de l'ensemble de différentes lignes de transformation : Depuis les premières conversations et le développement des rétrospectives jusqu'au travail actif pour escalader une structure de facilitation, en passant par favoriser l'auto-organisation à travers des opens espaces ou le besoin de l'expérimentation avec des cadres comme lean startup."
-            speaker: Antonio LOPEZ
-            company: Decathlon
-            level: 0
-          - subject: "Où en est le contrat Agile en 2016 ?"
-            description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
-            speaker: "Laurent Delvaux"
+          - subject: "Lighting talks"
+            description: "TODO"
+          - subject: "La zemblanité ou comment rater avec détermination"
+            description: >
+                         Avez-vous déjà entendu parlé de la sérendipité ? Vous savez le fait de découvrir par hasard des choses extraordinaires ! Et bien, je vous propose de vous parler de la zemblanité, son exact opposé.
+                         De la capacité à organiser avec soin et attention nos échecs, à l’énergie que nous mettons pour être certain de ne pas réussir, je vous propose une heure de découverte et d’échange au cœur de ce qui nous semble impossible … et qui pourtant est si fréquent !
+                         
+                         Venez découvrir les meilleures techniques pour rater vos projets à coup sûr.
+            speaker: "Olivier Albiez"
             level: 0
           - label: Forum ouvert
             fill: 3
@@ -321,29 +268,35 @@
             room: Atrium
       - hour: 14h00
         content:
-          - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
-            description: "Un retour d'expérience depuis ça fait 4 ans pour la transformation agile avec des équipes non-IT chez Décathlon Espagne parmi les 12.000 collaborateurs.
-                         L'idée c'est de presenter une vision générale de l'ensemble de différentes lignes de transformation : Depuis les premières conversations et le développement des rétrospectives jusqu'au travail actif pour escalader une structure de facilitation, en passant par favoriser l'auto-organisation à travers des opens espaces ou le besoin de l'expérimentation avec des cadres comme lean startup."
-            speaker: Antonio LOPEZ
-            company: Decathlon
+          - subject: "Les managers : les oubliés de l’agilité !"
+            description: "Lorsque l’on parle d’agilité, on parle d’auto-organisation, de facilitation, on explique que le SM ou le PO ne sont pas des managers… Le rôle du management est souvent minoré voire ignoré dans la démarche de transformation.
+                         
+                         Et cela se ressent après quelques semaines ou quelques mois : les managers peinent à trouver leur place, perdent leurs repères. Un malaise s’installe. Ce phénomène est d’autant plus fort dans les entreprises de taille conséquente.
+                         
+                         Une équipe a-t’elle toujours besoin de management pour réussir ses projets ? 
+                         Si oui, quel doit-être son rôle dans une organisation agile et comment l'intégrer dans la démarche de transformation ?"
+            speaker: Cédric Pourbaix
             level: 0
-          - subject: "Où en est le contrat Agile en 2016 ?"
-            description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
-            speaker: "Laurent Delvaux"
+          - subject: "Après s’être organisé en tribus d’indiens, AXA diffuse BDD avec les 3 Amigos"
+            description: >
+                         En 2016, Djim et Mehdi étaient venus parler de la transformation Feature Teams d'AXA France. Nouveaux rôles, nouvelle organisation, nouvelles méthodes de travail, tout avait été expliqué en détails.
+                         La transformation de 2000 personnes prend du temps, l'occasion de revenir vous faire un nouvel épisode. Cette fois-çi, Emilie-Anne et Emmanuel vous proposent de rentrer un peu plus en détails dans les pratiques d'ingénierie. 
+                         Nous allons nous concentrer sur l'écriture du besoin ; de nos ateliers 3 amigos à la (re)mise en place de la méthode BDD.
+                         Pourquoi "le flux tiré c'est la vie" ? Qui sont ces 3 amigos dont nous parlons sans cesse ? Avons-nous enfin arrêter d' "écrire" des BDD ?
+            speaker: Emilie-Anne Guerch, Emmanuel Lehmann
             level: 0
           - label: Forum ouvert
             fill: 3
       - hour: 15h00
         content:
-          - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
-            description: "Un retour d'expérience depuis ça fait 4 ans pour la transformation agile avec des équipes non-IT chez Décathlon Espagne parmi les 12.000 collaborateurs.
-                         L'idée c'est de presenter une vision générale de l'ensemble de différentes lignes de transformation : Depuis les premières conversations et le développement des rétrospectives jusqu'au travail actif pour escalader une structure de facilitation, en passant par favoriser l'auto-organisation à travers des opens espaces ou le besoin de l'expérimentation avec des cadres comme lean startup."
-            speaker: Antonio LOPEZ
-            company: Decathlon
-            level: 0
-          - subject: "Où en est le contrat Agile en 2016 ?"
-            description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
-            speaker: "Laurent Delvaux"
+          - subject: "Talk choisi par le public"
+            description: "Julie proposera au public de choisir parmi 3 talks, par un vote à main levée le jour J."
+            speaker: "Julie Quillé"
+          - subject: "Rémunération dans une entreprise agile ou libérée"
+            description: >
+                         Dans le modèle classique actuel, la rémunération sert plusieurs objectifs, que ce soit la reconnaissance, la motivation ou encore l’attractivité de l’entreprise. Cependant, le revers de la médaille est qu’il devient le centre de toutes les attentions et que nous en oublions de nous poser certaines questions.
+                         Nous vous proposons une réflexion sur ce que nous lions à la rémunération, ainsi qu’une présentation d’une solution de rémunération plus juste répondant aux aspirations de l’entreprise et de l’individu libéré.
+            speaker: Olivier Albiez
             level: 0
           - label: Forum ouvert
             fill: 3
@@ -356,15 +309,20 @@
             room: Atrium
       - hour: 16h15
         content:
-          - subject: "Agile (& more) with non-IT teams (Scaling collaboration in a big retailer)"
-            description: "Un retour d'expérience depuis ça fait 4 ans pour la transformation agile avec des équipes non-IT chez Décathlon Espagne parmi les 12.000 collaborateurs.
-                         L'idée c'est de presenter une vision générale de l'ensemble de différentes lignes de transformation : Depuis les premières conversations et le développement des rétrospectives jusqu'au travail actif pour escalader une structure de facilitation, en passant par favoriser l'auto-organisation à travers des opens espaces ou le besoin de l'expérimentation avec des cadres comme lean startup."
-            speaker: Antonio LOPEZ
-            company: Decathlon
+          - subject: "Comment planter son projet sans se faire choper ?"
+            description: >
+                         Sous la forme d’un one man show, en se basant sur un retour d’expérience, il s’agit d’illustrer deux principes de l’agilité :
+                          <ul>
+                             <li>La méthode la plus simple et la plus efficace pour transmettre de l’information à l’équipe de développement et à l’intérieur de celle-ci est le dialogue en face à face.</li>
+                             <li>La simplicité – c’est-à-dire l’art de minimiser la quantité de travail inutile – est essentielle.</li>
+                          </ul>
+                         Bien que le retour d’expérience soit basé sur un projet de développement logiciel, il est facilement transposable à d’autres métiers et ne comporte aucun jargon.
+            speaker: Frédéric Leguédois
             level: 0
-          - subject: "Où en est le contrat Agile en 2016 ?"
-            description: "La manière de contractualiser des développements Agile est un choix crucial qui peut avoir de lourdes conséquences sur la réussite d'un produit. Quel est l'état de l'art des différents type de contrats ? Quel niveau de compatibilité offrent-ils pour les développement d'un produit en méthode Agile ? En quoi un contrat Agile peut-il aider ? Quelles sont les règles de base d'un contrat Agile ? Cette conférence parcourra les bénéfices et inconvénients de chaque contrat en les illustrant à l'aide de cas réels."
-            speaker: "Laurent Delvaux"
+          - subject: "Etes-vous au QP?"
+            description: >
+                         Vous avez augmenté le potentiel de votre équipe en développant leurs compétences tout en vous préoccupant davantage de leurs émotions. Pourtant votre équipe est parfois à plat et ce n'est ni leur QI (quotient intellectuel) ni leur QE (quotient émotionnel) qui est en cause. Et si on cherchait plutôt du côté du QP? Le quoi? Le quotient physique bien sûr! En effet, un quotient physique au top permet d'exploiter pleinement le potentiel de chacun. Venez découvrir comment le prendre en compte et le développer dans l'animation de votre équipe au quotidien.
+            speaker: Marine Fromentin, Christophe Porchet
             level: 0
           - label: Forum ouvert
             fill: 3

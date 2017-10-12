@@ -379,7 +379,6 @@ permalink: /conflike/
                           {% assign speakers = talk.speaker | split: ", " %}
                           <div style="">
                             {% for speaker in speakers %}
-                              <!--<a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>-->
                               <span id="{{ confID }}/confspeakers" class="conflike-speaker-name">{{ speaker }}</span> 
                               {% if forloop.last == false %}, {% endif %} 
                             {% endfor %}

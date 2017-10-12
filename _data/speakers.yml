@@ -1,4 +1,4 @@
-- name: Damien BEAUFILS
+- name: Damien Beaufils
   bio: >
        Damien est développeur depuis une dizaine d'années et membre de la tribu Software Craftsmanship chez OCTO Technology. 
        Convaincu qu'un logiciel bien conçu est nécessaire en plus d'un logiciel fonctionnel, il intervient en tant que Tech Lead chez ses clients, ou en tant que formateur sur les pratiques telles que Test Driven Development.
@@ -6,7 +6,7 @@
 - name: Matthieu Salikhov
   bio: Coach, Scrum Master, et si possible pas PO. Je suis tombé dans l'agilité quand j'étais tout petit (En informatique) et j'y suis resté. Je travaille pour Zenika, je participe à la vie de Nord Agile et j'aime le sucre!
   photo: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAATtAAAAJDQ1Y2U0ZGMzLWZjNWUtNGMzMy05MGM5LTUxNGQ4YmM0MTAwMw.jpg
-- name: Corinne ALEXANDRE
+- name: Corinne Alexandre
   bio: >
        En charge de la roadmap des projets digitaux à La Redoute. 
        Vers un état d'esprit plus agile des équipes et des organisations.
@@ -14,11 +14,11 @@
 - name: Frédéric Leguédois
   bio: Agiliste évangeliste, libriste, voire polémiste ;-) Conférencier iconoclaste. Garanti zéro certification.
   photo: https://pbs.twimg.com/profile_images/879784230393442305/y6VvMcCH_400x400.jpg
-- name: Aurélien MORVANT
+- name: Aurélien Morvant
   bio: >
-       J'essaye d'être un agent du changement. Coach je ne sais pas dire si j'en suis un. Est-ce grave ? en fait non ! 
-       Ma trousse à outils c'est la facilitation, les interactions humaines, l’agilité, les serious games et la facilitation graphique
-       Ma dernière passion est exercée tous les week-ends lorsque j'aide les plus motivés à sauter à l’élastique du haut d’un pont
+       J'essaye d'être un agent du changement. Coach je ne sais pas dire si j'en suis un. Est-ce grave ? en fait non !<br> 
+       Ma trousse à outils c'est la facilitation, les interactions humaines, l’agilité, les serious games et la facilitation graphique<br>
+       Ma dernière passion est exercée tous les week-ends lorsque j'aide les plus motivés à sauter à l’élastique du haut d’un pont<br>
        Et vous ? quel sera votre premier petit pas vers votre monde meilleur ?
   photo: https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAASyAAAAJDQwZDllYjMyLTQ3ZWQtNDNjZC05ZjA1LTdhNTI1ZmEwYWRhYg.jpg
 - name: Yann Gensollen
@@ -29,10 +29,10 @@
   bio: >
        Je suis consultant-codeur chez OCTO Technology dans la tribu 'software craftsmanship'. 
        Mon kiff : aider des équipes à livrer du logiciel de qualité élevée, avec efficacité et fun. 
-       Je suis co-auteur du livre Culture Code sur la qualité logicielle - http://www.octo.com/fr/publications/20-culture-code.
+       Je suis co-auteur du livre <a href="http://www.octo.com/fr/publications/20-culture-code">Culture Code</a> sur la qualité logicielle.
        Speaker à différents JUGs et à Devoxx France, je suis également l'un des fondateurs et leaders du Ch'ti JUG, et j'organise l'Agile Tour Lille depuis 2009.
   photo: /img/orga/julien_jakubowski.jpg
-- name: Bruno BOUCARD
+- name: Bruno Boucard
   bio: >
        Bruno Boucard est coach agile, software craftsman, formateur sur les pratiques XP. Il possède une vaste expérience de programmation depuis la programmation système et noyau sur serveur Unix à la programmation parallèle sur CPU et GPU sur Windows. Aujourd’hui il pratique un coaching craftsmanship afin d'émanciper les développeurs à travers les pratiques XP comme TDD, BDD et de solides connaissances en refactoring de code legacy. Cependant, il aime enseigner le DDD, une fois les techniques de bases maîtrisées.
   photo: https://secure.gravatar.com/avatar/61f07c096d20b46d5c861ebf008c21ee
@@ -79,6 +79,13 @@
   bio: >
        Je suis coach agile chez Azaé, enseignant à l’université de Lille 1 et co-fondateur de Deliverous, mes sujets de prédilection sont l’agilité, devops, docker, le lean startup et l’artisanat logiciel. Depuis plus de 10 ans, j’essaye de transformer le travail en un jeu, faire progresser les geeks et challenger les managers, poser des questions pour faire progresser les équipes.
   photo: /img/speakers/ThomasClavier.jpg
+- name: Céleste Clavier
+  bio: ''
+  photo: /img/speakers/female200.png
+- name: Julie Quillé
+  bio: >
+       Passionnée par l’être humain, la psychologie et la sociologie, j’accompagne les personnes et les équipes dans leur cheminement vers plus de responsabilité et de liberté individuelles. La Communication Bienveillante (CNV) est mon outil de prédilection. Dans un dynamique d’amélioration continue, il me tient à cœur d’élargir en permanence mes domaines de compétences. Ce sont mes intérêts pour l’épanouissement au travail, l’adaptabilité et le travail collaboratif qui m’ont amené à l’agilité et au coaching d’équipes.
+  photo: /img/speakers/JulieQuille.jpg
 - name: Emilie-Anne Guerch
   bio: Ancienne Product Owner, Emilie-Anne est coach agile des guildes d'AXA France.
   photo: https://pbs.twimg.com/profile_images/913789887815483392/5ee2tsUh_400x400.jpg
@@ -135,3 +142,6 @@
 - name: Laurent Bossavit
   bio: Laurent Bossavit est agiliste depuis l'époque où ça ne s'appelait pas encore agile, développeur depuis l'époque où l'Internet s'appelait encore Minitel, et membre de la communauté des Startups d'État chez beta.gouv.fr. Il aime l'escalade en salle, le café, lire Bruno Latour et jouer au Go (mais pas en même temps).
   photo: /img/speakers/LaurentBossavit.png
+- name: Intervenant mystère
+  bio: ""
+  photo: /img/speakers/male200.png

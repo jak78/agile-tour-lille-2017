@@ -22,7 +22,7 @@ permalink: /conferences/
                         {% if talk.speaker %}
                         {% assign speakers = talk.speaker | split: ", " %}
                         {% for speaker in site.data.speakers %}{% if talk.speaker contains speaker.name %}
-                        <a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker.name | uri_escape }}">
+                        <a href="{{ "/speakers/" | prepend: site.baseurl }}#{{speaker.name | uri_escape }}">
                         <!--img src="{{speaker.photo| prepend: "/img/speakers/" | prepend: site.baseurl}}" alt="{{speaker.name}}" width="80" height="80"/-->
                         <img src="{{ speaker.photo }}" alt="{{speaker.name}}" width="80" height="80"/>
                         </a>
@@ -35,7 +35,7 @@ permalink: /conferences/
                         <span class="info">
                             <span class="speaker">par
                                 {% for speaker in speakers %}
-                                <a href="{{ "/conferenciers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}</span>{% endif %}<span class="room">{% if talk.room %}, {{ talk.room }}{%else%}, {{ site.data.rooms[forloop.index0] }}{% endif %} à {{slot.hour }}</span>
+                                <a href="{{ "/speakers/" | prepend: site.baseurl }}#{{speaker | uri_escape }}">{{ speaker }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}</span>{% endif %}<span class="room">{% if talk.room %}, {{ talk.room }}{%else%}, {{ site.data.rooms[forloop.index0] }}{% endif %} à {{slot.hour }}</span>
                         </span>
                     </div>
                     <p class="description">{{ talk.description }}</p>
