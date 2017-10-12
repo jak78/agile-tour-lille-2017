@@ -58,6 +58,7 @@
             speaker: Julien Jakubowski, Clotilde Desquilbet
             level: 2
             duration: 2
+            bring_your_pc: 1
           - subject: "Sensibilisation au Software Craftsmanship : Lego® à la rescousse"
             description: "Cet atelier va vous permettre de découvrir quelques bonnes pratiques du génie logiciel en s’amusant : TDD, Clean Code, Refactoring, Dette Technique et Integration Continue sont au programme ! Pas la peine de savoir coder ! L’usage de briques Lego® offre l’opportunité à tous (développeurs ou non) de manipuler ces concepts.
                          Chers gens du métier, manager ou curieux, venez découvrir le mode de fonctionnement d’un développeur. Chers développeurs, venez pratiquer l’eXtreme LegoBuilding avec le framework LegoUnit !"
