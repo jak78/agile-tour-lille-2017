@@ -8,7 +8,7 @@
   visible: 1
 - title: Soumettre un sujet
   url: /cfp
-  visible: 1
+  visible: 0
 - title: Programme
   url: /programme
   visible: 1
