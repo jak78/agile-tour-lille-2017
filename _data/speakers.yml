@@ -63,7 +63,7 @@
 - name: Johan Bonneau
   bio: >
        Touche à tout, j’adore confronter les différents points de vue et mixer les compétences tout en respectant les responsabilités de chaque rôle. Travailler en équipe est une passion pour moi, un enrichissement de tous les instants afin de libérer le potentiel de chaque individualité. Et surtout, vivons ludique !
-  photo: /img/speakers/male200.png
+  photo: /img/speakers/JohanBonneau.jpg
 - name: Nelson Dufossé
   bio: >
        Coach agile chez Xebia, Nelson porte un intérêt particulier au produit, l'expérience utilisateur associée et la collaboration entre le métier et les équipes IT. Après avoir accompagné des équipes traditionnelles de développement, Nelson s'intéresse aujourd'hui aux particularités du monde des Data Scientists.
@@ -87,10 +87,10 @@
   bio: >
        Ben Linders is an Independent Consultant in Agile, Lean, Quality and Continuous Improvement, based in The Netherlands. Author of Getting Value out of Agile Retrospectives, Waardevolle Agile Retrospectives, What Drives Quality and Continuous Improvement. As an adviser, coach and trainer he helps organizations with deploying effective software development and management practices. He focuses on continuous improvement, collaboration and communication, and professional development, to deliver business value to customers. Ben is an active member of networks on Agile, Lean and Quality, and a well know speaker and author. He shares his experiences in a bilingual blog (Dutch and English), as an editor for Culture and Methods at InfoQ and as an expert in communities like Computable, Quora, DZone, and TechTarget. Follow him on twitter: @BenLinders.
   photo: /img/speakers/BenLinders.jpg
-- name: François SALAZAR
+- name: François Salazar
   bio: >
        Passé d'ingénieur dans l'industrie et le logiciel, chef de projet manager, directeur et autres... Je suis aujourd'hui guide pour dirigeants dans la transformation de leur entreprise. Mes deux appuis : Le manifeste agile et la systémique car tout n'est que boucles de feedback.
-  photo: /img/speakers/male200.png
+  photo: /img/speakers/FrancoisSalazar.jpg
 - name: Christophe Thibaut
   bio: >
        Christophe Thibaut est Consultant Senior chez OCTO. Fort de plus de 25 ans d'expérience en développement et direction de projets, en consulting et en coaching, il conseille les grands comptes sur la mise en oeuvre de démarches permettant de livrer plus vite de meilleurs logiciels. Son expertise s'appuie sur un apprentissage en continu des méthodes et des modèles. C'est également un facilitateur, un observateur attentif, pratiquant l'écoute active. 
