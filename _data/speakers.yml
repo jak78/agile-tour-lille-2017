@@ -133,3 +133,6 @@
   bio: >
        Co-organisateur de la communauté DDD Paris (dont la taille ne fait que grandir depuis un an), co-fondateur de la société 42skillz, Thomas est un eXtreme Programmer et architecte technique obsédé par les usages (vs. les approches orientée-solution classiques). Il aime utiliser le DDD et le TDD pour booster son efficacité au travail. Ambassadeur du modèle d'architecture hexagonale depuis des années (talks, blog posts,...), Thomas a tout récemment live-codé au cote d'Alistair Cockburn sur ce sujet.
   photo: /img/speakers/ThomasPierrain.jpg
+- name: Laurent Bossavit
+  bio: Laurent Bossavit est agiliste depuis l'époque où ça ne s'appelait pas encore agile, développeur depuis l'époque où l'Internet s'appelait encore Minitel, et membre de la communauté des Startups d'État chez beta.gouv.fr. Il aime l'escalade en salle, le café, lire Bruno Latour et jouer au Go (mais pas en même temps).
+  photo: /img/speakers/LaurentBossavit.png
