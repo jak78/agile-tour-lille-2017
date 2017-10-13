@@ -90,7 +90,7 @@
                          <p>Venez découvrir comment nous avons fait pour réussir notre projet Big Data et l'implémentation d'une application qui tourne aujourd'hui en production avec des vrais utilisateurs en à peine quelques mois ! Vous découvrirez les challenges techniques, humains, culturels et organisationnels auxquels l'équipe a dû faire face. Nous vous partagerons également comment nous avons réussi à les surmonter !</p>"
             speaker: Nelson Dufossé, Tomas Rodriguez
             level: 1
-          - subject: ""
+          - label: "Pas encore annoncé"
       - hour: 12h30
         special: 1
         content:
@@ -153,9 +153,7 @@
                          "
             speaker: Laurent Nyffels
             level: 0
-          - subject: ""
-            description: ""
-            speaker: ""
+          - label: "Pas encore annoncé"
           - subject: "La zemblanité ou comment rater avec détermination"
             description: >
                          Avez-vous déjà entendu parlé de la sérendipité ? Vous savez le fait de découvrir par hasard des choses extraordinaires ! Et bien, je vous propose de vous parler de la zemblanité, son exact opposé.
@@ -182,7 +180,7 @@
         content:
           - subject: "Recruter des développeurs : la fin de la quête du graal ?"
             description: >
-                         Le Graal est une métaphore parfois employée par les recruteurs pour qualifier le ""super développeur"", le ""mouton à 5 pattes"" qui connait toutes les technos trendies et qui a le bonheur d'avoir des velléités salariales plutôt faibles. Comme dans le mythe arthurien, cette quête peut sembler vaine. 
+                         Le Graal est une métaphore parfois employée par les recruteurs pour qualifier le "super développeur", le "mouton à 5 pattes" qui connait toutes les technos trendies et qui a le bonheur d'avoir des velléités salariales plutôt faibles. Comme dans le mythe arthurien, cette quête peut sembler vaine.<br> 
                          Et si, le véritable Graal du recrutement IT ne se trouvait pas mais se construisait? Cette présentation me permettra de partager avec vous ma vision de la manière dont chaque entreprise pourrait réaliser sa quête du graal : par un recrutement intelligent et une réflexion sur l'intégration et la progression de ses salariés
             speaker: Arnaud Huon
             level: 0
@@ -192,7 +190,7 @@
             level: 0
           - subject: Comment lancer un projet agile en 5 jours chrono
             description: >
-                         Parce que pour beaucoup, l'agilité, c'est ""on démarre tout de suite"", l'initialisation d'un projet agile est un sujet peu documenté. Praticiens agiles débutants et confirmés luttent pour trouver une recette simple permettant de passer d'un brief succinct à un backlog prêt au développement. 
+                         Parce que pour beaucoup, l'agilité, c'est "on démarre tout de suite", l'initialisation d'un projet agile est un sujet peu documenté. Praticiens agiles débutants et confirmés luttent pour trouver une recette simple permettant de passer d'un brief succinct à un backlog prêt au développement. 
                          J'aborderai des notions telles que la mise au format agile de l'expression des besoins du client, l'approche user-centric, le vocabulaire du projet, mais également une mise en perspective du projet dans son contexte de marché.
                          Venez faire le plein de conseils pratiques issus de l'expérience dans une session participative et ludique.
             speaker: Yann Gensollen
@@ -252,14 +250,42 @@
             fill: 5
       - hour: 11h30
         content:
-          - subject: "Lighting talks"
-            description: "TODO"
+          - subject: Retour d'expérience d'un projet agile à La Redoute
+            description: >
+                         Après 6 mois de fonctionnement agile, les premiers résultats sont exceptionnels : tant au niveau business que sur le plan humain.
+                         <ol>
+                         <li>Comment tout a commencé</li>
+                         <li>Comment s'est organisée l'équipe</li>
+                         <li>Quelles difficultés avons-nous rencontrées</li>
+                         <li>Quels résultats et quels facteurs clés de succès</li>
+                         </ol>
+                         Conclusion : au regard de cette expérience, l'enjeu est désormais de pérenniser ce fonctionnement.
+            speaker: Corinne Alexandre
+            level: 0
           - subject: "Coding goûter : du code, des enfants, des parents et un goûter !"
             description: "Céleste, 11 ans et Thomas, son papa viennent vous parler des coding goûter. Cette session vous permettra de découvrir l'état d'esprit qui habite ce merveilleux moment de complicité entre parents et enfants. Ce que nous y faisons, comment nous le faisons, et surtout pourquoi nous le faisons. Parents, à travers les regards croisés d'une fille et de son papa, venez trouvez les clés pour construire un événement similaire avec vos enfants. Enfants, venez découvrir comment d'autres enfants apprennent à leurs parents à coder."
             speaker: Thomas Clavier, Céleste Clavier
             level: 0
+            duration: 3
           - label: Forum ouvert
             fill: 3
+            duration: 3
+      - hour: 11h45
+        content:
+          - subject: Oublions les frameworks à l'échelle et revenons au coeur de l'agilité
+            description: >
+                         SAFe, Scrum à l’échelle… :  16 ans après le manifeste Agile, l’Agilité et ses frameworks sont devenus aussi denses que compliqués. Et si nous revenions à l’essence même de la culture Agile ?
+            speaker: Denis Migot
+            level: 0
+      - hour: 12h00
+        content:
+          - subject: TDD, BDD, DDD! Parlons DD ?
+            description: >
+                         Plein de DD dans le monde du Software Craftsmanship qui nous amènent à nous poser plein de questions
+                         Les mettre ensemble ? Les séparer ? Quelle pratique est la plus importante ? Tester ou discuter ? Dessiner ou Ecrire ?
+                         Dans ce talk, nous essayerons ensemble de décortiquer 3 bonnes pratiques de développement en les positionnant chacune dans son cadre.
+            speaker: Imen Rassa
+            level: 2
     -
       - hour: 12h30
         special: 1
@@ -294,6 +320,7 @@
           - subject: "Talk choisi par le public"
             description: "Julie proposera au public de choisir parmi 3 talks, par un vote à main levée le jour J."
             speaker: "Julie Quillé"
+            level: 0
           - subject: "Rémunération dans une entreprise agile ou libérée"
             description: >
                          Dans le modèle classique actuel, la rémunération sert plusieurs objectifs, que ce soit la reconnaissance, la motivation ou encore l’attractivité de l’entreprise. Cependant, le revers de la médaille est qu’il devient le centre de toutes les attentions et que nous en oublions de nous poser certaines questions.

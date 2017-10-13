@@ -27,10 +27,10 @@
   photo: https://carist.sciencesconf.org/data/pages/Space_Yann_1.jpg
 - name: Julien Jakubowski
   bio: >
-       Je suis consultant-codeur chez OCTO Technology dans la tribu 'software craftsmanship'. 
+       Je suis consultant-codeur chez OCTO Technology dans la tribu 'Software Craftsmanship'. 
        Mon kiff : aider des équipes à livrer du logiciel de qualité élevée, avec efficacité et fun. 
        Je suis co-auteur du livre <a href="http://www.octo.com/fr/publications/20-culture-code">Culture Code</a> sur la qualité logicielle.
-       Speaker à différents JUGs et à Devoxx France, je suis également l'un des fondateurs et leaders du Ch'ti JUG, et j'organise l'Agile Tour Lille depuis 2009.
+       Speaker à différents JUGs et à Devoxx France, je suis également l'un des fondateurs et leaders du Ch'ti JUG, j'organise l'Agile Tour Lille depuis 2009 et j'anime la communauté 'software craftsmanship' de Lille via meetups, code retreats...
   photo: /img/orga/julien_jakubowski.jpg
 - name: Bruno Boucard
   bio: >
@@ -43,7 +43,7 @@
        Responsable de l'équipe "Software Craftsmanship" (~20 personnes)
        Formateur et mentor en pratiques de développement (TDD, Clean Code, Refactoring)
   photo: https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/12662511_10153813095810280_8790985084781050234_n.jpg?oh=4893f54c5d7392fea91ad54e31074d21&oe=5A5F78BF
-- name: Laurent NYFFELS
+- name: Laurent Nyffels
   bio: >
        Après avoir successivement occupé les postes de Développeur, Architecte & Consultant Formateur sur les technologies de Microsoft / .NET, j'ai rejoint AXA France en 2011 pour participer à la construction du Web Center de Lille, entité en charge des développements Web & Mobile.
        Mes principales activités ont consisté à mettre en place la méthode SCRUM, la plateforme d’intégration continue TFS et les choix d’architecture fonctionnels et techniques du Delivery. Actuellement, ma mission consiste à déployer l’échelle de la DSI les pratiques devops au sein des différentes Feature teams.
@@ -79,6 +79,10 @@
   bio: >
        Je suis coach agile chez Azaé, enseignant à l’université de Lille 1 et co-fondateur de Deliverous, mes sujets de prédilection sont l’agilité, devops, docker, le lean startup et l’artisanat logiciel. Depuis plus de 10 ans, j’essaye de transformer le travail en un jeu, faire progresser les geeks et challenger les managers, poser des questions pour faire progresser les équipes.
   photo: /img/speakers/ThomasClavier.jpg
+- name: Olivier Albiez
+  bio: >
+       Je suis artisan logiciel et coach agile chez Azaé, passionné des méthodes de travail et de l’auto-organisation dans les entreprises. Curieux par nature, je suis toujours à la recherche de ce qui peut améliorer le travail collectif d’une organisation. Je suis récemment co-fondateur de Deliverous. Je suis signataire des manifestes Artisans du Logiciel et Agile.
+  photo: /img/speakers/OlivierAlbiez.jpg
 - name: Céleste Clavier
   bio: ''
   photo: /img/speakers/female200.png
@@ -142,6 +146,20 @@
 - name: Laurent Bossavit
   bio: Laurent Bossavit est agiliste depuis l'époque où ça ne s'appelait pas encore agile, développeur depuis l'époque où l'Internet s'appelait encore Minitel, et membre de la communauté des Startups d'État chez beta.gouv.fr. Il aime l'escalade en salle, le café, lire Bruno Latour et jouer au Go (mais pas en même temps).
   photo: /img/speakers/LaurentBossavit.png
+- name: Cédric Pourbaix
+  bio: >
+       Je suis formateur, coach et conférencier.<br>
+       Mon sujet : améliorer l’efficacité du travail en équipe.<br>
+       Au cours de chacune de mes missions, j’ai pu mesurer l’importance de la qualité du travail d’équipe pour la réalisation d’un projet.<br>
+       Animateur efficace du travail en équipe, facilitateur dans la prise de décision des projets complexes, j’aide les équipes que j’accompagne à se concentrer sur l’essentiel : ce qui a le plus de valeur.<br>
+       Cette aptitude permet de tirer un maximum d’efficacité de l’équipe qui développe, dans la mise en œuvre des besoins exprimés.
+  photo: /img/speakers/CedricPourbaix.jpg
+- name: Imen Rassa
+  bio: >
+       Software Engineer chez AXA. Craftswoman et évangéliste des bonnes pratiques de développement à plein temps ;).<br>
+       J'ai eu l’occasion de découvrir l’agilité dès ma première expérience professionnelle. Je considère que le pilier le plus important pour construire un produit de qualité est la communication à tous les niveaux. Pour cela, je prêche les méthodologies de développement orienté et guidé par le comportement qui, couplées avec un développement guidé par les tests, permettent d’avoir un produit, robuste, maintenable et de qualité.
+  photo: /img/speakers/female200.png
 - name: Intervenant mystère
   bio: ""
   photo: /img/speakers/male200.png
+  
