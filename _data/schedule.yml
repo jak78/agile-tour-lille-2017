@@ -102,7 +102,7 @@
         special: 1
         content:
           - subject: "Keynote de l'après-midi"
-            speaker: Intervenant mystère
+            speaker: Intervenant à annoncer
             fill: 5
             highlight: 1
             level: 0
