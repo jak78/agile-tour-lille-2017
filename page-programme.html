@@ -54,14 +54,8 @@ permalink: /programme-full/
                   <p class="extra">{{ talk.extra }}</p>
                   {% endif %}
                   <div class="level">
-                    {% if talk.level == 0 %}
-                    <span class="bg-success">Tout public</span>
-                    {% endif %}
-                    {% if talk.level == 1 %}
-                    <span class="bg-info">Débutant</span>
-                    {% endif %}
                     {% if talk.level == 2 %}
-                    <span class="bg-warning">Expérimenté</span>
+                    <span class="bg-warning">Pour public expérimenté</span>
                     {% endif %}
                   </div>
                 </div>
