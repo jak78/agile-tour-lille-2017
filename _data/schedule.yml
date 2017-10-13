@@ -318,7 +318,13 @@
       - hour: 15h00
         content:
           - subject: "Talk choisi par le public"
-            description: "Julie proposera au public de choisir parmi 3 talks, par un vote à main levée le jour J."
+            description: >
+                         <p>Julie proposera au public de choisir parmi 3 talks, par un vote à main levée le jour J&nbsp;:</p>
+                         <ul>
+                           <li>La CNV au service de l’agilité</li>
+                           <li>Manipulation et raisonnement erroné, quelle différence&nbsp;?</li>
+                           <li>Vous arrive-t-il d’infliger de l’aide&nbsp;?</li>
+                         <ul>
             speaker: "Julie Quillé"
             level: 0
           - subject: "Rémunération dans une entreprise agile ou libérée"
