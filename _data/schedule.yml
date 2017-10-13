@@ -90,7 +90,31 @@
                          <p>Venez découvrir comment nous avons fait pour réussir notre projet Big Data et l'implémentation d'une application qui tourne aujourd'hui en production avec des vrais utilisateurs en à peine quelques mois ! Vous découvrirez les challenges techniques, humains, culturels et organisationnels auxquels l'équipe a dû faire face. Nous vous partagerons également comment nous avons réussi à les surmonter !</p>"
             speaker: Nelson Dufossé, Tomas Rodriguez
             level: 1
-          - label: "Pas encore annoncé"
+          - subject: "Prenez place dans le TGV* AXA France  * Test Grande Vitesse  Comment la QSI AXA France ambitionne de suivre le rythme du delivery grâce à l'automatisation."
+            description: >
+                         <p>Pour répondre aux attentes de client toujours plus exigeant tout en faisant face aux enjeux réglementaires dans un contexte de plus en plus concurrentiel la DSI AXA France est actuellement en pleine transformation.
+                         En associant nouvelles pratiques d’ingénierie et agilité nous cherchons à réduire le time to market et simplifier les processus client. </p>
+                          
+                         <p>Fortement impacté par ces changements le métier de testeur  doit également se transformer.
+                         Quelles sont les nouvelles pratiques et outils de test déployés chez AXA France? 
+                         Comment nous ambitionnons de livrer 1 MMF par mois là où nous avions classiquement 4 semaines de tests par cadences ? 
+                         Bien qu'auparavant nous avions 4 semaines pour tester une macro-fonctionnalité, aujourd'hui nous devons la livrer dans le même laps de temps.</p>
+                          
+                         <p>Nous répondrons à cette problématique en points :</p>
+                         <ul>
+                         <li>Pair Testing et 3 amigos</li>
+                         <li>Bouchonnage et jeux de données</li>
+                         <li>Automatisation des parcours clefs
+                           <ul>
+                           <li>Identification des parcours</li>
+                           <li>Développement des automates de test avec LeanFT</li> 
+                           <li>Exécution dans une PIC</li>
+                           <li>Remontée des résultats dans un référentiel de test</li>
+                           </ul>
+                         </li>
+                         </ul>
+            speaker: Nicolas Zangari, Thibault Huckert
+            level: 1
       - hour: 12h30
         special: 1
         content:
