@@ -270,7 +270,7 @@
       - hour: 10h45
         special: 1
         content:
-          - label: Lancement du forum ouvert
+          - label: Lancement du <a href="/forum-ouvert">Forum ouvert</a>
             fill: 5
       - hour: 11h30
         content:
@@ -291,7 +291,7 @@
             speaker: Thomas Clavier, Céleste Clavier
             level: 0
             duration: 3
-          - label: Forum ouvert
+          - label: <a href="/forum-ouvert">Forum ouvert</a>
             fill: 3
             duration: 3
       - hour: 11h45
@@ -336,7 +336,7 @@
                          Pourquoi "le flux tiré c'est la vie" ? Qui sont ces 3 amigos dont nous parlons sans cesse ? Avons-nous enfin arrêter d' "écrire" des BDD ?
             speaker: Emilie-Anne Guerch, Emmanuel Lehmann
             level: 0
-          - label: Forum ouvert
+          - label: <a href="/forum-ouvert">Forum ouvert</a>
             fill: 3
             duration: 2
       - hour: 15h00
@@ -381,7 +381,7 @@
                          Vous avez augmenté le potentiel de votre équipe en développant leurs compétences tout en vous préoccupant davantage de leurs émotions. Pourtant votre équipe est parfois à plat et ce n'est ni leur QI (quotient intellectuel) ni leur QE (quotient émotionnel) qui est en cause. Et si on cherchait plutôt du côté du QP? Le quoi? Le quotient physique bien sûr! En effet, un quotient physique au top permet d'exploiter pleinement le potentiel de chacun. Venez découvrir comment le prendre en compte et le développer dans l'animation de votre équipe au quotidien.
             speaker: Marine Fromentin, Christophe Porchet
             level: 0
-          - label: Forum ouvert
+          - label: <a href="/forum-ouvert">Forum ouvert</a>
             fill: 3
       - hour: 17h00
         special: 1
