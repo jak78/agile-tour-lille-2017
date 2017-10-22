@@ -39,7 +39,7 @@ permalink: /programme/
                   {% endif %}
                   {% if talk.subject %}
                   <a class="subject" name="{{ talk.subject }}"></a>
-                  <span class="subject"><a href="{{ "/conferences/" | prepend: site.baseurl }}#{{talk.subject| uri_escape }}">{{ talk.subject }}</a></span>
+                  <span class="subject"><a href="{{ "/conferences/" | prepend: site.baseurl }}#{{talk.id}}">{{ talk.subject }}</a></span>
                   {% else %}
                   {{ talk.label }}
                   {% endif %}

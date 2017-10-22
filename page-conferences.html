@@ -13,6 +13,7 @@ permalink: /conferences/
             {% for talk in slot.content %}{% if talk.hide-on-home != 1 %}
             {% if talk.speaker %}
             <a name="{{ talk.subject }}"></a>
+            <a name="{{ talk.id }}"></a>
             <div class="talk">
                     <h2>{{ talk.subject }}</h2>
                     <div class="speakers">

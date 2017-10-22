@@ -16,6 +16,7 @@
         content:
           - subject: "L'enfance perpétuelle: survivre dans une industrie qui croit toujours au Père Noël"
             speaker: Laurent Bossavit
+            id: enfance_perpetuelle
             fill: 5
             highlight: 1
             description: >
@@ -29,16 +30,19 @@
           - subject: Le lean IT, ou comment tourner vraiment la page du taylorisme
             description: "Avec sa double obsession du client et du succès de l'équipe, le lean a alimenté 15 ans de réflexions de grands penseurs de l'agile, de Mary Poppendieck à Jez Humble. Cette intervention sera l'occasion de découvrir le LeanIT dans toute son orthodoxie et la nature de ses liens avec l'Agilité."
             speaker: Marie-Pia Ignace
+            id: lean_it
             level: 0
           - subject: "Parce-qu'on ne change pas une culture comme on change une roue de voiture"
             description: "Transition agile, paradoxes et boucle infinie... La conduite du changement repose aujourd’hui principalement sur les base du management de projet : objectifs, feuille de route, planning, moyens, suivi, pilotage et s’y ajoute bien sûr le traitement des résistances. Ce modèle fonctionne à peu près s’il faut changer de machine de production mais génère des déceptions lorsque le changement est d’une nature plus subtile ; lorsqu’il met en jeu l’humain, l’organisation du travail, la culture, les capacités comportementales, les croyances… Cette intervention se base sur des expériences de vie et sur un ouvrage de Paul Watzlawick, psycho-sociologue, fondateur de l’école de PaloAlto. Elle nous permettra de découvrir nos paradoxes, d’en rire et de comprendre que le changement n’est pas un « livrable » comme les autres. Peut-être que nous pourrons en tirer quelques principes d’impulsion du changement…"
             speaker: François Salazar
+            id: change_culture
             level: 0
           - subject: Comment être Tech Lead dans une pizza team XXL sans finir sous l'eau ?
             description: >
                          Être Tech Lead, c'est être au service de l'équipe en étant à la fois formateur, facilitateur, expert et coach. Mais quand l'équipe projet est composée de 15 personnes, dont 10 développeur·euse·s, comment remplir ce rôle tout en continuant à prendre le temps de développer avec l'équipe, et ce sans finir sous l'eau ?<br>
                          Dans cette conférence, je vous partagerai un retour d'expérience dans lequel je présenterai les pratiques et mesures qui ont été mises en place pour améliorer la propriété collective du code, la qualité du produit mais également l'autonomie de cette équipe de développement.
             speaker: Damien Beaufils
+            id: tech_lead
             level: 2
           - subject: Epic Legacy Code Challenge
             description: "Vous venez d'être embauchés chez Paladin Inventories Company. Elle gagne beaucoup d'argent avec son logiciel. Mais le gobelin qui l'a écrit s'est fait dévorer par un dragon. Vous ne comprenez rien au code. Et bien sûr il n'y a pas de tests automatisés.<br>
@@ -56,6 +60,7 @@
                          <em>Pré-requis : avoir déjà installé NodeJS en version récente sur votre PC.</em>
                          "
             speaker: Julien Jakubowski, Clotilde Desquilbet
+            id: legacy_challenge
             level: 2
             duration: 2
             bring_your_pc: 1
@@ -63,6 +68,7 @@
             description: "Cet atelier va vous permettre de découvrir quelques bonnes pratiques du génie logiciel en s’amusant : TDD, Clean Code, Refactoring, Dette Technique et Integration Continue sont au programme ! Pas la peine de savoir coder ! L’usage de briques Lego® offre l’opportunité à tous (développeurs ou non) de manipuler ces concepts.
                          Chers gens du métier, manager ou curieux, venez découvrir le mode de fonctionnement d’un développeur. Chers développeurs, venez pratiquer l’eXtreme LegoBuilding avec le framework LegoUnit !"
             speaker: Thomas Clavier
+            id: lego_craft
             level: 0
             duration: 2
       - hour: 11h30
@@ -83,12 +89,14 @@
                          </ul>
                          "
             speaker: Aurélien Morvant
+            id: agilite_echelle_oui_pourquoi
             level: 0
           - subject: "Comment nous avons réussi un projet Big Data avec l’agilité dans une grande banque"
             description: "<p>Un projet Big Data ce n'est pas facile, mais ça l'ai encore moins quand il s'agit d'un géant comme la BNP !</p>
                          
                          <p>Venez découvrir comment nous avons fait pour réussir notre projet Big Data et l'implémentation d'une application qui tourne aujourd'hui en production avec des vrais utilisateurs en à peine quelques mois ! Vous découvrirez les challenges techniques, humains, culturels et organisationnels auxquels l'équipe a dû faire face. Nous vous partagerons également comment nous avons réussi à les surmonter !</p>"
             speaker: Nelson Dufossé, Tomas Rodriguez
+            id: big_data
             level: 1
           - subject: "Prenez place dans le TGV* AXA France  * Test Grande Vitesse  Comment la QSI AXA France ambitionne de suivre le rythme du delivery grâce à l'automatisation."
             description: >
@@ -113,6 +121,7 @@
                            </ul>
                          </li>
                          </ul>
+            id: tests_grande_vitesse
             speaker: Nicolas Zangari, Thibault Huckert
             level: 1
       - hour: 12h30
@@ -127,6 +136,7 @@
         content:
           - subject: "Keynote de l'après-midi"
             speaker: Intervenant à annoncer
+            id: keynote_a_annoncer
             fill: 5
             highlight: 1
             level: 0
@@ -140,21 +150,25 @@
             description: >
                          On parle beaucoup de Lean Management et surtout en mal (presse, TV...) or nombre de personne ne savent pas réellement ce que recouvre le Lean issu de Toyota : un système de production (le Toyota Production Système) ET un système de management (le Toyota Way). Beaucoup pensent qu'en appliquant seulement les outils (le TPS) ils font du Lean ; c'est une erreur ! Ils font du taylorisme et du cost-cutting. Cette session vise à montrer comment le vrai Lean (TPS + Toyota Way) respecte les personnes (autonomie, compétences, bien-être au travail). De plus, nous verrons ce que veut dire en Lean "respecter les personnes".
             speaker: Jean-Philippe DOUET
+            id: lean_sans_respect
             level: 0
           - subject: "Du DDD dans mon Legacy ! (live-coding)"
             description: >
                          Prenons une application legacy on ne peut plus classique : code procédural du mur au plafond, code métier complétement anémique et étouffé par de la tuyauterie technique... Du classique quoi... ;-) Notre mission pour cette session de pure live-coding sera d'identifier et d'extraire les concepts du domaine en pleins milieu de ce bordel, pour pouvoir y ajouter une nouvelle fonctionnalité désespérément demandée par notre métier depuis des mois. Bien sûr, ce sera l'occasion d'utiliser et d'expliquer en chemin quelques patterns du DDD.
             speaker: Thomas Pierrain, Bruno Boucard
+            id: ddd_legacy
             level: 0
           - subject: Mon premier train SAFe
             description: >
                          Je viens partager avec vous une mise en place de SAFe sous la forme d'une rétrospective. Au bout de 20 mois, qu'a apporté ce framework aux équipes ? Que faut-il éviter ? Comment s'améliorer ? Is it SAFe or not?
+            id: premier_train_safe
             speaker: Johan Bonneau
             level: 0
           - subject: "L'estimachien"
             description: "Comment présenter le Planning Poker à des gens qui ne l'ont jamais vu et sans parler d'informatique. Un atelier qui explique comment ça fonctionne, la complexité, le rôle du PO, l'intérêt du Planning Poker et pourquoi des équipes n'arrivent pas aux même estimations. 
                          Le Must? Tellement facile que c'est ré-utilisable dès que vous sortez."
             speaker: Matthieu Salikhov
+            id: estimachien
             level: 0
           - subject: "Everyone is a Product Manager (Yes, even you!)"
             description: >
@@ -164,6 +178,7 @@
                          
                          Working as a Product Manager and training others for 7 years has indelibly changed my work and personal life for the better. I will share what I have learned and walk you through your own “product” exercises.
             speaker: Sheila SUAREZ DE FLORES
+            id: everyone_product_manager
             level: 0
       - hour: 15h45
         content:
@@ -176,6 +191,7 @@
                          L’objectif de cette session est de faire part de nos premières expériences sur la mise en place du software Craftsmanship et de DevOps en profitant de l’Agilité « At Scale » via la généralisation de l’organisation en Feature Teams.
                          "
             speaker: Laurent Nyffels
+            id: devops_axa
             level: 0
           - label: "Pas encore annoncé"
           - subject: "La zemblanité ou comment rater avec détermination"
@@ -185,6 +201,7 @@
                          
                          Venez découvrir les meilleures techniques pour rater vos projets à coup sûr.
             speaker: "Olivier Albiez"
+            id: zemblanite
             level: 0
           - subject: "Playing the Agile Self-Assessment Game"
             description: "There isn't a standard route to become agile, you have to find your own way. 
@@ -192,12 +209,14 @@
                           that inspires you with ideas and suggestions on where to go next on your agile journey. 
                           Come play the Agile Self-Assessment Game in teams to discover how agile you are and what you can do to increase your agility." 
             speaker: Ben Linders
+            id: agile_self_assessment_game
             level: 0
             duration: 2
           - subject: "Travailler votre posture de Leader Hôte avec le Host Leadership"
             description: "Nous vous  invitons à découvrir la posture de l'hôte leader, formalisée par Mark Mc Kergow qui revisite la notion de leadership à travers une métaphore complète : Quand vous invitez des personnes, chez vous, à un événement ou tout simplement à une réunion, comment préparez-vous votre invitation? Quels messages faites-vous passer? Comment faites-vous participer vos invités?
                          Cette nouvelle session pratique vous permettra de vous mettre dans la position de l'hôte et d'échanger sur vos pratiques."
             speaker: Aurélien Morvant, Matthieu Barbereau
+            id: host_leadership
             level: 0
             duration: 2
       - hour: 17h15
@@ -207,10 +226,12 @@
                          Le Graal est une métaphore parfois employée par les recruteurs pour qualifier le "super développeur", le "mouton à 5 pattes" qui connait toutes les technos trendies et qui a le bonheur d'avoir des velléités salariales plutôt faibles. Comme dans le mythe arthurien, cette quête peut sembler vaine.<br> 
                          Et si, le véritable Graal du recrutement IT ne se trouvait pas mais se construisait? Cette présentation me permettra de partager avec vous ma vision de la manière dont chaque entreprise pourrait réaliser sa quête du graal : par un recrutement intelligent et une réflexion sur l'intégration et la progression de ses salariés
             speaker: Arnaud Huon
+            id: recruter_developpeurs
             level: 0
           - subject: "Pratiques de développement : mon plan d'entrainment"
             description: "On se lance tous parfois des défis un peu fou, comme courir et finir son premier marathon. Vous souhaitez mettre en place les pratiques de développement au sein de votre équipe, venez suivre un exemple de plan d'entrainement."
             speaker: Julien Hatzig
+            id: pratiques_dev_entrainement
             level: 0
           - subject: Comment lancer un projet agile en 5 jours chrono
             description: >
@@ -218,6 +239,7 @@
                          J'aborderai des notions telles que la mise au format agile de l'expression des besoins du client, l'approche user-centric, le vocabulaire du projet, mais également une mise en perspective du projet dans son contexte de marché.
                          Venez faire le plein de conseils pratiques issus de l'expérience dans une session participative et ludique.
             speaker: Yann Gensollen
+            id: lancer_projet_agile_5_jours
             level: 0
       - hour: 18h00
         special: 1
@@ -259,6 +281,7 @@
                           Dans cette keynote, je vous invite à considérer les trois idées majeures qui sous-tendent cette évolution. 
                           En quoi ces idées font avancer le métier du développement, comment elles sont fréquemment altérées afin de préserver l’ancien modèle, 
                           et comment les encourager afin d’accélérer la transformation du métier de développeur.</p>"
+            id: 3_idees
             fill: 5
             highlight: 1
             level: 0
@@ -285,10 +308,12 @@
                          </ol>
                          Conclusion : au regard de cette expérience, l'enjeu est désormais de pérenniser ce fonctionnement.
             speaker: Corinne Alexandre
+            id: rex_la_redoute
             level: 0
           - subject: "Coding goûter : du code, des enfants, des parents et un goûter !"
             description: "Céleste, 11 ans et Thomas, son papa viennent vous parler des coding goûter. Cette session vous permettra de découvrir l'état d'esprit qui habite ce merveilleux moment de complicité entre parents et enfants. Ce que nous y faisons, comment nous le faisons, et surtout pourquoi nous le faisons. Parents, à travers les regards croisés d'une fille et de son papa, venez trouvez les clés pour construire un événement similaire avec vos enfants. Enfants, venez découvrir comment d'autres enfants apprennent à leurs parents à coder."
             speaker: Thomas Clavier, Céleste Clavier
+            id: coding_gouter
             level: 0
             duration: 3
           - label: <a href="/forum-ouvert">Forum ouvert</a>
@@ -300,6 +325,7 @@
             description: >
                          SAFe, Scrum à l’échelle… :  16 ans après le manifeste Agile, l’Agilité et ses frameworks sont devenus aussi denses que compliqués. Et si nous revenions à l’essence même de la culture Agile ?
             speaker: Denis Migot
+            id: oublions_frameworks
             level: 0
       - hour: 12h00
         content:
@@ -309,6 +335,7 @@
                          Les mettre ensemble ? Les séparer ? Quelle pratique est la plus importante ? Tester ou discuter ? Dessiner ou Ecrire ?
                          Dans ce talk, nous essayerons ensemble de décortiquer 3 bonnes pratiques de développement en les positionnant chacune dans son cadre.
             speaker: Imen Rassa
+            id: tdd_bdd_ddd
             level: 2
     -
       - hour: 12h30
@@ -327,6 +354,7 @@
                          Une équipe a-t’elle toujours besoin de management pour réussir ses projets ? 
                          Si oui, quel doit-être son rôle dans une organisation agile et comment l'intégrer dans la démarche de transformation ?"
             speaker: Cédric Pourbaix
+            id: managers_oublies_agilite
             level: 0
           - subject: "Après s’être organisé en tribus d’indiens, AXA diffuse BDD avec les 3 Amigos"
             description: >
@@ -335,6 +363,7 @@
                          Nous allons nous concentrer sur l'écriture du besoin ; de nos ateliers 3 amigos à la (re)mise en place de la méthode BDD.
                          Pourquoi "le flux tiré c'est la vie" ? Qui sont ces 3 amigos dont nous parlons sans cesse ? Avons-nous enfin arrêter d' "écrire" des BDD ?
             speaker: Emilie-Anne Guerch, Emmanuel Lehmann
+            id: 3_amigos
             level: 0
           - label: <a href="/forum-ouvert">Forum ouvert</a>
             fill: 3
@@ -350,11 +379,13 @@
                            <li>Vous arrive-t-il d’infliger de l’aide&nbsp;?</li>
                          <ul>
             speaker: "Julie Quillé"
+            id: julie_quillie
             level: 0
           - subject: "Rémunération dans une entreprise agile ou libérée"
             description: >
                          Dans le modèle classique actuel, la rémunération sert plusieurs objectifs, que ce soit la reconnaissance, la motivation ou encore l’attractivité de l’entreprise. Cependant, le revers de la médaille est qu’il devient le centre de toutes les attentions et que nous en oublions de nous poser certaines questions.
                          Nous vous proposons une réflexion sur ce que nous lions à la rémunération, ainsi qu’une présentation d’une solution de rémunération plus juste répondant aux aspirations de l’entreprise et de l’individu libéré.
+            id: remu_entreprise_agile
             speaker: Olivier Albiez
             level: 0
       - hour: 15h45
@@ -374,12 +405,14 @@
                              <li>La simplicité – c’est-à-dire l’art de minimiser la quantité de travail inutile – est essentielle.</li>
                           </ul>
                          Bien que le retour d’expérience soit basé sur un projet de développement logiciel, il est facilement transposable à d’autres métiers et ne comporte aucun jargon.
+            id: planter_son_projet
             speaker: Frédéric Leguédois
             level: 0
           - subject: "Etes-vous au QP?"
             description: >
                          Vous avez augmenté le potentiel de votre équipe en développant leurs compétences tout en vous préoccupant davantage de leurs émotions. Pourtant votre équipe est parfois à plat et ce n'est ni leur QI (quotient intellectuel) ni leur QE (quotient émotionnel) qui est en cause. Et si on cherchait plutôt du côté du QP? Le quoi? Le quotient physique bien sûr! En effet, un quotient physique au top permet d'exploiter pleinement le potentiel de chacun. Venez découvrir comment le prendre en compte et le développer dans l'animation de votre équipe au quotidien.
             speaker: Marine Fromentin, Christophe Porchet
+            id: qp
             level: 0
           - label: <a href="/forum-ouvert">Forum ouvert</a>
             fill: 3
