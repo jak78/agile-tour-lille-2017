@@ -21,24 +21,4 @@ layout: default
     </div>
 </div>
 
-<script type="application/javascript">
-    function hideAllSlots() {
-        $('.conference-slot').addClass('hidden');
-    }
 
-    function displaySlot(hour) {
-        $('.slot-' + parseInt(hour)).removeClass('hidden');
-        $('.slot-' + parseInt(hour)).show();
-    }
-
-    $(function() {
-        var hours = (new Date()).getHours() + 1;
-        if (hours < 9) {
-            hours = 9;
-        }
-        if (hours > 18) {
-            hours = 18;
-        }
-        displaySlot(hours);
-    });;
-</script>
