@@ -193,7 +193,19 @@
             speaker: Laurent Nyffels
             id: devops_axa
             level: 0
-          - label: "Pas encore annoncé"
+          - subject: "Legacy, for lack of a better word, is good"
+            description: >
+                         Developers love to complain about their legacy systems, but if you have a legacy system, it means you have a working, successful system which deliver real value to business, and this is definitely a good thing. 
+                         Even more, legacy system is a system so successful that it makes very hard to dispose of it, even when it is obsolete in some (or all) respects. 
+                         The problem is how to keep it nimble and easy to maintain and expand. 
+                         It could be not easy, but if you try a rewrite you are taking a much bigger risk. 
+                         You may have to add new feature to an old legacy application or make it scale with different architecture. 
+                         To do this you need to be able to split monolithic applications in smaller modules and then refactor them, but without blocking development.
+                         <br> 
+                         Notes: This session is about some techniques of high level refactoring I've used working in big projects in recent years. Presentation contains code examples.
+            speaker: Uberto Barbini
+            id: legacy_is_good
+            level: 0
           - subject: "La zemblanité ou comment rater avec détermination"
             description: >
                          Avez-vous déjà entendu parlé de la sérendipité ? Vous savez le fait de découvrir par hasard des choses extraordinaires ! Et bien, je vous propose de vous parler de la zemblanité, son exact opposé.
