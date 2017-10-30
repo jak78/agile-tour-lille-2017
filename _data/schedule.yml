@@ -230,7 +230,7 @@
             level: 0
           - subject: "Pratiques de développement : mon plan d'entrainment"
             description: "On se lance tous parfois des défis un peu fou, comme courir et finir son premier marathon. Vous souhaitez mettre en place les pratiques de développement au sein de votre équipe, venez suivre un exemple de plan d'entrainement."
-            speaker: Julien Hatzig
+            speaker: Julien Hatzig, Julien Vandenbussche
             id: pratiques_dev_entrainement
             level: 0
           - subject: Comment lancer un projet agile en 5 jours chrono
