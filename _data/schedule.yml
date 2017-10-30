@@ -381,12 +381,11 @@
             speaker: "Julie Quillé"
             id: julie_quillie
             level: 0
-          - subject: "Rémunération dans une entreprise agile ou libérée"
+          - subject: "Etes-vous au QP?"
             description: >
-                         Dans le modèle classique actuel, la rémunération sert plusieurs objectifs, que ce soit la reconnaissance, la motivation ou encore l’attractivité de l’entreprise. Cependant, le revers de la médaille est qu’il devient le centre de toutes les attentions et que nous en oublions de nous poser certaines questions.
-                         Nous vous proposons une réflexion sur ce que nous lions à la rémunération, ainsi qu’une présentation d’une solution de rémunération plus juste répondant aux aspirations de l’entreprise et de l’individu libéré.
-            id: remu_entreprise_agile
-            speaker: Olivier Albiez
+                         Vous avez augmenté le potentiel de votre équipe en développant leurs compétences tout en vous préoccupant davantage de leurs émotions. Pourtant votre équipe est parfois à plat et ce n'est ni leur QI (quotient intellectuel) ni leur QE (quotient émotionnel) qui est en cause. Et si on cherchait plutôt du côté du QP? Le quoi? Le quotient physique bien sûr! En effet, un quotient physique au top permet d'exploiter pleinement le potentiel de chacun. Venez découvrir comment le prendre en compte et le développer dans l'animation de votre équipe au quotidien.
+            speaker: Marine Fromentin, Christophe Porchet
+            id: qp
             level: 0
       - hour: 15h45
         special: 1
@@ -408,11 +407,12 @@
             id: planter_son_projet
             speaker: Frédéric Leguédois
             level: 0
-          - subject: "Etes-vous au QP?"
+          - subject: "Rémunération dans une entreprise agile ou libérée"
             description: >
-                         Vous avez augmenté le potentiel de votre équipe en développant leurs compétences tout en vous préoccupant davantage de leurs émotions. Pourtant votre équipe est parfois à plat et ce n'est ni leur QI (quotient intellectuel) ni leur QE (quotient émotionnel) qui est en cause. Et si on cherchait plutôt du côté du QP? Le quoi? Le quotient physique bien sûr! En effet, un quotient physique au top permet d'exploiter pleinement le potentiel de chacun. Venez découvrir comment le prendre en compte et le développer dans l'animation de votre équipe au quotidien.
-            speaker: Marine Fromentin, Christophe Porchet
-            id: qp
+                         Dans le modèle classique actuel, la rémunération sert plusieurs objectifs, que ce soit la reconnaissance, la motivation ou encore l’attractivité de l’entreprise. Cependant, le revers de la médaille est qu’il devient le centre de toutes les attentions et que nous en oublions de nous poser certaines questions.
+                         Nous vous proposons une réflexion sur ce que nous lions à la rémunération, ainsi qu’une présentation d’une solution de rémunération plus juste répondant aux aspirations de l’entreprise et de l’individu libéré.
+            id: remu_entreprise_agile
+            speaker: Olivier Albiez
             level: 0
           - label: <a href="/forum-ouvert">Forum ouvert</a>
             fill: 3
