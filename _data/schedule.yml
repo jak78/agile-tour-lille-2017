@@ -29,7 +29,7 @@
         content:
           - subject: Le lean IT, ou comment tourner vraiment la page du taylorisme
             description: "Avec sa double obsession du client et du succès de l'équipe, le lean a alimenté 15 ans de réflexions de grands penseurs de l'agile, de Mary Poppendieck à Jez Humble. Cette intervention sera l'occasion de découvrir le LeanIT dans toute son orthodoxie et la nature de ses liens avec l'Agilité."
-            speaker: Marie-Pia Ignace
+            speaker: Pierre Jannez
             id: lean_it
             level: 0
           - subject: "Parce-qu'on ne change pas une culture comme on change une roue de voiture"

@@ -113,17 +113,10 @@
        Christophe Thibaut est Consultant Senior chez OCTO. Fort de plus de 25 ans d'expérience en développement et direction de projets, en consulting et en coaching, il conseille les grands comptes sur la mise en oeuvre de démarches permettant de livrer plus vite de meilleurs logiciels. Son expertise s'appuie sur un apprentissage en continu des méthodes et des modèles. C'est également un facilitateur, un observateur attentif, pratiquant l'écoute active. 
        Communiquant reconnu au sein de la communauté agile, coach agile depuis 2001, Christophe intervient régulièrement dans les conférences Agile France, Software Practice Advancement, XP Days, ainsi qu'à l'USI. Il est un des cofondateur du dojo de programmation. Au sein d'OCTO, Christophe diffuse les pratiques de développement telles que TDD ainsi que la philosophie du management de projet agile. Il forme des coaches agiles ainsi que des leaders techniques, et contribue, en facilitant de nombreux ateliers, à la vision partagée de l'entreprise.
   photo: /img/speakers/ChristopheThibaut.jpg
-- name: Marie-Pia Ignace
+- name: Pierre Jannez
   bio: >
-       <p>Co-fondatrice et PDG d’Operae Partners</p>
-       <p>Co-fondatrice et Présidente de l’Institut Lean France</p>
-       <p>Membre du comité de direction du Lean Global Network</p>
-       Polytechnicienne, entrepreneuse, Marie-Pia Ignace est la pionnière et la principale spécialiste en Europe du management Lean dans le secteur des services et dans l’informatique.
-       Elle dirige Operae Partners, un cabinet de conseil qu&#39;elle a créé en 2007 et dont le cœur de métier est d’accompagner des équipes informatiques de grandes DSI dans leur transformation.
-       Promotrice du Lean dans l’hexagone depuis 10 ans, Marie-Pia a cofondé l&#39;Institut Lean France qui est l’association de référence pour tous les praticiens du Lean management.      
-       Elle préside l’Institut depuis 2012 et est également membre du bureau du Lean Global Network.
-       Marie-Pia est co-auteure du livre « La Pratique du lean management dans l&#39;IT - Agilité et Amélioration continue ». Elle est à l’initiative du Lean IT Summit, la conférence internationale de référence sur le Lean en informatique dans laquelle des experts de l’Agile comme Jeff Sutherland et Kent Beck rencontrent ceux du Lean.
-  photo: /img/speakers/MariePiaIgnace.png
+       Pierre est un des pionniers de l'agile en France puisqu'en 2002 il déployait scrum dans son équipe de développement, chez Nokia, puis le TDD, XP,, etc... Cet esprit de pionnier ne l'a pas quitté : il a été l'un des inspirateurs du lean IT en France et il est le premier français certifié Dora/Devops.
+  photo: /img/speakers/PierreJannez.jpg
 - name: Clotilde Desquilbet
   bio: >
        Diplômée du cursus sur les Systèmes d'Information de l'ECE PARIS en 2014, Clotilde a rejoint OCTO Technology en 2016 et fait partie aujourd'hui de la tribu Software Craftsmanship.
