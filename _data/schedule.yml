@@ -1,18 +1,18 @@
 - date: Lundi 13 novembre
   schedule:
     -
-      - hour: 08h15
+      - hour: 08h15 - 8h40
         special: 1
         content:
           - label: "Accueil : retrait des badges, café et début des discussions :)"
             fill: 5
             room: Atrium
-      - hour: 08h45
+      - hour: 08h45 - 9h20
         special: 1
         content:
-          - label: Lancement de la conférence et pitch des sessions de la matinée (Auditorium)
+          - label: Lancement de l'événement et pitch des sessions de la matinée (Auditorium)
             fill: 5
-      - hour: 09h30
+      - hour: 09h30 - 10h15
         content:
           - subject: "L'enfance perpétuelle: survivre dans une industrie qui croit toujours au Père Noël"
             speaker: Laurent Bossavit
@@ -25,7 +25,7 @@
                          A tel point que nous sommes prêts à fermer les yeux sur les erreurs 503 et les NullPointerException que nous rencontrons tous les jours en tant qu'usagers, 
                          ou pire que nous acceptions comme développeurs parce qu'il faut bien avancer sur la prochaine user story.
                          <br>Sans prétendre à un discours de la méthode, cette session vous donnera des pistes concrètes et des techniques immédiatement applicables pour ne pas vous noyer dans le tourbillon de l'appel à l'innovation et du changement; pour retrouver vos racines et vous y arrimer.
-      - hour: 10h30
+      - hour: 10h30 - 11h15
         content:
           - subject: Le lean IT, ou comment tourner vraiment la page du taylorisme
             description: "Avec sa double obsession du client et du succès de l'équipe, le lean a alimenté 15 ans de réflexions de grands penseurs de l'agile, de Mary Poppendieck à Jez Humble. Cette intervention sera l'occasion de découvrir le LeanIT dans toute son orthodoxie et la nature de ses liens avec l'Agilité."
@@ -71,7 +71,7 @@
             id: lego_craft
             level: 0
             duration: 2
-      - hour: 11h30
+      - hour: 11h30 - 12h15
         content:
           - subject: "L'agilité à l'échelle oui et pour quoi ?"
             description: "<p>Le monde agile nous dit l'agilité se caractérise par des équipes de 9 personnes maximum. 
@@ -124,14 +124,14 @@
             id: tests_grande_vitesse
             speaker: Nicolas Zangari, Thibault Huckert
             level: 1
-      - hour: 12h30
+      - hour: 12h30 - 13h15
         special: 1
         content:
           - label: Déjeuner (Atrium)
             fill: 5
             room: Atrium
     -
-      - hour: 13h30
+      - hour: 13h30 - 14h15
         special: 1
         content:
           - subject: "Keynote de l'après-midi"
@@ -140,11 +140,11 @@
             fill: 5
             highlight: 1
             level: 0
-      - hour: 14h30
+      - hour: 14h30 - 14h50
         content:
           - label: "Pitch sessions de l'après-midi"
             fill: 5
-      - hour: 15h00
+      - hour: 15h00 - 15h45
         content:
           - subject: "Le Lean sans respect c'est comme s'allonger nu sur une plage sans crème et sans parasol, ça fait très mal et c'est dangereux !"
             description: >
@@ -180,11 +180,11 @@
             speaker: Sheila SUAREZ DE FLORES
             id: everyone_product_manager
             level: 0
-      - hour: 15h45
+      - hour: 15h45 - 16h10
         content:
           - label: "Pause café"
             fill: 5
-      - hour: 16h15
+      - hour: 16h15 - 17h00
         content:
           - subject: "Mise en place de DevOps chez AXA France"
             description: "
@@ -231,7 +231,7 @@
             id: host_leadership
             level: 0
             duration: 2
-      - hour: 17h15
+      - hour: 17h15 - 18h00
         content:
           - subject: "Recruter des développeurs : la fin de la quête du graal ?"
             description: >
@@ -253,7 +253,7 @@
             speaker: Yann Gensollen
             id: lancer_projet_agile_5_jours
             level: 0
-      - hour: 18h00
+      - hour: 18h00 - 20h00
         special: 1
         content:
           - label: Agilistes autour d'un verre (et plus si affinités) - Atrium
@@ -265,13 +265,13 @@
 - date: Mardi 14 novembre
   schedule:
     -
-      - hour: 09h00
+      - hour: 08h45 - 9h15
         special: 1
         content:
           - label: "Accueil : retrait des badges, café et début des discussions :)"
             fill: 5
             room: Atrium
-      - hour: 09h30
+      - hour: 09h30 - 10h15
         content:
           - subject: "3 idées qui changent tout"
             speaker: Christophe Thibaut
@@ -297,17 +297,17 @@
             fill: 5
             highlight: 1
             level: 0
-      - hour: 10h30
+      - hour: 10h30 - 10h45
         special: 1
         content:
           - label: Pitch des sessions de la journée (Auditorium)
             fill: 5
-      - hour: 10h45
+      - hour: 10h45 - 11h20
         special: 1
         content:
           - label: Lancement du <a href="/forum-ouvert">Forum ouvert</a>
             fill: 5
-      - hour: 11h30
+      - hour: 11h30 - 11h45
         content:
           - subject: Retour d'expérience d'un projet agile à La Redoute
             description: >
@@ -331,7 +331,7 @@
           - label: <a href="/forum-ouvert">Forum ouvert</a>
             fill: 3
             duration: 3
-      - hour: 11h45
+      - hour: 11h45 - 12h00
         content:
           - subject: Oublions les frameworks à l'échelle et revenons au coeur de l'agilité
             description: >
@@ -339,7 +339,7 @@
             speaker: Denis Migot
             id: oublions_frameworks
             level: 0
-      - hour: 12h00
+      - hour: 12h00 - 12h15
         content:
           - subject: TDD, BDD, DDD! Parlons DD ?
             description: >
@@ -350,13 +350,13 @@
             id: tdd_bdd_ddd
             level: 2
     -
-      - hour: 12h30
+      - hour: 12h30 - 14h00
         special: 1
         content:
           - label: Déjeuner (Atrium)
             fill: 5
             room: Atrium
-      - hour: 14h00
+      - hour: 14h00 - 14h45
         content:
           - subject: "Les managers : les oubliés de l’agilité !"
             description: "Lorsque l’on parle d’agilité, on parle d’auto-organisation, de facilitation, on explique que le SM ou le PO ne sont pas des managers… Le rôle du management est souvent minoré voire ignoré dans la démarche de transformation.
@@ -380,7 +380,7 @@
           - label: <a href="/forum-ouvert">Forum ouvert</a>
             fill: 3
             duration: 2
-      - hour: 15h00
+      - hour: 15h00 - 15h45
         content:
           - subject: "Talk choisi par le public"
             description: >
@@ -399,14 +399,14 @@
             speaker: Marine Fromentin, Christophe Porchet
             id: qp
             level: 0
-      - hour: 15h45
+      - hour: 15h45 - 16h15
         special: 1
         content:
           - label: Pause Café (30 minutes) - Atrium
             fill: 5
             hide-on-home: 1
             room: Atrium
-      - hour: 16h15
+      - hour: 16h15 - 17h00
         content:
           - subject: "Comment planter son projet sans se faire choper ?"
             description: >
@@ -428,7 +428,7 @@
             level: 0
           - label: <a href="/forum-ouvert">Forum ouvert</a>
             fill: 3
-      - hour: 17h00
+      - hour: 17h00 - 18h30
         special: 1
         content:
           - label: "Clôture, puis... </br> Agilistes autour d'un verre (et plus si affinités) - Atrium"
