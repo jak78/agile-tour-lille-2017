@@ -27,15 +27,15 @@
                          <br>Sans prétendre à un discours de la méthode, cette session vous donnera des pistes concrètes et des techniques immédiatement applicables pour ne pas vous noyer dans le tourbillon de l'appel à l'innovation et du changement; pour retrouver vos racines et vous y arrimer.
       - hour: 10h30 - 11h15
         content:
-          - subject: Le lean IT, ou comment tourner vraiment la page du taylorisme
-            description: "Avec sa double obsession du client et du succès de l'équipe, le lean a alimenté 15 ans de réflexions de grands penseurs de l'agile, de Mary Poppendieck à Jez Humble. Cette intervention sera l'occasion de découvrir le LeanIT dans toute son orthodoxie et la nature de ses liens avec l'Agilité."
-            speaker: Pierre Jannez
-            id: lean_it
-            level: 0
           - subject: "Parce-qu'on ne change pas une culture comme on change une roue de voiture"
             description: "Transition agile, paradoxes et boucle infinie... La conduite du changement repose aujourd’hui principalement sur les base du management de projet : objectifs, feuille de route, planning, moyens, suivi, pilotage et s’y ajoute bien sûr le traitement des résistances. Ce modèle fonctionne à peu près s’il faut changer de machine de production mais génère des déceptions lorsque le changement est d’une nature plus subtile ; lorsqu’il met en jeu l’humain, l’organisation du travail, la culture, les capacités comportementales, les croyances… Cette intervention se base sur des expériences de vie et sur un ouvrage de Paul Watzlawick, psycho-sociologue, fondateur de l’école de PaloAlto. Elle nous permettra de découvrir nos paradoxes, d’en rire et de comprendre que le changement n’est pas un « livrable » comme les autres. Peut-être que nous pourrons en tirer quelques principes d’impulsion du changement…"
             speaker: François Salazar
             id: change_culture
+            level: 0
+          - subject: Le lean IT, ou comment tourner vraiment la page du taylorisme
+            description: "Avec sa double obsession du client et du succès de l'équipe, le lean a alimenté 15 ans de réflexions de grands penseurs de l'agile, de Mary Poppendieck à Jez Humble. Cette intervention sera l'occasion de découvrir le LeanIT dans toute son orthodoxie et la nature de ses liens avec l'Agilité."
+            speaker: Pierre Jannez
+            id: lean_it
             level: 0
           - subject: Comment être Tech Lead dans une pizza team XXL sans finir sous l'eau ?
             description: >
@@ -233,18 +233,6 @@
             duration: 2
       - hour: 17h15 - 18h00
         content:
-          - subject: "Recruter des développeurs : la fin de la quête du graal ?"
-            description: >
-                         Le Graal est une métaphore parfois employée par les recruteurs pour qualifier le "super développeur", le "mouton à 5 pattes" qui connait toutes les technos trendies et qui a le bonheur d'avoir des velléités salariales plutôt faibles. Comme dans le mythe arthurien, cette quête peut sembler vaine.<br> 
-                         Et si, le véritable Graal du recrutement IT ne se trouvait pas mais se construisait? Cette présentation me permettra de partager avec vous ma vision de la manière dont chaque entreprise pourrait réaliser sa quête du graal : par un recrutement intelligent et une réflexion sur l'intégration et la progression de ses salariés
-            speaker: Arnaud Huon
-            id: recruter_developpeurs
-            level: 0
-          - subject: "Pratiques de développement : mon plan d'entrainment"
-            description: "On se lance tous parfois des défis un peu fou, comme courir et finir son premier marathon. Vous souhaitez mettre en place les pratiques de développement au sein de votre équipe, venez suivre un exemple de plan d'entrainement."
-            speaker: Julien Hatzig, Julien Vandenbussche
-            id: pratiques_dev_entrainement
-            level: 0
           - subject: Comment lancer un projet agile en 5 jours chrono
             description: >
                          Parce que pour beaucoup, l'agilité, c'est "on démarre tout de suite", l'initialisation d'un projet agile est un sujet peu documenté. Praticiens agiles débutants et confirmés luttent pour trouver une recette simple permettant de passer d'un brief succinct à un backlog prêt au développement. 
@@ -252,6 +240,18 @@
                          Venez faire le plein de conseils pratiques issus de l'expérience dans une session participative et ludique.
             speaker: Yann Gensollen
             id: lancer_projet_agile_5_jours
+            level: 0
+          - subject: "Pratiques de développement : mon plan d'entrainment"
+            description: "On se lance tous parfois des défis un peu fou, comme courir et finir son premier marathon. Vous souhaitez mettre en place les pratiques de développement au sein de votre équipe, venez suivre un exemple de plan d'entrainement."
+            speaker: Julien Hatzig, Julien Vandenbussche
+            id: pratiques_dev_entrainement
+            level: 0
+          - subject: "Recruter des développeurs : la fin de la quête du graal ?"
+            description: >
+                         Le Graal est une métaphore parfois employée par les recruteurs pour qualifier le "super développeur", le "mouton à 5 pattes" qui connait toutes les technos trendies et qui a le bonheur d'avoir des velléités salariales plutôt faibles. Comme dans le mythe arthurien, cette quête peut sembler vaine.<br> 
+                         Et si, le véritable Graal du recrutement IT ne se trouvait pas mais se construisait? Cette présentation me permettra de partager avec vous ma vision de la manière dont chaque entreprise pourrait réaliser sa quête du graal : par un recrutement intelligent et une réflexion sur l'intégration et la progression de ses salariés
+            speaker: Arnaud Huon
+            id: recruter_developpeurs
             level: 0
       - hour: 18h00 - 20h00
         special: 1
