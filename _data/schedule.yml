@@ -134,9 +134,8 @@
       - hour: 13h30 - 14h15
         special: 1
         content:
-          - subject: "Keynote de l'après-midi"
-            speaker: Intervenant à annoncer
-            id: keynote_a_annoncer
+          - subject: "Pass Relationnel :  Modèle de demain ?"
+            id: pass_relationel
             fill: 5
             highlight: 1
             level: 0
