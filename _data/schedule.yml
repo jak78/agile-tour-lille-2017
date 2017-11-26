@@ -44,6 +44,7 @@
             speaker: Damien Beaufils
             id: tech_lead
             level: 2
+            slides_url: https://fr.slideshare.net/DamienBeaufils1/comment-tre-tech-lead-dans-une-pizza-team-xxl-sans-finir-sous-leau
           - subject: Epic Legacy Code Challenge
             description: "Vous venez d'être embauchés chez Paladin Inventories Company. Elle gagne beaucoup d'argent avec son logiciel. Mais le gobelin qui l'a écrit s'est fait dévorer par un dragon. Vous ne comprenez rien au code. Et bien sûr il n'y a pas de tests automatisés.<br>
                          
@@ -91,6 +92,7 @@
             speaker: Aurélien Morvant
             id: agilite_echelle_oui_pourquoi
             level: 0
+            slides_url: /slides/agilite.a.lechelle.pour.quoi.faire.pdf
           - subject: "Comment nous avons réussi un projet Big Data avec l’agilité dans une grande banque"
             description: "<p>Un projet Big Data ce n'est pas facile, mais ça l'ai encore moins quand il s'agit d'un géant comme la BNP !</p>
                          
@@ -124,6 +126,7 @@
             id: tests_grande_vitesse
             speaker: Nicolas Zangari, Thibault Huckert
             level: 1
+            slides_url: /slides/Agile Tour Lille 2017 - Presentation Nicolas Zangari et Thibault Huckert.pdf
       - hour: 12h30 - 13h15
         special: 1
         content:
@@ -179,6 +182,7 @@
             speaker: Sheila SUAREZ DE FLORES
             id: everyone_product_manager
             level: 0
+            slides_url: https://www.slideshare.net/SheilaSuarezdeFlores/everyone-is-a-product-manager-learn-applicable-product-thinking-for-your-life
       - hour: 15h45 - 16h10
         content:
           - label: "Pause café"
@@ -252,6 +256,7 @@
             speaker: Arnaud Huon
             id: recruter_developpeurs
             level: 0
+            slides_url: https://www.slideshare.net/ArnaudHuon/la-fin-de-la-qute-du-graal-agile-tour-lille-2017
       - hour: 18h00 - 20h00
         special: 1
         content:
@@ -376,6 +381,7 @@
             speaker: Emilie-Anne Guerch, Emmanuel Lehmann
             id: 3_amigos
             level: 0
+            slides_url: https://t.co/1azxZVSBeX
           - label: <a href="/forum-ouvert">Forum ouvert</a>
             fill: 3
             duration: 2
