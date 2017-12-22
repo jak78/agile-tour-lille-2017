@@ -100,6 +100,7 @@
             speaker: Nelson Dufossé, Tomas Rodriguez
             id: big_data
             level: 1
+            slides_url: https://fr.slideshare.net/NelsonDufoss1/xebicon-comment-reussir-son-projet-data-a-la-bnpp
           - subject: "Prenez place dans le TGV* AXA France  * Test Grande Vitesse  Comment la QSI AXA France ambitionne de suivre le rythme du delivery grâce à l'automatisation."
             description: >
                          <p>Pour répondre aux attentes de client toujours plus exigeant tout en faisant face aux enjeux réglementaires dans un contexte de plus en plus concurrentiel la DSI AXA France est actuellement en pleine transformation.
